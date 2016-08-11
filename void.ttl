@@ -39,7 +39,7 @@
         pav:previousVersion         <http://therearenopreviousversions.com> ;
         pav:version                 "0.0.1" ;
         dcat:Distribution           <http://voideditor.cs.man.ac.uk/bb652ea0-5642-43c5-ac05-ccbd03429148#XML> ;
-        dcat:landingPage            <ftp://ftp.ebi.ac.uk/pub/databases/RDF/biomodels/r26/> .
+        dcat:landingPage            <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf//glue/test.tar.bz2> .
 
 <http://orcid.org/102-232-2323>
         a                 foaf:Person ;
