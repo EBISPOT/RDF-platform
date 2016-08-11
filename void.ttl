@@ -14,7 +14,7 @@
 <>      a                    void:DatasetDescription ;
         dcterms:description  "The VoID description for the RDF representation of this dataset."@en ;
         dcterms:issued       "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
-        dcterms:title        "test"@en ;
+        dcterms:title        "Description of the datasource"@en ;
         pav:createdBy        <http://orcid.org/102-232-2323> ;
         pav:createdOn        "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
         pav:createdWith      <http://voideditor.cs.man.ac.uk/> ;
@@ -33,7 +33,7 @@
         dcterms:issued              "2014-03-01T00:00:00.523Z"^^xsd:dateTime ;
         dcterms:license             <http://www.gnu.org/copyleft/fdl.html> ;
         dcterms:publisher           <http://test.com> ;
-        dcterms:title               "testdataset"@en ;
+        dcterms:title               "test"@en ;
         pav:contributedBy           <http://orcid.org/102-232-2323> ;
         pav:derivedFrom             <http://rdf.ebi.ac.uk/dataset/chembl/20.0/void.ttl#chembl_rdf_dataset> ;
         pav:previousVersion         <http://therearenopreviousversions.com> ;
