@@ -33,7 +33,6 @@
         dcterms:issued              "2014-03-01T00:00:00.523Z"^^xsd:dateTime ;
         dcterms:license             <http://www.gnu.org/copyleft/fdl.html> ;
         dcterms:publisher           <http://test.com> ;
-        dcterms:title               "testdataset"@en ;
         pav:contributedBy           <http://orcid.org/102-232-2323> ;
         pav:derivedFrom             <http://rdf.ebi.ac.uk/dataset/chembl/20.0/void.ttl#chembl_rdf_dataset> ;
         pav:previousVersion         <http://therearenopreviousversions.com> ;
