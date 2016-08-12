@@ -15,7 +15,7 @@
 <>      a                    void:DatasetDescription ;
         dcterms:description  "The VoID description for the RDF representation of this dataset."@en ;
         dcterms:issued       "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
-        dcterms:title        "Description of the datasource"@en ;
+        dcterms:title        "Description_of_the_datasource"@en ;
         pav:createdBy        <http://orcid.org/102-232-2323> ;
         pav:createdOn        "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
         pav:createdWith      <http://voideditor.cs.man.ac.uk/> ;
