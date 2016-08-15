@@ -13,7 +13,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <>      a                    void:DatasetDescription ;
-        dcterms:description  "The VoID description for the RDF representation of this dataset."@en ;
+        dcterms:description  "I was changed so I can go in an own branch"@en ;
         dcterms:issued       "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
         pav:createdBy        <http://orcid.org/102-232-2323> ;
         pav:createdOn        "2016-08-08T16:13:22.523Z"^^xsd:dateTime ;
