@@ -29,7 +29,7 @@
 <http://www.openphacts.org/dc0a8edf-a78a-427b-9383-178a7c3c63d2>
         a                           void:Dataset , dctypes:Dataset ;
         dcterms:accrualPeriodicity  "Annual" ;
-        dcterms:description         "this is a test"@en ;
+        dcterms:description         "this is still a test"@en ;
         dcterms:issued              "2014-03-01T00:00:00.523Z"^^xsd:dateTime ;
         dcterms:license             <http://www.gnu.org/copyleft/fdl.html> ;
         dcterms:publisher           <http://test.com> ;
