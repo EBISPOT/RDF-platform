@@ -6,6 +6,10 @@
   @prefix dcat: <http://www.w3.org/ns/dcat#> .
   @prefix void: <http://rdfs.org/ns/void#> .
   @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+  @prefix chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> .
+  @prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
+
+
 
   <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> a void:DatasetDescription ;
   	dcterms:title "ChEMBL-RDF VoID Description" ;
