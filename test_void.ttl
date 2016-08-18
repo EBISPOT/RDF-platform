@@ -1,14 +1,33 @@
-  @prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
-  @prefix pav: <http://purl.org/pav/> .
-  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-  @prefix dcterms: <http://purl.org/dc/terms/> .
-  @prefix dctypes: <http://purl.org/dc/dcmitype/> .
-  @prefix dcat: <http://www.w3.org/ns/dcat#> .
-  @prefix void: <http://rdfs.org/ns/void#> .
-  @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-  @prefix chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> .
-  @prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
-  @prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
+@prefix cco: <http://rdf.ebi.ac.uk/terms/chembl#> .
+@prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
+@prefix chembl_activity: <http://rdf.ebi.ac.uk/resource/chembl/activity/> .
+@prefix chembl_assay: <http://rdf.ebi.ac.uk/resource/chembl/assay/> .
+@prefix chembl_bio_cmpt: <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> .
+@prefix chembl_document: <http://rdf.ebi.ac.uk/resource/chembl/document/> .
+@prefix chembl_journal: <http://rdf.ebi.ac.uk/resource/chembl/journal/> .
+@prefix chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> .
+@prefix chembl_protclass: <http://rdf.ebi.ac.uk/resource/chembl/protclass/> .
+@prefix chembl_source: <http://rdf.ebi.ac.uk/resource/chembl/source/> .
+@prefix chembl_target: <http://rdf.ebi.ac.uk/resource/chembl/target/> .
+@prefix chembl_target_cmpt: <http://rdf.ebi.ac.uk/resource/chembl/targetcomponent/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix freq: <http://purl.org/cld/freq/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uniprot: <http://purl.uniprot.org/uniprot/> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 
