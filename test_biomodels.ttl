@@ -4,5 +4,5 @@
 
 :rdf_atlas_test a void:DataSet ;
   dcterms:title "Biomodels" ;
-	dcterms:description "The Description of this dataSet" ;
+	dcterms:description "The Description of this dataSet has to change so I can commit" ;
   void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biomodels.tar.bz2> ;
