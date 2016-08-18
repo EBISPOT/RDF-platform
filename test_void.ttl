@@ -8,6 +8,7 @@
   @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
   @prefix chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> .
   @prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
+  @prefix voag: <http://voag.linkedmodel.org/voag#> .
 
 
 
