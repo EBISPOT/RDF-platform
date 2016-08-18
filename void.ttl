@@ -66,12 +66,3 @@
 	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> ;
 	void:exampleResource chembl_bio_cmpt:CHEMBL_BC_6717 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/21.0/chembl_21.0_biocmpt.ttl.gz> .
-
-:chembl_rdf_target_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Target Dataset" ;
-	dcterms:description "The ChEMBL Target Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
-	void:exampleResource chembl_target:CHEMBL2242 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/21.0/chembl_21.0_target.ttl.gz> ;
-	void:subsets :chembl_singletarget_targetcmpt_linkset , :chembl_complextarget_targetcmpt_linkset , :chembl_grouptarget_targetcmpt_linkset .
-
