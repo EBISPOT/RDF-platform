@@ -5,4 +5,4 @@
 :rdf_atlas_test a void:DataSet ;
   dcterms:title "Title" ;
 	dcterms:description "The Description of this dataSet" ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_reactome.tar.bz2> ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_reactome.tar.bz2> .
