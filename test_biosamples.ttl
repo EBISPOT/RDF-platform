@@ -3,6 +3,6 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 :rdf_atlas_test a void:DataSet ;
-  dcterms:title "Ensemble" ;
+  dcterms:title "Biosamples" ;
 	dcterms:description "The Description of this dataSet" ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_ensemble.tar.gz> .
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.gz> .
