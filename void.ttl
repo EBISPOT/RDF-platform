@@ -5,4 +5,4 @@
 :rdf_atlas_test a void:DataSet ;
 	dcterms:title "Title" ;
 	dcterms:description "The Description of this dataSet" ;
-  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_expression_atlas.tar.gz> .
+  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-19-11-2014.tar.gz> .
