@@ -1,0 +1,8 @@
+@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+:rdf_atlas_test a void:DataSet ;
+  	dcterms:title "Biomodels" ;
+	dcterms:description "The Description of this dataSet has to change so I can commit" ;
+ 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/biomodels/r26//biomodels-rdf.tar.bz2> .
