@@ -1,0 +1,8 @@
+@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+:rdf_atlas_test a void:DataSet ;
+  dcterms:title "Ensemble" ;
+	dcterms:description "The Description of this dataSet" ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/ensembl/release-77.tar.gz> .
