@@ -5,4 +5,6 @@
 :rdf_atlas_test a void:DataSet ;
   dcterms:title "Reactome" ;
 	dcterms:description "The Description of this dataSet" ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome-biopax.tar.bz2> .
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r49/reactome-biopax.tar.bz2> .
+  
+
