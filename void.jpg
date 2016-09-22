@@ -1,1 +1,80 @@
-imagin this to be a picture
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ebi: <http://www.ebi.ac.uk/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix ols: <http://rdf.ebi.ac.uk/dataset/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+ols:ols a dct:dataset ;
+    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:hasPart ols:aeo ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:title "Ontology Lookup Service" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2016-9-22> ;
+    foaf:page "http://www.ebi.ac.uk/rdf/services/" .
+
+
+<http://rdf.ebi.ac.uk/dataset/ols/2016-9-22> a dct:dataset ;
+    dct:creator ebi:SPOT ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2016-9-22.rdf> ;
+    dct:isVersionOf ols:ols ;
+    dct:issued "2016-01-01"^^xsd:date ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:rights "Apache version 2.0" ;
+    dct:title "Title on Version level? " .
+
+<http://rdf.ebi.ac.uk/dataset/ols/2016-9-22.rdf> a void:dataset,
+        dcat:Distribution ;
+    idot:preferredPrefix "ols" ;
+    dct:creator ebi:SPOT ;
+    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:title "Add title for ols on Distribution level" ;
+    pav:version "2016-01-01"^^xsd:date ;
+    void:Dump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/" ;
+    foaf:page <http://www.ebi.ac.uk/rdf/service/ols> .
+
+
+
+
+
+ols:aeo a dct:dataset ;
+    dct:description "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "Anatomical Entity Ontology" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15> .
+
+
+
+
+<http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15> a dct:dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15.rdf> ;
+    dct:isVersionOf ols:aeo ;
+    dct:issued "2016-01-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" .
+
+
+
+<http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15.rdf> a void:dataset,
+        dcat:Distribution ;
+    idot:preferredPrefix "aeo" ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "AEO is an ontology of anatomical structures that expands Cy" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "2014-12-05" ;
+    void:dataDump "Insert DataDump link here" ;
+    foaf:page "http://ebi.ac.uk/ols/ontologies/aeo" .
