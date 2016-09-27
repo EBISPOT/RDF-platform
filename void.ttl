@@ -1,8 +1,31 @@
-@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix pav: <http://purl.org/pav/> .
 
-:rdf_atlas_test a void:DataSet ;
-  	dcterms:title "Biomodels" ;
-	dcterms:description "The Description of this dataSet has to change so I can commit" ;
- 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/biomodels/r26//biomodels-rdf.tar.bz2> .
+
+<http://rdf.ebi.ac.uk/dataset/biomodels> a dct:Dataset;
+ dcterms:title "Biomodels";
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biomodels/Version01>;
+  dct:publisher "EBI" ;
+	dcterms:description "The Description of this dataSet" .
+
+
+<http://rdf.ebi.ac.uk/dataset/biomodels/Version01> a dct:Dataset;
+  dcterms:title "Biomodels Version Level" ;
+  dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/biomodels> ;
+	dcterms:description "Version level description" ;
+  dct:creator "TestCreator in that case" ;
+  dct:publisher "EBI" ;
+  dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
+
+<http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset;
+  dcterms:title "Test Distribution level of reactome" ;
+  dct:creator "TestCreator in that case" ;
+	dcterms:description "The Description of distribution level of biomodels";
+  dct:publisher "EBI" ;
+  dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+  idot:preferredPrefix "reactome" ;
+ 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/biomodels/r26/biomodels-rdf.tar.bz2> .
