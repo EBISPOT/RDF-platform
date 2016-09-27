@@ -1,8 +1,32 @@
-@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix pav: <http://purl.org/pav/> .
 
-:rdf_atlas_test a void:DataSet ;
-	dcterms:title "Title" ;
-	dcterms:description "The Description of this dataSet" ;
-  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-19-11-2014.tar.gz> .
+<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test> a  dct:Dataset;
+  dcterms:title "Atlas" ;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01>;
+  dct:publisher "EBI" ;
+	dcterms:description "The Description of this dataSet" .
+
+
+<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01> a dct:Dataset ;
+  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test>;
+  	dcterms:description "The Description of the Version level of Atlas";
+    dcterms:title "Reactome Version" ;
+    dct:publisher "EBI" ;
+    dct:creator "TestCreator in that case" ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01.rdf>.
+
+
+<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01.rdf> a void:Dataset ,
+  dcat:Distribution ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-19-11-2014.tar.gz> ;
+  dct:creator "TestCreator in that case" ;
+	dcterms:description "The Distribution Level of Atlas";
+  dct:publisher "EBI" ;
+  dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+  idot:preferredPrefix "atlas" ;
+  dcterms:title "Test Distribution level of Atlas" .
