@@ -1,8 +1,10 @@
 @prefix : <http://rdf.ebi.ac.uk/dataset/chembl/21.0/void.ttl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix idot: <http://identifiers.org/idot/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 :rdf_atlas_test a void:DataSet ;
   dcterms:title "Biosamples" ;
 	dcterms:description "The Description of this dataSet" ;
+ idot:preferredPrefix "biosamples" ;
   void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2> .
