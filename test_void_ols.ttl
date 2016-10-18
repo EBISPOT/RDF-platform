@@ -16,7 +16,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aeo/2014-12-05.rdf> ;
     dct:isVersionOf ols:aeo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -30,7 +30,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-12-05" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aeo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aeo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/aeo" .
 
 <http://rdf.ebi.ac.uk/dataset/aero/17-05-2016> a dct:dataset ;
@@ -38,7 +38,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aero/17-05-2016.rdf> ;
     dct:isVersionOf ols:aero ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -52,7 +52,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-05-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aero.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aero.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/aero" .
 
 <http://rdf.ebi.ac.uk/dataset/agro/2016-06-03> a dct:dataset ;
@@ -60,7 +60,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/agro/2016-06-03.rdf> ;
     dct:isVersionOf ols:agro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -74,7 +74,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-06-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/agro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/agro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/agro" .
 
 <http://rdf.ebi.ac.uk/dataset/ancestro/1.0> a dct:dataset ;
@@ -82,7 +82,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ancestro/1.0.rdf> ;
     dct:isVersionOf ols:ancestro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -96,7 +96,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "1.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ancestro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ancestro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ancestro" .
 
 <http://rdf.ebi.ac.uk/dataset/apo/2016-05-15> a dct:dataset ;
@@ -104,7 +104,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/apo/2016-05-15.rdf> ;
     dct:isVersionOf ols:apo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -118,7 +118,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/apo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/apo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/apo" .
 
 <http://rdf.ebi.ac.uk/dataset/atol/29-07-2016> a dct:dataset ;
@@ -126,7 +126,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/atol/29-07-2016.rdf> ;
     dct:isVersionOf ols:atol ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -140,7 +140,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "29-07-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/atol.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/atol.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/atol" .
 
 <http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08> a dct:dataset ;
@@ -148,7 +148,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08.rdf> ;
     dct:isVersionOf ols:bcgo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -162,7 +162,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-07-08" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bcgo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bcgo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bcgo" .
 
 <http://rdf.ebi.ac.uk/dataset/bco/2015-04-10> a dct:dataset ;
@@ -170,7 +170,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bco/2015-04-10.rdf> ;
     dct:isVersionOf ols:bco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -184,7 +184,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-04-10" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bco" .
 
 <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> a dct:dataset ;
@@ -192,7 +192,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> ;
     dct:isVersionOf ols:bfo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -206,7 +206,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bfo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bfo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bfo" .
 
 <http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03> a dct:dataset ;
@@ -214,7 +214,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03.rdf> ;
     dct:isVersionOf ols:bspo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -228,7 +228,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-02-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bspo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bspo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bspo" .
 
 <http://rdf.ebi.ac.uk/dataset/bto/2016-05-05> a dct:dataset ;
@@ -236,7 +236,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bto/2016-05-05.rdf> ;
     dct:isVersionOf ols:bto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -250,19 +250,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-05" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bto.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bto" .
 
-<http://rdf.ebi.ac.uk/dataset/caro/22-06-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/caro/18-10-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/caro/22-06-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/caro/18-10-2016.rdf> ;
     dct:isVersionOf ols:caro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/caro/22-06-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/caro/18-10-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "caro" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -271,8 +271,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "22-06-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/caro.owl" ;
+    pav:version "18-10-2016" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/caro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/caro" .
 
 <http://rdf.ebi.ac.uk/dataset/cco/23-03-2016> a dct:dataset ;
@@ -280,7 +280,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cco/23-03-2016.rdf> ;
     dct:isVersionOf ols:cco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -294,7 +294,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cco" .
 
 <http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01> a dct:dataset ;
@@ -302,7 +302,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01.rdf> ;
     dct:isVersionOf ols:cdao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -316,7 +316,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-02-01" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cdao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cdao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cdao" .
 
 <http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12> a dct:dataset ;
@@ -324,7 +324,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12.rdf> ;
     dct:isVersionOf ols:ceph ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -338,7 +338,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-01-12" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ceph.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ceph.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ceph" .
 
 <http://rdf.ebi.ac.uk/dataset/chebi/17-10-2016> a dct:dataset ;
@@ -346,7 +346,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/17-10-2016.rdf> ;
     dct:isVersionOf ols:chebi ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -360,7 +360,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chebi.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chebi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chebi" .
 
 <http://rdf.ebi.ac.uk/dataset/cheminf/1.0> a dct:dataset ;
@@ -368,7 +368,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cheminf/1.0.rdf> ;
     dct:isVersionOf ols:cheminf ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -382,7 +382,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "1.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cheminf.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cheminf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cheminf" .
 
 <http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20> a dct:dataset ;
@@ -390,7 +390,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20.rdf> ;
     dct:isVersionOf ols:chmo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -404,7 +404,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-11-20" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chmo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chmo" .
 
 <http://rdf.ebi.ac.uk/dataset/cio/2015-03-10> a dct:dataset ;
@@ -412,7 +412,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cio/2015-03-10.rdf> ;
     dct:isVersionOf ols:cio ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -426,7 +426,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-03-10" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cio.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cio" .
 
 <http://rdf.ebi.ac.uk/dataset/cl/2016-09-02> a dct:dataset ;
@@ -434,7 +434,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cl/2016-09-02.rdf> ;
     dct:isVersionOf ols:cl ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -448,7 +448,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-02" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cl.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cl.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cl" .
 
 <http://rdf.ebi.ac.uk/dataset/clo/2.1.83> a dct:dataset ;
@@ -456,7 +456,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/clo/2.1.83.rdf> ;
     dct:isVersionOf ols:clo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -470,7 +470,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2.1.83" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/clo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/clo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/clo" .
 
 <http://rdf.ebi.ac.uk/dataset/cmo/19-09-2016> a dct:dataset ;
@@ -478,7 +478,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cmo/19-09-2016.rdf> ;
     dct:isVersionOf ols:cmo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -492,7 +492,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "19-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cmo" .
 
 <http://rdf.ebi.ac.uk/dataset/cmpo/06-10-2016> a dct:dataset ;
@@ -500,7 +500,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cmpo/06-10-2016.rdf> ;
     dct:isVersionOf ols:cmpo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -514,7 +514,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "06-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmpo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmpo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cmpo" .
 
 <http://rdf.ebi.ac.uk/dataset/cteno/2016-07-16> a dct:dataset ;
@@ -522,7 +522,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cteno/2016-07-16.rdf> ;
     dct:isVersionOf ols:cteno ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -536,7 +536,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-07-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cteno.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cteno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cteno" .
 
 <http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016> a dct:dataset ;
@@ -544,7 +544,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016.rdf> ;
     dct:isVersionOf ols:cvdo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -558,7 +558,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "14-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cvdo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cvdo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cvdo" .
 
 <http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03> a dct:dataset ;
@@ -566,7 +566,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03.rdf> ;
     dct:isVersionOf ols:ddanat ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -580,19 +580,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-06-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddanat.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddanat.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddanat" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-17.rdf> ;
     dct:isVersionOf ols:ddpheno ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ddpheno" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -601,8 +601,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddpheno.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddpheno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddpheno" .
 
 <http://rdf.ebi.ac.uk/dataset/dideo/release_2016-07-29> a dct:dataset ;
@@ -610,7 +610,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dideo/release_2016-07-29.rdf> ;
     dct:isVersionOf ols:dideo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -624,7 +624,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "release 2016-07-29" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dideo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dideo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dideo" .
 
 <http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version> a dct:dataset ;
@@ -632,7 +632,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version.rdf> ;
     dct:isVersionOf ols:dinto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -646,7 +646,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "None" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dinto.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dinto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dinto" .
 
 <http://rdf.ebi.ac.uk/dataset/doid/2016-09-26> a dct:dataset ;
@@ -654,7 +654,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/doid/2016-09-26.rdf> ;
     dct:isVersionOf ols:doid ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -668,7 +668,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-26" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/doid.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/doid.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/doid" .
 
 <http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19> a dct:dataset ;
@@ -676,7 +676,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19.rdf> ;
     dct:isVersionOf ols:dpo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -690,7 +690,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-11-19" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dpo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dpo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dpo" .
 
 <http://rdf.ebi.ac.uk/dataset/dron/15-09-2016> a dct:dataset ;
@@ -698,7 +698,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dron/15-09-2016.rdf> ;
     dct:isVersionOf ols:dron ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -712,7 +712,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "15-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dron.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dron.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dron" .
 
 <http://rdf.ebi.ac.uk/dataset/eco/2016-10-10> a dct:dataset ;
@@ -720,7 +720,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eco/2016-10-10.rdf> ;
     dct:isVersionOf ols:eco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -734,7 +734,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-10" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eco" .
 
 <http://rdf.ebi.ac.uk/dataset/edam/27-05-2016> a dct:dataset ;
@@ -742,7 +742,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/edam/27-05-2016.rdf> ;
     dct:isVersionOf ols:edam ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -756,19 +756,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "27-05-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/edam.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/edam.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/edam" .
 
-<http://rdf.ebi.ac.uk/dataset/efo/2.76> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/efo/2.77> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/efo/2.76.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/efo/2.77.rdf> ;
     dct:isVersionOf ols:efo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/efo/2.76.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/efo/2.77.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "efo" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -777,8 +777,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2.76" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/efo.owl" ;
+    pav:version "2.77" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/efo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/efo" .
 
 <http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04> a dct:dataset ;
@@ -786,7 +786,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04.rdf> ;
     dct:isVersionOf ols:ehdaa2 ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -800,19 +800,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-07-04" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ehdaa2.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ehdaa2.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ehdaa2" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2016-10-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/emap/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2016-10-15.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2016-10-17.rdf> ;
     dct:isVersionOf ols:emap ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2016-10-15.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/emap/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "emap" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -821,8 +821,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emap.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emap.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/emap" .
 
 <http://rdf.ebi.ac.uk/dataset/emapa/2016-05-13> a dct:dataset ;
@@ -830,7 +830,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emapa/2016-05-13.rdf> ;
     dct:isVersionOf ols:emapa ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -844,7 +844,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emapa.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emapa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/emapa" .
 
 <http://rdf.ebi.ac.uk/dataset/enm/3.0> a dct:dataset ;
@@ -852,7 +852,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/enm/3.0.rdf> ;
     dct:isVersionOf ols:enm ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -866,7 +866,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "3.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/enm.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/enm.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/enm" .
 
 <http://rdf.ebi.ac.uk/dataset/envo/2016-05-17> a dct:dataset ;
@@ -874,7 +874,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/envo/2016-05-17.rdf> ;
     dct:isVersionOf ols:envo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -888,7 +888,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-17" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/envo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/envo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/envo" .
 
 <http://rdf.ebi.ac.uk/dataset/eo/2015-08-19> a dct:dataset ;
@@ -896,7 +896,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eo/2015-08-19.rdf> ;
     dct:isVersionOf ols:eo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -910,7 +910,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-08-19" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eo" .
 
 <http://rdf.ebi.ac.uk/dataset/eol/29-07-2016> a dct:dataset ;
@@ -918,7 +918,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eol/29-07-2016.rdf> ;
     dct:isVersionOf ols:eol ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -932,7 +932,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "29-07-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eol.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eol.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eol" .
 
 <http://rdf.ebi.ac.uk/dataset/epo/23-03-2016> a dct:dataset ;
@@ -940,7 +940,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/epo/23-03-2016.rdf> ;
     dct:isVersionOf ols:epo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -954,7 +954,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/epo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/epo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/epo" .
 
 <http://rdf.ebi.ac.uk/dataset/ero/27-07-2016> a dct:dataset ;
@@ -962,7 +962,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ero/27-07-2016.rdf> ;
     dct:isVersionOf ols:ero ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -976,7 +976,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "27-07-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ero.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ero.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ero" .
 
 <http://rdf.ebi.ac.uk/dataset/exo/2014-09-22> a dct:dataset ;
@@ -984,7 +984,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/exo/2014-09-22.rdf> ;
     dct:isVersionOf ols:exo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -998,7 +998,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-09-22" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/exo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/exo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/exo" .
 
 <http://rdf.ebi.ac.uk/dataset/fao/2016-08-24> a dct:dataset ;
@@ -1006,7 +1006,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fao/2016-08-24.rdf> ;
     dct:isVersionOf ols:fao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1020,7 +1020,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-24" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fao" .
 
 <http://rdf.ebi.ac.uk/dataset/fbbi/2016-05-13> a dct:dataset ;
@@ -1028,7 +1028,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbbi/2016-05-13.rdf> ;
     dct:isVersionOf ols:fbbi ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1042,7 +1042,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbi.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbbi" .
 
 <http://rdf.ebi.ac.uk/dataset/fbbt/2016-08-17> a dct:dataset ;
@@ -1050,7 +1050,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbbt/2016-08-17.rdf> ;
     dct:isVersionOf ols:fbbt ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1064,7 +1064,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-17" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbt.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbbt" .
 
 <http://rdf.ebi.ac.uk/dataset/fbcv/11-04-2016> a dct:dataset ;
@@ -1072,7 +1072,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbcv/11-04-2016.rdf> ;
     dct:isVersionOf ols:fbcv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1086,7 +1086,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "11-04-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbcv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbcv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbcv" .
 
 <http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14> a dct:dataset ;
@@ -1094,7 +1094,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14.rdf> ;
     dct:isVersionOf ols:fbdv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1108,7 +1108,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-14" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbdv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbdv" .
 
 <http://rdf.ebi.ac.uk/dataset/fix/17-10-2016> a dct:dataset ;
@@ -1116,7 +1116,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fix/17-10-2016.rdf> ;
     dct:isVersionOf ols:fix ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1130,7 +1130,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fix.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fix.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fix" .
 
 <http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016> a dct:dataset ;
@@ -1138,7 +1138,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016.rdf> ;
     dct:isVersionOf ols:flopo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1152,7 +1152,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "16-05-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flopo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flopo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flopo" .
 
 <http://rdf.ebi.ac.uk/dataset/flu/0.9.0> a dct:dataset ;
@@ -1160,7 +1160,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flu/0.9.0.rdf> ;
     dct:isVersionOf ols:flu ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1174,19 +1174,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "0.9.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flu.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flu.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flu" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fma/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2016-10-17.rdf> ;
     dct:isVersionOf ols:fma ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fma/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fma" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1195,8 +1195,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fma.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fma" .
 
 <http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17> a dct:dataset ;
@@ -1204,7 +1204,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17.rdf> ;
     dct:isVersionOf ols:foodon ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1218,7 +1218,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-03-17" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/foodon" .
 
 <http://rdf.ebi.ac.uk/dataset/fypo/2016-09-28> a dct:dataset ;
@@ -1226,7 +1226,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2016-09-28.rdf> ;
     dct:isVersionOf ols:fypo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1240,7 +1240,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-28" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fypo" .
 
 <http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016> a dct:dataset ;
@@ -1248,7 +1248,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016.rdf> ;
     dct:isVersionOf ols:gaz ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1262,7 +1262,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gaz.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gaz.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gaz" .
 
 <http://rdf.ebi.ac.uk/dataset/genepio/10-10-2016> a dct:dataset ;
@@ -1270,7 +1270,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/genepio/10-10-2016.rdf> ;
     dct:isVersionOf ols:genepio ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1284,7 +1284,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "10-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/genepio.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/genepio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/genepio" .
 
 <http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26> a dct:dataset ;
@@ -1292,7 +1292,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26.rdf> ;
     dct:isVersionOf ols:geo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1306,7 +1306,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "production version 2016-03-26" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/geo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/geo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/geo" .
 
 <http://rdf.ebi.ac.uk/dataset/gexo/22-08-2016> a dct:dataset ;
@@ -1314,7 +1314,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gexo/22-08-2016.rdf> ;
     dct:isVersionOf ols:gexo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1328,7 +1328,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "22-08-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gexo" .
 
 <http://rdf.ebi.ac.uk/dataset/go/2016-10-13> a dct:dataset ;
@@ -1336,7 +1336,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2016-10-13.rdf> ;
     dct:isVersionOf ols:go ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1350,7 +1350,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/go" .
 
 <http://rdf.ebi.ac.uk/dataset/hao/2016-05-18> a dct:dataset ;
@@ -1358,7 +1358,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hao/2016-05-18.rdf> ;
     dct:isVersionOf ols:hao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1372,7 +1372,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-18" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hao" .
 
 <http://rdf.ebi.ac.uk/dataset/hom/2015-01-07> a dct:dataset ;
@@ -1380,7 +1380,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hom/2015-01-07.rdf> ;
     dct:isVersionOf ols:hom ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1394,7 +1394,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-01-07" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hom.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hom.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hom" .
 
 <http://rdf.ebi.ac.uk/dataset/hp/2016-09-03> a dct:dataset ;
@@ -1402,7 +1402,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hp/2016-09-03.rdf> ;
     dct:isVersionOf ols:hp ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1416,7 +1416,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hp.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hp" .
 
 <http://rdf.ebi.ac.uk/dataset/hsapdv/2016-07-30> a dct:dataset ;
@@ -1424,7 +1424,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hsapdv/2016-07-30.rdf> ;
     dct:isVersionOf ols:hsapdv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1438,7 +1438,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-07-30" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hsapdv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hsapdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hsapdv" .
 
 <http://rdf.ebi.ac.uk/dataset/iao/2015-02-23> a dct:dataset ;
@@ -1446,7 +1446,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/iao/2015-02-23.rdf> ;
     dct:isVersionOf ols:iao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1460,7 +1460,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-02-23" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/iao" .
 
 <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> a dct:dataset ;
@@ -1468,7 +1468,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05.rdf> ;
     dct:isVersionOf ols:ido ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1482,7 +1482,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-07-05" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ido.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ido.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ido" .
 
 <http://rdf.ebi.ac.uk/dataset/idomal/14-10-2016> a dct:dataset ;
@@ -1490,7 +1490,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/idomal/14-10-2016.rdf> ;
     dct:isVersionOf ols:idomal ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1504,7 +1504,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "14-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/idomal.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/idomal.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/idomal" .
 
 <http://rdf.ebi.ac.uk/dataset/kisao/2.3.11> a dct:dataset ;
@@ -1512,7 +1512,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/kisao/2.3.11.rdf> ;
     dct:isVersionOf ols:kisao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1526,19 +1526,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2.3.11" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/kisao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/kisao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/kisao" .
 
-<http://rdf.ebi.ac.uk/dataset/lbo/11-10-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/lbo/18-10-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/lbo/11-10-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/lbo/18-10-2016.rdf> ;
     dct:isVersionOf ols:lbo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/lbo/11-10-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/lbo/18-10-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "lbo" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1547,20 +1547,20 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "11-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/lbo.owl" ;
+    pav:version "18-10-2016" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/lbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/lbo" .
 
-<http://rdf.ebi.ac.uk/dataset/ma/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ma/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ma/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ma/2016-10-17.rdf> ;
     dct:isVersionOf ols:ma ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/ma/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ma/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ma" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1569,8 +1569,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ma.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ma" .
 
 <http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17> a dct:dataset ;
@@ -1578,7 +1578,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17.rdf> ;
     dct:isVersionOf ols:mamo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1592,7 +1592,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-10-17" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mamo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mamo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mamo" .
 
 <http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05> a dct:dataset ;
@@ -1600,7 +1600,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05.rdf> ;
     dct:isVersionOf ols:mf ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1614,7 +1614,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "beta 2013-11-05" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mf.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mf" .
 
 <http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16> a dct:dataset ;
@@ -1622,7 +1622,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16.rdf> ;
     dct:isVersionOf ols:mfmo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1636,7 +1636,7 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-11-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfmo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfmo" .
 
 <http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23> a dct:dataset ;
@@ -1644,7 +1644,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23.rdf> ;
     dct:isVersionOf ols:mfoem ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1658,19 +1658,19 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "beta 2013-07-23" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfoem.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfoem.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfoem" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mi/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2016-10-17.rdf> ;
     dct:isVersionOf ols:mi ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mi/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mi" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1679,8 +1679,8 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mi.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mi" .
 
 <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> a dct:dataset ;
@@ -1688,7 +1688,7 @@
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01.rdf> ;
     dct:isVersionOf ols:miapa ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1704,7 +1704,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-02-01" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miapa.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miapa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/miapa" .
 
 <http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016> a dct:dataset ;
@@ -1712,7 +1712,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016.rdf> ;
     dct:isVersionOf ols:mirnao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1726,7 +1726,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mirnao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mirnao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mirnao" .
 
 <http://rdf.ebi.ac.uk/dataset/miro/2014-05-14> a dct:dataset ;
@@ -1734,7 +1734,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miro/2014-05-14.rdf> ;
     dct:isVersionOf ols:miro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1748,7 +1748,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-05-14" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/miro" .
 
 <http://rdf.ebi.ac.uk/dataset/mmo/17-10-2016> a dct:dataset ;
@@ -1756,7 +1756,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mmo/17-10-2016.rdf> ;
     dct:isVersionOf ols:mmo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1770,7 +1770,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mmo" .
 
 <http://rdf.ebi.ac.uk/dataset/mmusdv/2016-07-30> a dct:dataset ;
@@ -1778,7 +1778,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mmusdv/2016-07-30.rdf> ;
     dct:isVersionOf ols:mmusdv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1792,19 +1792,19 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-07-30" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmusdv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmusdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mmusdv" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mod/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2016-10-17.rdf> ;
     dct:isVersionOf ols:mod ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mod/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mod" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1813,8 +1813,8 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mod.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mod.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mod" .
 
 <http://rdf.ebi.ac.uk/dataset/mop/2014-09-03> a dct:dataset ;
@@ -1822,7 +1822,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mop/2014-09-03.rdf> ;
     dct:isVersionOf ols:mop ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1836,7 +1836,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-09-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mop.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mop.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mop" .
 
 <http://rdf.ebi.ac.uk/dataset/mp/2016-10-05> a dct:dataset ;
@@ -1844,7 +1844,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mp/2016-10-05.rdf> ;
     dct:isVersionOf ols:mp ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1858,19 +1858,19 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-05" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mp.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mp" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mpath/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2016-10-17.rdf> ;
     dct:isVersionOf ols:mpath ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mpath/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mpath" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1879,8 +1879,8 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mpath.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mpath.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mpath" .
 
 <http://rdf.ebi.ac.uk/dataset/mro/2016-01-07> a dct:dataset ;
@@ -1888,7 +1888,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mro/2016-01-07.rdf> ;
     dct:isVersionOf ols:mro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1902,7 +1902,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-01-07" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mro" .
 
 <http://rdf.ebi.ac.uk/dataset/ms/13-10-2016> a dct:dataset ;
@@ -1910,7 +1910,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ms/13-10-2016.rdf> ;
     dct:isVersionOf ols:ms ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1924,7 +1924,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "13-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ms.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ms.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ms" .
 
 <http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09> a dct:dataset ;
@@ -1932,7 +1932,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09.rdf> ;
     dct:isVersionOf ols:nbo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1946,7 +1946,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2012-07-09" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/nbo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/nbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/nbo" .
 
 <http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15> a dct:dataset ;
@@ -1954,7 +1954,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15.rdf> ;
     dct:isVersionOf ols:ncbitaxon ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1968,7 +1968,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncbitaxon.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncbitaxon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncbitaxon" .
 
 <http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10> a dct:dataset ;
@@ -1976,7 +1976,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10.rdf> ;
     dct:isVersionOf ols:ncro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -1990,7 +1990,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-12-10" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncro" .
 
 <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.324> a dct:dataset ;
@@ -1998,7 +1998,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.324.rdf> ;
     dct:isVersionOf ols:oae ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2012,7 +2012,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "Vision Release; 1.1.324" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oae.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oae" .
 
 <http://rdf.ebi.ac.uk/dataset/oba/15-06-2016> a dct:dataset ;
@@ -2020,7 +2020,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oba/15-06-2016.rdf> ;
     dct:isVersionOf ols:oba ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2034,7 +2034,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "15-06-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oba.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oba.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oba" .
 
 <http://rdf.ebi.ac.uk/dataset/obcs/revision:_85> a dct:dataset ;
@@ -2042,7 +2042,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obcs/revision:_85.rdf> ;
     dct:isVersionOf ols:obcs ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2056,7 +2056,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "revision: 85" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obcs.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obcs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obcs" .
 
 <http://rdf.ebi.ac.uk/dataset/obi/2016-10-11> a dct:dataset ;
@@ -2064,7 +2064,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obi/2016-10-11.rdf> ;
     dct:isVersionOf ols:obi ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2078,7 +2078,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-11" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obi.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obi" .
 
 <http://rdf.ebi.ac.uk/dataset/obib/2016-09-14> a dct:dataset ;
@@ -2086,7 +2086,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obib/2016-09-14.rdf> ;
     dct:isVersionOf ols:obib ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2100,7 +2100,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-14" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obib.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obib.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obib" .
 
 <http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.58> a dct:dataset ;
@@ -2108,7 +2108,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.58.rdf> ;
     dct:isVersionOf ols:ogg ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2122,7 +2122,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "Vision Release: 1.0.58" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogg.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogg.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogg" .
 
 <http://rdf.ebi.ac.uk/dataset/ogi/2.0> a dct:dataset ;
@@ -2130,7 +2130,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogi/2.0.rdf> ;
     dct:isVersionOf ols:ogi ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2155,7 +2155,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogi.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogi" .
 
 <http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20> a dct:dataset ;
@@ -2163,7 +2163,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20.rdf> ;
     dct:isVersionOf ols:ogms ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2177,7 +2177,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2011-09-20" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogms.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogms.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogms" .
 
 <http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63> a dct:dataset ;
@@ -2185,7 +2185,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63.rdf> ;
     dct:isVersionOf ols:ogsf ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2199,7 +2199,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "1.0.63" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogsf.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogsf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogsf" .
 
 <http://rdf.ebi.ac.uk/dataset/olatdv/2016-05-14> a dct:dataset ;
@@ -2207,7 +2207,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/olatdv/2016-05-14.rdf> ;
     dct:isVersionOf ols:olatdv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2221,7 +2221,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-14" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/olatdv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/olatdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/olatdv" .
 
 ols:ols a dct:dataset ;
@@ -2382,21 +2382,21 @@ ols:ols a dct:dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2016-10-17> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2016-10-18> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2016-10-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2016-10-18> a dct:dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2016-10-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2016-10-18.rdf> ;
     dct:isVersionOf ols:ols ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
     dct:title "Title on Version level? " .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2016-10-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2016-10-18.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ols" ;
     dct:creator ebi:SPOT ;
@@ -2404,7 +2404,7 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Add title for ols on Distribution level" ;
-    pav:version "2016-10-17"^^xsd:date ;
+    pav:version "2016-10-18"^^xsd:date ;
     void:dataDump "/Users/tliener/RDf/ols_to_rdf/in_python/test_folderols_rdf.tar.gz" ;
     foaf:page <http://www.ebi.ac.uk/rdf/service/ols> .
 
@@ -2413,7 +2413,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28.rdf> ;
     dct:isVersionOf ols:omiabis ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2427,7 +2427,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version " 2014-05-28" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omiabis.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omiabis.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omiabis" .
 
 <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> a dct:dataset ;
@@ -2435,7 +2435,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016.rdf> ;
     dct:isVersionOf ols:omit ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2449,7 +2449,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "11-05-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omit.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omit.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omit" .
 
 <http://rdf.ebi.ac.uk/dataset/omp/2016-10-07> a dct:dataset ;
@@ -2457,7 +2457,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omp/2016-10-07.rdf> ;
     dct:isVersionOf ols:omp ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2471,7 +2471,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-10-07" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omp.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omp" .
 
 <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> a dct:dataset ;
@@ -2479,7 +2479,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28.rdf> ;
     dct:isVersionOf ols:omrse ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2493,7 +2493,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-09-28" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omrse.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omrse.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omrse" .
 
 <http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29> a dct:dataset ;
@@ -2501,7 +2501,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29.rdf> ;
     dct:isVersionOf ols:oostt ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2515,7 +2515,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "release - 2016-09-29" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oostt.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oostt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oostt" .
 
 <http://rdf.ebi.ac.uk/dataset/opl/2015-06-09> a dct:dataset ;
@@ -2523,7 +2523,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/opl/2015-06-09.rdf> ;
     dct:isVersionOf ols:opl ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2537,7 +2537,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-06-09" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/opl.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/opl.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/opl" .
 
 <http://rdf.ebi.ac.uk/dataset/ordo/2.2> a dct:dataset ;
@@ -2545,7 +2545,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ordo/2.2.rdf> ;
     dct:isVersionOf ols:ordo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2559,7 +2559,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2.2" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ordo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ordo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ordo" .
 
 <http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34> a dct:dataset ;
@@ -2567,7 +2567,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34.rdf> ;
     dct:isVersionOf ols:ovae ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2581,7 +2581,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "Vision Release: 1.0.34" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ovae.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ovae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ovae" .
 
 <http://rdf.ebi.ac.uk/dataset/pato/2016-09-15> a dct:dataset ;
@@ -2589,7 +2589,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pato/2016-09-15.rdf> ;
     dct:isVersionOf ols:pato ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2603,7 +2603,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pato.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pato.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pato" .
 
 <http://rdf.ebi.ac.uk/dataset/pco/2016-08-01> a dct:dataset ;
@@ -2611,7 +2611,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pco/2016-08-01.rdf> ;
     dct:isVersionOf ols:pco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2625,7 +2625,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-01" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pco" .
 
 <http://rdf.ebi.ac.uk/dataset/pdumdv/2016-09-20> a dct:dataset ;
@@ -2633,7 +2633,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pdumdv/2016-09-20.rdf> ;
     dct:isVersionOf ols:pdumdv ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2647,7 +2647,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-20" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pdumdv.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pdumdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pdumdv" .
 
 <http://rdf.ebi.ac.uk/dataset/po/2016-08-31> a dct:dataset ;
@@ -2655,7 +2655,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/po/2016-08-31.rdf> ;
     dct:isVersionOf ols:po ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2669,7 +2669,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-31" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/po.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/po.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/po" .
 
 <http://rdf.ebi.ac.uk/dataset/poro/2016-09-13> a dct:dataset ;
@@ -2677,7 +2677,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/poro/2016-09-13.rdf> ;
     dct:isVersionOf ols:poro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2691,7 +2691,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/poro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/poro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/poro" .
 
 <http://rdf.ebi.ac.uk/dataset/pr/08-07-2016> a dct:dataset ;
@@ -2699,7 +2699,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pr/08-07-2016.rdf> ;
     dct:isVersionOf ols:pr ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2713,7 +2713,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "08-07-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pr.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pr.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pr" .
 
 <http://rdf.ebi.ac.uk/dataset/pride/23-03-2016> a dct:dataset ;
@@ -2721,7 +2721,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pride/23-03-2016.rdf> ;
     dct:isVersionOf ols:pride ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2735,7 +2735,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-03-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pride.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pride.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pride" .
 
 <http://rdf.ebi.ac.uk/dataset/probonto/2.0.0> a dct:dataset ;
@@ -2743,7 +2743,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/probonto/2.0.0.rdf> ;
     dct:isVersionOf ols:probonto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2757,7 +2757,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2.0.0" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/probonto.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/probonto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/probonto" .
 
 <http://rdf.ebi.ac.uk/dataset/pw/17-10-2016> a dct:dataset ;
@@ -2765,7 +2765,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pw/17-10-2016.rdf> ;
     dct:isVersionOf ols:pw ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2779,7 +2779,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pw.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pw.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pw" .
 
 <http://rdf.ebi.ac.uk/dataset/reto/22-08-2016> a dct:dataset ;
@@ -2787,7 +2787,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reto/22-08-2016.rdf> ;
     dct:isVersionOf ols:reto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2801,19 +2801,19 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "22-08-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/reto.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/reto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/reto" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2016-10-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rex/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2016-10-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2016-10-17.rdf> ;
     dct:isVersionOf ols:rex ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2016-10-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/rex/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "rex" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -2822,8 +2822,8 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2016-10-16" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rex.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rex.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rex" .
 
 <http://rdf.ebi.ac.uk/dataset/rexo/07-10-2016> a dct:dataset ;
@@ -2831,7 +2831,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rexo/07-10-2016.rdf> ;
     dct:isVersionOf ols:rexo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2845,7 +2845,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "07-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rexo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rexo" .
 
 <http://rdf.ebi.ac.uk/dataset/rnao/23-09-2016> a dct:dataset ;
@@ -2853,7 +2853,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rnao/23-09-2016.rdf> ;
     dct:isVersionOf ols:rnao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2867,7 +2867,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "23-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rnao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rnao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rnao" .
 
 <http://rdf.ebi.ac.uk/dataset/ro/2016-09-02> a dct:dataset ;
@@ -2875,7 +2875,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ro/2016-09-02.rdf> ;
     dct:isVersionOf ols:ro ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2889,7 +2889,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-02" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ro.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ro" .
 
 <http://rdf.ebi.ac.uk/dataset/rs/11-10-2016> a dct:dataset ;
@@ -2897,7 +2897,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rs/11-10-2016.rdf> ;
     dct:isVersionOf ols:rs ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2911,7 +2911,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "11-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rs.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rs" .
 
 <http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21> a dct:dataset ;
@@ -2919,7 +2919,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21.rdf> ;
     dct:isVersionOf ols:rxno ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2933,19 +2933,19 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-10-21" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rxno.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rxno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rxno" .
 
-<http://rdf.ebi.ac.uk/dataset/sbo/14-10-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/sbo/18-10-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sbo/14-10-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sbo/18-10-2016.rdf> ;
     dct:isVersionOf ols:sbo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/sbo/14-10-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/sbo/18-10-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "sbo" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -2954,8 +2954,8 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "14-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sbo.owl" ;
+    pav:version "18-10-2016" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sbo" .
 
 <http://rdf.ebi.ac.uk/dataset/sep/2013-12-12> a dct:dataset ;
@@ -2963,7 +2963,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sep/2013-12-12.rdf> ;
     dct:isVersionOf ols:sep ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2977,7 +2977,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-12-12" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sep.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sep.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sep" .
 
 <http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15> a dct:dataset ;
@@ -2985,7 +2985,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15.rdf> ;
     dct:isVersionOf ols:sibo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -2999,7 +2999,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-06-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sibo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sibo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sibo" .
 
 <http://rdf.ebi.ac.uk/dataset/so/2015-11-24> a dct:dataset ;
@@ -3007,7 +3007,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/so/2015-11-24.rdf> ;
     dct:isVersionOf ols:so ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3021,19 +3021,19 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-11-24" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/so.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/so.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/so" .
 
-<http://rdf.ebi.ac.uk/dataset/spd/14-10-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/spd/18-10-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/spd/14-10-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/spd/18-10-2016.rdf> ;
     dct:isVersionOf ols:spd ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/spd/14-10-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/spd/18-10-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "spd" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -3042,8 +3042,8 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "14-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/spd.owl" ;
+    pav:version "18-10-2016" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/spd.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/spd" .
 
 <http://rdf.ebi.ac.uk/dataset/stato/1.3> a dct:dataset ;
@@ -3051,7 +3051,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/stato/1.3.rdf> ;
     dct:isVersionOf ols:stato ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3065,7 +3065,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "1.3" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/stato.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/stato.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/stato" .
 
 <http://rdf.ebi.ac.uk/dataset/swo/1.5> a dct:dataset ;
@@ -3073,7 +3073,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/swo/1.5.rdf> ;
     dct:isVersionOf ols:swo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3087,7 +3087,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "1.5" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/swo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/swo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/swo" .
 
 <http://rdf.ebi.ac.uk/dataset/symp/2013-06-03> a dct:dataset ;
@@ -3095,7 +3095,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/symp/2013-06-03.rdf> ;
     dct:isVersionOf ols:symp ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3109,7 +3109,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-06-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/symp.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/symp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/symp" .
 
 <http://rdf.ebi.ac.uk/dataset/tads/16-09-2016> a dct:dataset ;
@@ -3117,7 +3117,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tads/16-09-2016.rdf> ;
     dct:isVersionOf ols:tads ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3131,7 +3131,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "16-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tads.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tads.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tads" .
 
 <http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15> a dct:dataset ;
@@ -3139,7 +3139,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15.rdf> ;
     dct:isVersionOf ols:taxrank ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3153,7 +3153,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-04-15" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/taxrank.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/taxrank.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/taxrank" .
 
 <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> a dct:dataset ;
@@ -3161,7 +3161,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24.rdf> ;
     dct:isVersionOf ols:teddy ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3175,7 +3175,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "rel-2014-04-24" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/teddy.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/teddy.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/teddy" .
 
 <http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03> a dct:dataset ;
@@ -3183,7 +3183,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03.rdf> ;
     dct:isVersionOf ols:tgma ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3197,7 +3197,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2013-06-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tgma.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tgma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tgma" .
 
 <http://rdf.ebi.ac.uk/dataset/to/2016-08-30> a dct:dataset ;
@@ -3205,7 +3205,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/to/2016-08-30.rdf> ;
     dct:isVersionOf ols:to ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3219,7 +3219,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-30" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/to.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/to.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/to" .
 
 <http://rdf.ebi.ac.uk/dataset/trans/2014-08-23> a dct:dataset ;
@@ -3227,7 +3227,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/trans/2014-08-23.rdf> ;
     dct:isVersionOf ols:trans ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3241,7 +3241,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2014-08-23" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/trans.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/trans.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/trans" .
 
 <http://rdf.ebi.ac.uk/dataset/tto/2012-05-18> a dct:dataset ;
@@ -3249,7 +3249,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tto/2012-05-18.rdf> ;
     dct:isVersionOf ols:tto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3263,7 +3263,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2012-05-18" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tto.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tto" .
 
 <http://rdf.ebi.ac.uk/dataset/uberon/2016-09-07> a dct:dataset ;
@@ -3271,7 +3271,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/uberon/2016-09-07.rdf> ;
     dct:isVersionOf ols:uberon ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3285,7 +3285,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-09-07" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uberon.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uberon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uberon" .
 
 <http://rdf.ebi.ac.uk/dataset/uo/2016-05-13> a dct:dataset ;
@@ -3293,7 +3293,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/uo/2016-05-13.rdf> ;
     dct:isVersionOf ols:uo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3307,7 +3307,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uo" .
 
 <http://rdf.ebi.ac.uk/dataset/vario/2015-08-20> a dct:dataset ;
@@ -3315,7 +3315,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vario/2015-08-20.rdf> ;
     dct:isVersionOf ols:vario ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3329,7 +3329,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-08-20" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vario.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vario.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vario" .
 
 <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> a dct:dataset ;
@@ -3337,7 +3337,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> ;
     dct:isVersionOf ols:vo ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3351,7 +3351,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "Vision Release; 1.0.774" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vo.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vo" .
 
 <http://rdf.ebi.ac.uk/dataset/vt/20-09-2016> a dct:dataset ;
@@ -3359,7 +3359,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vt/20-09-2016.rdf> ;
     dct:isVersionOf ols:vt ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3373,19 +3373,19 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "20-09-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vt.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vt" .
 
-<http://rdf.ebi.ac.uk/dataset/vto/03-08-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vto/03-08-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17.rdf> ;
     dct:isVersionOf ols:vto ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-<http://rdf.ebi.ac.uk/dataset/vto/03-08-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/vto/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "vto" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -3394,8 +3394,8 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "03-08-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vto.owl" ;
+    pav:version "2016-10-17" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vto" .
 
 <http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01> a dct:dataset ;
@@ -3403,7 +3403,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01.rdf> ;
     dct:isVersionOf ols:wbbt ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3417,7 +3417,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-06-01" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbbt.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbbt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbbt" .
 
 <http://rdf.ebi.ac.uk/dataset/wbls/2016-08-17> a dct:dataset ;
@@ -3425,7 +3425,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbls/2016-08-17.rdf> ;
     dct:isVersionOf ols:wbls ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3439,7 +3439,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-17" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbls.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbls.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbls" .
 
 <http://rdf.ebi.ac.uk/dataset/wbphenotype/2016-08-29> a dct:dataset ;
@@ -3447,7 +3447,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbphenotype/2016-08-29.rdf> ;
     dct:isVersionOf ols:wbphenotype ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3461,7 +3461,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-29" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbphenotype.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbphenotype.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbphenotype" .
 
 <http://rdf.ebi.ac.uk/dataset/xao/2015-05-27> a dct:dataset ;
@@ -3469,7 +3469,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xao/2015-05-27.rdf> ;
     dct:isVersionOf ols:xao ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3483,7 +3483,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2015-05-27" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xao.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xao" .
 
 <http://rdf.ebi.ac.uk/dataset/xco/10-10-2016> a dct:dataset ;
@@ -3491,7 +3491,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xco/10-10-2016.rdf> ;
     dct:isVersionOf ols:xco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3505,7 +3505,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "10-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xco" .
 
 <http://rdf.ebi.ac.uk/dataset/xl/No_valid_version> a dct:dataset ;
@@ -3513,7 +3513,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xl/No_valid_version.rdf> ;
     dct:isVersionOf ols:xl ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3527,7 +3527,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "None" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xl.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xl.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xl" .
 
 <http://rdf.ebi.ac.uk/dataset/zeco/17-10-2016> a dct:dataset ;
@@ -3535,7 +3535,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zeco/17-10-2016.rdf> ;
     dct:isVersionOf ols:zeco ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3549,7 +3549,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-10-2016" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zeco.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zeco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zeco" .
 
 <http://rdf.ebi.ac.uk/dataset/zfa/2016-08-08> a dct:dataset ;
@@ -3557,7 +3557,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zfa/2016-08-08.rdf> ;
     dct:isVersionOf ols:zfa ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3571,7 +3571,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-08-08" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfa.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zfa" .
 
 <http://rdf.ebi.ac.uk/dataset/zfs/2016-05-13> a dct:dataset ;
@@ -3579,7 +3579,7 @@ ols:ols a dct:dataset ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zfs/2016-05-13.rdf> ;
     dct:isVersionOf ols:zfs ;
-    dct:issued "2016-10-17"^^xsd:date ;
+    dct:issued "2016-10-18"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
@@ -3593,7 +3593,7 @@ ols:ols a dct:dataset ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "2016-05-13" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfs.owl" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zfs" .
 
 ols:aeo a dct:dataset ;
@@ -3666,7 +3666,7 @@ ols:caro a dct:dataset ;
     dct:description "An upper level ontology to facilitate interoperability between existing anatomy ontologies for different species" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Common Anatomy Reference Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/caro/22-06-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/caro/18-10-2016> .
 
 ols:cco a dct:dataset ;
     dct:description "The Cell Cycle Ontology extends existing ontologies for cell cycle knowledge building a resource that integrates and manages knowledge about the cell cycle components and regulatory aspects." ;
@@ -3756,7 +3756,7 @@ ols:ddpheno a dct:dataset ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Dictyostelium discoideum phenotype" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2016-10-17> .
 
 ols:dideo a dct:dataset ;
     dct:description "The Potential Drug-drug Interaction and Potential Drug-drug Interaction Evidence Ontology" ;
@@ -3804,7 +3804,7 @@ ols:efo a dct:dataset ;
     dct:description "The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Experimental Factor Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/efo/2.76> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/efo/2.77> .
 
 ols:ehdaa2 a dct:dataset ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the developing human." ;
@@ -3816,7 +3816,7 @@ ols:emap a dct:dataset ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse gross anatomy and development, timed" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2016-10-15> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2016-10-17> .
 
 ols:emapa a dct:dataset ;
     dct:description "Abstract (i.e. non-stage specific) stage-specific anatomical structures of the mouse." ;
@@ -3918,7 +3918,7 @@ ols:fma a dct:dataset ;
     dct:description "This is currently a slimmed down version of FMA" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Foundational Model of Anatomy (subset)" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2016-10-17> .
 
 ols:foodon a dct:dataset ;
     dct:description "A broadly scoped ontology representing entities which bear a “food role”.  It encompasses materials in natural ecosystems and food webs as well as human-centric categorization and handling of food." ;
@@ -4014,13 +4014,13 @@ ols:lbo a dct:dataset ;
     dct:description "A vocabulary for cattle, chicken, horse, pig, and sheep breeds." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Livestock Breed Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/lbo/11-10-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/lbo/18-10-2016> .
 
 ols:ma a dct:dataset ;
     dct:description "A structured controlled vocabulary of the adult anatomy of the mouse (Mus)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse adult gross anatomy" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ma/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ma/2016-10-17> .
 
 ols:mamo a dct:dataset ;
     dct:description "The Mathematical Modelling Ontology (MAMO) is a classification of the types of mathematical models used mostly in the life sciences, their variables, relationships and other relevant features." ;
@@ -4050,7 +4050,7 @@ ols:mi a dct:dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Molecular Interactions" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2016-10-17> .
 
 ols:miapa a dct:dataset ;
     dct:description """The MIAPA ontology is intended to be an application ontology for the purpose of semantic annotation of phylogenetic data according to the requirements and recommendations of the Minimum Information for A Phylogenetic Analysis (MIAPA) metadata reporting standard. The ontology leverages (imports) primarily from the CDAO (Comparative Data Analysis Ontology), PROV (W3C Provenance Ontology), and SWO (Software Ontology, which includes the EDAM ontologies) ontologies. It adds some assertions of its own, as well as some classes and individuals that may eventually get pushed down into one of the respective source ontologies.
@@ -4088,7 +4088,7 @@ ols:mod a dct:dataset ;
     dct:description "PSI-MOD is an ontology consisting of terms that describe protein chemical modifications" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Protein modification" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2016-10-17> .
 
 ols:mop a dct:dataset ;
     dct:description "Processes at the molecular level" ;
@@ -4106,7 +4106,7 @@ ols:mpath a dct:dataset ;
     dct:description "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse pathology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2016-10-17> .
 
 ols:mro a dct:dataset ;
     dct:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions." ;
@@ -4321,7 +4321,7 @@ ols:rex a dct:dataset ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Physico-chemical process" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2016-10-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2016-10-17> .
 
 ols:rexo a dct:dataset ;
     dct:description "Regulation of Gene Expression" ;
@@ -4357,7 +4357,7 @@ ols:sbo a dct:dataset ;
     dct:description "Terms commonly used in Systems Biology, and in particular in computational modeling." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Systems Biology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sbo/14-10-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sbo/18-10-2016> .
 
 ols:sep a dct:dataset ;
     dct:description "A structured controlled vocabulary for the annotation of sample processing and separation techniques in scientific experiments." ;
@@ -4381,7 +4381,7 @@ ols:spd a dct:dataset ;
     dct:description "An ontology for spider comparative biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship, combing) and products (i.g. silk, web, borrow)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Spider Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/spd/14-10-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/spd/18-10-2016> .
 
 ols:stato a dct:dataset ;
     dct:description "STATO is the statistical methods ontology. It contains concepts and properties related to statistical methods, probability distributions and other concepts related to statistical analysis, including relationships to study designs and plots." ;
@@ -4477,7 +4477,7 @@ ols:vto a dct:dataset ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Vertebrate Taxonomy Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vto/03-08-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> .
 
 ols:wbbt a dct:dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of <i>Caenorhabditis elegans</i>." ;
