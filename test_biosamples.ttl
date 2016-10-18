@@ -23,7 +23,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
- void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2> ;
+ void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2" ;
 	dct:creator "TestCreator in that case" ;
 	dcterms:description "The Distribution Level of biosamples";
   dct:publisher "EBI" ;
