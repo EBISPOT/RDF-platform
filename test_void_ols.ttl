@@ -627,28 +627,6 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dideo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dideo" .
 
-<http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version> a dct:dataset ;
-    dct:creator "Who is the creator/Versionlevel" ;
-    dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version.rdf> ;
-    dct:isVersionOf ols:dinto ;
-    dct:issued "2016-10-18"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
-    dct:title "What is the Version title?" .
-
-<http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "dinto" ;
-    dct:creator "Who is the creator/DistLevel" ;
-    dct:description "A formal represention for drug-drug interactions knowledge.",
-        "Description of ..." ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
-    dct:title "Distribution title" ;
-    pav:version "None" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dinto.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/dinto" .
-
 <http://rdf.ebi.ac.uk/dataset/doid/2016-09-26> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
@@ -2254,7 +2232,6 @@ ols:ols a dct:dataset ;
         ols:ddanat,
         ols:ddpheno,
         ols:dideo,
-        ols:dinto,
         ols:doid,
         ols:dpo,
         ols:dron,
@@ -2376,7 +2353,6 @@ ols:ols a dct:dataset ;
         ols:wbphenotype,
         ols:xao,
         ols:xco,
-        ols:xl,
         ols:zeco,
         ols:zfa,
         ols:zfs ;
@@ -3508,28 +3484,6 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xco" .
 
-<http://rdf.ebi.ac.uk/dataset/xl/No_valid_version> a dct:dataset ;
-    dct:creator "Who is the creator/Versionlevel" ;
-    dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xl/No_valid_version.rdf> ;
-    dct:isVersionOf ols:xl ;
-    dct:issued "2016-10-18"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
-    dct:title "What is the Version title?" .
-
-<http://rdf.ebi.ac.uk/dataset/xl/No_valid_version.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "xl" ;
-    dct:creator "Who is the creator/DistLevel" ;
-    dct:description "A structured controlled vocabulary for cross-linking reagents used with proteomics mass spectrometry.",
-        "Description of ..." ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
-    dct:title "Distribution title" ;
-    pav:version "None" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xl.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/xl" .
-
 <http://rdf.ebi.ac.uk/dataset/zeco/17-10-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
@@ -3763,12 +3717,6 @@ ols:dideo a dct:dataset ;
     dct:publisher "Who do we put in here" ;
     dct:title "Drug Interaction and Evidence Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dideo/release_2016-07-29> .
-
-ols:dinto a dct:dataset ;
-    dct:description "A formal represention for drug-drug interactions knowledge." ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "The Drug-Drug Interactions Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dinto/No_valid_version> .
 
 ols:doid a dct:dataset ;
     dct:description "An ontology for describing the classification of human diseases organized by etiology." ;
@@ -4508,12 +4456,6 @@ ols:xco a dct:dataset ;
     dct:publisher "Who do we put in here" ;
     dct:title "Experimental condition ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/xco/10-10-2016> .
-
-ols:xl a dct:dataset ;
-    dct:description "A structured controlled vocabulary for cross-linking reagents used with proteomics mass spectrometry." ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "Cross-linker reagents ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/xl/No_valid_version> .
 
 ols:zeco a dct:dataset ;
     dct:description "Experimental conditions applied to zebrafish, developed to facilitate experiment condition annotation at ZFIN" ;
