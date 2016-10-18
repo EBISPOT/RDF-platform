@@ -2381,7 +2381,7 @@ ols:ols a dct:dataset ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Add title for ols on Distribution level" ;
     pav:version "2016-10-18"^^xsd:date ;
-    void:dataDump "/Users/tliener/RDf/ols_to_rdf/in_python/test_folderols_rdf.tar.gz" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ols_rdf.tar.gz" ;
     foaf:page <http://www.ebi.ac.uk/rdf/service/ols> .
 
 <http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28> a dct:dataset ;
