@@ -2374,7 +2374,6 @@ ols:ols a dct:dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ols/2016-10-18.rdf> a void:Dataset,
         dcat:Distribution ;
-    idot:preferredPrefix "ols" ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
@@ -4474,3 +4473,4 @@ ols:zfs a dct:dataset ;
     dct:publisher "Who do we put in here" ;
     dct:title "Zebrafish developmental stages" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/zfs/2016-05-13> .
+
