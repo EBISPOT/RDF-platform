@@ -19,6 +19,7 @@
 	dcterms:description "Version level description" ;
   dct:creator "TestCreator in that case" ;
   dct:publisher "EBI" ;
+dct:publisher "EBI" ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
 
 <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset;
