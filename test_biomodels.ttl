@@ -18,6 +18,7 @@
   dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/biomodels> ;
 	dcterms:description "Version level description" ;
   dct:creator "TestCreator in that case" ;
+  pav:version "0.1.0" ;
   dct:publisher "EBI" ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
 
