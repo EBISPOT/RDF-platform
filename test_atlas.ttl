@@ -17,6 +17,7 @@
   	dcterms:description "The Description of the Version level of Atlas";
     dcterms:title "Reactome Version" ;
     dct:publisher "EBI" ;
+  pav:version "0.1.0" ;
     dct:creator "TestCreator in that case" ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01.rdf>.
 
