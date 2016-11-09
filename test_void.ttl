@@ -12,7 +12,6 @@
 @prefix chembl_target: <http://rdf.ebi.ac.uk/resource/chembl/target/> .
 @prefix chembl_target_cmpt: <http://rdf.ebi.ac.uk/resource/chembl/targetcomponent/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
@@ -29,6 +28,7 @@
 @prefix voag: <http://voag.linkedmodel.org/voag#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://rdf.ebi.ac.uk/dataset/chembl> a  dct:Dataset;
   dcterms:title "The ChEMBL Database" ;
@@ -39,9 +39,9 @@
 <http://rdf.ebi.ac.uk/dataset/chembl/21.0> a dct:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/chembl>;
   	dcterms:description "The Description of the Version level of ChEMBL";
+  	pav:version "21.0" ;
     dcterms:title "ChEMBL Version 21.0" ;
     dcterms:publisher "EBI" ;
-  	pav:version "21.0" ;
     dcterms:creator "TestCreator in that case" ;
     dcterms:hasDistribution <http://rdf.ebi.ac.uk/dataset/chembl/21.0.rdf>.
 
@@ -65,16 +65,45 @@
 	foaf:page <ftp://ftp.ebi.ac.uk/pub/databases/chembl/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
 	void:uriSpace "http://rdf.ebi.ac.uk/resource/chembl/" ;
-	pav:version "21.0" ;
 	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/20.0/void.ttl#chembl_rdf_dataset> ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:created "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
 	dcterms:modified "2016-02-01T00:00:00.000Z"^^xsd:dateTime ;
-	void:subset  :chembl_rdf_molhierarchy_dataset   , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
+	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
 	void:vocabulary <http://purl.org/ontology/bibo> , <http://www.bioassayontology.org/bao> , <http://semanticscience.org/ontology/cheminf.owl> , <http://purl.org/spar/cito> , <http://purl.org/dc/terms> , <http://www.w3.org/2002/07/owl> , <http://www.w3.org/1999/02/22-rdf-syntax-ns> , <http://www.w3.org/2000/01/rdf-schema> , <http://semanticscience.org/ontology/sio.owl> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2001/XMLSchema> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:sparqlEndpoint <http://www.ebi.ac.uk/rdf/services/chembl/sparql> ;
 	voag:frequencyOfChange freq:quarterly .
+
+  :chembl_rdf_target_relation_dataset a void:Dataset ;
+  	dcterms:title "The ChEMBL Target Relation Dataset" ;
+  	dcterms:description "The ChEMBL Target Relation Dataset" ;
+  	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
+  	void:exampleResource chembl_target:CHEMBL301 ;
+  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_targetrel.ttl.gz> .
+
+  :chembl_rdf_indication_dataset a void:Dataset ;
+  	dcterms:title "The ChEMBL Drug Indication Dataset" ;
+    dcterms:description "The ChEMBL Drug Indication Dataset" ;
+	  void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/> ;
+	  void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/CHEMBL_IND_24137> ;
+	  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_indication.ttl.gz> .
+
+  :chembl_rdf_bindingsite_dataset a void:Dataset ;
+  	dcterms:title "The ChEMBL Binding Site Dataset" ;
+  	dcterms:description "The ChEMBL Binding Site Dataset" ;
+  	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/binding_site/> ;
+  	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/binding_site/CHEMBL_BS_1> ;
+  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_bindingsite.ttl.gz> .
+
+    :chembl_rdf_cell_line_dataset a void:Dataset ;
+    	dcterms:title "The ChEMBL Cell Line Dataset" ;
+    	dcterms:description "The ChEMBL Cell Line Dataset" ;
+    	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/cell_line/> ;
+    	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/cell_line/CHEMBL_CL_1> ;
+    	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_cellline.ttl.gz> .
+
+
 
 :chembl_rdf_biocmpt_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Biotherapeutic Component Dataset" ;
@@ -82,6 +111,23 @@
 	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> ;
 	void:exampleResource chembl_bio_cmpt:CHEMBL_BC_6717 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/21.0/chembl_21.0_biocmpt.ttl.gz> .
+
+
+  :chembl_rdf_molhierarchy_dataset a void:Dataset ;
+  	dcterms:title "The ChEMBL Molecule Hierarchy Dataset" ;
+  	dcterms:description "The ChEMBL Molecules Hierarchy Dataset" ;
+  	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+  	void:exampleResource chembl_molecule:CHEMBL941 ;
+  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_molhierarchy.ttl.gz> .
+
+    :chembl_rdf_moa_dataset a void:Dataset ;
+    	dcterms:title "The ChEMBL Mechanism of Action Dataset" ;
+    	dcterms:description "The ChEMBL Mechanism of Action Dataset" ;
+    	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/> ;
+    	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/CHEMBL_MEC_166> ;
+    	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.0/chembl_22.0_moa.ttl.gz> .
+
+
 
 :chembl_rdf_target_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Target Dataset" ;
