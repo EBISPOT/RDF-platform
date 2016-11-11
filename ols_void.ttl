@@ -2430,7 +2430,6 @@ ols:ols a dct:Dataset ;
         ols:omit,
         ols:omp,
         ols:omrse,
-        ols:oostt,
         ols:opl,
         ols:ordo,
         ols:ovae,
@@ -2600,29 +2599,6 @@ ols:ols a dct:Dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omrse.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omrse" .
-
-<http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29> a dct:Dataset ;
-    dct:creator "Who is the creator/Versionlevel" ;
-    dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29.rdf> ;
-    dct:isVersionOf ols:oostt ;
-    dct:issued "2016-11-11"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
-    dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29" .
-
-<http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "oostt" ;
-    dct:creator "Who is the creator/DistLevel" ;
-    dct:description "An ontology built for representating the organizational components of trauma centers and trauma systems.",
-        "Description of ..." ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
-    dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oostt.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/oostt" .
 
 <http://rdf.ebi.ac.uk/dataset/opl/2015-06-09> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -4387,12 +4363,6 @@ ols:omrse a dct:Dataset ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Medically Related Social Entities" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> .
-
-ols:oostt a dct:Dataset ;
-    dct:description "An ontology built for representating the organizational components of trauma centers and trauma systems." ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "Ontology of Organizational Structures of Trauma centers and Trauma Systems" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oostt/release_-_2016-09-29> .
 
 ols:opl a dct:Dataset ;
     dct:description "A reference ontology for parasite life cycle stages." ;
