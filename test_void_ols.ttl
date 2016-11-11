@@ -2366,7 +2366,7 @@ ols:ols a dct:Dataset ;
     dct:description "OLS description on version level" ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2016-10-18.rdf> ;
     dct:isVersionOf ols:ols ;
-    <http://purl.org/pav/version> "TestVersion"
+    <http://purl.org/pav/version> "TestVersion" ;
     dct:issued "2016-10-18"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
