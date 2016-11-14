@@ -20,11 +20,9 @@
   dcterms:description "The VoID description for the RDF representation of this dataset."@en ;
   dct:publisher "EBI" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86> ;
-  dct:hasPart <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens>,
-	<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> .
+  dct:hasPart <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>,
+	<http://rdf.ebi.ac.uk/dataset/ensembl/7719> .
    
-
-
 #Version level
 <http://rdf.ebi.ac.uk/dataset/ensembl/86> a dct:Dataset ;
   dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl> ;
@@ -33,18 +31,18 @@
   dcterms:publisher <http://www.ebi.ac.uk> ;
   dct:creator "EBI - Ensembl" ;
   pav:version "86" ;
-  dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.rdf> .
+  dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.void> .
 
 
 
 
 #Distribution Level
-<http://rdf.ebi.ac.uk/dataset/ensembl/86.rdf> a void:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/86.void> a void:Dataset ;
   dcterms:description "Ensembl is a joint project between EMBL - EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes."@en ;
   dcterms:license <http://www.ebi.ac.uk/Information/termsofuse.html> ;
   dcterms:publisher <http://www.ebi.ac.uk> ;
   dcterms:title "Ensembl 86 RDF"@en ;
-	void:dataDump <ftp link to the whole of ensembl e.g - ftp://ftp.ensembl.org/pub/current_rdf/ensembl.gz>	.
+	void:dataDump <ftp link to the whole of ensembl e.g - ftp://ftp.ensembl.org/pub/current_rdf/ensembl.gz>	. # not required if your sub parts have their own datadumps
 
 
 
@@ -52,33 +50,33 @@
 
 
 #Summary home sapiens
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens> a dct:Dataset ;
     dct:description " ……. " ;
     dct:publisher "Publisher" ;
     dct:title "Ensembl - Homo sapiens" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/homos_sapiens/14_11_2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> .
 
 
 #Version Level of homo sapiens
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/homos_sapiens/14_11_2016> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.rdf> ;
-    dct:isVersionOf  <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens>;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> ;
+    dct:isVersionOf  <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>;
     dct:issued "2016-10-31"^^xsd:date ;
-    pav:version "86 - 14_11_2016" ;
+    pav:version "86" ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
 
 #Distribution Level of Homo sapiens
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/homos_sapiens/14_11_2016.rdfs> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> a void:Dataset,
     dcat:Distribution ;
     dct:creator "Who is the creator/DistLevel" ;
     dct:description "Description of ...";
      dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "17-05-2016" ;
+    pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset>,
      	<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> .  
 
@@ -102,22 +100,22 @@
 
 
 #Summary Level of 7719
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/7719> a dct:Dataset ;
  dct:description "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Adverse Event Reporting Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719/1> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> .
 
 
 
 
 #Version Level of 7719
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719/1> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719/1.rdf> ;
-    dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719>  ;
-    pav:version "1" ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> ;
+    dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl/7719>  ;
+    pav:version "86" ;
     dct:issued "2016-10-31"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
@@ -126,7 +124,7 @@
 
 
 #Distribution level of 7719
-<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719/1.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> a void:Dataset,
     dcat:Distribution ;
     dct:creator "Who is the creator/DistLevel" ;
     dct:description "Description of ...",
@@ -135,12 +133,12 @@
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
     pav:version "17-05-2016" ;
-    void:subset  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719/1/subset>,
-     	<http://rdf.ebi.ac.uk/dataset/ensembl/83/1/30538_xref> .  
+    void:subset  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset>,
+     	<http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> .  
 
 
 #Subset of Distribution level
- <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719/1/subset> a void:Dataset ;
+ <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> a void:Dataset ;
   dcterms:title "7719 - human readable" ;
   dcterms:description "7719 stands for ... " ;
   void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla.ttl.gz> .
@@ -149,9 +147,9 @@
 
 
   #Subset of xref for 7719
-  <http://rdf.ebi.ac.uk/dataset/ensembl/83/1/30538_xref> a void:Dataset ;
-    dcterms:title "x_ref for 30538" ;
-    dcterms:description "xref for 30538 - whatever it is, most likely not homo sapiens but this is just an example" ;
+  <http://rdf.ebi.ac.uk/dataset/ensembl/83/1/7719_subset_xref> a void:Dataset ;
+    dcterms:title "x_ref for 7719" ;
+    dcterms:description "xref for 7719 - whatever it is, most likely not homo sapiens but this is just an example" ;
     void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla_xrefs.ttl.gz> .
 
   
