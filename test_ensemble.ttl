@@ -9,11 +9,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-
-
-
-
-
 #Summary level
 <http://rdf.ebi.ac.uk/dataset/ensembl> a dct:Dataset ;
   dcterms:title "VoID Description"@en ;
@@ -33,9 +28,6 @@
   pav:version "86" ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.void> .
 
-
-
-
 #Distribution Level
 <http://rdf.ebi.ac.uk/dataset/ensembl/86.void> a void:Dataset ;
   dcterms:description "Ensembl is a joint project between EMBL - EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes."@en ;
@@ -44,18 +36,12 @@
   dcterms:title "Ensembl 86 RDF"@en ;
 	void:dataDump <ftp link to the whole of ensembl e.g - ftp://ftp.ensembl.org/pub/current_rdf/ensembl.gz>	. # not required if your sub parts have their own datadumps
 
-
-
-
-
-
 #Summary home sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens> a dct:Dataset ;
     dct:description " ……. " ;
     dct:publisher "Publisher" ;
     dct:title "Ensembl - Homo sapiens" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> .
-
 
 #Version Level of homo sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> a dct:Dataset ;
@@ -68,7 +54,6 @@
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-
 #Distribution Level of Homo sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> a void:Dataset,
     dcat:Distribution ;
@@ -80,22 +65,17 @@
     void:subset <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset>,
      	<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> .  
 
-
 #Subset of Distribution level
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset> a void:Dataset ;
   dcterms:title "Ensembl 86 homo sapiens" ;
   dcterms:description "Ensembl 86 homo sapiens" ;
-  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//homo_sapiens/homo_sapiens.ttl.gz> .
-
+  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri.ttl.gz> .
 
 #Subset of xref for homo_sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> a void:Dataset ;
   dcterms:title "xrefs for homo_sapiens" ;
   dcterms:description "xrefs for homo_sapiens" ;
-  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//homo_sapiens/homo_sapiens_xrefs.ttl.gz>.
-
-
-
+  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri_xrefs.ttl.gz>.
 
 
 
@@ -105,8 +85,6 @@
     dct:publisher "Who do we put in here" ;
     dct:title "Adverse Event Reporting Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> .
-
-
 
 
 #Version Level of 7719
@@ -119,9 +97,6 @@
     dct:issued "2016-10-31"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
-
-
-
 
 #Distribution level of 7719
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> a void:Dataset,
@@ -136,15 +111,11 @@
     void:subset  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset>,
      	<http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> .  
 
-
 #Subset of Distribution level
  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> a void:Dataset ;
   dcterms:title "7719 - human readable" ;
   dcterms:description "7719 stands for ... " ;
   void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla.ttl.gz> .
-
-
-
 
   #Subset of xref for 7719
   <http://rdf.ebi.ac.uk/dataset/ensembl/83/1/7719_subset_xref> a void:Dataset ;
