@@ -34,7 +34,7 @@
   dcterms:license <http://www.ebi.ac.uk/Information/termsofuse.html> ;
   dcterms:publisher <http://www.ebi.ac.uk> ;
   dcterms:title "Ensembl 86 RDF"@en ;
-	void:dataDump <ftp link to the whole of ensembl e.g - ftp://ftp.ensembl.org/pub/current_rdf/ensembl.gz>	. # not required if your sub parts have their own datadumps
+	void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf/ensembl>	. # not required if your sub parts have their own datadumps
 
 #Summary home sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens> a dct:Dataset ;
