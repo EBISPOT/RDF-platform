@@ -7,7 +7,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/rdf_reactome> a  dct:Dataset;
   dcterms:title "Reactome" ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01>;
   dct:publisher "EBI" ;
 	dcterms:description "The Description of this dataSet" .
 
