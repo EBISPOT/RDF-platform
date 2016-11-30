@@ -1,80 +1,165 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix ebi: <http://www.ebi.ac.uk/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix idot: <http://identifiers.org/idot/> .
-@prefix ols: <http://rdf.ebi.ac.uk/dataset/> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+#Definition of prefixes
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
+#Summary level
+<http://rdf.ebi.ac.uk/dataset/ensembl> a dct:Dataset ;
+  dcterms:title "VoID Description"@en ;
+  dcterms:description "The VoID description for the RDF representation of this dataset."@en ;
+  dct:publisher "EBI" ;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86> ;
+  dct:hasPart <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>,
+	<http://rdf.ebi.ac.uk/dataset/ensembl/7719> .
+   
+#Version level
+<http://rdf.ebi.ac.uk/dataset/ensembl/86> a dct:Dataset ;
+  dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl> ;
+  dcterms:description "Ensembl is a joint project between EMBL - EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes."@en ;
+  dcterms:title "Ensembl RDF"@en ;
+  dcterms:publisher <http://www.ebi.ac.uk> ;
+  dct:creator "EBI - Ensembl" ;
+  pav:version "86" ;
+  dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.void> .
 
+#Distribution Level
+<http://rdf.ebi.ac.uk/dataset/ensembl/86.void> a void:Dataset ;
+  dcterms:description "Ensembl is a joint project between EMBL - EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes."@en ;
+  dcterms:license <http://www.ebi.ac.uk/Information/termsofuse.html> ;
+  dcterms:publisher <http://www.ebi.ac.uk> ;
+  dcterms:title "Ensembl 86 RDF"@en ;
+	void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf/ensembl>	. # not required if your sub parts have their own datadumps
 
-ols:ols a dct:dataset ;
-    dct:description "This is just a test to create a OLS VoID File" ;
-    dct:hasPart ols:aeo ;
-    dct:publisher "http://www.ebi.ac.uk/" ;
-    dct:title "Ontology Lookup Service" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2016-9-22> ;
-    foaf:page "http://www.ebi.ac.uk/rdf/services/" .
+#Summary home sapiens
+<http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens> a dct:Dataset ;
+    dct:description " ……. " ;
+    dct:publisher "Publisher" ;
+    dct:title "Ensembl - Homo sapiens" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> .
 
-
-<http://rdf.ebi.ac.uk/dataset/ols/2016-9-22> a dct:dataset ;
-    dct:creator ebi:SPOT ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2016-9-22.rdf> ;
-    dct:isVersionOf ols:ols ;
-    dct:issued "2016-01-01"^^xsd:date ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.ebi.ac.uk/" ;
-    dct:rights "Apache version 2.0" ;
-    dct:title "Title on Version level? " .
-
-<http://rdf.ebi.ac.uk/dataset/ols/2016-9-22.rdf> a void:dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "ols" ;
-    dct:creator ebi:SPOT ;
-    dct:description "This is just a test to create a OLS VoID File" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.ebi.ac.uk/" ;
-    dct:title "Add title for ols on Distribution level" ;
-    pav:version "2016-01-01"^^xsd:date ;
-    void:Dump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/" ;
-    foaf:page <http://www.ebi.ac.uk/rdf/service/ols> .
-
-
-
-
-
-ols:aeo a dct:dataset ;
-    dct:description "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology" ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "Anatomical Entity Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15> .
-
-
-
-
-<http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15> a dct:dataset ;
+#Version Level of homo sapiens
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15.rdf> ;
-    dct:isVersionOf ols:aeo ;
-    dct:issued "2016-01-01"^^xsd:date ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> ;
+    dct:isVersionOf  <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>;
+    dct:issued "2016-10-31"^^xsd:date ;
+    pav:version "86" ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" .
 
-
-
-<http://rdf.ebi.ac.uk/dataset/aeo/2016-07-15.rdf> a void:dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "aeo" ;
+#Distribution Level of Homo sapiens
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> a void:Dataset,
+    dcat:Distribution ;
     dct:creator "Who is the creator/DistLevel" ;
-    dct:description "AEO is an ontology of anatomical structures that expands Cy" ;
+    dct:description "Description of ...";
+     dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset>,
+     	<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> .  
+
+#Subset of Distribution level
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset> a void:Dataset ;
+  dcterms:title "Ensembl 86 homo sapiens" ;
+  dcterms:description "Ensembl 86 homo sapiens" ;
+  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri.ttl.gz> .
+
+#Subset of xref for homo_sapiens
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> a void:Dataset ;
+  dcterms:title "xrefs for homo_sapiens" ;
+  dcterms:description "xrefs for homo_sapiens" ;
+  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri_xrefs.ttl.gz>.
+
+
+
+#Summary Level of 7719
+<http://rdf.ebi.ac.uk/dataset/ensembl/7719> a dct:Dataset ;
+ dct:description "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "Adverse Event Reporting Ontology" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> .
+
+
+#Version Level of 7719
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> ;
+    dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl/7719>  ;
+    pav:version "86" ;
+    dct:issued "2016-10-31"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" .
+
+#Distribution level of 7719
+<http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> a void:Dataset,
+    dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "2014-12-05" ;
-    void:dataDump "Insert DataDump link here" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/aeo" .
+    pav:version "17-05-2016" ;
+    void:subset  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset>,
+     	<http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> .  
+
+#Subset of Distribution level
+ <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset> a void:Dataset ;
+  dcterms:title "7719 - human readable" ;
+  dcterms:description "7719 stands for ... " ;
+  void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla.ttl.gz> .
+
+  #Subset of xref for 7719
+  <http://rdf.ebi.ac.uk/dataset/ensembl/83/1/7719_subset_xref> a void:Dataset ;
+    dcterms:title "x_ref for 7719" ;
+    dcterms:description "xref for 7719 - whatever it is, most likely not homo sapiens but this is just an example" ;
+    void:dataDump <ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla_xrefs.ttl.gz> .
+
+  
+
+
+
+
+
+
+#@prefix dcterms: <http://purl.org/dc/terms/> .
+#@prefix void: <http://rdfs.org/ns/void#> .
+#@prefix dct: <http://purl.org/dc/terms/> .
+#@prefix dcat: <http://www.w3.org/ns/dcat#> .
+#@prefix idot: <http://identifiers.org/idot/> .
+#@prefix pav: <http://purl.org/pav/> .
+
+# <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test> a  dct:Dataset;
+#   dcterms:title "Ensembl summary level" ;
+#   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01>;
+#   dct:publisher "EBI" ;
+#  	dcterms:description "The Description of this dataSet" .
+
+
+#<http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01> a dct:Dataset ;
+#  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test>;
+#  	dcterms:description "The Description of the Version level of Reactome";
+#     dcterms:title "Ensembl Version" ;
+#    dct:publisher "EBI" ;
+#   pav:version "0.1.0" ;
+#    dct:creator "TestCreator in that case" ;
+#    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01.rdf>.
+
+
+#  <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01.rdf> a void:Dataset ,
+#    dcat:Distribution ;
+#    void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_ensemble.tar.gz> ;
+#    dct:creator "TestCreator in that case" ;
+ # 	dcterms:description "The Description of the Version level of Reactome";
+ #   dct:publisher "EBI" ;
+ #   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+ #   idot:preferredPrefix "ensembl" ;
+ #   dcterms:title "Test Distribution level of ensembl" .
