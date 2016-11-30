@@ -6,4 +6,4 @@ This is the github repo for the EBI-RDF platform. The *master branch* shall cont
 Find this folder in here for too useful scripts how to create and publish your VoID file! 
 
 ##VoID File:
-Find the pdf document in this folder descriping how the VoID has to be structured in order to be compatible with our minimum standards.   
+Find the pdf document in this folder (with the incredible name "VoID file structure for the RDF platform.pdf") - it is descriping how the VoID has to be structured in order to be compatible with our minimum standards.   
