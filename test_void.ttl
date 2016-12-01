@@ -15,7 +15,7 @@
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dct:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/gwas>;
   	dcterms:description "The Description of the Version level of Biosamples";
-    dcterms:title "Reactome Version" ;
+    dcterms:title "GWAS Version" ;
     dct:publisher "EBI" ;
   pav:version "0.1.0" ;
     dct:creator "EBI - SPOT, Dani" ;
