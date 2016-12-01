@@ -24,7 +24,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/pub/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-kb.owl" ;
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_pub.tar" ;
   dct:creator "TestCreator in that case" ;
 	dcterms:description "The Distribution Level of pub void";
   dct:publisher "EBI" ;
