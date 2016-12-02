@@ -34,9 +34,9 @@
         <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const/ailuropoda_melanoleuca_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const/ailuropoda_melanoleuca> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/ailuropoda_melanoleuca.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const/ailuropoda_melanoleuca> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ailuropoda_melanoleuca/ailuropoda_melanoleuca.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const/ailuropoda_melanoleuca_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/ailuropoda_melanoleuca_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const/ailuropoda_melanoleuca_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ailuropoda_melanoleuca/ailuropoda_melanoleuca_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -61,9 +61,9 @@
         <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const/anas_platyrhynchos_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const/anas_platyrhynchos> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anas_platyrhynchos.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const/anas_platyrhynchos> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anas_platyrhynchos/anas_platyrhynchos.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const/anas_platyrhynchos_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anas_platyrhynchos_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const/anas_platyrhynchos_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anas_platyrhynchos/anas_platyrhynchos_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -88,9 +88,9 @@
         <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const/anolis_carolinensis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const/anolis_carolinensis> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anolis_carolinensis.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const/anolis_carolinensis> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anolis_carolinensis/anolis_carolinensis.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const/anolis_carolinensis_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anolis_carolinensis_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const/anolis_carolinensis_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anolis_carolinensis/anolis_carolinensis_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -115,9 +115,9 @@
         <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const/astyanax_mexicanus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const/astyanax_mexicanus> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/astyanax_mexicanus.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const/astyanax_mexicanus> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//astyanax_mexicanus/astyanax_mexicanus.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const/astyanax_mexicanus_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/astyanax_mexicanus_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const/astyanax_mexicanus_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//astyanax_mexicanus/astyanax_mexicanus_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/bos_taurus/const> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -142,9 +142,9 @@
         <http://rdf.ebi.ac.uk/dataset/bos_taurus/const/bos_taurus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/bos_taurus/const/bos_taurus> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/bos_taurus.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/const/bos_taurus> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//bos_taurus/bos_taurus.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/bos_taurus/const/bos_taurus_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/bos_taurus_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/const/bos_taurus_xref> void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//bos_taurus/bos_taurus_xrefs.ttl.gz" .
 
 ensembl:ensembl a dct:Dataset ;
     dct:description "This is just a test to create a OLS VoID File" ;
