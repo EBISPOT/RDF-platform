@@ -14,7 +14,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dct:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/gwas>;
-  	dcterms:description "The Description of the Version level of Biosamples";
+  	dcterms:description "The Description of the Version level of GWAS";
     dcterms:title "GWAS Version" ;
     dct:publisher "EBI" ;
   pav:version "0.1.0" ;
@@ -24,10 +24,23 @@
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-kb.owl" ;
   dct:creator "TestCreator in that case" ;
 	dcterms:description "The Distribution Level of GWAS void";
   dct:publisher "EBI" ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
   idot:preferredPrefix "biosamples" ;
-  dcterms:title "Test - Distribution of GWAS" .
+  dcterms:title "Test - Distribution of GWAS" ;
+ void:subset <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data>,
+	<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema>.
+
+
+<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data> a void:DataSet;
+    dcterms:title "Empty" ;
+    dcterms:description "The Description of the Version level of Biosamples";
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-kb.owl" .
+
+
+<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema> a void:Dataset;
+    dcterms:title "Schema" ;
+    dcterms:description "Empty";
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-diagram.owl" .
