@@ -1,34 +1,187 @@
-  @prefix dcterms: <http://purl.org/dc/terms/> .
-  @prefix void: <http://rdfs.org/ns/void#> .
-  @prefix dct: <http://purl.org/dc/terms/> .
-  @prefix dcat: <http://www.w3.org/ns/dcat#> .
-  @prefix idot: <http://identifiers.org/idot/> .
-  @prefix pav: <http://purl.org/pav/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ebi: <http://www.ebi.ac.uk/> .
+@prefix ensembl: <http://rdf.ebi.ac.uk/dataset/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-  <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test> a  dct:Dataset;
-    dcterms:title "Ensembl summary level" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01>;
-    dct:publisher "EBI" ;
-  	dcterms:description "The Description of this dataSet" .
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const.rdf> ;
+    dct:isVersionOf ensembl:ailuropoda_melanoleuca ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const" .
 
-
-  <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01> a dct:Dataset ;
-    <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test>;
-    	dcterms:description "The Description of the Version level of Reactome";
-      dcterms:title "Ensembl Version" ;
-      dct:publisher "EBI" ;
-      pav:version "0.1.0" ;
-      dct:creator "TestCreator in that case" ;
-      dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01.rdf>.
-
-
-  <http://rdf.ebi.ac.uk/dataset/rdf_ensembl_test/Version01.rdf> a void:Dataset ,
-    dcat:Distribution ;
-    void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/ensembl/release-77.tar.gz> ;
-    dct:creator "TestCreator in that case" ;
-  	dcterms:description "The Description of the Version level of Reactome";
-    dct:publisher "EBI" ;
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "description thing" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    idot:preferredPrefix "ensembl" ;
-    dcterms:title "Test Distribution level of ensembl" .
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const" ;
+    void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/ailuropoda_melanoleuca" ;
+    foaf:page "unknown" .
 
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const.rdf> ;
+    dct:isVersionOf ensembl:anas_platyrhynchos ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const" .
+
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "description thing" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const" ;
+    void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anas_platyrhynchos" ;
+    foaf:page "unknown" .
+
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const.rdf> ;
+    dct:isVersionOf ensembl:anolis_carolinensis ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const" .
+
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "description thing" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const" ;
+    void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/anolis_carolinensis" ;
+    foaf:page "unknown" .
+
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const.rdf> ;
+    dct:isVersionOf ensembl:astyanax_mexicanus ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const" .
+
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "description thing" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const" ;
+    void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/astyanax_mexicanus" ;
+    foaf:page "unknown" .
+
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/const> a dct:Dataset ;
+    dct:creator "Who is the creator/Versionlevel" ;
+    dct:description "Description of ..." ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bos_taurus/const.rdf> ;
+    dct:isVersionOf ensembl:bos_taurus ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:title "What is the Version title?" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/bos_taurus/const" .
+
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/const.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator "Who is the creator/DistLevel" ;
+    dct:description "Description of ...",
+        "description thing" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:title "Distribution title" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/bos_taurus/const" ;
+    void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf/bos_taurus" ;
+    foaf:page "unknown" .
+
+ensembl:ensembl a dct:Dataset ;
+    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:hasPart ensembl:ailuropoda_melanoleuca,
+        ensembl:anas_platyrhynchos,
+        ensembl:anolis_carolinensis,
+        ensembl:astyanax_mexicanus,
+        ensembl:bos_taurus ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:title "Ensembl" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2016-12-1> ;
+    foaf:page "http://www.ebi.ac.uk/rdf/services/" .
+
+<http://rdf.ebi.ac.uk/dataset/ensembl/2016-12-1> a dct:Dataset ;
+    dct:creator ebi:ENSEMBL ;
+    dct:description "Ensembl description on version level" ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2016-12-1.rdf> ;
+    dct:isVersionOf ensembl:ensembl ;
+    dct:issued "2016-12-01"^^xsd:date ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:rights "Apache version 2.0" ;
+    dct:title "Title on Version level? " ;
+    pav:version "2016-12-1" .
+
+<http://rdf.ebi.ac.uk/dataset/ensembl/2016-12-1.rdf> a void:Dataset,
+        dcat:Distribution ;
+    dct:creator ebi:ENSEMBL ;
+    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://www.ebi.ac.uk/" ;
+    dct:title "Add title for ensembl on Distribution level" ;
+    pav:version "2016-12-01"^^xsd:date ;
+    void:dataDump "unknown" ;
+    foaf:page <http://www.ebi.ac.uk/rdf/service/XXXwhateverXXX> .
+
+ensembl:ailuropoda_melanoleuca a dct:Dataset ;
+    dct:description "Empty for this" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "ailuropoda_melanoleuca" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/const> .
+
+ensembl:anas_platyrhynchos a dct:Dataset ;
+    dct:description "Empty for this" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "anas_platyrhynchos" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/const> .
+
+ensembl:anolis_carolinensis a dct:Dataset ;
+    dct:description "Empty for this" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "anolis_carolinensis" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/const> .
+
+ensembl:astyanax_mexicanus a dct:Dataset ;
+    dct:description "Empty for this" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "astyanax_mexicanus" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/const> .
+
+ensembl:bos_taurus a dct:Dataset ;
+    dct:description "Empty for this" ;
+    dct:publisher "Who do we put in here" ;
+    dct:title "bos_taurus" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bos_taurus/const> .
