@@ -2484,13 +2484,11 @@ ols:ols a dct:dataset ;
         ols:spd,
         ols:stato,
         ols:swo,
-        ols:symp,
         ols:tads,
         ols:taxrank,
         ols:teddy,
         ols:tgma,
         ols:to,
-        ols:trans,
         ols:tto,
         ols:uberon,
         ols:uo,
@@ -3316,29 +3314,6 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/swo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/swo" .
 
-<http://rdf.ebi.ac.uk/dataset/symp/2013-06-03> a dct:dataset ;
-    dct:creator "Who is the creator/Versionlevel" ;
-    dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/symp/2013-06-03.rdf> ;
-    dct:isVersionOf ols:symp ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
-    dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/symp/2013-06-03" .
-
-<http://rdf.ebi.ac.uk/dataset/symp/2013-06-03.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "symp" ;
-    dct:creator "Who is the creator/DistLevel" ;
-    dct:description "An ontology of disease symptoms, with symptoms encompasing perceived changes in function, sensations or appearance reported by a patient indicative of a disease.",
-        "Description of ..." ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
-    dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/symp/2013-06-03" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/symp.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/symp" .
-
 <http://rdf.ebi.ac.uk/dataset/tads/08-11-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
@@ -3453,29 +3428,6 @@ ols:ols a dct:dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/to/2016-08-30" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/to.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/to" .
-
-<http://rdf.ebi.ac.uk/dataset/trans/2014-08-23> a dct:dataset ;
-    dct:creator "Who is the creator/Versionlevel" ;
-    dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/trans/2014-08-23.rdf> ;
-    dct:isVersionOf ols:trans ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
-    dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/trans/2014-08-23" .
-
-<http://rdf.ebi.ac.uk/dataset/trans/2014-08-23.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "trans" ;
-    dct:creator "Who is the creator/DistLevel" ;
-    dct:description "An ontology representing the disease transmission process during which the pathogen is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host.",
-        "Description of ..." ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
-    dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/trans/2014-08-23" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/trans.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/trans" .
 
 <http://rdf.ebi.ac.uk/dataset/tto/20-12-2016> a dct:dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
@@ -4645,12 +4597,6 @@ ols:swo a dct:dataset ;
     dct:title "Software ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/swo/1.5> .
 
-ols:symp a dct:dataset ;
-    dct:description "An ontology of disease symptoms, with symptoms encompasing perceived changes in function, sensations or appearance reported by a patient indicative of a disease." ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "Symptom Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/symp/2013-06-03> .
-
 ols:tads a dct:dataset ;
     dct:description "The anatomy of the Tick, <i>Families: Ixodidae, Argassidae</i>" ;
     dct:publisher "Who do we put in here" ;
@@ -4680,12 +4626,6 @@ ols:to a dct:dataset ;
     dct:publisher "Who do we put in here" ;
     dct:title "Plant Trait Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/to/2016-08-30> .
-
-ols:trans a dct:dataset ;
-    dct:description "An ontology representing the disease transmission process during which the pathogen is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host." ;
-    dct:publisher "Who do we put in here" ;
-    dct:title "Pathogen Transmission Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/trans/2014-08-23> .
 
 ols:tto a dct:dataset ;
     dct:description "An ontology covering the taxonomy of teleosts (bony fish)" ;
