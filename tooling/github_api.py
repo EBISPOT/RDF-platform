@@ -13,7 +13,7 @@ import datetime
 
 def pushToGit(fileNameGit, gitBranch, path_to_file_on_disc, gitToken):
     message="Automated update "+str(datetime.datetime.now())
-    path="https://api.github.com/repos/EBISPOT/RDF-Platform/branches/"+gitBranch
+    path="https://api.github.com/repos/EBISPOT/RDF-platform/branches/"+gitBranch
 
     r=requests.get(path, headers={'Authorization': gitToken})
     rjson=r.json()
@@ -47,10 +47,12 @@ def pushToGit(fileNameGit, gitBranch, path_to_file_on_disc, gitToken):
     inputdata["content"]=content
     inputdata["sha"]=str(sha)
 
-    updateURL="https://api.github.com/repos/EBISPOT/RDF-Platform/branches/"+fileNameGit
-
+    updateURL="https://api.github.com/repos/EBISPOT/RDF-platform/contents/"+fileNameGit
     try:
         rPut=requests.put(updateURL, headers={'Authorization': gitToken}, data=json.dumps(inputdata))
+        if rPut.status_code == 404:
+            print "Status code 404 when I tried to push - so I raise an error!"
+            raise Exception
     except requests.exceptions.RequestException as e:
         print 'Something went wrong! I will print all the information that is available so you can figure out what happend!'
         print rPut
@@ -59,11 +61,10 @@ def pushToGit(fileNameGit, gitBranch, path_to_file_on_disc, gitToken):
         print e
 
 
-
 ### Calling the function
-fileName="void.jpg"
+fileName="void.ttl"
 branch="Testcase1"
-path_to_void_file_on_disc="ensembl_void.ttl"
+path_to_void_file_on_disc="XXX_void.ttl"
 gitToken="token yourgithubtoken"
 print "Let's start pushing stuff to git..."
 pushToGit(fileName, branch, path_to_void_file_on_disc, gitToken)
