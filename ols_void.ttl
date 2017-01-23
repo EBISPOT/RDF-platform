@@ -11,7 +11,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/dataset/aeo/2014-12-05> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/aeo/2014-12-05> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aeo/2014-12-05.rdf> ;
@@ -34,7 +34,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aeo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/aeo" .
 
-<http://rdf.ebi.ac.uk/dataset/aero/17-05-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/aero/17-05-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/aero/17-05-2016.rdf> ;
@@ -57,7 +57,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/aero.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/aero" .
 
-<http://rdf.ebi.ac.uk/dataset/agro/2016-06-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/agro/2016-06-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/agro/2016-06-03.rdf> ;
@@ -80,7 +80,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/agro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/agro" .
 
-<http://rdf.ebi.ac.uk/dataset/ancestro/1.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ancestro/1.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ancestro/1.0.rdf> ;
@@ -103,7 +103,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ancestro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ancestro" .
 
-<http://rdf.ebi.ac.uk/dataset/apo/2016-12-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/apo/2016-12-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/apo/2016-12-14.rdf> ;
@@ -126,7 +126,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/apo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/apo" .
 
-<http://rdf.ebi.ac.uk/dataset/atol/01-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/atol/01-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/atol/01-11-2016.rdf> ;
@@ -149,7 +149,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/atol.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/atol" .
 
-<http://rdf.ebi.ac.uk/dataset/bao/2.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bao/2.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bao/2.0.rdf> ;
@@ -172,7 +172,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bao" .
 
-<http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08.rdf> ;
@@ -195,7 +195,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bcgo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bcgo" .
 
-<http://rdf.ebi.ac.uk/dataset/bco/2016-12-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bco/2016-12-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bco/2016-12-14.rdf> ;
@@ -218,7 +218,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bco" .
 
-<http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> ;
@@ -241,7 +241,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bfo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bfo" .
 
-<http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03.rdf> ;
@@ -264,7 +264,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bspo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bspo" .
 
-<http://rdf.ebi.ac.uk/dataset/bto/2016-05-05> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/bto/2016-05-05> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bto/2016-05-05.rdf> ;
@@ -287,7 +287,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/bto" .
 
-<http://rdf.ebi.ac.uk/dataset/caro/05-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/caro/05-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/caro/05-12-2016.rdf> ;
@@ -310,7 +310,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/caro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/caro" .
 
-<http://rdf.ebi.ac.uk/dataset/cco/23-03-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cco/23-03-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cco/23-03-2016.rdf> ;
@@ -333,7 +333,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cco" .
 
-<http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01.rdf> ;
@@ -356,7 +356,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cdao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cdao" .
 
-<http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12.rdf> ;
@@ -379,7 +379,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ceph.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ceph" .
 
-<http://rdf.ebi.ac.uk/dataset/chebi/15-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/chebi/15-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/15-12-2016.rdf> ;
@@ -402,7 +402,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chebi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chebi" .
 
-<http://rdf.ebi.ac.uk/dataset/cheminf/1.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cheminf/1.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cheminf/1.0.rdf> ;
@@ -425,7 +425,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cheminf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cheminf" .
 
-<http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20.rdf> ;
@@ -448,7 +448,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chmo" .
 
-<http://rdf.ebi.ac.uk/dataset/cio/2015-03-10> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cio/2015-03-10> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cio/2015-03-10.rdf> ;
@@ -471,7 +471,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cio" .
 
-<http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23.rdf> ;
@@ -494,7 +494,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cl.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cl" .
 
-<http://rdf.ebi.ac.uk/dataset/clo/2.1.83> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/clo/2.1.83> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/clo/2.1.83.rdf> ;
@@ -517,17 +517,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/clo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/clo" .
 
-<http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017.rdf> ;
     dct:isVersionOf ols:cmo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "cmo" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -536,11 +536,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cmo" .
 
-<http://rdf.ebi.ac.uk/dataset/cmpo/04-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cmpo/04-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cmpo/04-11-2016.rdf> ;
@@ -563,7 +563,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cmpo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cmpo" .
 
-<http://rdf.ebi.ac.uk/dataset/cteno/2016-10-19> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cteno/2016-10-19> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cteno/2016-10-19.rdf> ;
@@ -586,7 +586,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cteno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cteno" .
 
-<http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016.rdf> ;
@@ -609,7 +609,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cvdo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cvdo" .
 
-<http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03.rdf> ;
@@ -632,17 +632,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddanat.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddanat" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21.rdf> ;
     dct:isVersionOf ols:ddpheno ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ddpheno" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -651,11 +651,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddpheno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddpheno" .
 
-<http://rdf.ebi.ac.uk/dataset/dideo/release_2016-10-20> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/dideo/release_2016-10-20> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dideo/release_2016-10-20.rdf> ;
@@ -678,7 +678,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dideo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dideo" .
 
-<http://rdf.ebi.ac.uk/dataset/doid/2017-01-13> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/doid/2017-01-13> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/doid/2017-01-13.rdf> ;
@@ -701,7 +701,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/doid.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/doid" .
 
-<http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19.rdf> ;
@@ -724,7 +724,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dpo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dpo" .
 
-<http://rdf.ebi.ac.uk/dataset/dron/16-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/dron/16-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dron/16-12-2016.rdf> ;
@@ -747,7 +747,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dron.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dron" .
 
-<http://rdf.ebi.ac.uk/dataset/eco/2017-01-06> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/eco/2017-01-06> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eco/2017-01-06.rdf> ;
@@ -770,7 +770,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eco" .
 
-<http://rdf.ebi.ac.uk/dataset/edam/03-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/edam/03-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/edam/03-01-2017.rdf> ;
@@ -793,7 +793,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/edam.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/edam" .
 
-<http://rdf.ebi.ac.uk/dataset/efo/2.80> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/efo/2.80> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/efo/2.80.rdf> ;
@@ -816,7 +816,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/efo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/efo" .
 
-<http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04.rdf> ;
@@ -839,17 +839,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ehdaa2.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ehdaa2" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/emap/2017-01-22> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2017-01-22.rdf> ;
     dct:isVersionOf ols:emap ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-01-22" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/emap/2017-01-22.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "emap" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -858,11 +858,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-01-22" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emap.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/emap" .
 
-<http://rdf.ebi.ac.uk/dataset/emapa/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/emapa/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emapa/2016-12-15.rdf> ;
@@ -885,7 +885,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emapa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/emapa" .
 
-<http://rdf.ebi.ac.uk/dataset/enm/3.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/enm/3.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/enm/3.0.rdf> ;
@@ -908,7 +908,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/enm.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/enm" .
 
-<http://rdf.ebi.ac.uk/dataset/envo/2017-01-07> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/envo/2017-01-07> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/envo/2017-01-07.rdf> ;
@@ -931,7 +931,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/envo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/envo" .
 
-<http://rdf.ebi.ac.uk/dataset/eo/20-10-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/eo/20-10-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eo/20-10-2016.rdf> ;
@@ -954,7 +954,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eo" .
 
-<http://rdf.ebi.ac.uk/dataset/eol/01-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/eol/01-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/eol/01-11-2016.rdf> ;
@@ -977,7 +977,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/eol.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/eol" .
 
-<http://rdf.ebi.ac.uk/dataset/epo/23-03-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/epo/23-03-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/epo/23-03-2016.rdf> ;
@@ -1000,7 +1000,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/epo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/epo" .
 
-<http://rdf.ebi.ac.uk/dataset/ero/27-07-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ero/27-07-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ero/27-07-2016.rdf> ;
@@ -1023,7 +1023,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ero.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ero" .
 
-<http://rdf.ebi.ac.uk/dataset/exo/2014-09-22> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/exo/2014-09-22> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/exo/2014-09-22.rdf> ;
@@ -1046,7 +1046,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/exo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/exo" .
 
-<http://rdf.ebi.ac.uk/dataset/fao/2016-08-24> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fao/2016-08-24> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fao/2016-08-24.rdf> ;
@@ -1069,7 +1069,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fao" .
 
-<http://rdf.ebi.ac.uk/dataset/fbbi/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fbbi/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbbi/2016-12-15.rdf> ;
@@ -1092,7 +1092,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbbi" .
 
-<http://rdf.ebi.ac.uk/dataset/fbbt/2016-12-08> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fbbt/2016-12-08> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbbt/2016-12-08.rdf> ;
@@ -1115,7 +1115,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbbt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbbt" .
 
-<http://rdf.ebi.ac.uk/dataset/fbcv/2016-10-27> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fbcv/2016-10-27> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbcv/2016-10-27.rdf> ;
@@ -1138,7 +1138,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbcv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbcv" .
 
-<http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14.rdf> ;
@@ -1161,7 +1161,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fbdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbdv" .
 
-<http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016.rdf> ;
@@ -1184,7 +1184,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fix.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fix" .
 
-<http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016.rdf> ;
@@ -1207,7 +1207,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flopo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flopo" .
 
-<http://rdf.ebi.ac.uk/dataset/flu/0.9.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/flu/0.9.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flu/0.9.0.rdf> ;
@@ -1230,17 +1230,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flu.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flu" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fma/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-01-21.rdf> ;
     dct:isVersionOf ols:fma ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fma/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fma" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1249,11 +1249,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fma" .
 
-<http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17.rdf> ;
@@ -1276,7 +1276,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/foodon" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-01-18> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-01-18> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-01-18.rdf> ;
@@ -1299,7 +1299,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fypo" .
 
-<http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016.rdf> ;
@@ -1322,7 +1322,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gaz.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gaz" .
 
-<http://rdf.ebi.ac.uk/dataset/genepio/2017-01-06> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/genepio/2017-01-06> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/genepio/2017-01-06.rdf> ;
@@ -1345,7 +1345,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/genepio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/genepio" .
 
-<http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26.rdf> ;
@@ -1368,7 +1368,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/geo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/geo" .
 
-<http://rdf.ebi.ac.uk/dataset/gexo/19-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/gexo/19-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gexo/19-01-2017.rdf> ;
@@ -1391,17 +1391,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gexo" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-01-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/go/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-01-16.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-01-21.rdf> ;
     dct:isVersionOf ols:go ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-01-16" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-01-16.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/go/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "go" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1410,11 +1410,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-01-16" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/go" .
 
-<http://rdf.ebi.ac.uk/dataset/hao/2016-05-18> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/hao/2016-05-18> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hao/2016-05-18.rdf> ;
@@ -1437,7 +1437,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hao" .
 
-<http://rdf.ebi.ac.uk/dataset/hom/2015-01-07> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/hom/2015-01-07> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hom/2015-01-07.rdf> ;
@@ -1460,7 +1460,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hom.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hom" .
 
-<http://rdf.ebi.ac.uk/dataset/hp/2016-09-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/hp/2016-09-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hp/2016-09-03.rdf> ;
@@ -1483,7 +1483,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hp" .
 
-<http://rdf.ebi.ac.uk/dataset/hsapdv/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/hsapdv/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/hsapdv/2016-12-15.rdf> ;
@@ -1506,7 +1506,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/hsapdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/hsapdv" .
 
-<http://rdf.ebi.ac.uk/dataset/iao/2015-02-23> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/iao/2015-02-23> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/iao/2015-02-23.rdf> ;
@@ -1529,7 +1529,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/iao" .
 
-<http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05.rdf> ;
@@ -1552,7 +1552,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ido.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ido" .
 
-<http://rdf.ebi.ac.uk/dataset/idomal/14-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/idomal/14-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/idomal/14-11-2016.rdf> ;
@@ -1575,7 +1575,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/idomal.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/idomal" .
 
-<http://rdf.ebi.ac.uk/dataset/kisao/2.3.12> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/kisao/2.3.12> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/kisao/2.3.12.rdf> ;
@@ -1598,7 +1598,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/kisao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/kisao" .
 
-<http://rdf.ebi.ac.uk/dataset/lbo/10-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/lbo/10-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/lbo/10-01-2017.rdf> ;
@@ -1621,17 +1621,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/lbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/lbo" .
 
-<http://rdf.ebi.ac.uk/dataset/ma/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ma/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ma/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ma/2017-01-21.rdf> ;
     dct:isVersionOf ols:ma ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ma/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/ma/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/ma/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ma/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ma" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1640,11 +1640,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ma/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ma/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ma" .
 
-<http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17.rdf> ;
@@ -1667,7 +1667,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mamo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mamo" .
 
-<http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05.rdf> ;
@@ -1690,7 +1690,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mf" .
 
-<http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16.rdf> ;
@@ -1713,7 +1713,7 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfmo" .
 
-<http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23.rdf> ;
@@ -1736,17 +1736,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfoem.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfoem" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mi/2017-01-22> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2017-01-22.rdf> ;
     dct:isVersionOf ols:mi ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-01-22" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mi/2017-01-22.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mi" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1755,11 +1755,11 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-01-22" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mi" .
 
-<http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01.rdf> ;
@@ -1784,7 +1784,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miapa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/miapa" .
 
-<http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016.rdf> ;
@@ -1807,7 +1807,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mirnao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mirnao" .
 
-<http://rdf.ebi.ac.uk/dataset/miro/2014-05-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/miro/2014-05-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miro/2014-05-14.rdf> ;
@@ -1830,7 +1830,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/miro" .
 
-<http://rdf.ebi.ac.uk/dataset/mmo/28-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mmo/28-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mmo/28-11-2016.rdf> ;
@@ -1853,7 +1853,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mmo" .
 
-<http://rdf.ebi.ac.uk/dataset/mmusdv/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mmusdv/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mmusdv/2016-12-15.rdf> ;
@@ -1876,17 +1876,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmusdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mmusdv" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mod/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2017-01-21.rdf> ;
     dct:isVersionOf ols:mod ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mod/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mod" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1895,11 +1895,11 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mod.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mod" .
 
-<http://rdf.ebi.ac.uk/dataset/mop/2014-09-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mop/2014-09-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mop/2014-09-03.rdf> ;
@@ -1922,7 +1922,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mop.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mop" .
 
-<http://rdf.ebi.ac.uk/dataset/mp/2017-01-06> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mp/2017-01-06> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mp/2017-01-06.rdf> ;
@@ -1945,17 +1945,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mp" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21.rdf> ;
     dct:isVersionOf ols:mpath ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mpath" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -1964,11 +1964,11 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mpath.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mpath" .
 
-<http://rdf.ebi.ac.uk/dataset/mro/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/mro/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mro/2016-12-15.rdf> ;
@@ -1991,7 +1991,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mro" .
 
-<http://rdf.ebi.ac.uk/dataset/ms/14-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ms/14-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ms/14-12-2016.rdf> ;
@@ -2014,7 +2014,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ms.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ms" .
 
-<http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09.rdf> ;
@@ -2037,7 +2037,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/nbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/nbo" .
 
-<http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15.rdf> ;
@@ -2060,7 +2060,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncbitaxon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncbitaxon" .
 
-<http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10.rdf> ;
@@ -2083,7 +2083,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncro" .
 
-<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.333> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.333> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.333.rdf> ;
@@ -2106,17 +2106,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oae" .
 
-<http://rdf.ebi.ac.uk/dataset/oba/19-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/oba/20-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oba/19-01-2017.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oba/20-01-2017.rdf> ;
     dct:isVersionOf ols:oba ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oba/19-01-2017" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/oba/20-01-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/oba/19-01-2017.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/oba/20-01-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "oba" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -2125,11 +2125,11 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oba/19-01-2017" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/oba/20-01-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oba.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oba" .
 
-<http://rdf.ebi.ac.uk/dataset/obcs/revision:_85> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/obcs/revision:_85> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obcs/revision:_85.rdf> ;
@@ -2152,7 +2152,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obcs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obcs" .
 
-<http://rdf.ebi.ac.uk/dataset/obi/2016-10-11> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/obi/2016-10-11> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obi/2016-10-11.rdf> ;
@@ -2175,7 +2175,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obi" .
 
-<http://rdf.ebi.ac.uk/dataset/obib/2016-09-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/obib/2016-09-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/obib/2016-09-14.rdf> ;
@@ -2198,7 +2198,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/obib.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/obib" .
 
-<http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.59> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.59> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.59.rdf> ;
@@ -2221,7 +2221,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogg.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogg" .
 
-<http://rdf.ebi.ac.uk/dataset/ogi/2.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ogi/2.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogi/2.0.rdf> ;
@@ -2255,7 +2255,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogi" .
 
-<http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20.rdf> ;
@@ -2278,7 +2278,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogms.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogms" .
 
-<http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63.rdf> ;
@@ -2301,7 +2301,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ogsf.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ogsf" .
 
-<http://rdf.ebi.ac.uk/dataset/ohd/2016-06-27> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ohd/2016-06-27> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ohd/2016-06-27.rdf> ;
@@ -2324,7 +2324,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ohd.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ohd" .
 
-<http://rdf.ebi.ac.uk/dataset/olatdv/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/olatdv/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/olatdv/2016-12-15.rdf> ;
@@ -2347,7 +2347,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/olatdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/olatdv" .
 
-ols:ols a dct:dataset ;
+ols:ols a dct:Dataset ;
     dct:description "This is just a test to create a OLS VoID File" ;
     dct:hasPart ols:aeo,
         ols:aero,
@@ -2506,22 +2506,22 @@ ols:ols a dct:dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-1-19> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-1-23> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-1-19> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-1-23> a dct:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-1-19.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-1-23.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
     dct:title "Title on Version level? " ;
-    pav:version "2017-1-19" .
+    pav:version "2017-1-23" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-1-19.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-1-23.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File" ;
@@ -2532,7 +2532,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ols_rdf.tar.gz" ;
     foaf:page <http://www.ebi.ac.uk/rdf/service/ols> .
 
-<http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28.rdf> ;
@@ -2555,7 +2555,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omiabis.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omiabis" .
 
-<http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016.rdf> ;
@@ -2578,7 +2578,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omit.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omit" .
 
-<http://rdf.ebi.ac.uk/dataset/omp/2017-01-09> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/omp/2017-01-09> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omp/2017-01-09.rdf> ;
@@ -2601,7 +2601,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omp" .
 
-<http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28.rdf> ;
@@ -2624,7 +2624,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omrse.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omrse" .
 
-<http://rdf.ebi.ac.uk/dataset/ontoneo/v1.2> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ontoneo/v1.2> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ontoneo/v1.2.rdf> ;
@@ -2647,7 +2647,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ontoneo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ontoneo" .
 
-<http://rdf.ebi.ac.uk/dataset/oostt/release_version_-_2017-01-01> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/oostt/release_version_-_2017-01-01> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oostt/release_version_-_2017-01-01.rdf> ;
@@ -2670,7 +2670,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oostt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oostt" .
 
-<http://rdf.ebi.ac.uk/dataset/opl/2015-06-09> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/opl/2015-06-09> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/opl/2015-06-09.rdf> ;
@@ -2693,7 +2693,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/opl.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/opl" .
 
-<http://rdf.ebi.ac.uk/dataset/ordo/2.3> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ordo/2.3> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ordo/2.3.rdf> ;
@@ -2716,7 +2716,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ordo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ordo" .
 
-<http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34.rdf> ;
@@ -2739,7 +2739,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ovae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ovae" .
 
-<http://rdf.ebi.ac.uk/dataset/pato/2016-09-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pato/2016-09-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pato/2016-09-15.rdf> ;
@@ -2762,7 +2762,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pato.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pato" .
 
-<http://rdf.ebi.ac.uk/dataset/pco/2016-12-14> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pco/2016-12-14> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pco/2016-12-14.rdf> ;
@@ -2785,7 +2785,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pco" .
 
-<http://rdf.ebi.ac.uk/dataset/pdumdv/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pdumdv/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pdumdv/2016-12-15.rdf> ;
@@ -2808,7 +2808,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pdumdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pdumdv" .
 
-<http://rdf.ebi.ac.uk/dataset/po/2017-01-06> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/po/2017-01-06> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/po/2017-01-06.rdf> ;
@@ -2831,7 +2831,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/po.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/po" .
 
-<http://rdf.ebi.ac.uk/dataset/poro/2016-09-13> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/poro/2016-09-13> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/poro/2016-09-13.rdf> ;
@@ -2854,7 +2854,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/poro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/poro" .
 
-<http://rdf.ebi.ac.uk/dataset/ppo/18-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ppo/18-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ppo/18-01-2017.rdf> ;
@@ -2877,7 +2877,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ppo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ppo" .
 
-<http://rdf.ebi.ac.uk/dataset/pr/09-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pr/09-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pr/09-01-2017.rdf> ;
@@ -2900,7 +2900,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pr.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pr" .
 
-<http://rdf.ebi.ac.uk/dataset/pride/05-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pride/05-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pride/05-12-2016.rdf> ;
@@ -2923,7 +2923,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pride.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pride" .
 
-<http://rdf.ebi.ac.uk/dataset/probonto/2.0.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/probonto/2.0.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/probonto/2.0.0.rdf> ;
@@ -2946,7 +2946,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/probonto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/probonto" .
 
-<http://rdf.ebi.ac.uk/dataset/pw/24-10-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/pw/24-10-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pw/24-10-2016.rdf> ;
@@ -2969,7 +2969,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pw.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pw" .
 
-<http://rdf.ebi.ac.uk/dataset/reto/19-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/reto/19-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reto/19-01-2017.rdf> ;
@@ -2992,17 +2992,17 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/reto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/reto" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2017-01-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rex/2017-01-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2017-01-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2017-01-21.rdf> ;
     dct:isVersionOf ols:rex ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-01-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-01-21" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2017-01-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/rex/2017-01-21.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "rex" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -3011,11 +3011,11 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-01-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-01-21" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rex.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rex" .
 
-<http://rdf.ebi.ac.uk/dataset/rexo/19-01-2017> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rexo/19-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rexo/19-01-2017.rdf> ;
@@ -3038,7 +3038,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rexo" .
 
-<http://rdf.ebi.ac.uk/dataset/rnao/08-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rnao/08-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rnao/08-11-2016.rdf> ;
@@ -3061,7 +3061,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rnao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rnao" .
 
-<http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28.rdf> ;
@@ -3084,17 +3084,17 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ro" .
 
-<http://rdf.ebi.ac.uk/dataset/rs/08-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rs/20-01-2017> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rs/08-11-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rs/20-01-2017.rdf> ;
     dct:isVersionOf ols:rs ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rs/08-11-2016" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/rs/20-01-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/rs/08-11-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/rs/20-01-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "rs" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -3103,11 +3103,11 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rs/08-11-2016" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/rs/20-01-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rs" .
 
-<http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21.rdf> ;
@@ -3130,7 +3130,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rxno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rxno" .
 
-<http://rdf.ebi.ac.uk/dataset/sbo/08-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/sbo/08-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sbo/08-11-2016.rdf> ;
@@ -3153,7 +3153,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sbo" .
 
-<http://rdf.ebi.ac.uk/dataset/sep/2013-12-12> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/sep/2013-12-12> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sep/2013-12-12.rdf> ;
@@ -3176,7 +3176,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sep.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sep" .
 
-<http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15.rdf> ;
@@ -3199,7 +3199,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sibo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sibo" .
 
-<http://rdf.ebi.ac.uk/dataset/sio/1.34.0> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/sio/1.34.0> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sio/1.34.0.rdf> ;
@@ -3222,7 +3222,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sio" .
 
-<http://rdf.ebi.ac.uk/dataset/so/2015-11-24> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/so/2015-11-24> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/so/2015-11-24.rdf> ;
@@ -3245,7 +3245,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/so.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/so" .
 
-<http://rdf.ebi.ac.uk/dataset/spd/08-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/spd/08-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/spd/08-11-2016.rdf> ;
@@ -3268,7 +3268,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/spd.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/spd" .
 
-<http://rdf.ebi.ac.uk/dataset/stato/1.3> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/stato/1.3> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/stato/1.3.rdf> ;
@@ -3291,7 +3291,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/stato.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/stato" .
 
-<http://rdf.ebi.ac.uk/dataset/swo/1.5> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/swo/1.5> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/swo/1.5.rdf> ;
@@ -3314,7 +3314,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/swo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/swo" .
 
-<http://rdf.ebi.ac.uk/dataset/tads/08-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/tads/08-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tads/08-11-2016.rdf> ;
@@ -3337,7 +3337,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tads.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tads" .
 
-<http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15.rdf> ;
@@ -3360,7 +3360,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/taxrank.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/taxrank" .
 
-<http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24.rdf> ;
@@ -3383,7 +3383,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/teddy.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/teddy" .
 
-<http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03.rdf> ;
@@ -3406,7 +3406,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tgma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tgma" .
 
-<http://rdf.ebi.ac.uk/dataset/to/2016-08-30> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/to/2016-08-30> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/to/2016-08-30.rdf> ;
@@ -3429,7 +3429,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/to.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/to" .
 
-<http://rdf.ebi.ac.uk/dataset/tto/20-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/tto/20-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tto/20-12-2016.rdf> ;
@@ -3452,7 +3452,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/tto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/tto" .
 
-<http://rdf.ebi.ac.uk/dataset/uberon/2016-11-23> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/uberon/2016-11-23> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/uberon/2016-11-23.rdf> ;
@@ -3475,7 +3475,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uberon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uberon" .
 
-<http://rdf.ebi.ac.uk/dataset/uo/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/uo/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/uo/2016-12-15.rdf> ;
@@ -3498,7 +3498,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uo" .
 
-<http://rdf.ebi.ac.uk/dataset/vario/2015-08-20> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/vario/2015-08-20> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vario/2015-08-20.rdf> ;
@@ -3521,7 +3521,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vario.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vario" .
 
-<http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> ;
@@ -3544,7 +3544,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vo" .
 
-<http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016.rdf> ;
@@ -3567,7 +3567,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vt" .
 
-<http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17.rdf> ;
@@ -3590,7 +3590,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vto" .
 
-<http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01.rdf> ;
@@ -3613,7 +3613,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbbt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbbt" .
 
-<http://rdf.ebi.ac.uk/dataset/wbls/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/wbls/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbls/2016-12-15.rdf> ;
@@ -3636,17 +3636,17 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbls.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbls" .
 
-<http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20.rdf> ;
     dct:isVersionOf ols:wbphenotype ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20" .
 
-<http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "wbphenotype" ;
     dct:creator "Who is the creator/DistLevel" ;
@@ -3655,11 +3655,11 @@ ols:ols a dct:dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/wbphenotype.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/wbphenotype" .
 
-<http://rdf.ebi.ac.uk/dataset/xao/2015-05-27> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/xao/2015-05-27> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xao/2015-05-27.rdf> ;
@@ -3682,7 +3682,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xao" .
 
-<http://rdf.ebi.ac.uk/dataset/xco/28-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/xco/28-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xco/28-11-2016.rdf> ;
@@ -3705,7 +3705,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/xco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/xco" .
 
-<http://rdf.ebi.ac.uk/dataset/zeco/22-11-2016> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/zeco/22-11-2016> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zeco/22-11-2016.rdf> ;
@@ -3728,7 +3728,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zeco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zeco" .
 
-<http://rdf.ebi.ac.uk/dataset/zfa/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/zfa/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zfa/2016-12-15.rdf> ;
@@ -3751,7 +3751,7 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zfa" .
 
-<http://rdf.ebi.ac.uk/dataset/zfs/2016-12-15> a dct:dataset ;
+<http://rdf.ebi.ac.uk/dataset/zfs/2016-12-15> a dct:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/zfs/2016-12-15.rdf> ;
@@ -3774,463 +3774,463 @@ ols:ols a dct:dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/zfs.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/zfs" .
 
-ols:aeo a dct:dataset ;
+ols:aeo a dct:Dataset ;
     dct:description "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Anatomical Entity Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/aeo/2014-12-05> .
 
-ols:aero a dct:dataset ;
+ols:aero a dct:Dataset ;
     dct:description "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Adverse Event Reporting Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/aero/17-05-2016> .
 
-ols:agro a dct:dataset ;
+ols:agro a dct:Dataset ;
     dct:description "Ontology of agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Agronomy Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/agro/2016-06-03> .
 
-ols:ancestro a dct:dataset ;
+ols:ancestro a dct:Dataset ;
     dct:description "The Ancestry Ontology (Ancestro) provides a systematic description of the ancestry concepts used in the NHGRI-EBI Catalog of published genome-wide association studies. It includes a list of countries, regions and major areas (essentially continents), as well as a fairly exhaustive list of country- or region-specific ancestral groups, uncategorised ancestral groups and population isolates." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ancestry Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ancestro/1.0> .
 
-ols:apo a dct:dataset ;
+ols:apo a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the phenotypes of Ascomycete fungi" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ascomycete phenotype ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/apo/2016-12-14> .
 
-ols:atol a dct:dataset ;
+ols:atol a dct:Dataset ;
     dct:description "ATOL (Animal Trait Ontology for Livestock) is an ontology of characteristics defining phenotypes of livestock in their environment (EOL). ATOL aims to: - provide a reference ontology of phenotypic traits of farm animals for the international scientificand educational - communities, farmers, etc.; - deliver this reference ontology in a language which can be used by computers in order to support database management, semantic analysis and modeling; - represent traits as generic as possible for livestock vertebrates; - make the ATOL ontology as operational as possible and closely related to measurement techniques; - structure the ontology in relation to animal production." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Animal Trait Ontology for Livestock" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/atol/01-11-2016> .
 
-ols:bao a dct:dataset ;
+ols:bao a dct:Dataset ;
     dct:description "The BioAssay Ontology (BAO) describes biological screening assays and their results including high-throughput screening (HTS) data for the purpose of categorizing assays and data analysis. BAO is an extensible, knowledge-based, highly expressive (currently SHOIQ(D)) description of biological assays making use of descriptive logic based features of the Web Ontology Language (OWL). BAO currently has over 700 classes and also makes use of several other ontologies. It describes several concepts related to biological screening, including Perturbagen, Format, Meta Target, Design, Detection Technology, and Endpoint. Perturbagens are perturbing agents that are screened in an assay; they are mostly small molecules. Assay Meta Target describes what is known about the biological system and / or its components interrogated in the assay (and influenced by the Perturbagen). Meta target can be directly described as a molecular entity (e.g. a purified protein or a protein complex), or indirectly by a biological process or event (e.g. phosphorylation). Format describes the biological or chemical features common to each test condition in the assay and includes biochemical, cell-based, organism-based, and variations thereof. The assay Design describes the assay methodology and implementation of how the perturbation of the biological system is translated into a detectable signal. Detection Technology relates to the physical method and technical details to detect and record a signal. Endpoints are the final HTS results as they are usually published (such as IC50, percent inhibition, etc). BAO has been designed to accommodate multiplexed assays. All main BAO components include multiple levels of sub-categories and specification classes, which are linked via object property relationships forming an expressive knowledge-based representation." ;
     dct:publisher "Who do we put in here" ;
     dct:title "BioAssay Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bao/2.0> .
 
-ols:bcgo a dct:dataset ;
+ols:bcgo a dct:Dataset ;
     dct:description "An application ontology built for beta cell genomics studies." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Beta Cell Genomics Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bcgo/2015-07-08> .
 
-ols:bco a dct:dataset ;
+ols:bco a dct:Dataset ;
     dct:description "An ontology to support the interoperability of biodiversity data, including data on museum collections, environmental/metagenomic samples, and ecological surveys." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Biological Collections Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bco/2016-12-14> .
 
-ols:bfo a dct:dataset ;
+ols:bfo a dct:Dataset ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Basic Formal Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> .
 
-ols:bspo a dct:dataset ;
+ols:bspo a dct:Dataset ;
     dct:description "An ontology for respresenting spatial concepts, anatomical axes, gradients, regions, planes, sides, and surfaces" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Biological Spatial Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bspo/2014-02-03> .
 
-ols:bto a dct:dataset ;
+ols:bto a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures." ;
     dct:publisher "Who do we put in here" ;
     dct:title "BRENDA tissue / enzyme source" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bto/2016-05-05> .
 
-ols:caro a dct:dataset ;
+ols:caro a dct:Dataset ;
     dct:description "An upper level ontology to facilitate interoperability between existing anatomy ontologies for different species" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Common Anatomy Reference Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/caro/05-12-2016> .
 
-ols:cco a dct:dataset ;
+ols:cco a dct:Dataset ;
     dct:description "The Cell Cycle Ontology extends existing ontologies for cell cycle knowledge building a resource that integrates and manages knowledge about the cell cycle components and regulatory aspects." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Cell Cycle Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cco/23-03-2016> .
 
-ols:cdao a dct:dataset ;
+ols:cdao a dct:Dataset ;
     dct:description "The Comparative Data Analysis Ontology (CDAO) provides a framework for understanding data in the context of evolutionary-comparative analysis.  This comparative approach is used commonly in bioinformatics and other areas of biology to draw inferences from a comparison of differently evolved versions of something, such as differently evolved versions of a protein.  In this kind of analysis, the things-to-be-compared typically are classes called 'OTUs' (Operational Taxonomic Units).  The OTUs can represent biological species, but also may be drawn from higher or lower in a biological hierarchy, anywhere from molecules to communities.  The features to be compared among OTUs are rendered in an entity-attribute-value model sometimes referred to as the 'character-state data model'.  For a given character, such as 'beak length', each OTU has a state, such as 'short' or 'long'.  The differences between states are understood to emerge by a historical process of evolutionary transitions in state, represented by a model (or rules) of transitions along with a phylogenetic tree.  CDAO provides the framework for representing OTUs, trees, transformations, and characters.  The representation of characters and transformations may depend on imported ontologies for a specific type of character." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Comparative Data Analysis Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cdao/2013-02-01> .
 
-ols:ceph a dct:dataset ;
+ols:ceph a dct:Dataset ;
     dct:description "An anatomical and developmental ontology for cephalopods" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Cephalopod Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ceph/2016-01-12> .
 
-ols:chebi a dct:dataset ;
+ols:chebi a dct:Dataset ;
     dct:description "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Chemical Entities of Biological Interest" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chebi/15-12-2016> .
 
-ols:cheminf a dct:dataset ;
+ols:cheminf a dct:Dataset ;
     dct:description "Includes terms for the descriptors commonly used in cheminformatics software applications and the algorithms which generate them." ;
     dct:publisher "Who do we put in here" ;
     dct:title "chemical information ontology (cheminf) - information entities about chemical entities" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cheminf/1.0> .
 
-ols:chmo a dct:dataset ;
+ols:chmo a dct:Dataset ;
     dct:description "CHMO, the chemical methods ontology, describes methods used to" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Chemical Methods Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chmo/2014-11-20> .
 
-ols:cio a dct:dataset ;
+ols:cio a dct:Dataset ;
     dct:description "An ontology to capture confidence information about annotations." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Confidence Information Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cio/2015-03-10> .
 
-ols:cl a dct:dataset ;
+ols:cl a dct:Dataset ;
     dct:description "The Cell Ontology is a structured controlled vocabulary for cell types in animals." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Cell Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> .
 
-ols:clo a dct:dataset ;
+ols:clo a dct:Dataset ;
     dct:description "The Cell Line Ontology." ;
     dct:publisher "Who do we put in here" ;
     dct:title "CLO: Cell Line Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/clo/2.1.83> .
 
-ols:cmo a dct:dataset ;
+ols:cmo a dct:Dataset ;
     dct:description "Morphological and physiological measurement records generated from clinical and model organism research and health programs." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Clinical measurement ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cmo/28-11-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cmo/23-01-2017> .
 
-ols:cmpo a dct:dataset ;
+ols:cmpo a dct:Dataset ;
     dct:description "CMPO is a species neutral ontology for describing general phenotypic observations relating to the whole cell, cellular components, cellular processes and cell populations." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Cellular Microscopy Phenotype Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cmpo/04-11-2016> .
 
-ols:cteno a dct:dataset ;
+ols:cteno a dct:Dataset ;
     dct:description "An anatomical and developmental ontology for ctenophores (Comb Jellies)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ctenophore Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cteno/2016-10-19> .
 
-ols:cvdo a dct:dataset ;
+ols:cvdo a dct:Dataset ;
     dct:description "An ontology to describe entities related to cardiovascular diseases" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Cardiovascular Disease Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cvdo/14-09-2016> .
 
-ols:ddanat a dct:dataset ;
+ols:ddanat a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the slime-mould <i>Dictyostelium discoideum</i>." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Dictyostelium discoideum anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddanat/2013-06-03> .
 
-ols:ddpheno a dct:dataset ;
+ols:ddpheno a dct:Dataset ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Dictyostelium discoideum phenotype" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-01-21> .
 
-ols:dideo a dct:dataset ;
+ols:dideo a dct:Dataset ;
     dct:description "The Potential Drug-drug Interaction and Potential Drug-drug Interaction Evidence Ontology" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Drug Interaction and Evidence Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dideo/release_2016-10-20> .
 
-ols:doid a dct:dataset ;
+ols:doid a dct:Dataset ;
     dct:description "An ontology for describing the classification of human diseases organized by etiology." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Human Disease Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/doid/2017-01-13> .
 
-ols:dpo a dct:dataset ;
+ols:dpo a dct:Dataset ;
     dct:description "An ontology of commonly encountered and/or high level Drosophila phenotypes." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Drosophila Phenotype Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dpo/2015-11-19> .
 
-ols:dron a dct:dataset ;
+ols:dron a dct:Dataset ;
     dct:description "An ontology to support comparative effectiveness researchers studying claims data." ;
     dct:publisher "Who do we put in here" ;
     dct:title "The Drug Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dron/16-12-2016> .
 
-ols:eco a dct:dataset ;
+ols:eco a dct:Dataset ;
     dct:description "An ontology for experimental and other evidence statements." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Evidence ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/eco/2017-01-06> .
 
-ols:edam a dct:dataset ;
+ols:edam a dct:Dataset ;
     dct:description "EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Bioinformatics operations, data types, formats, identifiers and topics" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/edam/03-01-2017> .
 
-ols:efo a dct:dataset ;
+ols:efo a dct:Dataset ;
     dct:description "The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Experimental Factor Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/efo/2.80> .
 
-ols:ehdaa2 a dct:dataset ;
+ols:ehdaa2 a dct:Dataset ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the developing human." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Human developmental anatomy, abstract" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ehdaa2/2013-07-04> .
 
-ols:emap a dct:dataset ;
+ols:emap a dct:Dataset ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse gross anatomy and development, timed" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2017-01-22> .
 
-ols:emapa a dct:dataset ;
+ols:emapa a dct:Dataset ;
     dct:description "Abstract (i.e. non-stage specific) stage-specific anatomical structures of the mouse." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse gross anatomy and development, timed" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emapa/2016-12-15> .
 
-ols:enm a dct:dataset ;
+ols:enm a dct:Dataset ;
     dct:description "The eNanoMapper project (www.enanomapper.net) is creating a pan-European computational infrastructure for toxicological data management for ENMs, based on semantic web standards and ontologies. > This ontology is an application ontology targeting the full domain of nanomaterial safety assessment. It re-uses several other ontologies including the NPO, CHEMINF, ChEBI, and ENVO. " ;
     dct:publisher "Who do we put in here" ;
     dct:title "eNanoMapper Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/enm/3.0> .
 
-ols:envo a dct:dataset ;
+ols:envo a dct:Dataset ;
     dct:description "Ontology of environmental features and habitats" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Environment Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/envo/2017-01-07> .
 
-ols:eo a dct:dataset ;
+ols:eo a dct:Dataset ;
     dct:description "A structured, controlled vocabulary which describes the treatments, growing conditions, and/or study types used in plant biology experiments." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Plant Environment Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/eo/20-10-2016> .
 
-ols:eol a dct:dataset ;
+ols:eol a dct:Dataset ;
     dct:description "L'ontologie EOL décrit les conditions d'environnement des élevages d'animaux domestiques. Elle décrit plus particulièrement les modalités de l'alimentation, de l'environnement, de la structure des élevages et des systèmes d'élevage" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Environment Ontology for Livestock" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/eol/01-11-2016> .
 
-ols:epo a dct:dataset ;
+ols:epo a dct:Dataset ;
     dct:description "An ontology designed to support the semantic annotation of epidemiology resources" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Epidemiology Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/epo/23-03-2016> .
 
-ols:ero a dct:dataset ;
+ols:ero a dct:Dataset ;
     dct:description "An ontology of research resources such as instruments. protocols, reagents, animal models and biospecimens." ;
     dct:publisher "Who do we put in here" ;
     dct:title "eagle-i resource ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ero/27-07-2016> .
 
-ols:exo a dct:dataset ;
+ols:exo a dct:Dataset ;
     dct:description "Vocabularies for describing exposure data to inform understanding of environmental health." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Exposure ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/exo/2014-09-22> .
 
-ols:fao a dct:dataset ;
+ols:fao a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the anatomy of fungi." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Fungal gross anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fao/2016-08-24> .
 
-ols:fbbi a dct:dataset ;
+ols:fbbi a dct:Dataset ;
     dct:description "A structured controlled vocabulary of sample preparation, visualization and imaging methods used in biomedical research." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Biological imaging methods" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fbbi/2016-12-15> .
 
-ols:fbbt a dct:dataset ;
+ols:fbbt a dct:Dataset ;
     dct:description "An ontology representing the gross anatomy of Drosophila melanogaster." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Drosophila gross anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fbbt/2016-12-08> .
 
-ols:fbcv a dct:dataset ;
+ols:fbcv a dct:Dataset ;
     dct:description "A structured controlled vocabulary used for various aspects of annotation by FlyBase." ;
     dct:publisher "Who do we put in here" ;
     dct:title "FlyBase Controlled Vocabulary" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fbcv/2016-10-27> .
 
-ols:fbdv a dct:dataset ;
+ols:fbdv a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the development of Drosophila melanogaster." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Drosophila development" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fbdv/2016-10-14> .
 
-ols:fix a dct:dataset ;
+ols:fix a dct:Dataset ;
     dct:description "An ontology of physico-chemical methods and properties." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Physico-chemical methods and properties" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> .
 
-ols:flopo a dct:dataset ;
+ols:flopo a dct:Dataset ;
     dct:description "Traits and phenotypes of flowering plants occurring in digitized Floras" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Flora Phenotype Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/flopo/16-05-2016> .
 
-ols:flu a dct:dataset ;
+ols:flu a dct:Dataset ;
     dct:description "The influenza ontology is an application ontology that covers the natural, experimental and clinical realms related to influenza virus life cycle, infection and disease. It is an extension of the infectious disease ontology (IDO)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Influenza ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/flu/0.9.0> .
 
-ols:fma a dct:dataset ;
+ols:fma a dct:Dataset ;
     dct:description "This is currently a slimmed down version of FMA" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Foundational Model of Anatomy (subset)" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-01-21> .
 
-ols:foodon a dct:dataset ;
+ols:foodon a dct:Dataset ;
     dct:description "A broadly scoped ontology representing entities which bear a “food role”.  It encompasses materials in natural ecosystems and food webs as well as human-centric categorization and handling of food." ;
     dct:publisher "Who do we put in here" ;
     dct:title "FOODON" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/foodon/2016-03-17> .
 
-ols:fypo a dct:dataset ;
+ols:fypo a dct:Dataset ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Fission Yeast Phenotype Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-01-18> .
 
-ols:gaz a dct:dataset ;
+ols:gaz a dct:Dataset ;
     dct:description "A gazetteer constructed on ontological principles" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Gazetteer" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gaz/23-03-2016> .
 
-ols:genepio a dct:dataset ;
+ols:genepio a dct:Dataset ;
     dct:description "The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research foodborne pathogens and associated outbreaks." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Genomic Epidemiology Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/genepio/2017-01-06> .
 
-ols:geo a dct:dataset ;
+ols:geo a dct:Dataset ;
     dct:description "An ontology of geographical entities" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Geographical Entity Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/geo/production_version_2016-03-26> .
 
-ols:gexo a dct:dataset ;
+ols:gexo a dct:Dataset ;
     dct:description "Gene Expression Ontology" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Gene Expression Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gexo/19-01-2017> .
 
-ols:go a dct:dataset ;
+ols:go a dct:Dataset ;
     dct:description "An ontology for describing the function of genes and gene products" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Gene Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-01-16> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-01-21> .
 
-ols:hao a dct:dataset ;
+ols:hao a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the Hymenoptera (bees, wasps, and ants)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Hymenoptera Anatomy Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/hao/2016-05-18> .
 
-ols:hom a dct:dataset ;
+ols:hom a dct:Dataset ;
     dct:description "This ontology represents concepts related to homology, as well as other concepts used to describe similarity and non-homology." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Homology Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/hom/2015-01-07> .
 
-ols:hp a dct:dataset ;
+ols:hp a dct:Dataset ;
     dct:description "A structured and controlled vocabulary for the phenotypic features encountered in human hereditary and other disease." ;
     dct:publisher "Who do we put in here" ;
     dct:title "human phenotype ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/hp/2016-09-03> .
 
-ols:hsapdv a dct:dataset ;
+ols:hsapdv a dct:Dataset ;
     dct:description "Life cycle stages for Human" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Human Developmental Stages" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/hsapdv/2016-12-15> .
 
-ols:iao a dct:dataset ;
+ols:iao a dct:Dataset ;
     dct:description "An ontology of information entities." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Information Artifact Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/iao/2015-02-23> .
 
-ols:ido a dct:dataset ;
+ols:ido a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Infectious disease" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> .
 
-ols:idomal a dct:dataset ;
+ols:idomal a dct:Dataset ;
     dct:description "An application ontology to cover all aspects of malaria as well as the intervention attempts to control it." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Malaria Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/idomal/14-11-2016> .
 
-ols:kisao a dct:dataset ;
+ols:kisao a dct:Dataset ;
     dct:description "A classification of algorithms available for the simulation of models in biology." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Kinetic Simulation Algorithm Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/kisao/2.3.12> .
 
-ols:lbo a dct:dataset ;
+ols:lbo a dct:Dataset ;
     dct:description "A vocabulary for cattle, chicken, horse, pig, and sheep breeds." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Livestock Breed Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/lbo/10-01-2017> .
 
-ols:ma a dct:dataset ;
+ols:ma a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the adult anatomy of the mouse (Mus)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse adult gross anatomy" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ma/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ma/2017-01-21> .
 
-ols:mamo a dct:dataset ;
+ols:mamo a dct:Dataset ;
     dct:description "The Mathematical Modelling Ontology (MAMO) is a classification of the types of mathematical models used mostly in the life sciences, their variables, relationships and other relevant features." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mathematical Modelling Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mamo/2015-10-17> .
 
-ols:mf a dct:dataset ;
+ols:mf a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mental Functioning Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mf/beta_2013-11-05> .
 
-ols:mfmo a dct:dataset ;
+ols:mfmo a dct:Dataset ;
     dct:description "The Mammalian Feeding Muscle Ontology is an antomy ontology for the muscles of the head and neck that participate in feeding, swallowing, and other oral-pharyngeal behaviors." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mammalian Feeding Muscle Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mfmo/2013-11-16> .
 
-ols:mfoem a dct:dataset ;
+ols:mfoem a dct:Dataset ;
     dct:description "An ontology of affective phenomena such as emotions, moods, appraisals and subjective feelings." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Emotion Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mfoem/beta_2013-07-23> .
 
-ols:mi a dct:dataset ;
+ols:mi a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Molecular Interactions" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2017-01-22> .
 
-ols:miapa a dct:dataset ;
+ols:miapa a dct:Dataset ;
     dct:description """The MIAPA ontology is intended to be an application ontology for the purpose of semantic annotation of phylogenetic data according to the requirements and recommendations of the Minimum Information for A Phylogenetic Analysis (MIAPA) metadata reporting standard. The ontology leverages (imports) primarily from the CDAO (Comparative Data Analysis Ontology), PROV (W3C Provenance Ontology), and SWO (Software Ontology, which includes the EDAM ontologies) ontologies. It adds some assertions of its own, as well as some classes and individuals that may eventually get pushed down into one of the respective source ontologies.
 
 This ontology is maintained at http://github.com/miapa/miapa, and requests for changes or additions should be filed at the issue tracker there. The discussion list is at miapa-discuss@googlegroups.com. Further resources about MIAPA can be found at the project's main page at http://evoio.org/wiki/MIAPA.""" ;
@@ -4238,121 +4238,121 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:title "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> .
 
-ols:mirnao a dct:dataset ;
+ols:mirnao a dct:Dataset ;
     dct:description "An application ontology for use with miRNA databases." ;
     dct:publisher "Who do we put in here" ;
     dct:title "microRNA Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mirnao/23-03-2016> .
 
-ols:miro a dct:dataset ;
+ols:miro a dct:Dataset ;
     dct:description "Application ontology for entities related to insecticide resistance in mosquitos" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mosquito insecticide resistance" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/miro/2014-05-14> .
 
-ols:mmo a dct:dataset ;
+ols:mmo a dct:Dataset ;
     dct:description "A representation of the variety of methods used to make clinical and phenotype measurements. " ;
     dct:publisher "Who do we put in here" ;
     dct:title "Measurement method ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mmo/28-11-2016> .
 
-ols:mmusdv a dct:dataset ;
+ols:mmusdv a dct:Dataset ;
     dct:description "Life cycle stages for Mus Musculus" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse Developmental Stages" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mmusdv/2016-12-15> .
 
-ols:mod a dct:dataset ;
+ols:mod a dct:Dataset ;
     dct:description "PSI-MOD is an ontology consisting of terms that describe protein chemical modifications" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Protein modification" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2017-01-21> .
 
-ols:mop a dct:dataset ;
+ols:mop a dct:Dataset ;
     dct:description "Processes at the molecular level" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Molecular Process Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mop/2014-09-03> .
 
-ols:mp a dct:dataset ;
+ols:mp a dct:Dataset ;
     dct:description "The Mammalian Phenotype Ontology is being developed by Cynthia L. Smith, Susan M. Bello, Carroll W. Goldsmith and Janan T. Eppig, as part of the Mouse Genome Database (MGD) Project, Mouse Genome Informatics (MGI), The Jackson Laboratory, Bar Harbor, ME. This file contains pre-coordinated phenotype terms, definitions and synonyms that can be used to describe mammalian phenotypes. The ontology is represented as a directed acyclic graph (DAG). It organizes phenotype terms into major biological system headers such as nervous system and respiratory system.  This ontology is currently under development. Weekly updates are available at the Mouse Genome Informatics (MGI) ftp site (ftp://ftp.informatics.jax.org/pub/reports/index.html#pheno) as well as the OBO Foundry site (http://obofoundry.org/). Questions, comments and suggestions are welcome, and should be directed to pheno@jax.org, Susan.Bello@jax.org or to GitHub tracker (https://github.com/obophenotype/mammalian-phenotype-ontology/issues) MGD is funded by NIH/NHGRI grant HG000330." ;
     dct:publisher "Who do we put in here" ;
     dct:title "The Mammalian Phenotype Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mp/2017-01-06> .
 
-ols:mpath a dct:dataset ;
+ols:mpath a dct:Dataset ;
     dct:description "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mouse pathology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2017-01-21> .
 
-ols:mro a dct:dataset ;
+ols:mro a dct:Dataset ;
     dct:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions." ;
     dct:publisher "Who do we put in here" ;
     dct:title "MHC Restriction Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mro/2016-12-15> .
 
-ols:ms a dct:dataset ;
+ols:ms a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with proteomics mass spectrometry." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mass spectrometry ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ms/14-12-2016> .
 
-ols:nbo a dct:dataset ;
+ols:nbo a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Neuro Behavior Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/nbo/2012-07-09> .
 
-ols:ncbitaxon a dct:dataset ;
+ols:ncbitaxon a dct:Dataset ;
     dct:description "An ontology representation of the NCBI organismal taxonomy" ;
     dct:publisher "Who do we put in here" ;
     dct:title "NCBI organismal classification" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ncbitaxon/2016-08-15> .
 
-ols:ncro a dct:dataset ;
+ols:ncro a dct:Dataset ;
     dct:description "An ontology for non-coding RNA, both of biological origin, and engineered." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Non-Coding RNA Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ncro/2015-12-10> .
 
-ols:oae a dct:dataset ;
+ols:oae a dct:Dataset ;
     dct:description "The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc." ;
     dct:publisher "Who do we put in here" ;
     dct:title "OAE: Ontology of Adverse Events" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.333> .
 
-ols:oba a dct:dataset ;
+ols:oba a dct:Dataset ;
     dct:description "A collection of biological attributes (traits) covering all kingdoms of life." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Biological Attributes" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oba/19-01-2017> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oba/20-01-2017> .
 
-ols:obcs a dct:dataset ;
+ols:obcs a dct:Dataset ;
     dct:description "OBCS stands for the Ontology of Biological and Clinical Statistics. OBCS is an ontology in the domain of biological and clinical statistics. It is aligned with the Basic Formal Ontology (BFO) and the Ontology for Biomedical Investigations (OBI). OBCS imports all possible biostatistics terms in OBI and includes many additional biostatistics terms, some of which were proposed and discussed in the OBI face-to-face workshop in Ann Arbor in 2012.  " ;
     dct:publisher "Who do we put in here" ;
     dct:title "OBCS: Ontology of Biological and Clinical Statistics" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/obcs/revision:_85> .
 
-ols:obi a dct:dataset ;
+ols:obi a dct:Dataset ;
     dct:description "The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology for Biomedical Investigation" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/obi/2016-10-11> .
 
-ols:obib a dct:dataset ;
+ols:obib a dct:Dataset ;
     dct:description "An ontology built for annotation and modeling of biobank repository and biobanking administration" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology for BIoBanking (OBIB)" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/obib/2016-09-14> .
 
-ols:ogg a dct:dataset ;
+ols:ogg a dct:Dataset ;
     dct:description "OGG is a biological ontology in the area of genes and genomes. OGG uses the Basic Formal Ontology (BFO) as its upper level ontology. This OGG document contains the genes and genomes of a list of selected organisms, including human, two viruses (HIV and influenza virus), and bacteria (B. melitensis strain 16M, E. coli strain K-12 substrain MG1655, M. tuberculosis strain H37Rv, and P. aeruginosa strain PAO1). More OGG information for other organisms (e.g., mouse, zebrafish, fruit fly, yeast, etc.) may be found in other OGG subsets. " ;
     dct:publisher "Who do we put in here" ;
     dct:title "OGG: Ontology of Genes and Genomes" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ogg/Vision_Release:_1.0.59> .
 
-ols:ogi a dct:dataset ;
+ols:ogi a dct:Dataset ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
 The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
@@ -4369,349 +4369,349 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:title "Ontology for genetic interval" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ogi/2.0> .
 
-ols:ogms a dct:dataset ;
+ols:ogms a dct:Dataset ;
     dct:description "An ontology for representing treatment of disease and diagnosis and on carcinomas and other pathological entities" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology for General Medical Science" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ogms/2011-09-20> .
 
-ols:ogsf a dct:dataset ;
+ols:ogsf a dct:Dataset ;
     dct:description " The Ontology of Genetic Susceptibility Factors (OGSF) is an ontology that represents various types of genetic susceptibility and genetic susceptibility factors and their relations with different diseases and pathological bodily processes (e.g., vaccine adverse events)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Genetic Susceptibility Factors (OGSF)" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ogsf/1.0.63> .
 
-ols:ohd a dct:dataset ;
+ols:ohd a dct:Dataset ;
     dct:description "The Oral Health and Disease Ontology was created, initially, to represent the content of dental practice health records." ;
     dct:publisher "Who do we put in here" ;
     dct:title "The Oral Health and Disease Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ohd/2016-06-27> .
 
-ols:olatdv a dct:dataset ;
+ols:olatdv a dct:Dataset ;
     dct:description "Life cycle stages for Medaka" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Medaka Developmental Stages" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/olatdv/2016-12-15> .
 
-ols:omiabis a dct:dataset ;
+ols:omiabis a dct:Dataset ;
     dct:description "An ontological version of MIABIS (Minimum Information About BIobank data Sharing)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontologized MIABIS" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omiabis/_2014-05-28> .
 
-ols:omit a dct:dataset ;
+ols:omit a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology for MIRNA Target" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> .
 
-ols:omp a dct:dataset ;
+ols:omp a dct:Dataset ;
     dct:description "An ontology of phenotypes covering microbes" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Microbial Phenotypes" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omp/2017-01-09> .
 
-ols:omrse a dct:dataset ;
+ols:omrse a dct:Dataset ;
     dct:description "This ontology covers the domain of social entities that are related to health care, such as demographic information and the roles of various individuals and organizations." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Medically Related Social Entities" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> .
 
-ols:ontoneo a dct:dataset ;
+ols:ontoneo a dct:Dataset ;
     dct:description "The Obstetric and Neonatal Ontology is a structured controlled vocabulary to provide a representation of the data from electronic health records (EHRs) involved in the care of the pregnant woman, and of her baby." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Obstetric and Neonatal Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ontoneo/v1.2> .
 
-ols:oostt a dct:dataset ;
+ols:oostt a dct:Dataset ;
     dct:description "An ontology built for representating the organizational components of trauma centers and trauma systems." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology of Organizational Structures of Trauma centers and Trauma Systems" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oostt/release_version_-_2017-01-01> .
 
-ols:opl a dct:dataset ;
+ols:opl a dct:Dataset ;
     dct:description "A reference ontology for parasite life cycle stages." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Ontology for Parasite LifeCycle" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/opl/2015-06-09> .
 
-ols:ordo a dct:dataset ;
+ols:ordo a dct:Dataset ;
     dct:description "The Orphanet Rare Disease ontology (ORDO) is jointly developed by Orphanet and the EBI to provide a structured vocabulary for rare diseases capturing relationships between diseases, genes and other relevant features which will form a useful resource for the computational analysis of rare diseases. It derived from the Orphanet database (www.orpha.net ) , a multilingual database dedicated to rare diseases populated from literature and validated by international experts. It integrates a nosology (classification of rare diseases), relationships (gene-disease relations, epiemological data) and connections with other terminologies (MeSH, UMLS, MedDRA),databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas) or classifications (ICD10)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Orphanet Rare Disease Ontolog" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ordo/2.3> .
 
-ols:ovae a dct:dataset ;
+ols:ovae a dct:Dataset ;
     dct:description "OVAE is a biomedical ontology in the area of vaccine adverse events. OVAE is an extension of the community-based Ontology of Adverse Events (OAE). " ;
     dct:publisher "Who do we put in here" ;
     dct:title "OVAE: Ontology of Vaccine Adverse Events" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34> .
 
-ols:pato a dct:dataset ;
+ols:pato a dct:Dataset ;
     dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Phenotypic quality" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pato/2016-09-15> .
 
-ols:pco a dct:dataset ;
+ols:pco a dct:Dataset ;
     dct:description "A taxon-neutral ontology of material entities, qualities, and processes related to collections of interacting organisms such as populations and communities." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Population and Community Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pco/2016-12-14> .
 
-ols:pdumdv a dct:dataset ;
+ols:pdumdv a dct:Dataset ;
     dct:description "Life cycle stages for Platynereis dumerilii" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Platynereis Developmental Stages" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pdumdv/2016-12-15> .
 
-ols:po a dct:dataset ;
+ols:po a dct:Dataset ;
     dct:description "The Plant Ontology is a structured vocabulary and database resource that links plant anatomy, morphology and growth and development to plant genomics data." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Plant Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/po/2017-01-06> .
 
-ols:poro a dct:dataset ;
+ols:poro a dct:Dataset ;
     dct:description "An ontology describing the anatomical structures and characteristics of Porifera (sponges)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Porifera (sponge) ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/poro/2016-09-13> .
 
-ols:ppo a dct:dataset ;
+ols:ppo a dct:Dataset ;
     dct:description "An ontology for integrating plant phenological data across sources and scales." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Plant Phenology Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ppo/18-01-2017> .
 
-ols:pr a dct:dataset ;
+ols:pr a dct:Dataset ;
     dct:description "An ontological representation of protein-related entities" ;
     dct:publisher "Who do we put in here" ;
     dct:title "PRotein Ontology (PRO)" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pr/09-01-2017> .
 
-ols:pride a dct:dataset ;
+ols:pride a dct:Dataset ;
     dct:description "The PRIDE PRoteomics IDEntifications (PRIDE) database is a centralized, standards compliant, public data repository for proteomics data, including protein and peptide identifications, post-translational modifications and supporting spectral evidence." ;
     dct:publisher "Who do we put in here" ;
     dct:title "PRIDE Controlled Vocabulary" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pride/05-12-2016> .
 
-ols:probonto a dct:dataset ;
+ols:probonto a dct:Dataset ;
     dct:description "ProbOnto, is an ontology-based knowledge base of probability distributions, featuring more than eighty uni- and multivariate distributions with their defining functions, characteristics, relationships and reparameterisation formulas." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Probability Distribution Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/probonto/2.0.0> .
 
-ols:pw a dct:dataset ;
+ols:pw a dct:Dataset ;
     dct:description "A controlled vocabulary for annotating gene products to pathways." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Pathway ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pw/24-10-2016> .
 
-ols:reto a dct:dataset ;
+ols:reto a dct:Dataset ;
     dct:description "Regulation of Transcription" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Regulation of Transcription Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reto/19-01-2017> .
 
-ols:rex a dct:dataset ;
+ols:rex a dct:Dataset ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Physico-chemical process" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-01-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-01-21> .
 
-ols:rexo a dct:dataset ;
+ols:rexo a dct:Dataset ;
     dct:description "Regulation of Gene Expression" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Regulation of Gene Expression Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rexo/19-01-2017> .
 
-ols:rnao a dct:dataset ;
+ols:rnao a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "The RNA Ontology (RNAO): An Ontology for Integrating RNA Sequence and Structure Data" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rnao/08-11-2016> .
 
-ols:ro a dct:dataset ;
+ols:ro a dct:Dataset ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies." ;
     dct:publisher "Who do we put in here" ;
     dct:title "OBO Relations Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> .
 
-ols:rs a dct:dataset ;
+ols:rs a dct:Dataset ;
     dct:description "Ontology of rat strains" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Rat Strain Ontology" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rs/08-11-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rs/20-01-2017> .
 
-ols:rxno a dct:dataset ;
+ols:rxno a dct:Dataset ;
     dct:description "Connects organic name reactions to their roles in an organic synthesis and to processes in MOP" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Name Reaction Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rxno/2014-10-21> .
 
-ols:sbo a dct:dataset ;
+ols:sbo a dct:Dataset ;
     dct:description "Terms commonly used in Systems Biology, and in particular in computational modeling." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Systems Biology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sbo/08-11-2016> .
 
-ols:sep a dct:dataset ;
+ols:sep a dct:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of sample processing and separation techniques in scientific experiments." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Sample processing and separation techniques" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sep/2013-12-12> .
 
-ols:sibo a dct:dataset ;
+ols:sibo a dct:Dataset ;
     dct:description "Social Behavior in insects" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Social Insect Behavior Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sibo/2015-06-15> .
 
-ols:sio a dct:dataset ;
+ols:sio a dct:Dataset ;
     dct:description "The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich description of objects, processes and their attributes." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Semanticscience Integrated Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sio/1.34.0> .
 
-ols:so a dct:dataset ;
+ols:so a dct:Dataset ;
     dct:description "A structured controlled vocabulary for sequence annotation, for the exchange of annotation data and for the description of sequence objects in databases." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Sequence types and features" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/so/2015-11-24> .
 
-ols:spd a dct:dataset ;
+ols:spd a dct:Dataset ;
     dct:description "An ontology for spider comparative biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship, combing) and products (i.g. silk, web, borrow)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Spider Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/spd/08-11-2016> .
 
-ols:stato a dct:dataset ;
+ols:stato a dct:Dataset ;
     dct:description "STATO is the statistical methods ontology. It contains concepts and properties related to statistical methods, probability distributions and other concepts related to statistical analysis, including relationships to study designs and plots." ;
     dct:publisher "Who do we put in here" ;
     dct:title "STATO: the statistical methods ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/stato/1.3> .
 
-ols:swo a dct:dataset ;
+ols:swo a dct:Dataset ;
     dct:description "None" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Software ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/swo/1.5> .
 
-ols:tads a dct:dataset ;
+ols:tads a dct:Dataset ;
     dct:description "The anatomy of the Tick, <i>Families: Ixodidae, Argassidae</i>" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Tick gross anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tads/08-11-2016> .
 
-ols:taxrank a dct:dataset ;
+ols:taxrank a dct:Dataset ;
     dct:description "A vocabulary of taxonomic ranks (species, family, phylum, etc)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Taxonomic rank vocabulary" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/taxrank/2016-04-15> .
 
-ols:teddy a dct:dataset ;
+ols:teddy a dct:Dataset ;
     dct:description "TEDDY is an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems and Synthetic Biology." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Terminology for Description of Dynamics" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> .
 
-ols:tgma a dct:dataset ;
+ols:tgma a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of mosquitoes." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Mosquito gross anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tgma/2013-06-03> .
 
-ols:to a dct:dataset ;
+ols:to a dct:Dataset ;
     dct:description "A controlled vocabulary of describe phenotypic traits in plants." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Plant Trait Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/to/2016-08-30> .
 
-ols:tto a dct:dataset ;
+ols:tto a dct:Dataset ;
     dct:description "An ontology covering the taxonomy of teleosts (bony fish)" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Teleost taxonomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tto/20-12-2016> .
 
-ols:uberon a dct:dataset ;
+ols:uberon a dct:Dataset ;
     dct:description "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Uber-anatomy ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/uberon/2016-11-23> .
 
-ols:uo a dct:dataset ;
+ols:uo a dct:Dataset ;
     dct:description "Metrical units for use in conjunction with PATO" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Units of measurement" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/uo/2016-12-15> .
 
-ols:vario a dct:dataset ;
+ols:vario a dct:Dataset ;
     dct:description "Variation Ontology, VariO, is an ontology for standardized, systematic description of effects, consequences and mechanisms of variations." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Variation Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vario/2015-08-20> .
 
-ols:vo a dct:dataset ;
+ols:vo a dct:Dataset ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Vaccine Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> .
 
-ols:vt a dct:dataset ;
+ols:vt a dct:Dataset ;
     dct:description "An ontology of traits covering vertebrates" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Vertebrate trait" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> .
 
-ols:vto a dct:dataset ;
+ols:vto a dct:Dataset ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Vertebrate Taxonomy Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> .
 
-ols:wbbt a dct:dataset ;
+ols:wbbt a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of <i>Caenorhabditis elegans</i>." ;
     dct:publisher "Who do we put in here" ;
     dct:title "C. elegans gross anatomy" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/wbbt/2016-06-01> .
 
-ols:wbls a dct:dataset ;
+ols:wbls a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the development of <i>Caenorhabditis elegans</i>." ;
     dct:publisher "Who do we put in here" ;
     dct:title "C. elegans development" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/wbls/2016-12-15> .
 
-ols:wbphenotype a dct:dataset ;
+ols:wbphenotype a dct:Dataset ;
     dct:description "A structured controlled vocabulary of <i>Caenorhabditis elegans</i> phenotypes" ;
     dct:publisher "Who do we put in here" ;
     dct:title "C. elegans phenotype" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-10> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/wbphenotype/2017-01-20> .
 
-ols:xao a dct:dataset ;
+ols:xao a dct:Dataset ;
     dct:description "Anatomy and development of the African clawed frog (<i>Xenopus laevis</i>)." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Xenopus anatomy and development" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/xao/2015-05-27> .
 
-ols:xco a dct:dataset ;
+ols:xco a dct:Dataset ;
     dct:description "Conditions under which physiological and morphological measurements are made both in the clinic and in studies involving humans or model organisms." ;
     dct:publisher "Who do we put in here" ;
     dct:title "Experimental condition ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/xco/28-11-2016> .
 
-ols:zeco a dct:dataset ;
+ols:zeco a dct:Dataset ;
     dct:description "Experimental conditions applied to zebrafish, developed to facilitate experiment condition annotation at ZFIN" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Zebrafish Experimental Conditions Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/zeco/22-11-2016> .
 
-ols:zfa a dct:dataset ;
+ols:zfa a dct:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy and development of the Zebrafish" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Zebrafish anatomy and development" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/zfa/2016-12-15> .
 
-ols:zfs a dct:dataset ;
+ols:zfs a dct:Dataset ;
     dct:description "Developmental stages of the Zebrafish" ;
     dct:publisher "Who do we put in here" ;
     dct:title "Zebrafish developmental stages" ;
