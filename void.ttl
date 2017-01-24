@@ -1,0 +1,33 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix idot: <http://identifiers.org/idot/> .
+@prefix pav: <http://purl.org/pav/> .
+
+<http://rdf.ebi.ac.uk/dataset/pub> a  dct:Dataset;
+  dcterms:title "Pub" ;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pub/Version01>;
+  dct:publisher "EBI" ;
+	dcterms:description "The Description of this dataSet" .
+
+
+<http://rdf.ebi.ac.uk/dataset/pub/Version01> a dct:Dataset ;
+  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/pub>;
+  	dcterms:description "The Description of the Version level of pub";
+    dcterms:title "Versionlevel pub" ;
+    dct:publisher "EBI" ;
+  pav:version "0.1.0" ;
+    dct:creator "EBI - pubmed" ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pub/Version01.rdf>.
+
+
+<http://rdf.ebi.ac.uk/dataset/pub/Version01.rdf> a void:Dataset ,
+  dcat:Distribution ;
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/pub/pub_full.tar.gz";
+  dct:creator "TestCreator in that case" ;
+	dcterms:description "The Distribution Level of pub void";
+  dct:publisher "EBI" ;
+  dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+  idot:preferredPrefix "textmined" ;
+  dcterms:title "Test - Distribution of pub" .
