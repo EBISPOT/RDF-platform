@@ -19,7 +19,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -28,12 +28,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca_core>,
         <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca> dct:description "Description about the subset ailuropoda_melanoleuca" ;
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca_core> a dct:Dataset ;
+    dct:description "Description about the subset ailuropoda_melanoleuca" ;
     dct:title "ailuropoda_melanoleuca" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ailuropoda_melanoleuca/ailuropoda_melanoleuca.ttl.gz" .
 
@@ -49,7 +50,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -58,12 +59,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos_core>,
         <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos> dct:description "Description about the subset anas_platyrhynchos" ;
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos_core> a dct:Dataset ;
+    dct:description "Description about the subset anas_platyrhynchos" ;
     dct:title "anas_platyrhynchos" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anas_platyrhynchos/anas_platyrhynchos.ttl.gz" .
 
@@ -79,7 +81,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -88,12 +90,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis_core>,
         <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis> dct:description "Description about the subset anolis_carolinensis" ;
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis_core> a dct:Dataset ;
+    dct:description "Description about the subset anolis_carolinensis" ;
     dct:title "anolis_carolinensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anolis_carolinensis/anolis_carolinensis.ttl.gz" .
 
@@ -109,7 +112,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -118,12 +121,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus_core>,
         <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus> dct:description "Description about the subset astyanax_mexicanus" ;
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus_core> a dct:Dataset ;
+    dct:description "Description about the subset astyanax_mexicanus" ;
     dct:title "astyanax_mexicanus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//astyanax_mexicanus/astyanax_mexicanus.ttl.gz" .
 
@@ -139,7 +143,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/bos_taurus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/bos_taurus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -148,12 +152,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/bos_taurus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus_core>,
         <http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus> dct:description "Description about the subset bos_taurus" ;
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus_core> a dct:Dataset ;
+    dct:description "Description about the subset bos_taurus" ;
     dct:title "bos_taurus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//bos_taurus/bos_taurus.ttl.gz" .
 
@@ -169,7 +174,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -178,12 +183,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans_core>,
         <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans> dct:description "Description about the subset caenorhabditis_elegans" ;
+<http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans_core> a dct:Dataset ;
+    dct:description "Description about the subset caenorhabditis_elegans" ;
     dct:title "caenorhabditis_elegans" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//caenorhabditis_elegans/caenorhabditis_elegans.ttl.gz" .
 
@@ -199,7 +205,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -208,12 +214,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus_core>,
         <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus> dct:description "Description about the subset callithrix_jacchus" ;
+<http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus_core> a dct:Dataset ;
+    dct:description "Description about the subset callithrix_jacchus" ;
     dct:title "callithrix_jacchus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//callithrix_jacchus/callithrix_jacchus.ttl.gz" .
 
@@ -229,7 +236,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/canis_familiaris/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -238,12 +245,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/canis_familiaris/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris_core>,
         <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris> dct:description "Description about the subset canis_familiaris" ;
+<http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris_core> a dct:Dataset ;
+    dct:description "Description about the subset canis_familiaris" ;
     dct:title "canis_familiaris" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//canis_familiaris/canis_familiaris.ttl.gz" .
 
@@ -259,7 +267,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -268,12 +276,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus_core>,
         <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus> dct:description "Description about the subset cavia_porcellus" ;
+<http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus_core> a dct:Dataset ;
+    dct:description "Description about the subset cavia_porcellus" ;
     dct:title "cavia_porcellus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//cavia_porcellus/cavia_porcellus.ttl.gz" .
 
@@ -289,7 +298,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -298,12 +307,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus_core>,
         <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus> dct:description "Description about the subset chlorocebus_sabaeus" ;
+<http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus_core> a dct:Dataset ;
+    dct:description "Description about the subset chlorocebus_sabaeus" ;
     dct:title "chlorocebus_sabaeus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//chlorocebus_sabaeus/chlorocebus_sabaeus.ttl.gz" .
 
@@ -319,7 +329,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -328,12 +338,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni_core>,
         <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni> dct:description "Description about the subset choloepus_hoffmanni" ;
+<http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni_core> a dct:Dataset ;
+    dct:description "Description about the subset choloepus_hoffmanni" ;
     dct:title "choloepus_hoffmanni" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//choloepus_hoffmanni/choloepus_hoffmanni.ttl.gz" .
 
@@ -349,7 +360,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -358,12 +369,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis_core>,
         <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis> dct:description "Description about the subset ciona_intestinalis" ;
+<http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis_core> a dct:Dataset ;
+    dct:description "Description about the subset ciona_intestinalis" ;
     dct:title "ciona_intestinalis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ciona_intestinalis/ciona_intestinalis.ttl.gz" .
 
@@ -379,7 +391,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -388,12 +400,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi_core>,
         <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi> dct:description "Description about the subset ciona_savignyi" ;
+<http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi_core> a dct:Dataset ;
+    dct:description "Description about the subset ciona_savignyi" ;
     dct:title "ciona_savignyi" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ciona_savignyi/ciona_savignyi.ttl.gz" .
 
@@ -409,7 +422,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/danio_rerio/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/danio_rerio/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -418,12 +431,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/danio_rerio/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio_core>,
         <http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio> dct:description "Description about the subset danio_rerio" ;
+<http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio_core> a dct:Dataset ;
+    dct:description "Description about the subset danio_rerio" ;
     dct:title "danio_rerio" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//danio_rerio/danio_rerio.ttl.gz" .
 
@@ -439,7 +453,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -448,12 +462,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus_core>,
         <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus> dct:description "Description about the subset dasypus_novemcinctus" ;
+<http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus_core> a dct:Dataset ;
+    dct:description "Description about the subset dasypus_novemcinctus" ;
     dct:title "dasypus_novemcinctus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//dasypus_novemcinctus/dasypus_novemcinctus.ttl.gz" .
 
@@ -469,7 +484,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -478,12 +493,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii_core>,
         <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii> dct:description "Description about the subset dipodomys_ordii" ;
+<http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii_core> a dct:Dataset ;
+    dct:description "Description about the subset dipodomys_ordii" ;
     dct:title "dipodomys_ordii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//dipodomys_ordii/dipodomys_ordii.ttl.gz" .
 
@@ -499,7 +515,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -508,12 +524,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster_core>,
         <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster> dct:description "Description about the subset drosophila_melanogaster" ;
+<http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster_core> a dct:Dataset ;
+    dct:description "Description about the subset drosophila_melanogaster" ;
     dct:title "drosophila_melanogaster" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//drosophila_melanogaster/drosophila_melanogaster.ttl.gz" .
 
@@ -529,7 +546,7 @@
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -538,12 +555,13 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi_core>,
         <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi> dct:description "Description about the subset echinops_telfairi" ;
+<http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi_core> a dct:Dataset ;
+    dct:description "Description about the subset echinops_telfairi" ;
     dct:title "echinops_telfairi" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//echinops_telfairi/echinops_telfairi.ttl.gz" .
 
@@ -640,22 +658,22 @@ ensembl:ensembl a dct:Dataset ;
         ensembl:xiphophorus_maculatus ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ensembl" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-11> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-11> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26> a dct:Dataset ;
     dct:creator ebi:ENSEMBL ;
     dct:description "Ensembl description on version level" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-11.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26.rdf> ;
     dct:isVersionOf ensembl:ensembl ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
     dct:title "Title on Version level? " ;
-    pav:version "2017-1-11" .
+    pav:version "86" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-11.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:ENSEMBL ;
     dct:description "This is just a test to create a OLS VoID File" ;
@@ -674,7 +692,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/equus_caballus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/equus_caballus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -683,12 +701,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/equus_caballus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus_core>,
         <http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus> dct:description "Description about the subset equus_caballus" ;
+<http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus_core> a dct:Dataset ;
+    dct:description "Description about the subset equus_caballus" ;
     dct:title "equus_caballus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//equus_caballus/equus_caballus.ttl.gz" .
 
@@ -704,7 +723,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -713,12 +732,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus_core>,
         <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus> dct:description "Description about the subset erinaceus_europaeus" ;
+<http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus_core> a dct:Dataset ;
+    dct:description "Description about the subset erinaceus_europaeus" ;
     dct:title "erinaceus_europaeus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//erinaceus_europaeus/erinaceus_europaeus.ttl.gz" .
 
@@ -734,7 +754,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/felis_catus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/felis_catus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -743,12 +763,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/felis_catus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus_core>,
         <http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus> dct:description "Description about the subset felis_catus" ;
+<http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus_core> a dct:Dataset ;
+    dct:description "Description about the subset felis_catus" ;
     dct:title "felis_catus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//felis_catus/felis_catus.ttl.gz" .
 
@@ -764,7 +785,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -773,12 +794,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis_core>,
         <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis> dct:description "Description about the subset ficedula_albicollis" ;
+<http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis_core> a dct:Dataset ;
+    dct:description "Description about the subset ficedula_albicollis" ;
     dct:title "ficedula_albicollis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ficedula_albicollis/ficedula_albicollis.ttl.gz" .
 
@@ -794,7 +816,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gadus_morhua/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -803,12 +825,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gadus_morhua/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua_core>,
         <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua> dct:description "Description about the subset gadus_morhua" ;
+<http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua_core> a dct:Dataset ;
+    dct:description "Description about the subset gadus_morhua" ;
     dct:title "gadus_morhua" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gadus_morhua/gadus_morhua.ttl.gz" .
 
@@ -824,7 +847,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gallus_gallus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -833,12 +856,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gallus_gallus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus_core>,
         <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus> dct:description "Description about the subset gallus_gallus" ;
+<http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus_core> a dct:Dataset ;
+    dct:description "Description about the subset gallus_gallus" ;
     dct:title "gallus_gallus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gallus_gallus/gallus_gallus.ttl.gz" .
 
@@ -854,7 +878,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -863,12 +887,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus_core>,
         <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus> dct:description "Description about the subset gasterosteus_aculeatus" ;
+<http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus_core> a dct:Dataset ;
+    dct:description "Description about the subset gasterosteus_aculeatus" ;
     dct:title "gasterosteus_aculeatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gasterosteus_aculeatus/gasterosteus_aculeatus.ttl.gz" .
 
@@ -884,7 +909,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -893,12 +918,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla_core>,
         <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla> dct:description "Description about the subset gorilla_gorilla" ;
+<http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla_core> a dct:Dataset ;
+    dct:description "Description about the subset gorilla_gorilla" ;
     dct:title "gorilla_gorilla" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla.ttl.gz" .
 
@@ -914,7 +940,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/homo_sapiens/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -923,12 +949,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/homo_sapiens/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens_core>,
         <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens> dct:description "Description about the subset homo_sapiens" ;
+<http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens_core> a dct:Dataset ;
+    dct:description "Description about the subset homo_sapiens" ;
     dct:title "homo_sapiens" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//homo_sapiens/homo_sapiens.ttl.gz" .
 
@@ -944,7 +971,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -953,12 +980,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus_core>,
         <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus> dct:description "Description about the subset ictidomys_tridecemlineatus" ;
+<http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus_core> a dct:Dataset ;
+    dct:description "Description about the subset ictidomys_tridecemlineatus" ;
     dct:title "ictidomys_tridecemlineatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ictidomys_tridecemlineatus/ictidomys_tridecemlineatus.ttl.gz" .
 
@@ -974,7 +1002,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -983,12 +1011,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae_core>,
         <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae> dct:description "Description about the subset latimeria_chalumnae" ;
+<http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae_core> a dct:Dataset ;
+    dct:description "Description about the subset latimeria_chalumnae" ;
     dct:title "latimeria_chalumnae" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//latimeria_chalumnae/latimeria_chalumnae.ttl.gz" .
 
@@ -1004,7 +1033,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1013,12 +1042,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus_core>,
         <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus> dct:description "Description about the subset lepisosteus_oculatus" ;
+<http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus_core> a dct:Dataset ;
+    dct:description "Description about the subset lepisosteus_oculatus" ;
     dct:title "lepisosteus_oculatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//lepisosteus_oculatus/lepisosteus_oculatus.ttl.gz" .
 
@@ -1034,7 +1064,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1043,12 +1073,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana_core>,
         <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana> dct:description "Description about the subset loxodonta_africana" ;
+<http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana_core> a dct:Dataset ;
+    dct:description "Description about the subset loxodonta_africana" ;
     dct:title "loxodonta_africana" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//loxodonta_africana/loxodonta_africana.ttl.gz" .
 
@@ -1064,7 +1095,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1073,12 +1104,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta_core>,
         <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta> dct:description "Description about the subset macaca_mulatta" ;
+<http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta_core> a dct:Dataset ;
+    dct:description "Description about the subset macaca_mulatta" ;
     dct:title "macaca_mulatta" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//macaca_mulatta/macaca_mulatta.ttl.gz" .
 
@@ -1094,7 +1126,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1103,12 +1135,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii_core>,
         <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii> dct:description "Description about the subset macropus_eugenii" ;
+<http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii_core> a dct:Dataset ;
+    dct:description "Description about the subset macropus_eugenii" ;
     dct:title "macropus_eugenii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//macropus_eugenii/macropus_eugenii.ttl.gz" .
 
@@ -1124,7 +1157,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1133,12 +1166,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo_core>,
         <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo> dct:description "Description about the subset meleagris_gallopavo" ;
+<http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo_core> a dct:Dataset ;
+    dct:description "Description about the subset meleagris_gallopavo" ;
     dct:title "meleagris_gallopavo" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//meleagris_gallopavo/meleagris_gallopavo.ttl.gz" .
 
@@ -1154,7 +1188,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1163,12 +1197,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus_core>,
         <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus> dct:description "Description about the subset microcebus_murinus" ;
+<http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus_core> a dct:Dataset ;
+    dct:description "Description about the subset microcebus_murinus" ;
     dct:title "microcebus_murinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//microcebus_murinus/microcebus_murinus.ttl.gz" .
 
@@ -1184,7 +1219,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1193,12 +1228,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica_core>,
         <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica> dct:description "Description about the subset monodelphis_domestica" ;
+<http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica_core> a dct:Dataset ;
+    dct:description "Description about the subset monodelphis_domestica" ;
     dct:title "monodelphis_domestica" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//monodelphis_domestica/monodelphis_domestica.ttl.gz" .
 
@@ -1214,7 +1250,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1223,12 +1259,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus> dct:description "Description about the subset mus_musculus" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus" ;
     dct:title "mus_musculus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus/mus_musculus.ttl.gz" .
 
@@ -1244,7 +1281,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1253,12 +1290,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj> dct:description "Description about the subset mus_musculus_129s1svimj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_129s1svimj" ;
     dct:title "mus_musculus_129s1svimj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_129s1svimj/mus_musculus_129s1svimj.ttl.gz" .
 
@@ -1274,7 +1312,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1283,12 +1321,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj> dct:description "Description about the subset mus_musculus_aj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_aj" ;
     dct:title "mus_musculus_aj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_aj/mus_musculus_aj.ttl.gz" .
 
@@ -1304,7 +1343,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1313,12 +1352,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj> dct:description "Description about the subset mus_musculus_akrj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_akrj" ;
     dct:title "mus_musculus_akrj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_akrj/mus_musculus_akrj.ttl.gz" .
 
@@ -1334,7 +1374,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1343,12 +1383,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj> dct:description "Description about the subset mus_musculus_balbcj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_balbcj" ;
     dct:title "mus_musculus_balbcj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_balbcj/mus_musculus_balbcj.ttl.gz" .
 
@@ -1364,7 +1405,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1373,12 +1414,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej> dct:description "Description about the subset mus_musculus_c3hhej" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_c3hhej" ;
     dct:title "mus_musculus_c3hhej" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_c3hhej/mus_musculus_c3hhej.ttl.gz" .
 
@@ -1394,7 +1436,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1403,12 +1445,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj> dct:description "Description about the subset mus_musculus_c57bl6nj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_c57bl6nj" ;
     dct:title "mus_musculus_c57bl6nj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_c57bl6nj/mus_musculus_c57bl6nj.ttl.gz" .
 
@@ -1424,7 +1467,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1433,12 +1476,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij> dct:description "Description about the subset mus_musculus_casteij" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_casteij" ;
     dct:title "mus_musculus_casteij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_casteij/mus_musculus_casteij.ttl.gz" .
 
@@ -1454,7 +1498,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1463,12 +1507,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj> dct:description "Description about the subset mus_musculus_cbaj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_cbaj" ;
     dct:title "mus_musculus_cbaj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_cbaj/mus_musculus_cbaj.ttl.gz" .
 
@@ -1484,7 +1529,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1493,12 +1538,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j> dct:description "Description about the subset mus_musculus_dba2j" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_dba2j" ;
     dct:title "mus_musculus_dba2j" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_dba2j/mus_musculus_dba2j.ttl.gz" .
 
@@ -1514,7 +1560,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1523,12 +1569,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj> dct:description "Description about the subset mus_musculus_fvbnj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_fvbnj" ;
     dct:title "mus_musculus_fvbnj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_fvbnj/mus_musculus_fvbnj.ttl.gz" .
 
@@ -1544,7 +1591,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1553,12 +1600,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj> dct:description "Description about the subset mus_musculus_lpj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_lpj" ;
     dct:title "mus_musculus_lpj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_lpj/mus_musculus_lpj.ttl.gz" .
 
@@ -1574,7 +1622,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1583,12 +1631,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj> dct:description "Description about the subset mus_musculus_nodshiltj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_nodshiltj" ;
     dct:title "mus_musculus_nodshiltj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_nodshiltj/mus_musculus_nodshiltj.ttl.gz" .
 
@@ -1604,7 +1653,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1613,12 +1662,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj> dct:description "Description about the subset mus_musculus_nzohlltj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_nzohlltj" ;
     dct:title "mus_musculus_nzohlltj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_nzohlltj/mus_musculus_nzohlltj.ttl.gz" .
 
@@ -1634,7 +1684,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1643,12 +1693,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj> dct:description "Description about the subset mus_musculus_pwkphj" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_pwkphj" ;
     dct:title "mus_musculus_pwkphj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_pwkphj/mus_musculus_pwkphj.ttl.gz" .
 
@@ -1664,7 +1715,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1673,12 +1724,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij> dct:description "Description about the subset mus_musculus_wsbeij" ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_musculus_wsbeij" ;
     dct:title "mus_musculus_wsbeij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_wsbeij/mus_musculus_wsbeij.ttl.gz" .
 
@@ -1694,7 +1746,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1703,12 +1755,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij> dct:description "Description about the subset mus_spretus_spreteij" ;
+<http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij_core> a dct:Dataset ;
+    dct:description "Description about the subset mus_spretus_spreteij" ;
     dct:title "mus_spretus_spreteij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_spretus_spreteij/mus_spretus_spreteij.ttl.gz" .
 
@@ -1724,7 +1777,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1733,12 +1786,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo_core>,
         <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo> dct:description "Description about the subset mustela_putorius_furo" ;
+<http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo_core> a dct:Dataset ;
+    dct:description "Description about the subset mustela_putorius_furo" ;
     dct:title "mustela_putorius_furo" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mustela_putorius_furo/mustela_putorius_furo.ttl.gz" .
 
@@ -1754,7 +1808,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1763,12 +1817,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus_core>,
         <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus> dct:description "Description about the subset myotis_lucifugus" ;
+<http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus_core> a dct:Dataset ;
+    dct:description "Description about the subset myotis_lucifugus" ;
     dct:title "myotis_lucifugus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//myotis_lucifugus/myotis_lucifugus.ttl.gz" .
 
@@ -1784,7 +1839,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1793,12 +1848,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys_core>,
         <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys> dct:description "Description about the subset nomascus_leucogenys" ;
+<http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys_core> a dct:Dataset ;
+    dct:description "Description about the subset nomascus_leucogenys" ;
     dct:title "nomascus_leucogenys" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//nomascus_leucogenys/nomascus_leucogenys.ttl.gz" .
 
@@ -1814,7 +1870,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1823,12 +1879,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps_core>,
         <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps> dct:description "Description about the subset ochotona_princeps" ;
+<http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps_core> a dct:Dataset ;
+    dct:description "Description about the subset ochotona_princeps" ;
     dct:title "ochotona_princeps" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ochotona_princeps/ochotona_princeps.ttl.gz" .
 
@@ -1844,7 +1901,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1853,12 +1910,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus_core>,
         <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus> dct:description "Description about the subset oreochromis_niloticus" ;
+<http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus_core> a dct:Dataset ;
+    dct:description "Description about the subset oreochromis_niloticus" ;
     dct:title "oreochromis_niloticus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oreochromis_niloticus/oreochromis_niloticus.ttl.gz" .
 
@@ -1874,7 +1932,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1883,12 +1941,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus_core>,
         <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus> dct:description "Description about the subset ornithorhynchus_anatinus" ;
+<http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus_core> a dct:Dataset ;
+    dct:description "Description about the subset ornithorhynchus_anatinus" ;
     dct:title "ornithorhynchus_anatinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ornithorhynchus_anatinus/ornithorhynchus_anatinus.ttl.gz" .
 
@@ -1904,7 +1963,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1913,12 +1972,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus_core>,
         <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus> dct:description "Description about the subset oryctolagus_cuniculus" ;
+<http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus_core> a dct:Dataset ;
+    dct:description "Description about the subset oryctolagus_cuniculus" ;
     dct:title "oryctolagus_cuniculus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oryctolagus_cuniculus/oryctolagus_cuniculus.ttl.gz" .
 
@@ -1934,7 +1994,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1943,12 +2003,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes_core>,
         <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes> dct:description "Description about the subset oryzias_latipes" ;
+<http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes_core> a dct:Dataset ;
+    dct:description "Description about the subset oryzias_latipes" ;
     dct:title "oryzias_latipes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oryzias_latipes/oryzias_latipes.ttl.gz" .
 
@@ -1964,7 +2025,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -1973,12 +2034,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii_core>,
         <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii> dct:description "Description about the subset otolemur_garnettii" ;
+<http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii_core> a dct:Dataset ;
+    dct:description "Description about the subset otolemur_garnettii" ;
     dct:title "otolemur_garnettii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//otolemur_garnettii/otolemur_garnettii.ttl.gz" .
 
@@ -1994,7 +2056,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ovis_aries/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ovis_aries/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2003,12 +2065,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ovis_aries/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries_core>,
         <http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries> dct:description "Description about the subset ovis_aries" ;
+<http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries_core> a dct:Dataset ;
+    dct:description "Description about the subset ovis_aries" ;
     dct:title "ovis_aries" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ovis_aries/ovis_aries.ttl.gz" .
 
@@ -2024,7 +2087,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2033,12 +2096,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes_core>,
         <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes> dct:description "Description about the subset pan_troglodytes" ;
+<http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes_core> a dct:Dataset ;
+    dct:description "Description about the subset pan_troglodytes" ;
     dct:title "pan_troglodytes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pan_troglodytes/pan_troglodytes.ttl.gz" .
 
@@ -2054,7 +2118,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/papio_anubis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/papio_anubis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2063,12 +2127,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/papio_anubis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis_core>,
         <http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis> dct:description "Description about the subset papio_anubis" ;
+<http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis_core> a dct:Dataset ;
+    dct:description "Description about the subset papio_anubis" ;
     dct:title "papio_anubis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//papio_anubis/papio_anubis.ttl.gz" .
 
@@ -2084,7 +2149,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2093,12 +2158,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis_core>,
         <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis> dct:description "Description about the subset pelodiscus_sinensis" ;
+<http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis_core> a dct:Dataset ;
+    dct:description "Description about the subset pelodiscus_sinensis" ;
     dct:title "pelodiscus_sinensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pelodiscus_sinensis/pelodiscus_sinensis.ttl.gz" .
 
@@ -2114,7 +2180,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2123,12 +2189,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus_core>,
         <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus> dct:description "Description about the subset petromyzon_marinus" ;
+<http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus_core> a dct:Dataset ;
+    dct:description "Description about the subset petromyzon_marinus" ;
     dct:title "petromyzon_marinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//petromyzon_marinus/petromyzon_marinus.ttl.gz" .
 
@@ -2144,7 +2211,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2153,12 +2220,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa_core>,
         <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa> dct:description "Description about the subset poecilia_formosa" ;
+<http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa_core> a dct:Dataset ;
+    dct:description "Description about the subset poecilia_formosa" ;
     dct:title "poecilia_formosa" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//poecilia_formosa/poecilia_formosa.ttl.gz" .
 
@@ -2174,7 +2242,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pongo_abelii/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2183,12 +2251,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pongo_abelii/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii_core>,
         <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii> dct:description "Description about the subset pongo_abelii" ;
+<http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii_core> a dct:Dataset ;
+    dct:description "Description about the subset pongo_abelii" ;
     dct:title "pongo_abelii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pongo_abelii/pongo_abelii.ttl.gz" .
 
@@ -2204,7 +2273,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/procavia_capensis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2213,12 +2282,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/procavia_capensis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis_core>,
         <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis> dct:description "Description about the subset procavia_capensis" ;
+<http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis_core> a dct:Dataset ;
+    dct:description "Description about the subset procavia_capensis" ;
     dct:title "procavia_capensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//procavia_capensis/procavia_capensis.ttl.gz" .
 
@@ -2234,7 +2304,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2243,12 +2313,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus_core>,
         <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus> dct:description "Description about the subset pteropus_vampyrus" ;
+<http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus_core> a dct:Dataset ;
+    dct:description "Description about the subset pteropus_vampyrus" ;
     dct:title "pteropus_vampyrus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pteropus_vampyrus/pteropus_vampyrus.ttl.gz" .
 
@@ -2264,7 +2335,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2273,12 +2344,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus_core>,
         <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus> dct:description "Description about the subset rattus_norvegicus" ;
+<http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus_core> a dct:Dataset ;
+    dct:description "Description about the subset rattus_norvegicus" ;
     dct:title "rattus_norvegicus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//rattus_norvegicus/rattus_norvegicus.ttl.gz" .
 
@@ -2294,7 +2366,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2303,12 +2375,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae_core>,
         <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae> dct:description "Description about the subset saccharomyces_cerevisiae" ;
+<http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae_core> a dct:Dataset ;
+    dct:description "Description about the subset saccharomyces_cerevisiae" ;
     dct:title "saccharomyces_cerevisiae" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//saccharomyces_cerevisiae/saccharomyces_cerevisiae.ttl.gz" .
 
@@ -2324,7 +2397,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2333,12 +2406,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii_core>,
         <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii> dct:description "Description about the subset sarcophilus_harrisii" ;
+<http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii_core> a dct:Dataset ;
+    dct:description "Description about the subset sarcophilus_harrisii" ;
     dct:title "sarcophilus_harrisii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sarcophilus_harrisii/sarcophilus_harrisii.ttl.gz" .
 
@@ -2354,7 +2428,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sorex_araneus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2363,12 +2437,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sorex_araneus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus_core>,
         <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus> dct:description "Description about the subset sorex_araneus" ;
+<http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus_core> a dct:Dataset ;
+    dct:description "Description about the subset sorex_araneus" ;
     dct:title "sorex_araneus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sorex_araneus/sorex_araneus.ttl.gz" .
 
@@ -2384,7 +2459,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sus_scrofa/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2393,12 +2468,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/sus_scrofa/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa_core>,
         <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa> dct:description "Description about the subset sus_scrofa" ;
+<http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa_core> a dct:Dataset ;
+    dct:description "Description about the subset sus_scrofa" ;
     dct:title "sus_scrofa" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sus_scrofa/sus_scrofa.ttl.gz" .
 
@@ -2414,7 +2490,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2423,12 +2499,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata_core>,
         <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata> dct:description "Description about the subset taeniopygia_guttata" ;
+<http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata_core> a dct:Dataset ;
+    dct:description "Description about the subset taeniopygia_guttata" ;
     dct:title "taeniopygia_guttata" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//taeniopygia_guttata/taeniopygia_guttata.ttl.gz" .
 
@@ -2444,7 +2521,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2453,12 +2530,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes_core>,
         <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes> dct:description "Description about the subset takifugu_rubripes" ;
+<http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes_core> a dct:Dataset ;
+    dct:description "Description about the subset takifugu_rubripes" ;
     dct:title "takifugu_rubripes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//takifugu_rubripes/takifugu_rubripes.ttl.gz" .
 
@@ -2474,7 +2552,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2483,12 +2561,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta_core>,
         <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta> dct:description "Description about the subset tarsius_syrichta" ;
+<http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta_core> a dct:Dataset ;
+    dct:description "Description about the subset tarsius_syrichta" ;
     dct:title "tarsius_syrichta" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tarsius_syrichta/tarsius_syrichta.ttl.gz" .
 
@@ -2504,7 +2583,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2513,12 +2592,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis_core>,
         <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis> dct:description "Description about the subset tetraodon_nigroviridis" ;
+<http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis_core> a dct:Dataset ;
+    dct:description "Description about the subset tetraodon_nigroviridis" ;
     dct:title "tetraodon_nigroviridis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tetraodon_nigroviridis/tetraodon_nigroviridis.ttl.gz" .
 
@@ -2534,7 +2614,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2543,12 +2623,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri_core>,
         <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri> dct:description "Description about the subset tupaia_belangeri" ;
+<http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri_core> a dct:Dataset ;
+    dct:description "Description about the subset tupaia_belangeri" ;
     dct:title "tupaia_belangeri" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri.ttl.gz" .
 
@@ -2564,7 +2645,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2573,12 +2654,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus_core>,
         <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus> dct:description "Description about the subset tursiops_truncatus" ;
+<http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus_core> a dct:Dataset ;
+    dct:description "Description about the subset tursiops_truncatus" ;
     dct:title "tursiops_truncatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tursiops_truncatus/tursiops_truncatus.ttl.gz" .
 
@@ -2594,7 +2676,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2603,12 +2685,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos_core>,
         <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos> dct:description "Description about the subset vicugna_pacos" ;
+<http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos_core> a dct:Dataset ;
+    dct:description "Description about the subset vicugna_pacos" ;
     dct:title "vicugna_pacos" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//vicugna_pacos/vicugna_pacos.ttl.gz" .
 
@@ -2624,7 +2707,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2633,12 +2716,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis_core>,
         <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis> dct:description "Description about the subset xenopus_tropicalis" ;
+<http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis_core> a dct:Dataset ;
+    dct:description "Description about the subset xenopus_tropicalis" ;
     dct:title "xenopus_tropicalis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//xenopus_tropicalis/xenopus_tropicalis.ttl.gz" .
 
@@ -2654,7 +2738,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "Who is the publisher/Versionlevel" ;
     dct:title "What is the Version title?" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86" .
+    pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
@@ -2663,12 +2747,13 @@ ensembl:ensembl a dct:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "Who is the publisher/DistLevel" ;
     dct:title "Distribution title" ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus>,
+    pav:version "86" ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus_core>,
         <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus> dct:description "Description about the subset xiphophorus_maculatus" ;
+<http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus_core> a dct:Dataset ;
+    dct:description "Description about the subset xiphophorus_maculatus" ;
     dct:title "xiphophorus_maculatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//xiphophorus_maculatus/xiphophorus_maculatus.ttl.gz" .
 
