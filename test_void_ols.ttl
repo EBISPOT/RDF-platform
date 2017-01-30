@@ -119,6 +119,11 @@ ols:ols a dct:Dataset ;
 
 
 
+            ols:ancestro a dct:Dataset ;
+                dct:description "The Ancestry Ontology (Ancestro) provides a systematic description of the ancestry concepts used in the NHGRI-EBI Catalog of published genome-wide association studies. It includes a list of countries, regions and major areas (essentially continents), as well as a fairly exhaustive list of country- or region-specific ancestral groups, uncategorised ancestral groups and population isolates." ;
+                dct:publisher "Who do we put in here" ;
+                dct:title "Ancestry Ontology" ;
+                pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ancestro/1.0> .
 
 
             <http://rdf.ebi.ac.uk/dataset/ancestro/1.0> a dct:Dataset ;
@@ -145,8 +150,4 @@ ols:ols a dct:Dataset ;
                 foaf:page "http://ebi.ac.uk/ols/ontologies/ancestro" .
 
 
-                ols:ancestro a dct:Dataset ;
-                    dct:description "The Ancestry Ontology (Ancestro) provides a systematic description of the ancestry concepts used in the NHGRI-EBI Catalog of published genome-wide association studies. It includes a list of countries, regions and major areas (essentially continents), as well as a fairly exhaustive list of country- or region-specific ancestral groups, uncategorised ancestral groups and population isolates." ;
-                    dct:publisher "Who do we put in here" ;
-                    dct:title "Ancestry Ontology" ;
-                    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ancestro/1.0> .
+
