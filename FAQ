@@ -1,0 +1,32 @@
+---
+layout: default
+title: FAQ
+group: "in_local_navigation"
+order: 2
+---
+
+
+<div class="blurb">
+
+
+<h3>General</h3>
+
+    Why isn't my favourite database available in RDF?
+    What is the license for using this data?
+    What are Linked Data and the Semantic Web?
+    What is RDF?
+    What is a URI?
+    What is SPARQL?
+
+<h3>Technical details</h3>
+
+    Does the RDF Platform support HTTPS?
+    What are the limitations of the SPARQL endpoints?
+    Which version of SPARQL is supported?
+    How stable are the datasets?
+    What does "production" mean?
+
+
+
+
+</div>
