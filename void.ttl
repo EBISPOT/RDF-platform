@@ -1,33 +1,38 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test> a  dct:Dataset;
-  dcterms:title "Atlas" ;
+
+<http://rdf.ebi.ac.uk/dataset/expressionatlas> a  dctypes:Dataset;
+  dcterms:title "Atlas"^^rdf:langString  ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01>;
-  dct:publisher "EBI" ;
-	dcterms:description "The Description of this dataSet" .
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
+	dcterms:description "The Description of this dataSet"^^rdf:langString .
+
+<http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017> a dctypes:Dataset ;
+  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/expressionatlas>;
+  	dcterms:description "The Description of the Version level of Atlas"^^rdf:langString;
+    dcterms:title "Reactome Version"^^rdf:langString ;
+    dct:created "13-02-2017"^^xsd:dateTime ;
+    dct:publisher <http://wwww.ebi.ac.uk/> ;
+    pav:version "0.1.0" ;
+    dct:creator <http://wwww.ebi.ac.uk/gxa> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01> a dct:Dataset ;
-  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test>;
-  	dcterms:description "The Description of the Version level of Atlas";
-    dcterms:title "Reactome Version" ;
-    dct:publisher "EBI" ;
- pav:version "0.1.0" ;
-    dct:creator "TestCreator in that case" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01.rdf>.
-
-
-<http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01.rdf> a void:Dataset ,
-  dcat:Distribution ;
+<http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017.rdf> a void:Dataset, dcat:Distribution ;
   void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-19-11-2014.tar.gz> ;
   dct:creator "TestCreator in that case" ;
-	dcterms:description "The Distribution Level of Atlas";
-  dct:publisher "EBI" ;
-  dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+  dcterms:description "The Distribution Level of Atlas"^^rdf:langString;
+  dct:creator <http://wwww.ebi.ac.uk/gxa> ;
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
+  dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
   idot:preferredPrefix "atlas" ;
-  dcterms:title "Test Distribution level of Atlas" .
+  dct:format "text/turtle" ;
+  dcterms:title "Test Distribution level of Atlas"^^rdf:langString .
