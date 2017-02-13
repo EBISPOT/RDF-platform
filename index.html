@@ -8,5 +8,84 @@ order: 1
 	<p>The EBI RDF Platform aims to bring together the efforts of a number of EMBL-EBI resources that provide access to their data using Semantic Web technologies. It provides a unified way to query across resources using the W3C SPARQL query language. We welcome comments or questions via our feedback form.</p>
 
 	<h3>Current RDF resources</h3>
-	{% include update_list.html %}
+	
+	<thead><tr><th style="width: 200px;">Services</th>
+  <th style="width: 200px;">Quick links</th>
+  <th style="width: 200px;">Example query</th>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a href="//www.ebi.ac.uk/rdf/services/biomodels" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/images/rdf/biomodels_service_logo.gif" alt="image" style="border: 0px;" width="151" height="48"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/biomodels">Service description</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/services/biomodels/sparql">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/biomodels">Documentation</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/biomodels/download">RDF download</a></li>
+  </ul></td>
+  <td><a href="//www.ebi.ac.uk/rdf/services/biomodels/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0D%0APREFIX%20xsd%3A%20%3Chttp%3A//www.w3.org/2001/XMLSchema%23%3E%0D%0APREFIX%20dc%3A%20%3Chttp%3A//purl.org/dc/elements/1.1/%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20foaf%3A%20%3Chttp%3A//xmlns.com/foaf/0.1/%3E%0D%0APREFIX%20skos%3A%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23%3E%0D%0APREFIX%20sbmlrdf%3A%20%3Chttp%3A//identifiers.org/biomodels.vocabulary%23%3E%0D%0A%0D%0ASELECT%20%3FmodelElement%20%3FelementType%20%3Fqualifier%20WHERE%20%7B%20%0D%0A%3FmodelElement%20%3Fqualifier%20%3Chttp%3A//identifiers.org/go/GO%3A0005892%3E%20.%20%20%0D%0A%3Fqualifier%20rdfs%3AsubPropertyOf%20sbmlrdf%3AsbmlAnnotation%20.%20%0D%0A%3FmodelElement%20rdf%3Atype%20%3FelementType%20%0D%0A%7D&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results"><span>All model elements with annotations to acetylcholine-gated channel complex (GO:0005892)</span></a></td>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a href="//www.ebi.ac.uk/rdf/services/biosamples" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/images/rdf/bsd_service_logo.gif" alt="image" style="border: 0px;" width="149" height="47"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/biosamples">Service description</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/services/biosamples/sparql">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/biosamples">Documentation</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/biosamples#download">RDF download</a></li>
+  </ul></td>
+  <td><a title="[Samples treated with alchool]" href="http://tinyurl.com/zpderuc">Samples treated with alcohol</a></td>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a href="//www.ebi.ac.uk/rdf/services/chembl" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/resize/images/rdf/chembl_service_logo-146x48.gif" alt="image" style="border: 0px;" width="146" height="48"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/chembl">Service description</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/services/chembl/sparql">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/chembl">Documentation</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/chembl/download">RDF download</a></li>
+  </ul></td>
+  <td><a href="http://wwwdev.ebi.ac.uk/rdf/services/chembl/sparql?query=PREFIX+cco%3A+%3Chttp%3A%2F%2Frdf.ebi.ac.uk%2Fterms%2Fchembl%23%3E%0D%0A%0D%0ASELECT+%3Fmolecule%0D%0AWHERE{%0D%0A%3Chttp%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fchembl%2Fprotclass%2FCHEMBL_PC_1020%3E+cco%3AhasTargetDescendant+%3Ftarget+.%0D%0A%3Ftarget+cco%3AhasAssay+%3Fassay+.%0D%0A%3Fassay+cco%3AhasActivity+%3Factivity+.%0D%0A%3Factivity+cco%3AhasMolecule+%3Fmolecule+%3B%0D%0Acco%3ApChembl+%3Fpchembl+.%0D%0A%3Fmolecule++cco%3AhighestDevelopmentPhase+%3Fphase+.%0D%0AFILTER%28%3Fpchembl+%3E+6+%29%0D%0AFILTER%28%3Fphase+%3C+4+%29%0D%0A}%0D%0A%0D%0A%0D%0A&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results">F</a><a href="//www.ebi.ac.uk/rdf/services/chembl/sparql?query=PREFIX%20cco%3A%20%3Chttp%3A//rdf.ebi.ac.uk/terms/chembl%23%3E%0D%0APREFIX%20sio%3A%20%3Chttp%3A//semanticscience.org/resource/%3E%0D%0A%0D%0ASELECT%20%3Fmolecule%0D%0AWHERE%7B%0D%0A%3Chttp%3A//rdf.ebi.ac.uk/resource/chembl/protclass/CHEMBL_PC_1020%3E%20cco%3AhasTargetDescendant%20%3Ftarget%20.%0D%0A%3Ftarget%20cco%3AhasAssay%20%3Fassay%20.%0D%0A%3Fassay%20cco%3AhasActivity%20%3Factivity%20.%0D%0A%3Factivity%20cco%3AhasMolecule%20%3Fmolecule%20%3B%0D%0A%20%20cco%3ApChembl%20%3Fpchembl%20.%0D%0A%3Fmolecule%20%20cco%3AhighestDevelopmentPhase%20%3Fphase%20%3B%0D%0A%20%20sio%3ASIO_000008%20%3Fprop_ro5%20.%0D%0A%3Fprop_ro5%20a%20sio%3ACHEMINF_000312%20%3B%0D%0Asio%3ASIO_000300%20%3Fprop_ro5_val%20.%0D%0AFILTER%28%3Fpchembl%20%3E%206%20%29%0D%0AFILTER%28%3Fphase%20%3C%204%20%29%0D%0AFILTER%28%3Fprop_ro5_val%20%3D%200%20%29%0D%0A%7D%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results">ind drug-like (but currently not approved) molecules which bind 7TM1 GPCRs with high affinity </a></td>
+ </tr><tr><td style="width: 150px;" valign="middle"><a href="//www.ebi.ac.uk/rdf/services/ensembl" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/images/rdf/ensembl_full.png" alt="Ensembl logo" style="border: 0px;" width="150" height="49"></a></td>
+  <td style="width: 200px;">
+  <ul><li><a title="SPARQL endpoint" href="//www.ebi.ac.uk/rdf/services/ensembl/sparql" target="_blank">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/ensembl">Documentation</a></li>
+   <li><a title="Ensembl FTP site" href="ftp://ftp.ensembl.org/pub/current_rdf" target="_blank">RDF download</a></li>
+  </ul></td>
+  <td><a title="Sample query for Ensembl" href="//www.ebi.ac.uk/rdf/services/ensembl/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20obo%3A%20%3Chttp%3A//purl.obolibrary.org/obo/%3E%0D%0APREFIX%20sio%3A%20%3Chttp%3A//semanticscience.org/resource/%3E%0D%0APREFIX%20faldo%3A%20%3Chttp%3A//biohackathon.org/resource/faldo%23%3E%0D%0APREFIX%20ensembl%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/%3E%0D%0APREFIX%20ensembltranscript%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.transcript/%3E%0D%0APREFIX%20ensemblexon%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.exon/%3E%0D%0APREFIX%20ensemblprotein%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.protein/%3E%0D%0APREFIX%20ensemblterms%3A%20%3Chttp%3A//rdf.ebi.ac.uk/terms/ensembl/%3E%0D%0A%0D%0ASELECT%20%3Ffeature%20%3Fregion%20%3Fstart%20%3Fend%20%3Fstrand%20WHERE%20%7B%0D%0A%3Ffeature%20faldo%3Alocation%20%3Fregion%20.%0D%0A%3Fregion%20faldo%3Abegin%20%3Fstart%20.%0D%0A%3Fstart%20faldo%3Aposition%20%3Fstart_value%20.%0D%0A%3Fstart%20rdf%3Atype%20%3Fstrand%20.%0D%0A%3Fregion%20faldo%3Aend%20%3Fend%20.%0D%0A%3Fend%20faldo%3Aposition%20%3Fend_value%20.%0D%0A%3Fregion%20faldo%3Areference%20%3Fseqregion%20.%0D%0AVALUES%20%3Fseqregion%20%7B%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/87/homo_sapiens/GRCh38/20%3E%20%7D%0D%0AFILTER%20%28%20%3Fstrand%20%3D%20faldo%3AForwardStrandPosition%20%7C%7C%20%3Fstrand%20%3D%20faldo%3AReverseStrandPosition%20%29%0D%0A%7D%0D%0ALIMIT%20200&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results" target="_blank">Get all the genes, transcripts and exons on a chromosome</a></td>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a title="Atlas" href="//www.ebi.ac.uk/rdf/services/atlas" target="_blank" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/resize/images/rdf/atlas_service_logo-150x52.gif" alt="image" style="border: 0px;" width="150" height="52"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/atlas">Service description</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/services/atlas/sparql">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/atlas">Documentation</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/atlas/download">RDF download</a></li>
+  </ul></td>
+  <td><a href="//www.ebi.ac.uk/rdf/services/atlas/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20obo%3A%20%3Chttp%3A//purl.obolibrary.org/obo/%3E%0D%0APREFIX%20sio%3A%20%3Chttp%3A//semanticscience.org/resource/%3E%0D%0APREFIX%20efo%3A%20%3Chttp%3A//www.ebi.ac.uk/efo/%3E%0D%0APREFIX%20atlas%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/atlas/%3E%0D%0APREFIX%20atlasterms%3A%20%3Chttp%3A//rdf.ebi.ac.uk/terms/atlas/%3E%0D%0A%0D%0APREFIX%20identifiers%3A%3Chttp%3A//identifiers.org/ensembl/%3E%0D%0A%0D%0ASELECT%20distinct%20%3FdiffValue%20%3FexpUri%20%3FpropertyType%20%3FpropertyValue%20%3Fpvalue%20%20%20%0D%0AWHERE%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%0D%0A%3FexpUri%20atlasterms%3AhasAnalysis%20%3Fanalysis%20.%20%20%20%20%20%20%20%0D%0A%3Fanalysis%20atlasterms%3AhasExpressionValue%20%3Fvalue%20.%20%20%20%0D%0A%3Fvalue%20rdfs%3Alabel%20%3FdiffValue%20.%20%20%20%20%20%20%20%0D%0A%3Fvalue%20atlasterms%3AhasFactorValue%20%3Ffactor%20.%20%20%20%0D%0A%3Ffactor%20atlasterms%3ApropertyType%20%3FpropertyType%20.%20%20%20%20%0D%0A%3Ffactor%20atlasterms%3ApropertyValue%20%3FpropertyValue%20.%20%20%0D%0A%3Fvalue%20atlasterms%3ApValue%20%3Fpvalue%20.%20%20%20%20%20%20%0D%0A%3Fvalue%20atlasterms%3AisMeasurementOf%20%3Fprobe%20.%20%20%20%20%0D%0A%3Fprobe%20atlasterms%3AdbXref%20identifiers%3AENSG00000129991%20.%20%20%0D%0A%7D%20%20%20%20%20%20%20%20%20%20%20%0D%0AORDER%20BY%20ASC%20%28%3Fpvalue%29&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results">&nbsp;<span>Under what experimental conditions is Ensembl gene ENSG00000129991 (TNNI3) expressed?</span></a></td>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a href="//www.ebi.ac.uk/rdf/services/reactome" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/images/rdf/reactome_service_fig.gif" alt="image" style="border: 0px;" width="115" height="48"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/reactome">Service description</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/services/reactome/sparql">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/reactome">Documentation</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/reactome/download">RDF download</a></li>
+  </ul></td>
+  <td><a href="//www.ebi.ac.uk/rdf/services/reactome/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0D%0APREFIX%20xsd%3A%20%3Chttp%3A//www.w3.org/2001/XMLSchema%23%3E%0D%0APREFIX%20dc%3A%20%3Chttp%3A//purl.org/dc/elements/1.1/%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20foaf%3A%20%3Chttp%3A//xmlns.com/foaf/0.1/%3E%0D%0APREFIX%20skos%3A%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23%3E%0D%0APREFIX%20biopax3%3A%20%3Chttp%3A//www.biopax.org/release/biopax-level3.owl%23%3E%0D%0A%0D%0ASELECT%20DISTINCT%20%3Fpathway%20%3Fpathwayname%20%0D%0AWHERE%20%0D%0A%7B%3Fpathway%20rdf%3Atype%20biopax3%3APathway%20.%20%20%0D%0A%3Fpathway%20biopax3%3AdisplayName%20%3Fpathwayname%20.%0D%0A%3Fpathway%20biopax3%3ApathwayComponent%20%3Freaction%20.%20%0D%0A%3Freaction%20rdf%3Atype%20biopax3%3ABiochemicalReaction%20.%20%0D%0A%7B%20%20%20%20%20%20%20%20%20%20%0D%0A%7B%3Freaction%20%3Frel%20%3Fprotein%20.%7D%20%20%20%0D%0AUNION%20%20%0D%0A%7B%20%20%0D%0A%3Freaction%20%20%3Frel%20%20%3Fcomplex%20.%20%0D%0A%3Fcomplex%20rdf%3Atype%20biopax3%3AComplex%20.%20%20%0D%0A%3Fcomplex%20%3Fcomp%20%3Fprotein%20.%20%0D%0A%7D%7D%20%0D%0A%3Fprotein%20rdf%3Atype%20biopax3%3AProtein%20.%20%0D%0A%3Fprotein%20biopax3%3AentityReference%20%3Chttp%3A//purl.uniprot.org/uniprot/P01308%3E%20%0D%0A%7D%20%20%20%20%0D%0ALIMIT%20100%20%20%0D%0A&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results"><span>Pathways that references Insulin (P01308)</span></a></td>
+ </tr><tr><td style="width: 150px;" valign="middle">
+  <p><a href="//www.ebi.ac.uk/rdf/services/uniprot" class="no-underline"><img src="//www.ebi.ac.uk/rdf/sites/ebi.ac.uk.rdf/files/images/rdf/uniprot_service_fig.gif" alt="image" style="border: 0px;" width="116" height="50"></a></p>
+  </td>
+  <td style="width: 200px;">
+  <ul><li><a href="//www.ebi.ac.uk/rdf/services/uniprot">Service description</a></li>
+   <li><a href="http://sparql.uniprot.org">SPARQL endpoint</a></li>
+   <li><a href="//www.ebi.ac.uk/rdf/documentation/uniprot">Documentation</a></li>
+   <li><a title="UniProt RDF Download" href="ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/">RDF download</a></li>
+  </ul></td>
+  <td>
+  <p><a href="http://beta.sparql.uniprot.org/sparql?query=PREFIX%20up:%3Chttp://purl.uniprot.org/core/%3E%20%20%0DPREFIX%20rdfs:%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%20%20%0DPREFIX%20skos:%3Chttp://www.w3.org/2004/02/skos/core%23%3E%20%20%0DSELECT%20?name%20?text%20%0DWHERE%20%0D{%20%20%0D?protein%20a%20up:Protein%20.%20%20%0D?protein%20up:organism%20%3Chttp://purl.uniprot.org/taxonomy/9606%3E%20.%20%20%0D?protein%20up:encodedBy%20?gene%20.%20%20%0D?gene%20skos:prefLabel%20?name%20.%20%20%0D?protein%20up:annotation%20?annotation%20.%20%20%0D?annotation%20a%20up:Disease_Annotation%20.%20%20%0D?annotation%20rdfs:comment%20?text%20%20%0D}">What are the preferred gene name and disease annotations of all human UniProt entries that are known to be involved in a disease?</a></p>
+  </td>
+ </tr></thead>
+	
+	
+	<h3>Feedback</h3>
+	If you have a question or feedback about the RDF at EBI project, please contact us.
+	<h3>Mailing list</h3>
+	To receive infrequent announcements about the RDF Platform, subscribe to our mailing list.
 </div><!-- /.blurb -->
