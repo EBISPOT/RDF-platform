@@ -1,8 +1,8 @@
 # Site settings
-name: EBI Jekyll Boilerplate
-group: EMBL-EBI Web Development
+name: EBI's RDF platform 
+group: EMBL-EBI SPOT 
 email: noreply@ebi.ac.uk
-domain: //ebiwd.github.io
+domain: //ebispot.github.io
 baseurl: /EBI-Boilerplate-Jekyll
 permalink: pretty
 
