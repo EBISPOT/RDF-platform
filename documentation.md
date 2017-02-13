@@ -1,12 +1,6 @@
----
-layout: default
-title: Documentation
-group: "in_local_navigation"
-order: 5
----
-#Documentation
+# Documentation
 	
-##Dataset Documentation
+## Dataset Documentation
 	
 The available datasets each have their own documentation describing how the data are organised. You can also access them directly here:
 
