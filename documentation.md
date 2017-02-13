@@ -4,10 +4,10 @@ title: Documentation
 group: "in_local_navigation"
 order: 5
 ---
-<div class="blurb">
-	<h2>Documentation</h2>
-  <h4>Dataset Documentation</h4>
-
+#Documentation
+	
+##Dataset Documentation
+	
 The available datasets each have their own documentation describing how the data are organised. You can also access them directly here:
 
     * BioModels
@@ -17,5 +17,3 @@ The available datasets each have their own documentation describing how the data
     * Reactome
     * UniProt
     * Ensembl
-
-</div><!-- /.blurb -->
