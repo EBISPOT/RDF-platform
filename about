@@ -1,0 +1,64 @@
+---
+layout: default
+title: about
+group: "in_local_navigation"
+order: 5
+---
+<div class="blurb">
+	<h2>Documentation</h2>
+  <h4>Dataset Documentation</h4>
+
+
+
+<h2>About the project</h2>
+<h4>Access EMBL-EBI data using semantic web technologies</h4>
+
+EMBL-EBI's RDF platform provides access to data in many of our resources using Semantic Web technologies, along with documentation and examples to help users get started. Our goal is to make the molecular data at EMBL-EBI more discoverable to scientists, and to offer new ways of using them in your research.
+
+As we hear back from our users we will work to provide more robust services, supported within EMBL-EBI’s production infrastructure, and to measure their performance and popularity.
+
+<h4>Who will use the RDF platform?</h4>
+
+These RDF services are for researchers who would like to access public molecular data programmatically. These might be, for example, software developers or technically minded bioinformaticians whose research questions require the integration of a wide variety of data.
+Who is working on it?
+
+The RDF platform involves the efforts of many service teams at EMBL-EBI. These teams, responsible for producing EMBL-EBI's data resources, have committed to providing Linked Data as part of their release cycles. Support teams are also involved, and they are helping maintain the infrastructure through which our services operate.
+
+<h4>What does the RDF platform provide?</h4>
+
+The platform will provide a set of stable services that make it possible for researchers to:
+
+    identify which datasets are available as Linked Data;
+    explore how these datasets are structured;
+    download RDF datasets in bulk, for local processing;
+    download RDF representations of specific data items, for remote access;
+    query the data remotely using SPARQL queries.
+
+<h4>What is the project lifecycle?</h4>
+Third quarter of 2013
+Our first release will comprise a limited set of datasets, made available via download and SPARQL services. Services and data models will be monitored, and may change according to need.
+Fourth quarter of 2013 and beyond
+Services and data models will become more stable, and additional datasets may be made available.
+Third quarter of 2015
+Following an analysis of usage statistics, the overall success of the project will be reviewed. If the RDF platform has indeed been useful to researchers, other EMBL-EBI resources may produce content for the platform.
+
+<h4>Feedback</h4>
+
+Your feedback is always welcome. Please send any questions or comments to us using our online form, which will be sent to many people on the team. 
+
+<h4>Blog</h4>
+
+There is no official blog on the EBI RDF Platform but there is a semantic web and ontology blog written by James Malone that may be of interest. 
+
+<h4>Metrics</h4>
+
+When we assess the project at the conclusion of the pilot term, we aim to gather a range of data. This will include access statistics such as web hits and FTP downloads, as well as looking within the scientific literature at instances where the data have been used. However we recognise that much usage of programmatic access methods may be hidden to us, for example a single FTP download may be processed further and serve many more users. We therefore will be exploring how this is best achieved, and encourage you to give us your feedback.
+
+<h4>Acknowledgements</h4>
+
+The RDF platform pilot is being supported by a number of projects including member states of the European Molecular Biology Laboratory; European Commission: BioMedBridges [284209], Diachron [601043], OpenPhacts and US National Institutes of Health funded National Center for Biomedical Ontology driving biological project programme. 
+
+
+
+	</p>	
+</div><!-- /.blurb -->
