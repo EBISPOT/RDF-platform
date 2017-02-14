@@ -1,4 +1,4 @@
-##Reactome documentation
+## Reactome documentation
 
 Documentation for the Reactome Linked Dataset.
 
