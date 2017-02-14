@@ -11,7 +11,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/expressionatlas> a  dctypes:Dataset;
   dcterms:title "Atlas"^^rdf:langString  ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test/Version01>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "The Description of this dataSet"^^rdf:langString .
 
