@@ -1,4 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmi: <http://purl.org/dc/dcmitype/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ebi: <http://www.ebi.ac.uk/> .
 @prefix ensembl: <http://rdf.ebi.ac.uk/dataset/> .
@@ -11,7 +12,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86.rdf> ;
@@ -42,7 +43,7 @@
     dct:title "xrefs for ailuropoda_melanoleuca" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ailuropoda_melanoleuca/ailuropoda_melanoleuca_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86.rdf> ;
@@ -73,7 +74,7 @@
     dct:title "xrefs for anas_platyrhynchos" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anas_platyrhynchos/anas_platyrhynchos_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86.rdf> ;
@@ -104,7 +105,7 @@
     dct:title "xrefs for anolis_carolinensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//anolis_carolinensis/anolis_carolinensis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86.rdf> ;
@@ -135,7 +136,7 @@
     dct:title "xrefs for astyanax_mexicanus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//astyanax_mexicanus/astyanax_mexicanus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/bos_taurus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/bos_taurus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bos_taurus/86.rdf> ;
@@ -166,7 +167,7 @@
     dct:title "xrefs for bos_taurus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//bos_taurus/bos_taurus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86.rdf> ;
@@ -197,7 +198,7 @@
     dct:title "xrefs for caenorhabditis_elegans" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//caenorhabditis_elegans/caenorhabditis_elegans_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86.rdf> ;
@@ -228,7 +229,7 @@
     dct:title "xrefs for callithrix_jacchus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//callithrix_jacchus/callithrix_jacchus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/canis_familiaris/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/canis_familiaris/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86.rdf> ;
@@ -259,7 +260,7 @@
     dct:title "xrefs for canis_familiaris" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//canis_familiaris/canis_familiaris_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86.rdf> ;
@@ -290,7 +291,7 @@
     dct:title "xrefs for cavia_porcellus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//cavia_porcellus/cavia_porcellus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86.rdf> ;
@@ -321,7 +322,7 @@
     dct:title "xrefs for chlorocebus_sabaeus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//chlorocebus_sabaeus/chlorocebus_sabaeus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86.rdf> ;
@@ -352,7 +353,7 @@
     dct:title "xrefs for choloepus_hoffmanni" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//choloepus_hoffmanni/choloepus_hoffmanni_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86.rdf> ;
@@ -383,7 +384,7 @@
     dct:title "xrefs for ciona_intestinalis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ciona_intestinalis/ciona_intestinalis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86.rdf> ;
@@ -414,7 +415,7 @@
     dct:title "xrefs for ciona_savignyi" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ciona_savignyi/ciona_savignyi_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/danio_rerio/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/danio_rerio/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/danio_rerio/86.rdf> ;
@@ -445,7 +446,7 @@
     dct:title "xrefs for danio_rerio" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//danio_rerio/danio_rerio_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86.rdf> ;
@@ -476,7 +477,7 @@
     dct:title "xrefs for dasypus_novemcinctus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//dasypus_novemcinctus/dasypus_novemcinctus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86.rdf> ;
@@ -507,7 +508,7 @@
     dct:title "xrefs for dipodomys_ordii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//dipodomys_ordii/dipodomys_ordii_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86.rdf> ;
@@ -538,7 +539,7 @@
     dct:title "xrefs for drosophila_melanogaster" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//drosophila_melanogaster/drosophila_melanogaster_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86.rdf> ;
@@ -569,7 +570,7 @@
     dct:title "xrefs for echinops_telfairi" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//echinops_telfairi/echinops_telfairi_xrefs.ttl.gz" .
 
-ensembl:ensembl a dct:Dataset ;
+ensembl:ensembl a dcmi:Dataset ;
     dct:description "This is just a test to create a OLS VoID File" ;
     dct:hasPart ensembl:ailuropoda_melanoleuca,
         ensembl:anas_platyrhynchos,
@@ -658,13 +659,13 @@ ensembl:ensembl a dct:Dataset ;
         ensembl:xiphophorus_maculatus ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ensembl" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-14> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-14> a dcmi:Dataset ;
     dct:creator ebi:ENSEMBL ;
     dct:description "Ensembl description on version level" ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-14.rdf> ;
     dct:isVersionOf ensembl:ensembl ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
@@ -673,7 +674,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "Title on Version level? " ;
     pav:version "86" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-1-26.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-14.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:ENSEMBL ;
     dct:description "This is just a test to create a OLS VoID File" ;
@@ -684,7 +685,7 @@ ensembl:ensembl a dct:Dataset ;
     void:dataDump "unknown" ;
     foaf:page <http://www.ebi.ac.uk/rdf/service/XXXwhateverXXX> .
 
-<http://rdf.ebi.ac.uk/dataset/equus_caballus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/equus_caballus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/equus_caballus/86.rdf> ;
@@ -715,7 +716,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for equus_caballus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//equus_caballus/equus_caballus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86.rdf> ;
@@ -746,7 +747,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for erinaceus_europaeus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//erinaceus_europaeus/erinaceus_europaeus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/felis_catus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/felis_catus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/felis_catus/86.rdf> ;
@@ -777,7 +778,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for felis_catus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//felis_catus/felis_catus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86.rdf> ;
@@ -808,7 +809,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for ficedula_albicollis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ficedula_albicollis/ficedula_albicollis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/gadus_morhua/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/gadus_morhua/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86.rdf> ;
@@ -839,7 +840,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for gadus_morhua" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gadus_morhua/gadus_morhua_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/gallus_gallus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/gallus_gallus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86.rdf> ;
@@ -870,7 +871,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for gallus_gallus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gallus_gallus/gallus_gallus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86.rdf> ;
@@ -901,7 +902,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for gasterosteus_aculeatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gasterosteus_aculeatus/gasterosteus_aculeatus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86.rdf> ;
@@ -932,7 +933,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for gorilla_gorilla" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//gorilla_gorilla/gorilla_gorilla_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/homo_sapiens/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/homo_sapiens/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86.rdf> ;
@@ -963,7 +964,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for homo_sapiens" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//homo_sapiens/homo_sapiens_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86.rdf> ;
@@ -994,7 +995,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for ictidomys_tridecemlineatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ictidomys_tridecemlineatus/ictidomys_tridecemlineatus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86.rdf> ;
@@ -1025,7 +1026,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for latimeria_chalumnae" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//latimeria_chalumnae/latimeria_chalumnae_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86.rdf> ;
@@ -1056,7 +1057,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for lepisosteus_oculatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//lepisosteus_oculatus/lepisosteus_oculatus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86.rdf> ;
@@ -1087,7 +1088,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for loxodonta_africana" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//loxodonta_africana/loxodonta_africana_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86.rdf> ;
@@ -1118,7 +1119,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for macaca_mulatta" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//macaca_mulatta/macaca_mulatta_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86.rdf> ;
@@ -1149,7 +1150,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for macropus_eugenii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//macropus_eugenii/macropus_eugenii_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86.rdf> ;
@@ -1180,7 +1181,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for meleagris_gallopavo" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//meleagris_gallopavo/meleagris_gallopavo_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86.rdf> ;
@@ -1211,7 +1212,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for microcebus_murinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//microcebus_murinus/microcebus_murinus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86.rdf> ;
@@ -1242,7 +1243,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for monodelphis_domestica" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//monodelphis_domestica/monodelphis_domestica_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus/86.rdf> ;
@@ -1273,7 +1274,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus/mus_musculus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86.rdf> ;
@@ -1304,7 +1305,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_129s1svimj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_129s1svimj/mus_musculus_129s1svimj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86.rdf> ;
@@ -1335,7 +1336,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_aj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_aj/mus_musculus_aj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86.rdf> ;
@@ -1366,7 +1367,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_akrj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_akrj/mus_musculus_akrj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86.rdf> ;
@@ -1397,7 +1398,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_balbcj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_balbcj/mus_musculus_balbcj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86.rdf> ;
@@ -1428,7 +1429,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_c3hhej" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_c3hhej/mus_musculus_c3hhej_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86.rdf> ;
@@ -1459,7 +1460,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_c57bl6nj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_c57bl6nj/mus_musculus_c57bl6nj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86.rdf> ;
@@ -1490,7 +1491,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_casteij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_casteij/mus_musculus_casteij_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86.rdf> ;
@@ -1521,7 +1522,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_cbaj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_cbaj/mus_musculus_cbaj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86.rdf> ;
@@ -1552,7 +1553,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_dba2j" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_dba2j/mus_musculus_dba2j_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86.rdf> ;
@@ -1583,7 +1584,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_fvbnj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_fvbnj/mus_musculus_fvbnj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86.rdf> ;
@@ -1614,7 +1615,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_lpj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_lpj/mus_musculus_lpj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86.rdf> ;
@@ -1645,7 +1646,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_nodshiltj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_nodshiltj/mus_musculus_nodshiltj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86.rdf> ;
@@ -1676,7 +1677,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_nzohlltj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_nzohlltj/mus_musculus_nzohlltj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86.rdf> ;
@@ -1707,7 +1708,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_pwkphj" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_pwkphj/mus_musculus_pwkphj_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86.rdf> ;
@@ -1738,7 +1739,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_musculus_wsbeij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_musculus_wsbeij/mus_musculus_wsbeij_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86.rdf> ;
@@ -1769,7 +1770,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mus_spretus_spreteij" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mus_spretus_spreteij/mus_spretus_spreteij_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86.rdf> ;
@@ -1800,7 +1801,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for mustela_putorius_furo" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//mustela_putorius_furo/mustela_putorius_furo_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86.rdf> ;
@@ -1831,7 +1832,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for myotis_lucifugus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//myotis_lucifugus/myotis_lucifugus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86.rdf> ;
@@ -1862,7 +1863,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for nomascus_leucogenys" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//nomascus_leucogenys/nomascus_leucogenys_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86.rdf> ;
@@ -1893,7 +1894,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for ochotona_princeps" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ochotona_princeps/ochotona_princeps_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86.rdf> ;
@@ -1924,7 +1925,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for oreochromis_niloticus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oreochromis_niloticus/oreochromis_niloticus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86.rdf> ;
@@ -1955,7 +1956,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for ornithorhynchus_anatinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ornithorhynchus_anatinus/ornithorhynchus_anatinus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86.rdf> ;
@@ -1986,7 +1987,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for oryctolagus_cuniculus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oryctolagus_cuniculus/oryctolagus_cuniculus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86.rdf> ;
@@ -2017,7 +2018,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for oryzias_latipes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//oryzias_latipes/oryzias_latipes_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86.rdf> ;
@@ -2048,7 +2049,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for otolemur_garnettii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//otolemur_garnettii/otolemur_garnettii_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/ovis_aries/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ovis_aries/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ovis_aries/86.rdf> ;
@@ -2079,7 +2080,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for ovis_aries" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//ovis_aries/ovis_aries_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86.rdf> ;
@@ -2110,7 +2111,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for pan_troglodytes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pan_troglodytes/pan_troglodytes_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/papio_anubis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/papio_anubis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/papio_anubis/86.rdf> ;
@@ -2141,7 +2142,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for papio_anubis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//papio_anubis/papio_anubis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86.rdf> ;
@@ -2172,7 +2173,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for pelodiscus_sinensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pelodiscus_sinensis/pelodiscus_sinensis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86.rdf> ;
@@ -2203,7 +2204,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for petromyzon_marinus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//petromyzon_marinus/petromyzon_marinus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86.rdf> ;
@@ -2234,7 +2235,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for poecilia_formosa" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//poecilia_formosa/poecilia_formosa_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/pongo_abelii/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pongo_abelii/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86.rdf> ;
@@ -2265,7 +2266,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for pongo_abelii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pongo_abelii/pongo_abelii_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/procavia_capensis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/procavia_capensis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86.rdf> ;
@@ -2296,7 +2297,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for procavia_capensis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//procavia_capensis/procavia_capensis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86.rdf> ;
@@ -2327,7 +2328,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for pteropus_vampyrus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//pteropus_vampyrus/pteropus_vampyrus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86.rdf> ;
@@ -2358,7 +2359,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for rattus_norvegicus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//rattus_norvegicus/rattus_norvegicus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86.rdf> ;
@@ -2389,7 +2390,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for saccharomyces_cerevisiae" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//saccharomyces_cerevisiae/saccharomyces_cerevisiae_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86.rdf> ;
@@ -2420,7 +2421,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for sarcophilus_harrisii" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sarcophilus_harrisii/sarcophilus_harrisii_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/sorex_araneus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/sorex_araneus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86.rdf> ;
@@ -2451,7 +2452,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for sorex_araneus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sorex_araneus/sorex_araneus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/sus_scrofa/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/sus_scrofa/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86.rdf> ;
@@ -2482,7 +2483,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for sus_scrofa" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//sus_scrofa/sus_scrofa_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86.rdf> ;
@@ -2513,7 +2514,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for taeniopygia_guttata" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//taeniopygia_guttata/taeniopygia_guttata_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86.rdf> ;
@@ -2544,7 +2545,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for takifugu_rubripes" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//takifugu_rubripes/takifugu_rubripes_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86.rdf> ;
@@ -2575,7 +2576,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for tarsius_syrichta" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tarsius_syrichta/tarsius_syrichta_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86.rdf> ;
@@ -2606,7 +2607,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for tetraodon_nigroviridis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tetraodon_nigroviridis/tetraodon_nigroviridis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86.rdf> ;
@@ -2637,7 +2638,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for tupaia_belangeri" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tupaia_belangeri/tupaia_belangeri_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86.rdf> ;
@@ -2668,7 +2669,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for tursiops_truncatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//tursiops_truncatus/tursiops_truncatus_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86.rdf> ;
@@ -2699,7 +2700,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for vicugna_pacos" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//vicugna_pacos/vicugna_pacos_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86.rdf> ;
@@ -2730,7 +2731,7 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for xenopus_tropicalis" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//xenopus_tropicalis/xenopus_tropicalis_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86> a dcmi:Dataset ;
     dct:creator "Who is the creator/Versionlevel" ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86.rdf> ;
@@ -2761,511 +2762,511 @@ ensembl:ensembl a dct:Dataset ;
     dct:title "xrefs for xiphophorus_maculatus" ;
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//xiphophorus_maculatus/xiphophorus_maculatus_xrefs.ttl.gz" .
 
-ensembl:ailuropoda_melanoleuca a dct:Dataset ;
+ensembl:ailuropoda_melanoleuca a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ailuropoda_melanoleuca" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86> .
 
-ensembl:anas_platyrhynchos a dct:Dataset ;
+ensembl:anas_platyrhynchos a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "anas_platyrhynchos" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86> .
 
-ensembl:anolis_carolinensis a dct:Dataset ;
+ensembl:anolis_carolinensis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "anolis_carolinensis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86> .
 
-ensembl:astyanax_mexicanus a dct:Dataset ;
+ensembl:astyanax_mexicanus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "astyanax_mexicanus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86> .
 
-ensembl:bos_taurus a dct:Dataset ;
+ensembl:bos_taurus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "bos_taurus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bos_taurus/86> .
 
-ensembl:caenorhabditis_elegans a dct:Dataset ;
+ensembl:caenorhabditis_elegans a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "caenorhabditis_elegans" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86> .
 
-ensembl:callithrix_jacchus a dct:Dataset ;
+ensembl:callithrix_jacchus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "callithrix_jacchus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86> .
 
-ensembl:canis_familiaris a dct:Dataset ;
+ensembl:canis_familiaris a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "canis_familiaris" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86> .
 
-ensembl:cavia_porcellus a dct:Dataset ;
+ensembl:cavia_porcellus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "cavia_porcellus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86> .
 
-ensembl:chlorocebus_sabaeus a dct:Dataset ;
+ensembl:chlorocebus_sabaeus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "chlorocebus_sabaeus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86> .
 
-ensembl:choloepus_hoffmanni a dct:Dataset ;
+ensembl:choloepus_hoffmanni a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "choloepus_hoffmanni" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86> .
 
-ensembl:ciona_intestinalis a dct:Dataset ;
+ensembl:ciona_intestinalis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ciona_intestinalis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86> .
 
-ensembl:ciona_savignyi a dct:Dataset ;
+ensembl:ciona_savignyi a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ciona_savignyi" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86> .
 
-ensembl:danio_rerio a dct:Dataset ;
+ensembl:danio_rerio a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "danio_rerio" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/danio_rerio/86> .
 
-ensembl:dasypus_novemcinctus a dct:Dataset ;
+ensembl:dasypus_novemcinctus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "dasypus_novemcinctus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86> .
 
-ensembl:dipodomys_ordii a dct:Dataset ;
+ensembl:dipodomys_ordii a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "dipodomys_ordii" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86> .
 
-ensembl:drosophila_melanogaster a dct:Dataset ;
+ensembl:drosophila_melanogaster a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "drosophila_melanogaster" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86> .
 
-ensembl:echinops_telfairi a dct:Dataset ;
+ensembl:echinops_telfairi a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "echinops_telfairi" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86> .
 
-ensembl:equus_caballus a dct:Dataset ;
+ensembl:equus_caballus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "equus_caballus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/equus_caballus/86> .
 
-ensembl:erinaceus_europaeus a dct:Dataset ;
+ensembl:erinaceus_europaeus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "erinaceus_europaeus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86> .
 
-ensembl:felis_catus a dct:Dataset ;
+ensembl:felis_catus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "felis_catus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/felis_catus/86> .
 
-ensembl:ficedula_albicollis a dct:Dataset ;
+ensembl:ficedula_albicollis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ficedula_albicollis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86> .
 
-ensembl:gadus_morhua a dct:Dataset ;
+ensembl:gadus_morhua a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "gadus_morhua" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86> .
 
-ensembl:gallus_gallus a dct:Dataset ;
+ensembl:gallus_gallus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "gallus_gallus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86> .
 
-ensembl:gasterosteus_aculeatus a dct:Dataset ;
+ensembl:gasterosteus_aculeatus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "gasterosteus_aculeatus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86> .
 
-ensembl:gorilla_gorilla a dct:Dataset ;
+ensembl:gorilla_gorilla a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "gorilla_gorilla" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86> .
 
-ensembl:homo_sapiens a dct:Dataset ;
+ensembl:homo_sapiens a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "homo_sapiens" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86> .
 
-ensembl:ictidomys_tridecemlineatus a dct:Dataset ;
+ensembl:ictidomys_tridecemlineatus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ictidomys_tridecemlineatus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86> .
 
-ensembl:latimeria_chalumnae a dct:Dataset ;
+ensembl:latimeria_chalumnae a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "latimeria_chalumnae" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86> .
 
-ensembl:lepisosteus_oculatus a dct:Dataset ;
+ensembl:lepisosteus_oculatus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "lepisosteus_oculatus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86> .
 
-ensembl:loxodonta_africana a dct:Dataset ;
+ensembl:loxodonta_africana a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "loxodonta_africana" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86> .
 
-ensembl:macaca_mulatta a dct:Dataset ;
+ensembl:macaca_mulatta a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "macaca_mulatta" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86> .
 
-ensembl:macropus_eugenii a dct:Dataset ;
+ensembl:macropus_eugenii a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "macropus_eugenii" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86> .
 
-ensembl:meleagris_gallopavo a dct:Dataset ;
+ensembl:meleagris_gallopavo a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "meleagris_gallopavo" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86> .
 
-ensembl:microcebus_murinus a dct:Dataset ;
+ensembl:microcebus_murinus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "microcebus_murinus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86> .
 
-ensembl:monodelphis_domestica a dct:Dataset ;
+ensembl:monodelphis_domestica a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "monodelphis_domestica" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86> .
 
-ensembl:mus_musculus a dct:Dataset ;
+ensembl:mus_musculus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus/86> .
 
-ensembl:mus_musculus_129s1svimj a dct:Dataset ;
+ensembl:mus_musculus_129s1svimj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_129s1svimj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86> .
 
-ensembl:mus_musculus_aj a dct:Dataset ;
+ensembl:mus_musculus_aj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_aj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86> .
 
-ensembl:mus_musculus_akrj a dct:Dataset ;
+ensembl:mus_musculus_akrj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_akrj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86> .
 
-ensembl:mus_musculus_balbcj a dct:Dataset ;
+ensembl:mus_musculus_balbcj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_balbcj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86> .
 
-ensembl:mus_musculus_c3hhej a dct:Dataset ;
+ensembl:mus_musculus_c3hhej a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_c3hhej" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86> .
 
-ensembl:mus_musculus_c57bl6nj a dct:Dataset ;
+ensembl:mus_musculus_c57bl6nj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_c57bl6nj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86> .
 
-ensembl:mus_musculus_casteij a dct:Dataset ;
+ensembl:mus_musculus_casteij a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_casteij" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86> .
 
-ensembl:mus_musculus_cbaj a dct:Dataset ;
+ensembl:mus_musculus_cbaj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_cbaj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86> .
 
-ensembl:mus_musculus_dba2j a dct:Dataset ;
+ensembl:mus_musculus_dba2j a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_dba2j" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86> .
 
-ensembl:mus_musculus_fvbnj a dct:Dataset ;
+ensembl:mus_musculus_fvbnj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_fvbnj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86> .
 
-ensembl:mus_musculus_lpj a dct:Dataset ;
+ensembl:mus_musculus_lpj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_lpj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86> .
 
-ensembl:mus_musculus_nodshiltj a dct:Dataset ;
+ensembl:mus_musculus_nodshiltj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_nodshiltj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86> .
 
-ensembl:mus_musculus_nzohlltj a dct:Dataset ;
+ensembl:mus_musculus_nzohlltj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_nzohlltj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86> .
 
-ensembl:mus_musculus_pwkphj a dct:Dataset ;
+ensembl:mus_musculus_pwkphj a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_pwkphj" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86> .
 
-ensembl:mus_musculus_wsbeij a dct:Dataset ;
+ensembl:mus_musculus_wsbeij a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_musculus_wsbeij" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86> .
 
-ensembl:mus_spretus_spreteij a dct:Dataset ;
+ensembl:mus_spretus_spreteij a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mus_spretus_spreteij" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86> .
 
-ensembl:mustela_putorius_furo a dct:Dataset ;
+ensembl:mustela_putorius_furo a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "mustela_putorius_furo" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86> .
 
-ensembl:myotis_lucifugus a dct:Dataset ;
+ensembl:myotis_lucifugus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "myotis_lucifugus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86> .
 
-ensembl:nomascus_leucogenys a dct:Dataset ;
+ensembl:nomascus_leucogenys a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "nomascus_leucogenys" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86> .
 
-ensembl:ochotona_princeps a dct:Dataset ;
+ensembl:ochotona_princeps a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ochotona_princeps" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86> .
 
-ensembl:oreochromis_niloticus a dct:Dataset ;
+ensembl:oreochromis_niloticus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "oreochromis_niloticus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86> .
 
-ensembl:ornithorhynchus_anatinus a dct:Dataset ;
+ensembl:ornithorhynchus_anatinus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ornithorhynchus_anatinus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86> .
 
-ensembl:oryctolagus_cuniculus a dct:Dataset ;
+ensembl:oryctolagus_cuniculus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "oryctolagus_cuniculus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86> .
 
-ensembl:oryzias_latipes a dct:Dataset ;
+ensembl:oryzias_latipes a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "oryzias_latipes" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86> .
 
-ensembl:otolemur_garnettii a dct:Dataset ;
+ensembl:otolemur_garnettii a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "otolemur_garnettii" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86> .
 
-ensembl:ovis_aries a dct:Dataset ;
+ensembl:ovis_aries a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "ovis_aries" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ovis_aries/86> .
 
-ensembl:pan_troglodytes a dct:Dataset ;
+ensembl:pan_troglodytes a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "pan_troglodytes" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86> .
 
-ensembl:papio_anubis a dct:Dataset ;
+ensembl:papio_anubis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "papio_anubis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/papio_anubis/86> .
 
-ensembl:pelodiscus_sinensis a dct:Dataset ;
+ensembl:pelodiscus_sinensis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "pelodiscus_sinensis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86> .
 
-ensembl:petromyzon_marinus a dct:Dataset ;
+ensembl:petromyzon_marinus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "petromyzon_marinus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86> .
 
-ensembl:poecilia_formosa a dct:Dataset ;
+ensembl:poecilia_formosa a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "poecilia_formosa" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86> .
 
-ensembl:pongo_abelii a dct:Dataset ;
+ensembl:pongo_abelii a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "pongo_abelii" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86> .
 
-ensembl:procavia_capensis a dct:Dataset ;
+ensembl:procavia_capensis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "procavia_capensis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86> .
 
-ensembl:pteropus_vampyrus a dct:Dataset ;
+ensembl:pteropus_vampyrus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "pteropus_vampyrus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86> .
 
-ensembl:rattus_norvegicus a dct:Dataset ;
+ensembl:rattus_norvegicus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "rattus_norvegicus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86> .
 
-ensembl:saccharomyces_cerevisiae a dct:Dataset ;
+ensembl:saccharomyces_cerevisiae a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "saccharomyces_cerevisiae" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86> .
 
-ensembl:sarcophilus_harrisii a dct:Dataset ;
+ensembl:sarcophilus_harrisii a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "sarcophilus_harrisii" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86> .
 
-ensembl:sorex_araneus a dct:Dataset ;
+ensembl:sorex_araneus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "sorex_araneus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86> .
 
-ensembl:sus_scrofa a dct:Dataset ;
+ensembl:sus_scrofa a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "sus_scrofa" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86> .
 
-ensembl:taeniopygia_guttata a dct:Dataset ;
+ensembl:taeniopygia_guttata a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "taeniopygia_guttata" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86> .
 
-ensembl:takifugu_rubripes a dct:Dataset ;
+ensembl:takifugu_rubripes a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "takifugu_rubripes" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86> .
 
-ensembl:tarsius_syrichta a dct:Dataset ;
+ensembl:tarsius_syrichta a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "tarsius_syrichta" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86> .
 
-ensembl:tetraodon_nigroviridis a dct:Dataset ;
+ensembl:tetraodon_nigroviridis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "tetraodon_nigroviridis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86> .
 
-ensembl:tupaia_belangeri a dct:Dataset ;
+ensembl:tupaia_belangeri a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "tupaia_belangeri" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86> .
 
-ensembl:tursiops_truncatus a dct:Dataset ;
+ensembl:tursiops_truncatus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "tursiops_truncatus" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86> .
 
-ensembl:vicugna_pacos a dct:Dataset ;
+ensembl:vicugna_pacos a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "vicugna_pacos" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86> .
 
-ensembl:xenopus_tropicalis a dct:Dataset ;
+ensembl:xenopus_tropicalis a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "xenopus_tropicalis" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86> .
 
-ensembl:xiphophorus_maculatus a dct:Dataset ;
+ensembl:xiphophorus_maculatus a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher "Who do we put in here" ;
     dct:title "xiphophorus_maculatus" ;
