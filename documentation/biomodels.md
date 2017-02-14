@@ -12,7 +12,7 @@ Namespace prefixes
 
 
 ## Top level class structure
-![toplevel](RDF-platform/static/biomodels/eventProperties.jpeg )
+![toplevel](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelClassStructure-424x557.jpeg)
 
  
 
