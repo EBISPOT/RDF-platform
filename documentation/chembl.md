@@ -5,6 +5,5 @@ The ChEMBL RDF model uses a basic internal ontology, referred to as the ChEMBL C
 ![simplified_chembl](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/chembl/chembl_18_rdf_summary.png?raw=true)
 
 
-A more detailed view of the ChEMBL RDF schema is provided in the following image: chembl_18_rdf_full_schema.png
+A more detailed view of the ChEMBL RDF schema is provided in the following image: [chembl_18_rdf_full_schema.png](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/chembl/chembl_18_rdf_full_schema.png?raw=true)
 
-![detailed_chembl](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/chembl/chembl_18_rdf_full_schema.png?raw=true)
