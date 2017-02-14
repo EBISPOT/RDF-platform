@@ -4,15 +4,16 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 
-<http://rdf.ebi.ac.uk/dataset/gwas> a  dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/gwas> a  dctypes:Dataset;
   dcterms:title "GWAS" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gwas/Version01>;
   dct:publisher "EBI - SPOT" ;
 	dcterms:description "The Description of this dataSet" .
 
 
-<http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dctypes:Dataset;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/gwas>;
   	dcterms:description "The Description of the Version level of GWAS";
     dcterms:title "GWAS Version" ;
@@ -36,7 +37,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data> a void:DataSet;
     dcterms:title "Empty" ;
-    dcterms:description "The Description of the Version level of Biosamples";
+    dcterms:description "The Description of the Version level of GWAS";
   void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-kb.owl" .
 
 
