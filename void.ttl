@@ -2,17 +2,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
 
-<http://rdf.ebi.ac.uk/dataset/pub> a  dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/pub> a dctypes:Dataset;;
   dcterms:title "Pub" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pub/Version01>;
   dct:publisher "EBI" ;
 	dcterms:description "The Description of this dataSet" .
 
 
-<http://rdf.ebi.ac.uk/dataset/pub/Version01> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pub/Version01> a dctypes:Dataset; ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/pub>;
   	dcterms:description "The Description of the Version level of pub";
     dcterms:title "Versionlevel pub" ;
