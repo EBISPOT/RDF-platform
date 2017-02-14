@@ -1,5 +1,5 @@
 # Site settings
-name: EBI's RDF platform 
+name: RDF platform 
 group: EMBL-EBI SPOT 
 email: noreply@ebi.ac.uk
 domain: //ebispot.github.io
