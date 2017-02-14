@@ -27,7 +27,7 @@
 
 
 <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017.rdf> a void:Dataset, dcat:Distribution ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-19-11-2014.tar.gz> ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-13-02-2017.tar.gz> ;
   dct:creator "TestCreator in that case" ;
   dcterms:description "The Distribution Level of Atlas"^^rdf:langString;
   dct:creator <http://wwww.ebi.ac.uk/gxa> ;
