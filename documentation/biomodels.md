@@ -15,7 +15,7 @@ Namespace prefixes
 ![toplevelclassstructure](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelClassStructure-424x557.jpeg?raw=true)
 
 ### Top level property structure
-![toplevelproperty](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelPropertyStructure-851x648.jpeg?raw=true)
+![toplevelproperty](../static/biomodels/topLevelPropertyStructure-851x648.jpeg?raw=true)
 
 ### Common properties
 ![commonProperties](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/commonProperties.jpeg?raw=true)
