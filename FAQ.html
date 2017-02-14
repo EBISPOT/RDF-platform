@@ -9,12 +9,12 @@ order: 5
 
 <h3>General</h3>
 <ul>
-   <li>Why isn't my favourite database available in RDF?</li>
-   <li>What is the license for using this data?</li>
-   <li>What are Linked Data and the Semantic Web?</li>
-   <li>What is RDF?</li>
-   <li>What is a URI?</li>
-   <li>What is SPARQL?</li>
+   <li><a href="#favoriteDatabase">Why isn't my favourite database available in RDF?</a></li>
+   <li><a href="#licensing">What is the license for using this data?</a></li>
+   <li><a href="#semanticWeb">What are Linked Data and the Semantic Web?</li>
+   <li><a href="#whatIsRDF">What is RDF?</a></li>
+   <li><a href="#whatIsURI">What is a URI?</a></li>
+   <li><a href="#whatIsSPARQL">What is SPARQL?</a></li>
 </ul>
     
 <h3>Technical details</h3>
@@ -27,4 +27,61 @@ order: 5
 </ul>
 
 
+<h4><a name="favoriteDatabase">Why isn't my favourite database available in RDF?</h4>
+<p>
+We appreciate that users might wish to see all of EMBL-EBI's databases made available as RDF - the more databases included, the more valuable Linked Data becomes as an integration platform. However, our database teams have limited resources, and must prioiritise their development activities accordingly. Transforming EMBL-EBI's large and complex databases into RDF and maintaining the various services is not a trivial undertaking.
 
+By creating this platform, we hope to lay the ground work that may make it easier for more databases to produce RDF in the future, as well as to evaluate the demand. If you would like to see a particular database made available as RDF, we suggest that you let us know so we can pass on your feedback.
+</p>
+
+<h4 name="licensing">What is the license for using this data?</h4>
+<p>
+The licenses for using this data are specific to each service. You can find the license information by visiting the individual services in question. Alternatively, this is available from the Linked Data browser by following the VOID data set description links as follows:
+</p>
+   
+<h4 name="semanticWeb"></h4>
+<p>
+
+
+In its most common usage, Linked Data refers to the use of RDF technologies to make data available on the web. More specifically, it is about linking together multiple dinstinct datasets using a common set of URIs, such that they can be easily integrated together using the same technology.
+
+The primary advantage of making data available in this form is that it makes it much easier for programmatic queries to be executed over multiple datasets by a computer. This is because it does not require a human to first create special code to understand the syntax (e.g. file formats) of the data. By breaking down these syntactic barriers, the process of data integration becomes concentrated on the meaning or semantics of the data themselves, and these semantics are made explicit in the data. For this reason, RDF datasets on the web are sometimes collectively referred to as the Semantic Web.
+
+Note that RDF technologies provide methods to allow the semantics of data to be expressed. They can help deal with some aspects of semantics (e.g. URIs can make it easier to know when two identifiers from different databases are the same thing), but they do not solve the problem of semantics per se.
+</p>
+   
+<h4 name="whatIsRDF">What is RDF?</h4>
+<p>
+The acronym "RDF" is most often used to mean one of two things:
+
+The Resource Description Framework (RDF) is a family of web standards maintained by the World Wide Web Consortium (W3C). It can be used as a way to represent, share and interact with data on the web. RDF encompasses a number of different technologies including a data model, syntax schemas, serialisation formats, and a query language (SPARQL). See our About the technology page for more details.
+
+In certain contexts the term RDF is often used to refer specifically to the RDF/XML file format, which usually uses the .rdf file extension.
+
+There are in fact several widely used file formats for representing the RDF data model, each with their own advantages. For example, a turtle (.ttl) file might still be said to contain RDF data, even though it is not an RDF XML file.
+</p>
+   
+   
+<h4 name="whatIsURI">What is a URI?</h4>
+<p>
+A URI, or Uniform Resource Identifier, is a globally unique identifier string that follows a standard syntax. URIs lie at the heart of the Semantic Web, because they are used to identify anything that can be referred to within the RDF data model: subjects and predicates are always URIs, and objects are either URIs or primitives. Sometimes URIs identify real physical objects or people (e.g. "London"), sometimes they represent abstract concepts (e.g. "a city"), or the connection between two things (e.g. "the geographical location").
+
+Because URIs are unique to a specific "thing", a single URI can never refer to more than one thing at the same time. This means that data expressed in two different RDF datasets that contain references to the same URI are talking about the same "thing" and can therefore be integrated programatically and semantically. For example, a simple identifier like 9606 might mean one of several different "things" depending on the dataset it is contained within: tirofiban hydrochloride (ChEBI) or Homo sapiens (NCBI Taxonomy). This makes it impossible for a computer program to unambiguously identify what 9606 means without explicit instructions. By contrast, any two datasets that include a reference to http://identifiers.org/taxonomy/9606 are guaranteed to be talking about the same thing. This subtle but important distinction is crucial in enabling the integration of generic information of data on the web, because software need no longer be limited to dealing only with some specific data it was designed for by its human creator.
+
+A URL, or Uniform Resource Locator, is a specific type of URI that implies a location on the web: most commonly HTTP URLs (URIs that begin with http:). In practice this distinction has largely been lost: most URIs used within RDF are HTTP URLs, and it is considered good practice for these URLs to resolve to something relevant on the web.
+</p>   
+   
+<h4 name="whatIsSPARQL"></h4>
+<p>
+SPARQL is a network protocol and query language for RDF. It is partially analogous to SQL (Structured Query Language, used for interacting with relational databases). SPARQL combines web standards such as HTTP with other components of the Resource Description Framework, and defines a syntax for retrieving RDF data (triples). A SPARQL query is a pattern of instructions and limitations for retrieving a certain collection of data. When a SPARQL endpoint receives a SPARQL query, it will search the RDF statements contained within it and return those that satisfy the pattern.
+
+For example, a SPARQL query might represent a request such as: "give me the names and email addresses of all friends of Tim who are employed by any company in the Cambridge area and have an interest in cycling". 
+
+SPARUL is an extension of SPARQL that specifies update/write operations: adding, updating and deleting data.
+</p>   
+   
+   
+<h4 name="t">template</h4>
+<p>
+emtpy
+</p>   
