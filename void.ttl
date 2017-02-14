@@ -4,15 +4,16 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 
-<http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test> a  dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test> a  dctypes:Dataset;
   dcterms:title "Biosamples" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01>;
   dct:publisher "EBI" ;
 	dcterms:description "The Description of this dataSet" .
 
 
-<http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test>;
   	dcterms:description "The Description of the Version level of Biosamples";
     dcterms:title "Reactome Version" ;
