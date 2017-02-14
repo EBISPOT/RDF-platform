@@ -9,7 +9,7 @@ If you wish to download the RDF and use it directly, you will need to also downl
 Without the supporting ontologies, certain types of query will not work, such as generalised external reference queries in our set of examples.
 
 
-![ensembl_schema](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/ensembl/ensembl_schema-1180x980.png.jpeg?raw=true)
+![ensembl_schema](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/ensembl/ensembl_schema-1180x980.png?raw=true)
 
 ###Section by section
 ####Features
