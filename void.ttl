@@ -2,18 +2,19 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
 
 
-<http://rdf.ebi.ac.uk/dataset/biomodels> a dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/biomodels> a dctypes:Dataset;
  dcterms:title "Biomodels";
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biomodels/Version01>;
   dct:publisher "EBI" ;
 	dcterms:description "The Description of this dataSet" .
 
 
-<http://rdf.ebi.ac.uk/dataset/biomodels/Version01> a dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/biomodels/Version01> a dctypes:Dataset;
   dcterms:title "Biomodels Version Level" ;
   dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/biomodels> ;
 	dcterms:description "Version level description" ;
