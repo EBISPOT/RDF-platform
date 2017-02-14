@@ -15,16 +15,16 @@ Namespace prefixes
 ![toplevelclassstructure](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelClassStructure-424x557.jpeg?raw=true)
 
 ### Top level property structure
-![toplevelproperty](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelPropertyStructure-851x648.jpg?raw=true)
+![toplevelproperty](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelPropertyStructure-851x648.jpeg?raw=true)
 
 ### Common properties
-![commonProperties](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/commonProperties.jpg?raw=true)
+![commonProperties](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/commonProperties.jpeg?raw=true)
 
 ### SBMLModel
-![SBMLmodel](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/sbmlModelProperties.jpg?raw=true)
+![SBMLmodel](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/sbmlModelProperties.jpeg?raw=true)
 
 ### FunctionDef
-![FunctionDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/functionDefProperties.jpg?raw=true)
+![FunctionDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/functionDefProperties.jpeg?raw=true)
 
 ### UnitsDef
 ![UnitDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/unitsDefProperties.jpg?raw=true)
