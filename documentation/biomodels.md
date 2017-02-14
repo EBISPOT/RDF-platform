@@ -12,7 +12,7 @@ Namespace prefixes
 
 
 ## Top level class structure
-
+![toplevel](../static/biomodels/topLevelClassStructure-424x557.jpg)
 ## Top level property structure
 
 ## Common properties
