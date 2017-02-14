@@ -31,10 +31,15 @@ def check_void(rdf_graph):
 ###########################################################################  Summary Level###########################################################################
 ## Get all summary levels
     listOfSummaryLevelNodes=[]
-    qres=rdf_graph.query('''SELECT ?a ?b ?c WHERE { ?a ?b <http://purl.org/dc/terms/Dataset>. ?a <http://purl.org/pav/hasCurrentVersion> ?c }''')
-    if len(qres)==0:
-        raise AttributeError('No Summary Level found! Summary level is defined through the attributes <http://purl.org/dc/terms/Dataset> and <http://purl.org/pav/hasCurrentVersion>')
+    qres=rdf_graph.query('''SELECT ?a ?b ?c WHERE { ?a ?b <http://purl.org/dc/dcmitype/Dataset>. ?a <http://purl.org/pav/hasCurrentVersion> ?c }''')
 
+    for row in qres:
+        print row
+
+    if (len(qres)==0):
+        raise AttributeError('No Summary Level found! Summary level is defined through the attributes <http://purl.org/dc/dcmitype/Dataset> and <http://purl.org/pav/hasCurrentVersion>')
+
+    print listOfSummaryLevelNodes
 
     #Turn all the summary level subjects into string and add them to a list
     for row in qres:
@@ -53,6 +58,9 @@ def check_void(rdf_graph):
                 if (len(check2)==0):
                     #If I am nice guy, you could investigate further where it failed exactly
                     raise AttributeError('Connectivity between Summary, Version and Distribution level is not given! '+entity+" has to have the attribute <http://purl.org/pav/hasCurrentVersion>, its version level <http://purl.org/dc/terms/hasDistribution> and the distribution level is idendified by <http://rdfs.org/ns/void#dataDump> or has to have a subset <http://rdfs.org/ns/void#subset> with a dataDump!")
+            #Can get rid of this one
+            #for row in qres:
+            #    print row.d+" "+row.x+" "+row.z
 
 
         #Second Check, Necessary attributes - Check if the necessary attributes for the summary level are given (title, publish, description besides the things checked above)
@@ -78,7 +86,7 @@ def check_void(rdf_graph):
 
     #Third Check: Check all summary level with a hasPart relationship if these references sub summary level exist!
     #1: Get all Summary Levels(TopLevel) with a hasPart relationship
-    qres=rdf_graph.query('''SELECT DISTINCT ?a WHERE { ?a <http://purl.org/dc/terms/hasPart> ?x. ?a ?b <http://purl.org/dc/terms/Dataset>. ?a <http://purl.org/pav/hasCurrentVersion> ?y}''')
+    qres=rdf_graph.query('''SELECT DISTINCT ?a WHERE { ?a <http://purl.org/dc/terms/hasPart> ?x. ?a ?b <http://purl.org/dc/dcmitype/Dataset>. ?a <http://purl.org/pav/hasCurrentVersion> ?y}''')
     listOfAllTopLevels=[]
     for row in qres:
         listOfAllTopLevels.append("<"+row.a+">")
@@ -102,11 +110,11 @@ def check_void(rdf_graph):
 
 ########################################################################### Version Level (ID: is dct:dataset, dct:isVersionOf) ##########################################################################
     listOfVersionNodes=[]
-    qres=rdf_graph.query('''SELECT ?a  WHERE {?a ?b <http://purl.org/dc/terms/Dataset>. ?a <http://purl.org/dc/terms/isVersionOf> ?c}''')
+    qres=rdf_graph.query('''SELECT ?a  WHERE {?a ?b <http://purl.org/dc/dcmitype/Dataset>. ?a <http://purl.org/dc/terms/isVersionOf> ?c}''')
 
     if (len(qres)==0):
         #If I am nice guy, you could investigate further where it failed exactly
-        raise AttributeError('Could not find any version level - it is defined through <http://purl.org/dc/terms/Dataset> and <http://purl.org/dc/terms/isVersionOf>')
+        raise AttributeError('Could not find any version level - it is defined through <http://purl.org/dc/dcmitype/Dataset> and <http://purl.org/dc/terms/isVersionOf>')
 
         #Maybe something out of the code below whatever - friday 17.00 o clock is all I say
     #    if "http://purl.org/dc/terms/isVersionOf" not in listOfPredicats:
@@ -139,19 +147,6 @@ def check_void(rdf_graph):
                 raise AttributeError('dataDump of type http://rdfs.org/ns/void#dataDump MUST NOT be present on version level - '+entity)
 
 
-########################################################################### Distribution Level (ID: is void:dataset, dcatDistribution) ##########################################################################
-    #
-    #   has to have for my programm
-    #       void:dataDump
-    #       idot:preferredPrefix
-    #
-
-    #   has to have
-    #       dct:creator
-    #       dct:title
-    #       void:dataDump
-
-
 ###List of ALL Distribution levels
     ListOfallDistributionLevels=[]
     qres=rdf_graph.query('''SELECT ?a WHERE {?a ?b <http://rdfs.org/ns/void#Dataset>}''')
@@ -182,6 +177,7 @@ def check_void(rdf_graph):
 ##Negative test
         if "http://purl.org/dc/terms/isVersionOf" in listOfPredicats:
             raise AttributeError("isVersionOf of type <http://purl.org/dc/terms/isVersionOf> MUST NOT be present on distribution level! "+entity)
+        ###In a way DATE is missing
     ########################################################
 
 
