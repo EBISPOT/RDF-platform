@@ -1,4 +1,4 @@
-# BioModels documentation 
+## BioModels documentation 
 
 Documentation for the BioModels Linked Dataset
 
@@ -11,44 +11,44 @@ Namespace prefixes
    - bqmodel - http://biomodels.net/model-qualifiers
 
 
-## Top level class structure
-![toplevelclassstructure](../static/biomodels/topLevelClassStructure-424x557.jpeg?raw=true)
+### Top level class structure
+![toplevelclassstructure](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelClassStructure-424x557.jpeg?raw=true)
 
-## Top level property structure
+### Top level property structure
 ![toplevelproperty](../static/biomodels/topLevelPropertyStructure-851x648.jpg?raw=true)
 
-## Common properties
+### Common properties
 ![commonProperties](../static/biomodels/commonProperties.jpg?raw=true)
 
-## SBMLModel
+### SBMLModel
 ![SBMLmodel](../static/biomodels/sbmlModelProperties.jpg?raw=true)
 
-## FunctionDef
+### FunctionDef
 ![FunctionDef](../static/biomodels/functionDefProperties.jpg?raw=true)
 
-## UnitsDef
+### UnitsDef
 ![UnitDef](../static/biomodels/unitsDefProperties.jpg?raw=true)
 
-## Compartment
+### Compartment
 ![Compartment](../static/biomodels/compartmentProperties.jpg?raw=true)
 
-## Species
+### Species
 ![Species](../static/biomodels/speciesProperties.jpg?raw=true)
 
-## Parameter
+### Parameter
 ![Parameter](../static/biomodels/parameterProperties.jpg?raw=true)
 
-## Initial Assignment
+### Initial Assignment
 ![initialAssignment](../static/biomodels/initAssignProperties.jpg?raw=true)
 
-## Rule
+### Rule
 ![Rule](../static/biomodels/ruleProperties.jpg?raw=true)
 
-## Constraint
+### Constraint
 ![Constraint](../static/biomodels/constraintProperties.jpg?raw=true)
 
-## Reaction
+### Reaction
 ![Reaction](../static/biomodels/reaction.jpg?raw=true)
 
-## Event
+### Event
 ![Event](../static/biomodels/eventProperties.jpg?raw=true)
