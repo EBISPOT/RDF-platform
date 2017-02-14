@@ -12,7 +12,11 @@ Namespace prefixes
 
 
 ## Top level class structure
-![toplevel](../static/biomodels/topLevelClassStructure-424x557.jpg)
+![toplevel](RDF-platform/static/biomodels/eventProperties.jpeg )
+
+ 
+
+
 ## Top level property structure
 
 ## Common properties
