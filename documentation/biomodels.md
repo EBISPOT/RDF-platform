@@ -51,4 +51,4 @@ Namespace prefixes
 ![Reaction](../static/biomodels/reaction.jpg?raw=true)
 
 ## Event
-![Reaction](../static/biomodels/eventProperties.jpg?raw=true)
+![Event](../static/biomodels/eventProperties.jpg?raw=true)
