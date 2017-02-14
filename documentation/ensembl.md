@@ -12,7 +12,6 @@ Without the supporting ontologies, certain types of query will not work, such as
 ![ensembl_schema](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/ensembl/ensembl_schema-1180x980.png?raw=true)
 
 ### Section by section
-#### Features
 
 All features possess a dc:identifer link to the Ensembl stable identifier. rdfs:label is used to provide the favourite common name for the feature, while skos:altLabel is used to list synonyms. Exons can be treated as unordered using the has_part predicate, or ordered via has_ordered_part. The "in taxon" relation is sufficient for well annotated multi-cellular species, but taxonomy is insufficient to delineate features in all organisms. That being the case it is better to localise via assembly. See genomic locations below.
 
