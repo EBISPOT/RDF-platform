@@ -27,28 +27,28 @@ Namespace prefixes
 ![FunctionDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/functionDefProperties.jpeg?raw=true)
 
 ### UnitsDef
-![UnitDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/unitsDefProperties.jpg?raw=true)
+![UnitDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/unitsDefProperties.jpeg?raw=true)
 
 ### Compartment
-![Compartment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/compartmentProperties.jpg?raw=true)
+![Compartment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/compartmentProperties.jpeg?raw=true)
 
 ### Species
-![Species](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/speciesProperties.jpg?raw=true)
+![Species](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/speciesProperties.jpeg?raw=true)
 
 ### Parameter
-![Parameter](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/parameterProperties.jpg?raw=true)
+![Parameter](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/parameterProperties.jpeg?raw=true)
 
 ### Initial Assignment
-![initialAssignment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/initAssignProperties.jpg?raw=true)
+![initialAssignment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/initAssignProperties.jpeg?raw=true)
 
 ### Rule
-![Rule](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/ruleProperties.jpg?raw=true)
+![Rule](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/ruleProperties.jpeg?raw=true)
 
 ### Constraint
-![Constraint](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/constraintProperties.jpg?raw=true)
+![Constraint](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/constraintProperties.jpeg?raw=true)
 
 ### Reaction
-![Reaction](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/reaction.jpg?raw=true)
+![Reaction](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/reaction.jpeg?raw=true)
 
 ### Event
-![Event](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/eventProperties.jpg?raw=true)
+![Event](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/eventProperties.jpeg?raw=true)
