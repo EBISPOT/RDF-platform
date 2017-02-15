@@ -1,3 +1,9 @@
+# Table of Contents
+1. [Technical documentation](##Technical documentation)
+2. [Provenance ](##Provenance )
+3. [Running our SPARQL endpoints locally](##Running our SPARQL endpoints locally)
+4. [The role of identifiers.org](##The role of identifiers.org)
+
 ## Technical documentation
 
 Most of the services on the RDF platform are hosted by EMBL-EBI (with the exception of the UniProt SPARQL endpoint, which is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF services.
