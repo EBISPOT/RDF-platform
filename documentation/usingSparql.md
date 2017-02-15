@@ -4,16 +4,13 @@ We provide a SPARQL endpoint with free public access for users to explore our da
 
 #### Graphs
 
-Each endpoint contains two named graphs:
-<strong>Data</strong>
+Each endpoint contains two named graphs.
 
-The latest version of the dataset, along with any vocabulary terms that are specific to that dataset, is contained within a single graph. The name used for this graph looks like this:
+<strong>Data</strong>: The latest version of the dataset, along with any vocabulary terms that are specific to that dataset, is contained within a single graph. The name used for this graph looks like this:
 ```
 http://rdf.ebi.ac.uk/dataset/<dataset>/<version>
 ```
-<strong>Provenance</strong>
-
-We also provide provenance metadata about the dataset in a separate graph. This includes information about versioning, dataset descriptions and example resources. The name used for this graph looks like this:
+<strong>Provenance</strong>: We also provide provenance metadata about the dataset in a separate graph. This includes information about versioning, dataset descriptions and example resources. The name used for this graph looks like this:
 ```
 http://rdf.ebi.ac.uk/dataset/<dataset>/description
 ```
