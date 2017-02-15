@@ -1,10 +1,10 @@
 # Table of Contents
 1. [Technical documentation](## Technical documentation)
-2. [Provenance ](## Provenance )
+2. [Provenance ](## Provenance)
 3. [Running our SPARQL endpoints locally](## Running our SPARQL endpoints locally)
 4. [The role of identifiers.org](## The role of identifiers.org)
 
-## Technical documentation
+## Technical documentation <a name="Technical documentation"></a>
 
 Most of the services on the RDF platform are hosted by EMBL-EBI (with the exception of the UniProt SPARQL endpoint, which is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF services.
 
@@ -30,7 +30,7 @@ The URL resolver is very simple. It handles HTTP requests for data on the rdf.eb
 
 
 
-## Provenance 
+## Provenance <a name="Provenance"></a>
 Included in our bulk RDF downloads and SPARQL endpoints are metadata describing the RDF datasets. These provide some basic information about the dataset and help you keep track of data releases. This includes:
 
 * fBasic information such as the name, version and publication dates of the RDF dataset
@@ -54,7 +54,7 @@ http://rdf.ebi.ac.uk/dataset/chembl/description
 ```
 
 
-## Running our SPARQL endpoints locally
+## Running our SPARQL endpoints locally <a name="Running our SPARQL endpoints locally"></a>
 
 If you would like more control over access to the EMBL-EBI RDF data, or perhaps to combine it with other RDF data, you can run your own SPARQL endpoint. This page will help you through the steps of compiling and installing the Virtuoso open source database, loading our RDF data, and running a basic query using the default web interface.
 
