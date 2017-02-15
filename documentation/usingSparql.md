@@ -38,18 +38,18 @@ WHERE {
 
 #### Prefixes
 
-For convenience, our endpoints are configured with some namespace prefixes by default. These are:
-Prefix 	Namespace
-rdf 	http://www.w3.org/1999/02/22-rdf-syntax-ns#
-rdfs 	http://www.w3.org/2000/01/rdf-schema#
-owl 	http://www.w3.org/2002/07/owl#
-skos 	http://www.w3.org/2004/02/skos/core#
-dc 	http://purl.org/dc/elements/1.1/
-dcterms 	http://purl.org/dc/terms/
-void 	http://rdfs.org/ns/void#
-pav 	http://purl.org/pav/2.0/
-obo 	http://purl.obolibrary.org/obo/
-sio 	http://semanticscience.org/resource/
+For convenience, our endpoints are configured with some namespace prefixes by default: 
+
+* rdf -	http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* rdfs - http://www.w3.org/2000/01/rdf-schema#
+* owl - http://www.w3.org/2002/07/owl#
+* skos - http://www.w3.org/2004/02/skos/core#
+* dc - http://purl.org/dc/elements/1.1/
+* dcterms - http://purl.org/dc/terms/
+* void - http://rdfs.org/ns/void#
+* pav - http://purl.org/pav/2.0/
+* obo - http://purl.obolibrary.org/obo/
+* sio - http://semanticscience.org/resource/
 
 You can use these prefixes in SPARQL queries without needing to specify them.
 
