@@ -1,13 +1,19 @@
 #!/usr/bin/env python
-import rdflib
 
+# This module ensures, that void files fulfill a certain standards. These rules are done by SPARQL statements and corresponding python error msg in case of
+# faulty query results. And outline of the rules that shall be enfored here can be found in the pdf at github https://github.com/EBISPOT/RDF-platform
+
+import rdflib
+from rfc3987 import parse
+
+#Load a file from a certain path into a rdflib Graph and start the check_void function with for that rdf graph
 def startUp(path):
     g=rdflib.Graph()
     result = g.parse(str(path), format='n3')
     check_void(result)
     print "Check Completed for "+path
 
-
+#A helper function to check recursivly if the last level of a subset has a dataDump link
 def recursive_subset_check(entity, graph):
     #Check for subset
     qres=graph.query('SELECT ?c WHERE {'+entity+' <http://rdfs.org/ns/void#subset> ?c }')
@@ -26,20 +32,14 @@ def recursive_subset_check(entity, graph):
             subentity="<"+row.c+">"
             recursive_subset_check(subentity, graph)
 
-
+#Here starts the quality control. This is basically a combination of SPARQL queries and python error msg in case the results is not what we expect
 def check_void(rdf_graph):
-###########################################################################  Summary Level###########################################################################
+######################################################## Summary Level###########################################################################
 ## Get all summary levels
     listOfSummaryLevelNodes=[]
     qres=rdf_graph.query('''SELECT ?a ?b ?c WHERE { ?a ?b <http://purl.org/dc/dcmitype/Dataset>. ?a <http://purl.org/pav/hasCurrentVersion> ?c }''')
-
-    for row in qres:
-        print row
-
-    if (len(qres)==0):
+    if len(qres)==0:
         raise AttributeError('No Summary Level found! Summary level is defined through the attributes <http://purl.org/dc/dcmitype/Dataset> and <http://purl.org/pav/hasCurrentVersion>')
-
-    print listOfSummaryLevelNodes
 
     #Turn all the summary level subjects into string and add them to a list
     for row in qres:
@@ -58,17 +58,16 @@ def check_void(rdf_graph):
                 if (len(check2)==0):
                     #If I am nice guy, you could investigate further where it failed exactly
                     raise AttributeError('Connectivity between Summary, Version and Distribution level is not given! '+entity+" has to have the attribute <http://purl.org/pav/hasCurrentVersion>, its version level <http://purl.org/dc/terms/hasDistribution> and the distribution level is idendified by <http://rdfs.org/ns/void#dataDump> or has to have a subset <http://rdfs.org/ns/void#subset> with a dataDump!")
-            #Can get rid of this one
-            #for row in qres:
-            #    print row.d+" "+row.x+" "+row.z
 
 
         #Second Check, Necessary attributes - Check if the necessary attributes for the summary level are given (title, publish, description besides the things checked above)
             listOfPredicats=[]
+            listOfObjects=[]
             query='Select ?b ?c {'+entity+'?b ?c}'
             qres=rdf_graph.query(query)
             for row in qres:
                 listOfPredicats.append(str(row.b))
+                listOfObjects.append(str(row.c))
 
             if "http://purl.org/dc/terms/title" not in listOfPredicats:
                 raise AttributeError('Title of type http://purl.org/dc/terms/title is missing in '+entity)
@@ -82,6 +81,7 @@ def check_void(rdf_graph):
             if "http://purl.org/dc/terms/creator" in listOfPredicats:
                 raise AttributeError('Creator of type http://purl.org/dc/terms/creator MUST NOT be present on summary level '+entity)
 
+            parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/publisher")], rule='IRI')
 
 
     #Third Check: Check all summary level with a hasPart relationship if these references sub summary level exist!
@@ -108,7 +108,7 @@ def check_void(rdf_graph):
             raise AttributeError('Toplevel references via hasPart to '+subTopLevel+' but it does not exist')
 
 
-########################################################################### Version Level (ID: is dct:dataset, dct:isVersionOf) ##########################################################################
+######################################################## Version Level (ID: is dct:dataset, dct:isVersionOf) ##########################################################################
     listOfVersionNodes=[]
     qres=rdf_graph.query('''SELECT ?a  WHERE {?a ?b <http://purl.org/dc/dcmitype/Dataset>. ?a <http://purl.org/dc/terms/isVersionOf> ?c}''')
 
@@ -123,13 +123,14 @@ def check_void(rdf_graph):
     for row in qres:
         listOfVersionNodes.append("<"+str(row.a)+">")
 
-    listOfPredicats=[]
     for entity in listOfVersionNodes:
             listOfPredicats=[]
+            listOfObjects=[]
             query='Select ?b ?c {'+entity+'?b ?c}'
             qres=rdf_graph.query(query)
             for row in qres:
                 listOfPredicats.append(str(row.b))
+                listOfObjects.append(str(row.c))
 
             if "http://purl.org/dc/terms/title" not in listOfPredicats:
                 raise AttributeError('Title of type http://purl.org/dc/terms/title is missing in '+entity)
@@ -147,37 +148,66 @@ def check_void(rdf_graph):
                 raise AttributeError('dataDump of type http://rdfs.org/ns/void#dataDump MUST NOT be present on version level - '+entity)
 
 
+            parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/publisher")], rule='IRI')
+            parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/creator")], rule='IRI')
+
+
+######################################################## Distribution Level (ID: is void:dataset, dcatDistribution) ##########################################################################
+    #
+    #   has to have for my programm
+    #       void:dataDump
+    #       idot:preferredPrefix
+    #
+
+    #   has to have
+    #       dct:creator
+    #       dct:title
+    #       void:dataDump
+
+
 ###List of ALL Distribution levels
     ListOfallDistributionLevels=[]
-    qres=rdf_graph.query('''SELECT ?a WHERE {?a ?b <http://rdfs.org/ns/void#Dataset>}''')
+    #qres=rdf_graph.query('''SELECT ?a WHERE {?a ?b <http://rdfs.org/ns/void#Dataset>}''')
+    qres=rdf_graph.query('''SELECT ?a WHERE {  ?a ?b <http://rdfs.org/ns/void#Dataset> FILTER(      NOT EXISTS{  ?x <http://rdfs.org/ns/void#subset> ?a}      )   }''')
     if len(qres)==0:
         raise AttributeError("No distribution level found! It is defined through the attribute <http://rdfs.org/ns/void#Dataset>")
 
     for row in qres:
         ListOfallDistributionLevels.append("<"+str(row.a)+">")
 
-
+    listOfPredicats=[]
     for entity in ListOfallDistributionLevels:
         listOfPredicats=[]
+        listOfObjects=[]
         query='Select ?b ?c {'+entity+'?b ?c}'
         qres=rdf_graph.query(query)
         for row in qres:
             listOfPredicats.append(str(row.b))
+            listOfObjects.append(str(row.c))
 
         #Subset/DataDump Test I handle in an own function because it needs more logic!
         recursive_subset_check(entity, rdf_graph)
 
         if "http://purl.org/dc/terms/title" not in listOfPredicats:
             raise AttributeError('Title of type http://purl.org/dc/terms/title is missing in '+entity)
-        #if ("http://identifiers.org/idot/preferredPrefix" not in listOfPredicats) and ("http://www.w3.org/ns/dcat#/hasPart" in listOfPredicats):
-        #    raise AttributeError("Prefered prefix of type http://identifiers.org/idot/preferredPrefix is missing in "+entity)
         if "http://purl.org/dc/terms/description" not in listOfPredicats:
             raise AttributeError('Description of type http://purl.org/dc/terms/description is missing in '+entity)
+        if "http://purl.org/dc/terms/creator" not in listOfPredicats:
+            raise AttributeError('Creator of type http://purl.org/dc/terms/creator is missing in '+entity)
+        if "http://purl.org/dc/terms/publisher" not in listOfPredicats:
+            raise AttributeError('Publisher of type http://purl.org/dc/terms/publisher is missing in '+entity)
+        if "http://purl.org/dc/terms/license" not in listOfPredicats:
+            raise AttributeError('Licence of type http://purl.org/dc/terms/license is missing in '+entity)
 
 ##Negative test
         if "http://purl.org/dc/terms/isVersionOf" in listOfPredicats:
             raise AttributeError("isVersionOf of type <http://purl.org/dc/terms/isVersionOf> MUST NOT be present on distribution level! "+entity)
         ###In a way DATE is missing
+
+        parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/publisher")], rule='IRI')
+        parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/creator")], rule='IRI')
+        parse(listOfObjects[listOfPredicats.index("http://purl.org/dc/terms/license")], rule='IRI')
+
     ########################################################
 
 
@@ -204,6 +234,6 @@ def check_void(rdf_graph):
         if "http://rdfs.org/ns/void#dataDump" not in listOfPredicats:
             raise AttributeError("dataDump of type http://rdfs.org/ns/void#dataDump is missing in "+entity)
 
-            
-#Uncomment the last line to start qc with the file 'chembl_void.ttl'           
-#startUp('chembl_void.ttl')            
+
+#Uncomment the last line to start the script with the file 'chembl_void.ttl'          
+#startUp('chembl_void.ttl')
