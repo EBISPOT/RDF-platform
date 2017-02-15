@@ -66,13 +66,13 @@ Like most data, RDF data can be stored in databases and queried in order to extr
 HTTP is the transport layer of the Web, and SPARQL endpoints are able to communicate with each other using it. It is therefore possible to execute SPARQL queries over the Web that make use of multiple SPARQL endpoints. This is called federation.
 
 This is an example of a SPARQL query:
-
+```
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 SELECT ?name
 WHERE {
     ?animal foaf:name ?name .
 }
-
+```
 
 #### Further Reading 
 There are many resources on the web where you can learn more about the philosophy and structure of RDF data. One example is the  [Semantic University](http://www.cambridgesemantics.com/semantic-university/getting-started-semantics), from Cambridge Semantics.
