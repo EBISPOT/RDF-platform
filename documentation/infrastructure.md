@@ -2,8 +2,11 @@
 2. [Provenance ](#Provenance)
 3. [Running our SPARQL endpoints locally](#Running-our-SPARQL-endpoints-locally)
 4. [The role of identifiers.org](#The-role-of-identifiers.org)
+* URIs for external data
+* Good Practice for URIs
+* Content Negotiation
 
-## Technical documentation <a name="Technical documentation"></a>
+## Technical documentation <a name="Technical-documentation"></a>
 
 Most of the services on the RDF platform are hosted by EMBL-EBI (with the exception of the UniProt SPARQL endpoint, which is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF services.
 
@@ -53,7 +56,7 @@ http://rdf.ebi.ac.uk/dataset/chembl/description
 ```
 
 
-## Running our SPARQL endpoints locally <a name="Running our SPARQL endpoints locally"></a>
+## Running our SPARQL endpoints locally <a name="Running-our-SPARQL-endpoints-locally"></a>
 
 If you would like more control over access to the EMBL-EBI RDF data, or perhaps to combine it with other RDF data, you can run your own SPARQL endpoint. This page will help you through the steps of compiling and installing the Virtuoso open source database, loading our RDF data, and running a basic query using the default web interface.
 
@@ -104,7 +107,7 @@ SQL> rdfs_rule_set ('default-rules', 'http://rdf.ebi.ac.uk/dataset/atlas/13.07')
 SQL> checkpoint;
 ```
 
-## The role of identifiers.org
+## The role of identifiers.org <a name="The-role-of-identifiers.org"></a>
 #### About Identifiers.org
 Identifiers.org is a service hosted by EMBL-EBI for providing re-usable identifiers for any data used in the biomedical sciences. It provides resolvable (dereferenceable) URIs for existing database identifiers, which are intended to be stable over time and independent of the provider. This allows the data to "live on" should the provider change, move, or cease support. Many biological databases therefore choose to use identifiers.org for their "official" URIs - for example, Reactome. For database providers, this route can be a easy and maintenance-free way of providing persistent URIs for your data so that they can be used whenever those data need to be referred to in any Linked Dataset. You can read more about identifiers.org on its website.
 
