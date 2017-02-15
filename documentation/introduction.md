@@ -46,6 +46,7 @@ When it comes to communicating and storing (serialising) RDF data, there are sev
  
 
 The RDF-XML format is very commonly used, and provides some additional features. Note the use of XML namespaces to make long URIs more readable:
+
 ```
 <rdf:RDF
  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -66,6 +67,7 @@ Like most data, RDF data can be stored in databases and queried in order to extr
 HTTP is the transport layer of the Web, and SPARQL endpoints are able to communicate with each other using it. It is therefore possible to execute SPARQL queries over the Web that make use of multiple SPARQL endpoints. This is called federation.
 
 This is an example of a SPARQL query:
+
 ```
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 SELECT ?name
