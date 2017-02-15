@@ -17,11 +17,11 @@ order: 5
     
 <h4>Technical details</h4>
 <ul>
-<li>Does the RDF Platform support HTTPS?</li>
-<li>What are the limitations of the SPARQL endpoints?</li>
-<li>Which version of SPARQL is supported?</li>
-<li>How stable are the datasets?</li>
-<li>What does "production" mean?</li>
+<li><a href="#supportHTTPS">Does the RDF Platform support HTTPS?</a></li>
+<li><a href="#limits">What are the limitations of the SPARQL endpoints?</a></li>
+<li><a href="#sparqlSupport">Which version of SPARQL is supported?</a></li>
+<li><a href="#stability">How stable are the datasets?</a></li>
+<li><a href="#production">What does "production" mean?</a></li>
 </ul>
 
 
@@ -81,7 +81,37 @@ SPARUL is an extension of SPARQL that specifies update/write operations: adding,
    
    
 <h3>Technical details</h3>  
-<h5 name="t">template</h5>
+<h5 name="supportHTTPS">Does the RDF Platform support HTTPS?</h5>
 <p>
-emtpy
+Yes, the RDF Platform website does support HTTPS. This includes the SPARQL endpoints and Linked Data Browsers. Clicking around the site should keep you within an HTTPS browsing environment. However, there are some caveats:
+   The UniProt SPARQL endpoint does not currently support HTTPS.
+   The URIs used within the data themselves are http URIs and our URL resolver does not currently support HTTPS. This means that if you follow a link in the Linked Data Browser that takes you to a rdf.ebi.ac.uk location, for example, this will be unencrypted. These external links are marked with an icon. It also means you cannot obtain RDF via content negotiation over HTTPS.
+We are currently considering how to improve this support, and would be interested in receiving your feedback about any specific requirements.
+</p>   
+
+<h5 name="limits">What are the limitations of the SPARQL endpoints?</h5>
+<p>
+We provide public SPARQL endpoints so that you can explore how the data are modelled, and for occasional use in running targeted queries. They are not intended for regular heavy use, or as an alternative means of downloading large datasets. We therefore apply some limits in the configuration of the endpoint, which can mean certain queries will not work. For example:
+    The maximum number of rows that will be returned is 100,000.
+    There is a maximum query execution time of 10 minutes.
+For more control over access to the data, we recommend you run your own SPARQL endpoint containing our data, for which we provide instructions.
+</p>   
+
+<h5 name="sparqlSupport">Which version of SPARQL is supported?</h5>
+<p>
+Which version of the SPARQL Query Language specification is supported?
+Our SPARQL endpoint currently supports most of the features of the SPARQL 1.1 Query Protocol (5th January 2012 working draft). You can use BIND and VALUES clauses, property path expressions and RDFS inferencing.
+</p>   
+
+<h5 name="production">What does "production" mean?</h5>
+<p>
+I notice that you refer to services that are "in production". What does this mean, and why is it important?
+   
+EMBL-EBI's data resource teams engage in a large variety of activities, many of which produce useful output for our users. This includes a number of resources or collaborations that may produce data or applications in the area of semantics and Semantic Web technologies. However, not all of these are considered production services. A production service should be:
+
+    - kept up to date with primary databases
+    - covered by current funding
+    - currently maintained
+    - supported by a fault-tolerant systems architecture
+The RDF Platform aims for all of its output to become production services. This means that users have greater confidence in decisions to incorporate these services into their own research environment.
 </p>   
