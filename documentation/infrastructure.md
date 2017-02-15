@@ -1,8 +1,8 @@
 # Table of Contents
-1. [Technical documentation](##Technical documentation)
-2. [Provenance ](##Provenance )
-3. [Running our SPARQL endpoints locally](##Running our SPARQL endpoints locally)
-4. [The role of identifiers.org](##The role of identifiers.org)
+1. [Technical documentation](## Technical documentation)
+2. [Provenance ](## Provenance )
+3. [Running our SPARQL endpoints locally](## Running our SPARQL endpoints locally)
+4. [The role of identifiers.org](## The role of identifiers.org)
 
 ## Technical documentation
 
