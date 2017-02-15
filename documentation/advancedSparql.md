@@ -1,19 +1,8 @@
 ## Example SPARQL queries
+For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information. This page should demonstrate some more advanced SPARQL queries including an explanation how they work - this should demonstrate in general what kind of questions the RDF platform can help you to answer.  
 
-
-
-Here you can find some examples of the kinds of questions that our SPARQL endpoints can help to answer. 
-
-    How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
-    Which genes are differentially expressed in asthma, which pathways are they involved in and which compounds target them?
-    Which expression analysis experiments involved treatment of a cell line with a compound?
-    Find the proteins whose genes are very over expressed (fold change > 10) where a cell line has been treated with a compound.
-
-1. How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
-
-Click here to run this query on the ChEMBL SPARQL endpoint.
-SPARQL
-
+#### How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
+```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
 PREFIX chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
@@ -54,12 +43,10 @@ WHERE {
     ?value rdfs:label ?factorLabel . 
   }
 }
+```
 
-2. Which genes are differentially expressed in asthma, which pathways are they involved in and which compounds target them?
-
-Click here to run this query on the Gene Expression Atlas SPARQL endpoint.
-SPARQL
-
+#### Which genes are differentially expressed in asthma, which pathways are they involved in and which compounds target them?
+```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -105,12 +92,10 @@ WHERE {
     ?reaction ?rel ?protein
   }
 }
+```
 
-3. Which expression analysis experiments involved treatment of a cell line with a compound?
-
-Click here to run this query on the Gene Expression Atlas SPARQL endpoint.
-SPARQL
-
+#### Which expression analysis experiments involved treatment of a cell line with a compound?
+```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -140,12 +125,10 @@ WHERE {
  ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample] 
  filter regex (?samplePropertyType, "cell line", "i") 
 }
+```
 
-4. Find the proteins whose genes are very over expressed (fold change > 10) where a cell line has been treated with a compound.
-
-Click here to run this query on the Gene Expression Atlas SPARQL endpoint.
-SPARQL
-
+#### Find the proteins whose genes are very over expressed (fold change > 10) where a cell line has been treated with a compound.
+```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -180,4 +163,4 @@ WHERE {
  ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample] 
  filter regex (?samplePropertyType, "cell line", "i")
 }
-
+```
