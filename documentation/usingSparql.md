@@ -1,16 +1,17 @@
 ## Using the SPARQL Endpoints
 
-We provide SPARQL endpoints with free public access for users to explore our data using SPARQL queries. We provide a separate SPARQL endpoint for each dataset. See the Services page for more details on where to find them.
-Graphs
+We provide a SPARQL endpoint with free public access for users to explore our data using SPARQL queries.
+
+#### Graphs
 
 Each endpoint contains two named graphs:
-Data
+<strong>Data</strong>
 
 The latest version of the dataset, along with any vocabulary terms that are specific to that dataset, is contained within a single graph. The name used for this graph looks like this:
 
 http://rdf.ebi.ac.uk/dataset/<dataset>/<version>
 
-Provenance
+<strong>Provenance</strong>
 
 We also provide provenance metadata about the dataset in a separate graph. This includes information about versioning, dataset descriptions and example resources. The name used for this graph looks like this:
 
@@ -18,26 +19,24 @@ http://rdf.ebi.ac.uk/dataset/<dataset>/description
 
 
 You can find out more about the metadata contained in this graph on our provenance page.
-Basic Queries
+
+#### Basic Queries
 
 By default, queries are not restricted to any graph. If you want to run a basic query for a single dataset, you do not need to do anything special. For example:
-
+```
 DESCRIBE <http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-20266>
-
-
-Click here to execute this query on the Atlas endpoint.
+```
 
 You can also choose to limit a SPARQL query to a specific graph using the FROM keyword:
-
+```
 SELECT *
 FROM <http://rdf.ebi.ac.uk/dataset/atlas/description>
 WHERE {
     ?subject ?predicate ?object
 }
+```
 
-
-Click here to execute this query on the Atlas endpoint.
-Prefixes
+#### Prefixes
 
 For convenience, our endpoints are configured with some namespace prefixes by default. These are:
 Prefix 	Namespace
@@ -55,10 +54,11 @@ sio 	http://semanticscience.org/resource/
 You can use these prefixes in SPARQL queries without needing to specify them.
 
 Each SPARQL endpoint may have additional prefixes configured that are more specific to the data.
-Federated Queries
+
+#### Federated Queries
 
 You can execute queries that use data from multiple datasets by federating the query across more than one SPARQL endpoint. This is accomplished with the SERVICE keyword. This example aggregates statistics about the size of datasets:
-
+```
 SELECT ?dataset ?triples
 WHERE {
     {
@@ -70,6 +70,4 @@ WHERE {
         }
     }
 }
-
-
-Click here to execute this query on the Atlas and ChEMBL endpoints.
+````
