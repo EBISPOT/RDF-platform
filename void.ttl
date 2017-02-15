@@ -30,19 +30,19 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl> a  dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/chembl> a  dctypes:Dataset;
   dcterms:title "The ChEMBL Database" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chembl/22.1>;
-  dcterms:publisher "EBI" ;
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/22.1> a dct:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chembl/22.1> a dctypes:Dataset;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/chembl>;
   	dcterms:description "The Description of the Version level of ChEMBL";
     dcterms:title "ChEMBL Version 21.1" ;
-    dcterms:publisher "EBI" ;
+ 	dct:publisher <http://wwww.ebi.ac.uk/> ;
   	pav:version "22.1" ;
-    dcterms:creator "TestCreator in that case" ;
+    dct:creator <http://wwww.ebi.ac.uk/XXX> ;
     dcterms:hasDistribution <http://rdf.ebi.ac.uk/dataset/chembl/22.1.rdf>.
 
 <http://rdf.ebi.ac.uk/dataset/chembl/22.1/void.ttl#> a void:DatasetDescription ;
@@ -58,6 +58,7 @@
 <http://rdf.ebi.ac.uk/dataset/chembl/22.1.rdf> a void:Dataset ;
 	dcterms:title "The ChEMBL Database" ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." ;
+	dct:creator <http://wwww.ebi.ac.uk/XXX> ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
 	pav:createdOn "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
 	pav:lastUpdateOn "2016-02-01T00:00:00.000Z"^^xsd:dateTime ;
