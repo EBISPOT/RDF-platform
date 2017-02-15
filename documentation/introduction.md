@@ -71,9 +71,9 @@ This is an example of a SPARQL query:
 ```
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 SELECT ?name
-WHERE {
-    ?animal foaf:name ?name .
-}
+ WHERE {
+     ?animal foaf:name ?name .
+ }
 ```
 
 #### Further Reading 
