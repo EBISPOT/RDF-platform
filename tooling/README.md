@@ -24,8 +24,10 @@ should be everything you need!
 **NOTE:**Since the platform is work in progress, this quality control check might change in the future a bit. So if -at a certain point in the future - your VoID file is rejected by the platform even though it passes your local test, think about checking here, you might have to update this script!  
 
 ####Dependencies
-The script uses rdflib which is a rdf libary for python. You need to install it before you can run the script. This can be done with 
+* The script uses rdflib which is a rdf libary for python. You need to install it before you can run the script. This can be done with 
 ```pip install rdflib```
 More information you could find [here](https://github.com/RDFLib/rdflib)
+* The script also needs a lib called 'rfc3987' from package called parse to check for valid URIs. Installing this dependency can be done with  
+```pip install rfc3987```
 
 **NOTE:** In order not to pollute the global python, it is always useful to use a [virtual environment] (http://docs.python-guide.org/en/latest/dev/virtualenvs/), where you pip install your stuff for one project 
