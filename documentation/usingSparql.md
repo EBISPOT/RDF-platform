@@ -8,7 +8,7 @@ Each endpoint contains two named graphs.
 
 <strong>Data</strong>: The latest version of the dataset, along with any vocabulary terms that are specific to that dataset, is contained within a single graph. The name used for this graph looks like this:
 
-> http://rdf.ebi.ac.uk/dataset/<dataset>/<version>
+> http://rdf.ebi.ac.uk/dataset/< dataset >/< version >
 
 
 <strong>Provenance</strong>: We also provide provenance metadata about the dataset in a separate graph. This includes information about versioning, dataset descriptions and example resources. The name used for this graph looks like this:
@@ -22,9 +22,9 @@ You can find out more about the metadata contained in this graph on our provenan
 #### Basic Queries
 
 By default, queries are not restricted to any graph. If you want to run a basic query for a single dataset, you do not need to do anything special. For example:
-```
-DESCRIBE <http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-20266>
-```
+
+> DESCRIBE <http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-20266>
+
 
 You can also choose to limit a SPARQL query to a specific graph using the FROM keyword:
 
