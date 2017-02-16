@@ -14,22 +14,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86.rdf> ;
     dct:isVersionOf ensembl:ailuropoda_melanoleuca ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca_core>,
         <http://rdf.ebi.ac.uk/dataset/ailuropoda_melanoleuca/86/ailuropoda_melanoleuca_xref> ;
@@ -46,22 +46,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86.rdf> ;
     dct:isVersionOf ensembl:anas_platyrhynchos ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos_core>,
         <http://rdf.ebi.ac.uk/dataset/anas_platyrhynchos/86/anas_platyrhynchos_xref> ;
@@ -78,22 +78,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86.rdf> ;
     dct:isVersionOf ensembl:anolis_carolinensis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis_core>,
         <http://rdf.ebi.ac.uk/dataset/anolis_carolinensis/86/anolis_carolinensis_xref> ;
@@ -110,22 +110,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86.rdf> ;
     dct:isVersionOf ensembl:astyanax_mexicanus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus_core>,
         <http://rdf.ebi.ac.uk/dataset/astyanax_mexicanus/86/astyanax_mexicanus_xref> ;
@@ -142,22 +142,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/bos_taurus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bos_taurus/86.rdf> ;
     dct:isVersionOf ensembl:bos_taurus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/bos_taurus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus_core>,
         <http://rdf.ebi.ac.uk/dataset/bos_taurus/86/bos_taurus_xref> ;
@@ -174,22 +174,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86.rdf> ;
     dct:isVersionOf ensembl:caenorhabditis_elegans ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans_core>,
         <http://rdf.ebi.ac.uk/dataset/caenorhabditis_elegans/86/caenorhabditis_elegans_xref> ;
@@ -206,22 +206,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86.rdf> ;
     dct:isVersionOf ensembl:callithrix_jacchus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus_core>,
         <http://rdf.ebi.ac.uk/dataset/callithrix_jacchus/86/callithrix_jacchus_xref> ;
@@ -238,22 +238,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86.rdf> ;
     dct:isVersionOf ensembl:canis_familiaris ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris_core>,
         <http://rdf.ebi.ac.uk/dataset/canis_familiaris/86/canis_familiaris_xref> ;
@@ -270,22 +270,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86.rdf> ;
     dct:isVersionOf ensembl:cavia_porcellus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus_core>,
         <http://rdf.ebi.ac.uk/dataset/cavia_porcellus/86/cavia_porcellus_xref> ;
@@ -302,22 +302,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86.rdf> ;
     dct:isVersionOf ensembl:chlorocebus_sabaeus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus_core>,
         <http://rdf.ebi.ac.uk/dataset/chlorocebus_sabaeus/86/chlorocebus_sabaeus_xref> ;
@@ -334,22 +334,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86.rdf> ;
     dct:isVersionOf ensembl:choloepus_hoffmanni ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni_core>,
         <http://rdf.ebi.ac.uk/dataset/choloepus_hoffmanni/86/choloepus_hoffmanni_xref> ;
@@ -366,22 +366,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86.rdf> ;
     dct:isVersionOf ensembl:ciona_intestinalis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis_core>,
         <http://rdf.ebi.ac.uk/dataset/ciona_intestinalis/86/ciona_intestinalis_xref> ;
@@ -398,22 +398,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86.rdf> ;
     dct:isVersionOf ensembl:ciona_savignyi ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi_core>,
         <http://rdf.ebi.ac.uk/dataset/ciona_savignyi/86/ciona_savignyi_xref> ;
@@ -430,22 +430,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/danio_rerio/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/danio_rerio/86.rdf> ;
     dct:isVersionOf ensembl:danio_rerio ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/danio_rerio/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio_core>,
         <http://rdf.ebi.ac.uk/dataset/danio_rerio/86/danio_rerio_xref> ;
@@ -462,22 +462,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86.rdf> ;
     dct:isVersionOf ensembl:dasypus_novemcinctus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus_core>,
         <http://rdf.ebi.ac.uk/dataset/dasypus_novemcinctus/86/dasypus_novemcinctus_xref> ;
@@ -494,22 +494,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86.rdf> ;
     dct:isVersionOf ensembl:dipodomys_ordii ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii_core>,
         <http://rdf.ebi.ac.uk/dataset/dipodomys_ordii/86/dipodomys_ordii_xref> ;
@@ -526,22 +526,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86.rdf> ;
     dct:isVersionOf ensembl:drosophila_melanogaster ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster_core>,
         <http://rdf.ebi.ac.uk/dataset/drosophila_melanogaster/86/drosophila_melanogaster_xref> ;
@@ -558,22 +558,22 @@
 
 <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86.rdf> ;
     dct:isVersionOf ensembl:echinops_telfairi ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi_core>,
         <http://rdf.ebi.ac.uk/dataset/echinops_telfairi/86/echinops_telfairi_xref> ;
@@ -589,7 +589,7 @@
     void:dataDump "ftp://ftp.ensembl.org/pub/current_rdf//echinops_telfairi/echinops_telfairi_xrefs.ttl.gz" .
 
 ensembl:ensembl a dcmi:Dataset ;
-    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
     dct:hasPart ensembl:ailuropoda_melanoleuca,
         ensembl:anas_platyrhynchos,
         ensembl:anolis_carolinensis,
@@ -677,52 +677,52 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:xiphophorus_maculatus ;
     dct:publisher ebi:,
         "http://www.ebi.ac.uk/" ;
-    dct:title "Ensembl RDF" ;
+    dct:title "Ensembl RDF"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-16> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
 <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-16> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Ensembl description on version level" ;
+    dct:description "Ensembl description on version level"^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-16.rdf> ;
     dct:isVersionOf ensembl:ensembl ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Title on Version level? " ;
+    dct:title "Title on Version level? "^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ensembl/2017-2-16.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "This is just a test to create a OLS VoID File" ;
+    dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Add title for ensembl on Distribution level" ;
+    dct:title "Add title for ensembl on Distribution level"^^xsd:string ;
     pav:version "2017-01-01"^^xsd:date ;
     void:dataDump "unknown" ;
     foaf:page <http://www.ebi.ac.uk/rdf/service/XXXwhateverXXX> .
 
 <http://rdf.ebi.ac.uk/dataset/equus_caballus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/equus_caballus/86.rdf> ;
     dct:isVersionOf ensembl:equus_caballus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/equus_caballus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus_core>,
         <http://rdf.ebi.ac.uk/dataset/equus_caballus/86/equus_caballus_xref> ;
@@ -739,22 +739,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86.rdf> ;
     dct:isVersionOf ensembl:erinaceus_europaeus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus_core>,
         <http://rdf.ebi.ac.uk/dataset/erinaceus_europaeus/86/erinaceus_europaeus_xref> ;
@@ -771,22 +771,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/felis_catus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/felis_catus/86.rdf> ;
     dct:isVersionOf ensembl:felis_catus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/felis_catus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus_core>,
         <http://rdf.ebi.ac.uk/dataset/felis_catus/86/felis_catus_xref> ;
@@ -803,22 +803,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86.rdf> ;
     dct:isVersionOf ensembl:ficedula_albicollis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis_core>,
         <http://rdf.ebi.ac.uk/dataset/ficedula_albicollis/86/ficedula_albicollis_xref> ;
@@ -835,22 +835,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86.rdf> ;
     dct:isVersionOf ensembl:gadus_morhua ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua_core>,
         <http://rdf.ebi.ac.uk/dataset/gadus_morhua/86/gadus_morhua_xref> ;
@@ -867,22 +867,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86.rdf> ;
     dct:isVersionOf ensembl:gallus_gallus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus_core>,
         <http://rdf.ebi.ac.uk/dataset/gallus_gallus/86/gallus_gallus_xref> ;
@@ -899,22 +899,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86.rdf> ;
     dct:isVersionOf ensembl:gasterosteus_aculeatus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus_core>,
         <http://rdf.ebi.ac.uk/dataset/gasterosteus_aculeatus/86/gasterosteus_aculeatus_xref> ;
@@ -931,22 +931,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86.rdf> ;
     dct:isVersionOf ensembl:gorilla_gorilla ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla_core>,
         <http://rdf.ebi.ac.uk/dataset/gorilla_gorilla/86/gorilla_gorilla_xref> ;
@@ -963,22 +963,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86.rdf> ;
     dct:isVersionOf ensembl:homo_sapiens ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens_core>,
         <http://rdf.ebi.ac.uk/dataset/homo_sapiens/86/homo_sapiens_xref> ;
@@ -995,22 +995,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86.rdf> ;
     dct:isVersionOf ensembl:ictidomys_tridecemlineatus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus_core>,
         <http://rdf.ebi.ac.uk/dataset/ictidomys_tridecemlineatus/86/ictidomys_tridecemlineatus_xref> ;
@@ -1027,22 +1027,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86.rdf> ;
     dct:isVersionOf ensembl:latimeria_chalumnae ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae_core>,
         <http://rdf.ebi.ac.uk/dataset/latimeria_chalumnae/86/latimeria_chalumnae_xref> ;
@@ -1059,22 +1059,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86.rdf> ;
     dct:isVersionOf ensembl:lepisosteus_oculatus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus_core>,
         <http://rdf.ebi.ac.uk/dataset/lepisosteus_oculatus/86/lepisosteus_oculatus_xref> ;
@@ -1091,22 +1091,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86.rdf> ;
     dct:isVersionOf ensembl:loxodonta_africana ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana_core>,
         <http://rdf.ebi.ac.uk/dataset/loxodonta_africana/86/loxodonta_africana_xref> ;
@@ -1123,22 +1123,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86.rdf> ;
     dct:isVersionOf ensembl:macaca_mulatta ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta_core>,
         <http://rdf.ebi.ac.uk/dataset/macaca_mulatta/86/macaca_mulatta_xref> ;
@@ -1155,22 +1155,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86.rdf> ;
     dct:isVersionOf ensembl:macropus_eugenii ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii_core>,
         <http://rdf.ebi.ac.uk/dataset/macropus_eugenii/86/macropus_eugenii_xref> ;
@@ -1187,22 +1187,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86.rdf> ;
     dct:isVersionOf ensembl:meleagris_gallopavo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo_core>,
         <http://rdf.ebi.ac.uk/dataset/meleagris_gallopavo/86/meleagris_gallopavo_xref> ;
@@ -1219,22 +1219,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86.rdf> ;
     dct:isVersionOf ensembl:microcebus_murinus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus_core>,
         <http://rdf.ebi.ac.uk/dataset/microcebus_murinus/86/microcebus_murinus_xref> ;
@@ -1251,22 +1251,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86.rdf> ;
     dct:isVersionOf ensembl:monodelphis_domestica ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica_core>,
         <http://rdf.ebi.ac.uk/dataset/monodelphis_domestica/86/monodelphis_domestica_xref> ;
@@ -1283,22 +1283,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus/86/mus_musculus_xref> ;
@@ -1315,22 +1315,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_129s1svimj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_129s1svimj/86/mus_musculus_129s1svimj_xref> ;
@@ -1347,22 +1347,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_aj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_aj/86/mus_musculus_aj_xref> ;
@@ -1379,22 +1379,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_akrj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_akrj/86/mus_musculus_akrj_xref> ;
@@ -1411,22 +1411,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_balbcj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_balbcj/86/mus_musculus_balbcj_xref> ;
@@ -1443,22 +1443,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_c3hhej ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_c3hhej/86/mus_musculus_c3hhej_xref> ;
@@ -1475,22 +1475,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_c57bl6nj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_c57bl6nj/86/mus_musculus_c57bl6nj_xref> ;
@@ -1507,22 +1507,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_casteij ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_casteij/86/mus_musculus_casteij_xref> ;
@@ -1539,22 +1539,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_cbaj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_cbaj/86/mus_musculus_cbaj_xref> ;
@@ -1571,22 +1571,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_dba2j ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_dba2j/86/mus_musculus_dba2j_xref> ;
@@ -1603,22 +1603,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_fvbnj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_fvbnj/86/mus_musculus_fvbnj_xref> ;
@@ -1635,22 +1635,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_lpj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_lpj/86/mus_musculus_lpj_xref> ;
@@ -1667,22 +1667,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_nodshiltj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_nodshiltj/86/mus_musculus_nodshiltj_xref> ;
@@ -1699,22 +1699,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_nzohlltj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_nzohlltj/86/mus_musculus_nzohlltj_xref> ;
@@ -1731,22 +1731,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_pwkphj ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_pwkphj/86/mus_musculus_pwkphj_xref> ;
@@ -1763,22 +1763,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86.rdf> ;
     dct:isVersionOf ensembl:mus_musculus_wsbeij ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_musculus_wsbeij/86/mus_musculus_wsbeij_xref> ;
@@ -1795,22 +1795,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86.rdf> ;
     dct:isVersionOf ensembl:mus_spretus_spreteij ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij_core>,
         <http://rdf.ebi.ac.uk/dataset/mus_spretus_spreteij/86/mus_spretus_spreteij_xref> ;
@@ -1827,22 +1827,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86.rdf> ;
     dct:isVersionOf ensembl:mustela_putorius_furo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo_core>,
         <http://rdf.ebi.ac.uk/dataset/mustela_putorius_furo/86/mustela_putorius_furo_xref> ;
@@ -1859,22 +1859,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86.rdf> ;
     dct:isVersionOf ensembl:myotis_lucifugus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus_core>,
         <http://rdf.ebi.ac.uk/dataset/myotis_lucifugus/86/myotis_lucifugus_xref> ;
@@ -1891,22 +1891,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86.rdf> ;
     dct:isVersionOf ensembl:nomascus_leucogenys ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys_core>,
         <http://rdf.ebi.ac.uk/dataset/nomascus_leucogenys/86/nomascus_leucogenys_xref> ;
@@ -1923,22 +1923,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86.rdf> ;
     dct:isVersionOf ensembl:ochotona_princeps ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps_core>,
         <http://rdf.ebi.ac.uk/dataset/ochotona_princeps/86/ochotona_princeps_xref> ;
@@ -1955,22 +1955,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86.rdf> ;
     dct:isVersionOf ensembl:oreochromis_niloticus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus_core>,
         <http://rdf.ebi.ac.uk/dataset/oreochromis_niloticus/86/oreochromis_niloticus_xref> ;
@@ -1987,22 +1987,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86.rdf> ;
     dct:isVersionOf ensembl:ornithorhynchus_anatinus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus_core>,
         <http://rdf.ebi.ac.uk/dataset/ornithorhynchus_anatinus/86/ornithorhynchus_anatinus_xref> ;
@@ -2019,22 +2019,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86.rdf> ;
     dct:isVersionOf ensembl:oryctolagus_cuniculus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus_core>,
         <http://rdf.ebi.ac.uk/dataset/oryctolagus_cuniculus/86/oryctolagus_cuniculus_xref> ;
@@ -2051,22 +2051,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86.rdf> ;
     dct:isVersionOf ensembl:oryzias_latipes ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes_core>,
         <http://rdf.ebi.ac.uk/dataset/oryzias_latipes/86/oryzias_latipes_xref> ;
@@ -2083,22 +2083,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86.rdf> ;
     dct:isVersionOf ensembl:otolemur_garnettii ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii_core>,
         <http://rdf.ebi.ac.uk/dataset/otolemur_garnettii/86/otolemur_garnettii_xref> ;
@@ -2115,22 +2115,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/ovis_aries/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ovis_aries/86.rdf> ;
     dct:isVersionOf ensembl:ovis_aries ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/ovis_aries/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries_core>,
         <http://rdf.ebi.ac.uk/dataset/ovis_aries/86/ovis_aries_xref> ;
@@ -2147,22 +2147,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86.rdf> ;
     dct:isVersionOf ensembl:pan_troglodytes ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes_core>,
         <http://rdf.ebi.ac.uk/dataset/pan_troglodytes/86/pan_troglodytes_xref> ;
@@ -2179,22 +2179,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/papio_anubis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/papio_anubis/86.rdf> ;
     dct:isVersionOf ensembl:papio_anubis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/papio_anubis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis_core>,
         <http://rdf.ebi.ac.uk/dataset/papio_anubis/86/papio_anubis_xref> ;
@@ -2211,22 +2211,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86.rdf> ;
     dct:isVersionOf ensembl:pelodiscus_sinensis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis_core>,
         <http://rdf.ebi.ac.uk/dataset/pelodiscus_sinensis/86/pelodiscus_sinensis_xref> ;
@@ -2243,22 +2243,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86.rdf> ;
     dct:isVersionOf ensembl:petromyzon_marinus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus_core>,
         <http://rdf.ebi.ac.uk/dataset/petromyzon_marinus/86/petromyzon_marinus_xref> ;
@@ -2275,22 +2275,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86.rdf> ;
     dct:isVersionOf ensembl:poecilia_formosa ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa_core>,
         <http://rdf.ebi.ac.uk/dataset/poecilia_formosa/86/poecilia_formosa_xref> ;
@@ -2307,22 +2307,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86.rdf> ;
     dct:isVersionOf ensembl:pongo_abelii ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii_core>,
         <http://rdf.ebi.ac.uk/dataset/pongo_abelii/86/pongo_abelii_xref> ;
@@ -2339,22 +2339,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86.rdf> ;
     dct:isVersionOf ensembl:procavia_capensis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis_core>,
         <http://rdf.ebi.ac.uk/dataset/procavia_capensis/86/procavia_capensis_xref> ;
@@ -2371,22 +2371,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86.rdf> ;
     dct:isVersionOf ensembl:pteropus_vampyrus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus_core>,
         <http://rdf.ebi.ac.uk/dataset/pteropus_vampyrus/86/pteropus_vampyrus_xref> ;
@@ -2403,22 +2403,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86.rdf> ;
     dct:isVersionOf ensembl:rattus_norvegicus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus_core>,
         <http://rdf.ebi.ac.uk/dataset/rattus_norvegicus/86/rattus_norvegicus_xref> ;
@@ -2435,22 +2435,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86.rdf> ;
     dct:isVersionOf ensembl:saccharomyces_cerevisiae ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae_core>,
         <http://rdf.ebi.ac.uk/dataset/saccharomyces_cerevisiae/86/saccharomyces_cerevisiae_xref> ;
@@ -2467,22 +2467,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86.rdf> ;
     dct:isVersionOf ensembl:sarcophilus_harrisii ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii_core>,
         <http://rdf.ebi.ac.uk/dataset/sarcophilus_harrisii/86/sarcophilus_harrisii_xref> ;
@@ -2499,22 +2499,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86.rdf> ;
     dct:isVersionOf ensembl:sorex_araneus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus_core>,
         <http://rdf.ebi.ac.uk/dataset/sorex_araneus/86/sorex_araneus_xref> ;
@@ -2531,22 +2531,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86.rdf> ;
     dct:isVersionOf ensembl:sus_scrofa ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa_core>,
         <http://rdf.ebi.ac.uk/dataset/sus_scrofa/86/sus_scrofa_xref> ;
@@ -2563,22 +2563,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86.rdf> ;
     dct:isVersionOf ensembl:taeniopygia_guttata ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata_core>,
         <http://rdf.ebi.ac.uk/dataset/taeniopygia_guttata/86/taeniopygia_guttata_xref> ;
@@ -2595,22 +2595,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86.rdf> ;
     dct:isVersionOf ensembl:takifugu_rubripes ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes_core>,
         <http://rdf.ebi.ac.uk/dataset/takifugu_rubripes/86/takifugu_rubripes_xref> ;
@@ -2627,22 +2627,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86.rdf> ;
     dct:isVersionOf ensembl:tarsius_syrichta ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta_core>,
         <http://rdf.ebi.ac.uk/dataset/tarsius_syrichta/86/tarsius_syrichta_xref> ;
@@ -2659,22 +2659,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86.rdf> ;
     dct:isVersionOf ensembl:tetraodon_nigroviridis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis_core>,
         <http://rdf.ebi.ac.uk/dataset/tetraodon_nigroviridis/86/tetraodon_nigroviridis_xref> ;
@@ -2691,22 +2691,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86.rdf> ;
     dct:isVersionOf ensembl:tupaia_belangeri ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri_core>,
         <http://rdf.ebi.ac.uk/dataset/tupaia_belangeri/86/tupaia_belangeri_xref> ;
@@ -2723,22 +2723,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86.rdf> ;
     dct:isVersionOf ensembl:tursiops_truncatus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus_core>,
         <http://rdf.ebi.ac.uk/dataset/tursiops_truncatus/86/tursiops_truncatus_xref> ;
@@ -2755,22 +2755,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86.rdf> ;
     dct:isVersionOf ensembl:vicugna_pacos ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos_core>,
         <http://rdf.ebi.ac.uk/dataset/vicugna_pacos/86/vicugna_pacos_xref> ;
@@ -2787,22 +2787,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86.rdf> ;
     dct:isVersionOf ensembl:xenopus_tropicalis ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis_core>,
         <http://rdf.ebi.ac.uk/dataset/xenopus_tropicalis/86/xenopus_tropicalis_xref> ;
@@ -2819,22 +2819,22 @@ ensembl:ensembl a dcmi:Dataset ;
 
 <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..." ;
+    dct:description "Description of ..."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86.rdf> ;
     dct:isVersionOf ensembl:xiphophorus_maculatus ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
-    dct:title "What is the Version title?" ;
+    dct:title "What is the Version title?"^^xsd:string ;
     pav:version "86" .
 
 <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing" ;
+    dct:description "description for this thing"^^xsd:string ;
     dct:format "text/turtle" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher ebi: ;
-    dct:title "Distribution title" ;
+    dct:title "Distribution title"^^xsd:string ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus_core>,
         <http://rdf.ebi.ac.uk/dataset/xiphophorus_maculatus/86/xiphophorus_maculatus_xref> ;
