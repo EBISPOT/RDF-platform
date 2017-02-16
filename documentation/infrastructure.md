@@ -1,4 +1,4 @@
-## Technical documentation <a name="Technical-documentation"></a>
+## Infrastructure
 
 Most of the services on the RDF platform are hosted by EMBL-EBI (with the exception of the UniProt SPARQL endpoint, which is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF services.
 
