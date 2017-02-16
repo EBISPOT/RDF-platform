@@ -5,18 +5,19 @@
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test> a  dctypes:Dataset;
-  dcterms:title "Biosamples" ;
+  dcterms:title "Biosamples"^^rdf:langString ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01>;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "The Description of this dataSet" .
+	dcterms:description "The Description of this dataSet"^^rdf:langString .
 
 
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test>;
-  	dcterms:description "The Description of the Version level of Biosamples";
-    dcterms:title "Reactome Version" ;
+  	dcterms:description "The Description of the Version level of Biosamples"^^rdf:langString;
+    dcterms:title "Reactome Version"^^rdf:langString;
      dct:publisher <http://wwww.ebi.ac.uk/> ;
   pav:version "0.1.0" ;
      dct:creator <http://wwww.ebi.ac.uk/XXX>;
@@ -27,8 +28,8 @@
   dcat:Distribution ;
   void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20160707.tar.bz2" ;
    dct:creator <http://wwww.ebi.ac.uk/XXX>;
-	dcterms:description "The Distribution Level of biosamples";
+	dcterms:description "The Distribution Level of biosamples"^^rdf:langString;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
-  idot:preferredPrefix "biosamples" ;
-  dcterms:title "Test Distribution level of biosamples" .
+  dct:format "text/turtle" ;
+  dcterms:title "Test Distribution level of biosamples"^^rdf:langString.
