@@ -5,18 +5,21 @@
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 
 <http://rdf.ebi.ac.uk/dataset/gwas> a  dctypes:Dataset;
-  dcterms:title "GWAS" ;
+  dcterms:title "GWAS"^^rdf:langString;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gwas/Version01>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "The Description of this dataSet" .
+	dcterms:description "The Description of this dataSet"^^rdf:langString .
 
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dctypes:Dataset;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/gwas>;
-  dcterms:description "The Description of the Version level of GWAS";
-    dcterms:title "GWAS Version" ;
+  dcterms:description "The Description of the Version level of GWAS"^^rdf:langString;
+    dcterms:title "GWAS Version"^^rdf:langString ;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
   pav:version "0.1.0" ;
     dct:creator <http://wwww.ebi.ac.uk/XXX> ;
@@ -26,18 +29,18 @@
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
   dct:creator <http://wwww.ebi.ac.uk/XXX> ;
-  dcterms:description "The Distribution Level of GWAS void";
+  dcterms:description "The Distribution Level of GWAS void"^^rdf:langString;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
-  idot:preferredPrefix "biosamples" ;
-  dcterms:title "Test - Distribution of GWAS" ;
+   dct:format "text/turtle" ;
+  dcterms:title "Test - Distribution of GWAS"^^rdf:langString;
  void:subset <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data>,
 	<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema>.
 
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data> a void:DataSet;
-    dcterms:title "Empty" ;
-    dcterms:description "The Description of the Version level of GWAS";
+    dcterms:title "Empty"^^rdf:langString ;
+    dcterms:description "The Description of the Version level of GWAS"^^rdf:langString;
     dct:creator <http://wwww.ebi.ac.uk/XXX> ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
@@ -46,8 +49,8 @@
 
 
 <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema> a void:Dataset;
-    dcterms:title "Schema" ;
-    dcterms:description "Empty";
+    dcterms:title "Schema"^^rdf:langString ;
+    dcterms:description "Empty"^^rdf:langString;
     dct:creator <http://wwww.ebi.ac.uk/XXX> ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
