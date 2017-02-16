@@ -12,10 +12,9 @@ Each dataset has its own namespace for its resource URIs, and the domain name th
 The URL resolver on the rdf.ebi.ac.uk domain supports HTTP Content Negotiation. You can use this to request either HTML or RDF representations.
 
 To explain by example, you can do any of the following using the Linux curl command line utility:
-```
-curl -L -H "Accept: text/html" \
-http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
-```
+> curl -L -H "Accept: text/html" \ <br>
+> http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
+
 The above example redirects to the Linked Data browser, which returns an HTML document describing an experiment in the Gene Expression Atlas.
 ```
 curl -L -H "Accept: application/rdf+xml" \
