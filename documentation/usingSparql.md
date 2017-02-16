@@ -57,15 +57,15 @@ Each SPARQL endpoint may have additional prefixes configured that are more speci
 
 You can execute queries that use data from multiple datasets by federating the query across more than one SPARQL endpoint. This is accomplished with the SERVICE keyword. This example aggregates statistics about the size of datasets:
 
-> SELECT ?dataset ?triples
-> WHERE {
+> SELECT ?dataset ?triples <br>
+> WHERE { <br>
 > &nbsp;&nbsp;  {
-> &nbsp;&nbsp;&nbsp;&nbsp;       ?dataset <http://rdfs.org/ns/void#triples> ?triples .
-> &nbsp;&nbsp;   }
-> &nbsp;&nbsp;   UNION {
->  &nbsp;&nbsp;&nbsp;&nbsp;          SERVICE <http://www.ebi.ac.uk/rdf/services/atlas/sparql> {
-> &nbsp;&nbsp;&nbsp;&nbsp;           ?dataset <http://rdfs.org/ns/void#triples> ?triples .
->  &nbsp;&nbsp;      }
->    }
-> }
+> &nbsp;&nbsp;&nbsp;&nbsp;       ?dataset <http://rdfs.org/ns/void#triples> ?triples . <br>
+> &nbsp;&nbsp;   } <br>
+> &nbsp;&nbsp;   UNION { <br>
+>  &nbsp;&nbsp;&nbsp;&nbsp;          SERVICE <http://www.ebi.ac.uk/rdf/services/atlas/sparql> { <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;           ?dataset <http://rdfs.org/ns/void#triples> ?triples . <br>
+>  &nbsp;&nbsp;      } <br>
+>    } <br>
+> } <br>
 
