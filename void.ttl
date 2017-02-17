@@ -55,7 +55,7 @@
 	foaf:primaryTopic :chembl_rdf_dataset ;
 	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/22.0/void.ttl#> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/22.1.rdf> a void:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chembl/22.1.rdf> a void:Dataset, dcat:Distribution ;
 	dcterms:title "The ChEMBL Database" ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." ;
 	dct:creator <http://wwww.ebi.ac.uk/XXX> ;
@@ -71,6 +71,7 @@
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:created "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
 	dcterms:modified "2016-02-01T00:00:00.000Z"^^xsd:dateTime ;
+	dct:format "text/turtle" ;
 	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset   , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset, :chembl_rdf_bindingsite_dataset, :chembl_rdf_moa_dataset,   :chembl_rdf_indication_dataset ;
 	void:vocabulary <http://purl.org/ontology/bibo> , <http://www.bioassayontology.org/bao> , <http://semanticscience.org/ontology/cheminf.owl> , <http://purl.org/spar/cito> , <http://purl.org/dc/terms> , <http://www.w3.org/2002/07/owl> , <http://www.w3.org/1999/02/22-rdf-syntax-ns> , <http://www.w3.org/2000/01/rdf-schema> , <http://semanticscience.org/ontology/sio.owl> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2001/XMLSchema> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
