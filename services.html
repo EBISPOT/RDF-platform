@@ -9,7 +9,9 @@ order: 2
 <p>With our RDF platform, our main goal is to provide programmatic access to Linked Data versions of a select number of datasets.</p>
 <p>Explore the data via our <strong><a href="/services/sparql">SPARQL Endpoint</a></strong></p>		
 
-<div id="table"></div>	
+<div id="table">
+Table we shall create here
+</div>	
 <h4>Summary of Services</h4>
 <p>This table provides a summary of the available datasets:</p>
 <table id="summary" border="0">
@@ -91,6 +93,8 @@ You can browse across the RDF data through your web browser using our Linked Dat
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://wwwdev.ebi.ac.uk/rdf/services/scripts/lode.js"> 
 console.log("Loaded lode.js, now let's try to call the function")
+ $( document ).ready(function() {
 var element=document.getElementById("table");
-_buildVoid(element)
+ _buildVoid(element)
+ }
 </script>
