@@ -47,7 +47,7 @@
 {% comment %} Custom Component Scripts (from individual .md files) go here: {% endcomment %}
 {% for js in page.javascript %}
 <script src="{{js}}"></script>
-
+<script type="text/JavaScript">console.log("Not working")</script>
 <script src="https://wwwdev.ebi.ac.uk/rdf/services/scripts/lode.js" type="text/javascript">console.log("Does it work?")</script>
 <script src="https://raw.githubusercontent.com/EBISPOT/RDF-platform/gh-pages/static/test.js&raw=true" type="text/javascript"></script>
 {% endfor %}
