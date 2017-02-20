@@ -15,7 +15,7 @@ permalink: pretty
 # - "{{site.baseurl}}/static/js/services.js"
 # - "{{site.baseurl}}/static/js/ANOTHER-CSS-COMPONENTS.js"
 
-services.javascript:
+Services.javascript:
  - "https://ebispot.github.io/RDF-platform/static/js/services.js"
 
 ga_code: 'UA-XXXXX-X'
