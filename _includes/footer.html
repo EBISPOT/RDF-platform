@@ -49,17 +49,6 @@
 <script src="{{js}}"></script>
 {% endfor %}
 
-
-<p> Is there a value in {{page.javascript}} </p>
-<p> page title {{page.title}} </p>
-<p> page title javascript: {{page.title.javascript}}</p>
-
-{% for js in page.title.javascript %}
-<script src="{{js}}"></script>
-{% endfor %}
-
-
-
 {% comment %} Custom Component Scripts (from individual .md files) go here: {% endcomment %}
 {% for js in page.javascript %}
 <script src="{{js}}"></script>
