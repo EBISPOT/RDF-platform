@@ -10,10 +10,14 @@ permalink: pretty
 # custom_css:
 # - "{{site.baseurl}}/static/css/YOUR-CSS-COMPONENTS.css"
 # - "{{site.baseurl}}/static/css/ANOTHER-CSS-COMPONENTS.css"
-custom_js:
- - "https://ebispot.github.io/RDF-platform/static/js/services.js"
+#custom_js:
+# - "https://ebispot.github.io/RDF-platform/static/js/services.js"
 # - "{{site.baseurl}}/static/js/services.js"
 # - "{{site.baseurl}}/static/js/ANOTHER-CSS-COMPONENTS.js"
+
+services.javascript:
+ - "https://ebispot.github.io/RDF-platform/static/js/services.js"
+
 ga_code: 'UA-XXXXX-X'
 
 # Build settings
