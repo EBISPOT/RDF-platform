@@ -18,7 +18,7 @@ var voidSparql = "PREFIX dcterms: <http://purl.org/dc/terms/> " +
 
     $.ajax ( {
         type: 'GET',
-        url: "http://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(voidSparql),
+        url: "https://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(voidSparql),
         headers: {
             Accept: "application/sparql-results+json"
         },
