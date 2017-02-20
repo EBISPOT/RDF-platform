@@ -23,6 +23,8 @@ var voidSparql = "PREFIX dcterms: <http://purl.org/dc/terms/> " +
             Accept: "application/sparql-results+json"
         },
         success: function (json) {
+            console.log("Did fetch a reply, it is: ")
+            console.log(json)
             var _json = json;
             var _variables = _json.head.vars;
             var _results = _json.results.bindings;
