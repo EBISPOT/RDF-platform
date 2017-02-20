@@ -220,23 +220,23 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/bco" .
 
 <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> a dcmi:Dataset ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> ;
     dct:isVersionOf ols:bfo ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016" .
 
 <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "bfo" ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bfo.tar.gz" ;
@@ -1554,23 +1554,23 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/hsapdv" .
 
 <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06> a dcmi:Dataset ;
-    dct:creator "" ;
+    dct:creator "http://iao.com" ;
     dct:description "An ontology of information entities."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06.rdf> ;
     dct:isVersionOf ols:iao ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/iao/2017-01-06" .
 
 <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "iao" ;
-    dct:creator "" ;
+    dct:creator "http://iao.com" ;
     dct:description "An ontology of information entities."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/iao/2017-01-06" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.tar.gz" ;
@@ -2274,7 +2274,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:creator "https://code.google.com/p/ontology-for-genetic-interval/" ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -2297,7 +2297,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:creator "https://code.google.com/p/ontology-for-genetic-interval/" ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -3125,23 +3125,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rnao" .
 
 <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> a dcmi:Dataset ;
-    dct:creator " https://github.com/oborel/obo-relations/" ;
+    dct:creator "https://github.com/oborel/obo-relations/" ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28.rdf> ;
     dct:isVersionOf ols:ro ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ro/2016-10-28" .
 
 <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ro" ;
-    dct:creator " https://github.com/oborel/obo-relations/" ;
+    dct:creator "https://github.com/oborel/obo-relations/" ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ro/2016-10-28" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ro.tar.gz" ;
@@ -3585,23 +3585,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vario" .
 
 <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> a dcmi:Dataset ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> ;
     dct:isVersionOf ols:vo ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774" .
 
 <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "vo" ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vo.tar.gz" ;
@@ -3893,7 +3893,7 @@ ols:bco a dcmi:Dataset ;
 
 ols:bfo a dcmi:Dataset ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> .
 
@@ -3959,7 +3959,7 @@ ols:cio a dcmi:Dataset ;
 
 ols:cl a dcmi:Dataset ;
     dct:description "The Cell Ontology is a structured controlled vocabulary for cell types in animals."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Cell Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> .
 
@@ -4145,7 +4145,7 @@ ols:fbdv a dcmi:Dataset ;
 
 ols:fix a dcmi:Dataset ;
     dct:description "An ontology of physico-chemical methods and properties."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical methods and properties"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> .
 
@@ -4211,7 +4211,7 @@ ols:gexo a dcmi:Dataset ;
 
 ols:go a dcmi:Dataset ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Gene Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-02-16> .
 
@@ -4241,7 +4241,7 @@ ols:hsapdv a dcmi:Dataset ;
 
 ols:iao a dcmi:Dataset ;
     dct:description "An ontology of information entities."^^xsd:string ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06> .
 
@@ -4430,7 +4430,7 @@ ols:ogg a dcmi:Dataset ;
 ols:ogi a dcmi:Dataset ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -4488,7 +4488,7 @@ ols:omp a dcmi:Dataset ;
 
 ols:omrse a dcmi:Dataset ;
     dct:description "This ontology covers the domain of social entities that are related to health care, such as demographic information and the roles of various individuals and organizations."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Ontology of Medically Related Social Entities"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> .
 
@@ -4512,7 +4512,7 @@ ols:opl a dcmi:Dataset ;
 
 ols:ordo a dcmi:Dataset ;
     dct:description "The Orphanet Rare Disease ontology (ORDO) is jointly developed by Orphanet and the EBI to provide a structured vocabulary for rare diseases capturing relationships between diseases, genes and other relevant features which will form a useful resource for the computational analysis of rare diseases. It derived from the Orphanet database (www.orpha.net ) , a multilingual database dedicated to rare diseases populated from literature and validated by international experts. It integrates a nosology (classification of rare diseases), relationships (gene-disease relations, epiemological data) and connections with other terminologies (MeSH, UMLS, MedDRA),databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas) or classifications (ICD10)."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Orphanet Rare Disease Ontolog"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ordo/2.3> .
 
@@ -4590,7 +4590,7 @@ ols:reto a dcmi:Dataset ;
 
 ols:rex a dcmi:Dataset ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical process"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-02-09> .
 
@@ -4608,7 +4608,7 @@ ols:rnao a dcmi:Dataset ;
 
 ols:ro a dcmi:Dataset ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> .
 
@@ -4686,7 +4686,7 @@ ols:taxrank a dcmi:Dataset ;
 
 ols:teddy a dcmi:Dataset ;
     dct:description "TEDDY is an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems and Synthetic Biology."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Terminology for Description of Dynamics"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> .
 
@@ -4728,19 +4728,19 @@ ols:vario a dcmi:Dataset ;
 
 ols:vo a dcmi:Dataset ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://vo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> .
 
 ols:vt a dcmi:Dataset ;
     dct:description "An ontology of traits covering vertebrates"^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate trait"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> .
 
 ols:vto a dcmi:Dataset ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa."^^xsd:string ;
-    dct:publisher "None" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate Taxonomy Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> .
 
@@ -4791,4 +4791,3 @@ ols:zfs a dcmi:Dataset ;
     dct:publisher "http://zfin.org/zf_info/anatomy/dict/sum.html" ;
     dct:title "Zebrafish developmental stages"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/zfs/2016-12-15> .
-
