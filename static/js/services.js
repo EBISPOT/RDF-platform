@@ -1,5 +1,3 @@
-function _buildVoid(element) {
-
 console.log("Executing services.js")
   
 element=$("#table")
@@ -95,4 +93,3 @@ var voidSparql = "PREFIX dcterms: <http://purl.org/dc/terms/> " +
         }
     })
 
-}
