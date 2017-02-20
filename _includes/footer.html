@@ -39,8 +39,10 @@
 <script type="text/JavaScript">$(document).foundation();</script>
 <script type="text/JavaScript">$(document).foundationExtendEBI();</script>
 <script type="text/javascript" src="//wwwdev.ebi.ac.uk/rdf/services/scripts/lode.js"></script>
-<script type="text/JavaScript">console.log("Does it work?")</script>
-<script src="https://raw.githubusercontent.com/EBISPOT/RDF-platform/gh-pages/static/test.js" type="text/javascript"></script>
+<script type="text/JavaScript">console.log("Does it work?")
+var element=document.getElementById("table");
+ _buildVoid(element)
+</script>
 
 {% comment %} Custom global JS could go here: {% endcomment %}
 {% for js in site.custom_js %}
