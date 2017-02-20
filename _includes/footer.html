@@ -49,6 +49,11 @@
 <script src="{{js}}"></script>
 {% endfor %}
 
+
+{% for js in page.title.javascript %}		
+<script src="{{js}}"></script>		
+{% endfor %}
+
 {% comment %} Custom Component Scripts (from individual .md files) go here: {% endcomment %}
 {% for js in page.javascript %}
 <script src="{{js}}"></script>
