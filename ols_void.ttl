@@ -1300,17 +1300,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/foodon" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20> a dcmi:Dataset ;
     dct:creator "https://github.com/pombase/fypo" ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20.rdf> ;
     dct:isVersionOf ols:fypo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fypo" ;
     dct:creator "https://github.com/pombase/fypo" ;
@@ -1319,7 +1319,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fypo" .
 
@@ -1438,17 +1438,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gexo" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-02-18> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/go/2017-02-20> a dcmi:Dataset ;
     dct:creator "http://www.obofoundry.org/" ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-02-18.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-02-20.rdf> ;
     dct:isVersionOf ols:go ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-18" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-20" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-02-18.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/go/2017-02-20.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "go" ;
     dct:creator "http://www.obofoundry.org/" ;
@@ -1457,7 +1457,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-18" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-20" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/go" .
 
@@ -1575,6 +1575,29 @@
     pav:version "http://rdf.ebi.ac.uk/dataset/iao/2017-01-06" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/iao" .
+
+<http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70> a dcmi:Dataset ;
+    dct:creator "https://github.com/ICO-ontology/ICO" ;
+    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70.rdf> ;
+    dct:isVersionOf ols:ico ;
+    dct:issued "2017-01-01"^^xsd:date ;
+    dct:publisher "https://github.com/ICO-ontology/ICO" ;
+    dct:title "Informed Consent Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70" .
+
+<http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70.rdf> a void:Dataset,
+        dcat:Distribution ;
+    idot:preferredPrefix "ico" ;
+    dct:creator "https://github.com/ICO-ontology/ICO" ;
+    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
+    dct:format "owl" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "https://github.com/ICO-ontology/ICO" ;
+    dct:title "Informed Consent Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ico.tar.gz" ;
+    foaf:page "http://ebi.ac.uk/ols/ontologies/ico" .
 
 <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> a dcmi:Dataset ;
     dct:creator "http://www.bioontology.org/wiki/index.php/Infectious_Disease_Ontology" ;
@@ -2132,17 +2155,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncro" .
 
-<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346> a dcmi:Dataset ;
     dct:creator "http://www.oae-ontology.org" ;
     dct:description "The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346.rdf> ;
     dct:isVersionOf ols:oae ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346" .
 
-<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "oae" ;
     dct:creator "http://www.oae-ontology.org" ;
@@ -2151,7 +2174,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oae" .
 
@@ -2477,6 +2500,7 @@ ols:ols a dcmi:Dataset ;
         ols:hp,
         ols:hsapdv,
         ols:iao,
+        ols:ico,
         ols:ido,
         ols:idomal,
         ols:kisao,
@@ -2569,22 +2593,22 @@ ols:ols a dcmi:Dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-2-20> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-2-21> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-2-20> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-2-21> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-2-20.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-2-21.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2017-2-20"^^xsd:string ;
-    pav:version "2017-2-20" .
+    dct:title "Ontology Lookup Service - 2017-2-21"^^xsd:string ;
+    pav:version "2017-2-21" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-2-20.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-2-21.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
@@ -4201,7 +4225,7 @@ ols:fypo a dcmi:Dataset ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20> .
 
 ols:gaz a dcmi:Dataset ;
     dct:description "A gazetteer constructed on ontological principles"^^xsd:string ;
@@ -4237,7 +4261,7 @@ ols:go a dcmi:Dataset ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-02-18> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-02-20> .
 
 ols:hao a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the Hymenoptera (bees, wasps, and ants)"^^xsd:string ;
@@ -4268,6 +4292,12 @@ ols:iao a dcmi:Dataset ;
     dct:publisher "" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06> .
+
+ols:ico a dcmi:Dataset ;
+    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
+    dct:publisher "https://github.com/ICO-ontology/ICO" ;
+    dct:title "Informed Consent Ontology"^^xsd:string ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70> .
 
 ols:ido a dcmi:Dataset ;
     dct:description "None"^^xsd:string ;
@@ -4419,7 +4449,7 @@ ols:oae a dcmi:Dataset ;
     dct:description "The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc."^^xsd:string ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346> .
 
 ols:oba a dcmi:Dataset ;
     dct:description "A collection of biological attributes (traits) covering all kingdoms of life."^^xsd:string ;
