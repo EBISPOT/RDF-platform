@@ -23,7 +23,7 @@
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     pav:version "0.1.0" ;
     dct:creator <http://wwww.ebi.ac.uk/gxa> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017.rdf>.
+    dct:hasDistribution <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-13-02-2017.tar.gz> .
 
 
 <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017.rdf> a void:Dataset, dcat:Distribution ;
