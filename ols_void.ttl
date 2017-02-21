@@ -220,23 +220,23 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/bco" .
 
 <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> a dcmi:Dataset ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> ;
     dct:isVersionOf ols:bfo ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016" .
 
 <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "bfo" ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/bfo.tar.gz" ;
@@ -473,23 +473,23 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/cio" .
 
 <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "The Cell Ontology is a structured controlled vocabulary for cell types in animals."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23.rdf> ;
     dct:isVersionOf ols:cl ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Cell Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/cl/2016-11-23" .
 
 <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "cl" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "The Cell Ontology is a structured controlled vocabulary for cell types in animals."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Cell Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/cl/2016-11-23" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cl.tar.gz" ;
@@ -679,17 +679,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dideo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dideo" .
 
-<http://rdf.ebi.ac.uk/dataset/doid/2017-02-17> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/doid/2017-01-27> a dcmi:Dataset ;
     dct:creator "http://www.disease-ontology.org" ;
     dct:description "An ontology for describing the classification of human diseases organized by etiology."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/doid/2017-02-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/doid/2017-01-27.rdf> ;
     dct:isVersionOf ols:doid ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.disease-ontology.org" ;
     dct:title "Human Disease Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/doid/2017-02-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/doid/2017-01-27" .
 
-<http://rdf.ebi.ac.uk/dataset/doid/2017-02-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/doid/2017-01-27.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "doid" ;
     dct:creator "http://www.disease-ontology.org" ;
@@ -698,7 +698,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.disease-ontology.org" ;
     dct:title "Human Disease Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/doid/2017-02-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/doid/2017-01-27" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/doid.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/doid" .
 
@@ -748,17 +748,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/dron.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/dron" .
 
-<http://rdf.ebi.ac.uk/dataset/duo/2017-02-17> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/duo/2017-01-31> a dcmi:Dataset ;
     dct:creator "https://github.com/EBISPOT/DUO" ;
     dct:description "DUO is an ontology which represent data use conditions."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/duo/2017-02-17.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/duo/2017-01-31.rdf> ;
     dct:isVersionOf ols:duo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "https://github.com/EBISPOT/DUO" ;
     dct:title "The Data Use Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/duo/2017-02-17" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/duo/2017-01-31" .
 
-<http://rdf.ebi.ac.uk/dataset/duo/2017-02-17.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/duo/2017-01-31.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "duo" ;
     dct:creator "https://github.com/EBISPOT/DUO" ;
@@ -767,7 +767,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/EBISPOT/DUO" ;
     dct:title "The Data Use Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/duo/2017-02-17" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/duo/2017-01-31" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/duo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/duo" .
 
@@ -1186,23 +1186,23 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/fbdv" .
 
 <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of physico-chemical methods and properties."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016.rdf> ;
     dct:isVersionOf ols:fix ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical methods and properties"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/fix/14-11-2016" .
 
 <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fix" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of physico-chemical methods and properties."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical methods and properties"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/fix/14-11-2016" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fix.tar.gz" ;
@@ -1300,17 +1300,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/foodon" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08> a dcmi:Dataset ;
     dct:creator "https://github.com/pombase/fypo" ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08.rdf> ;
     dct:isVersionOf ols:fypo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fypo" ;
     dct:creator "https://github.com/pombase/fypo" ;
@@ -1319,7 +1319,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fypo" .
 
@@ -1438,26 +1438,26 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gexo" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-02-20> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+<http://rdf.ebi.ac.uk/dataset/go/2017-02-16> a dcmi:Dataset ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-02-20.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-02-16.rdf> ;
     dct:isVersionOf ols:go ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-20" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-16" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-02-20.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/go/2017-02-16.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "go" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-20" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-02-16" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/go" .
 
@@ -1554,50 +1554,27 @@
     foaf:page "http://ebi.ac.uk/ols/ontologies/hsapdv" .
 
 <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06> a dcmi:Dataset ;
-    dct:creator "" ;
+    dct:creator "http://iao.com" ;
     dct:description "An ontology of information entities."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06.rdf> ;
     dct:isVersionOf ols:iao ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/iao/2017-01-06" .
 
 <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "iao" ;
-    dct:creator "" ;
+    dct:creator "http://iao.com" ;
     dct:description "An ontology of information entities."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/iao/2017-01-06" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/iao.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/iao" .
-
-<http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70> a dcmi:Dataset ;
-    dct:creator "https://github.com/ICO-ontology/ICO" ;
-    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70.rdf> ;
-    dct:isVersionOf ols:ico ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "https://github.com/ICO-ontology/ICO" ;
-    dct:title "Informed Consent Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70" .
-
-<http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "ico" ;
-    dct:creator "https://github.com/ICO-ontology/ICO" ;
-    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
-    dct:format "owl" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "https://github.com/ICO-ontology/ICO" ;
-    dct:title "Informed Consent Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ico.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/ico" .
 
 <http://rdf.ebi.ac.uk/dataset/ido/2016-07-05> a dcmi:Dataset ;
     dct:creator "http://www.bioontology.org/wiki/index.php/Infectious_Disease_Ontology" ;
@@ -2155,17 +2132,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ncro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ncro" .
 
-<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340> a dcmi:Dataset ;
     dct:creator "http://www.oae-ontology.org" ;
     dct:description "The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340.rdf> ;
     dct:isVersionOf ols:oae ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340" .
 
-<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "oae" ;
     dct:creator "http://www.oae-ontology.org" ;
@@ -2174,7 +2151,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/oae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/oae" .
 
@@ -2297,7 +2274,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:creator "https://code.google.com/p/ontology-for-genetic-interval/" ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -2320,7 +2297,7 @@ Yu Lin, Peter Simons (2010) “DNA sequence from below: A Nominalist Approach”
     dct:creator "https://code.google.com/p/ontology-for-genetic-interval/" ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -2500,7 +2477,6 @@ ols:ols a dcmi:Dataset ;
         ols:hp,
         ols:hsapdv,
         ols:iao,
-        ols:ico,
         ols:ido,
         ols:idomal,
         ols:kisao,
@@ -2547,7 +2523,6 @@ ols:ols a dcmi:Dataset ;
         ols:ovae,
         ols:pato,
         ols:pco,
-        ols:pdro,
         ols:pdumdv,
         ols:po,
         ols:poro,
@@ -2593,22 +2568,22 @@ ols:ols a dcmi:Dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-2-21> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-2-17> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-2-21> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-2-17> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-2-21.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-2-17.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2017-2-21"^^xsd:string ;
-    pav:version "2017-2-21" .
+    dct:title "Ontology Lookup Service - 2017-2-17"^^xsd:string ;
+    pav:version "2017-2-17" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-2-21.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-2-17.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
@@ -2690,23 +2665,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omp" .
 
 <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "This ontology covers the domain of social entities that are related to health care, such as demographic information and the roles of various individuals and organizations."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28.rdf> ;
     dct:isVersionOf ols:omrse ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Ontology of Medically Related Social Entities"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28" .
 
 <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "omrse" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "This ontology covers the domain of social entities that are related to health care, such as demographic information and the roles of various individuals and organizations."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Ontology of Medically Related Social Entities"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omrse.tar.gz" ;
@@ -2782,23 +2757,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/opl" .
 
 <http://rdf.ebi.ac.uk/dataset/ordo/2.3> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "The Orphanet Rare Disease ontology (ORDO) is jointly developed by Orphanet and the EBI to provide a structured vocabulary for rare diseases capturing relationships between diseases, genes and other relevant features which will form a useful resource for the computational analysis of rare diseases. It derived from the Orphanet database (www.orpha.net ) , a multilingual database dedicated to rare diseases populated from literature and validated by international experts. It integrates a nosology (classification of rare diseases), relationships (gene-disease relations, epiemological data) and connections with other terminologies (MeSH, UMLS, MedDRA),databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas) or classifications (ICD10)."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ordo/2.3.rdf> ;
     dct:isVersionOf ols:ordo ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Orphanet Rare Disease Ontolog"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ordo/2.3" .
 
 <http://rdf.ebi.ac.uk/dataset/ordo/2.3.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ordo" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "The Orphanet Rare Disease ontology (ORDO) is jointly developed by Orphanet and the EBI to provide a structured vocabulary for rare diseases capturing relationships between diseases, genes and other relevant features which will form a useful resource for the computational analysis of rare diseases. It derived from the Orphanet database (www.orpha.net ) , a multilingual database dedicated to rare diseases populated from literature and validated by international experts. It integrates a nosology (classification of rare diseases), relationships (gene-disease relations, epiemological data) and connections with other terminologies (MeSH, UMLS, MedDRA),databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas) or classifications (ICD10)."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Orphanet Rare Disease Ontolog"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ordo/2.3" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ordo.tar.gz" ;
@@ -2872,29 +2847,6 @@ ols:ols a dcmi:Dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/pco/2016-12-14" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pco.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pco" .
-
-<http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017> a dcmi:Dataset ;
-    dct:creator "https://github.com/OpenLHS/PDRO" ;
-    dct:description "An ontology to describe entities related to prescription of drugs"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017.rdf> ;
-    dct:isVersionOf ols:pdro ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "https://github.com/OpenLHS/PDRO" ;
-    dct:title "The Prescription of Drugs Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017" .
-
-<http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "pdro" ;
-    dct:creator "https://github.com/OpenLHS/PDRO" ;
-    dct:description "An ontology to describe entities related to prescription of drugs"^^xsd:string ;
-    dct:format "owl" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "https://github.com/OpenLHS/PDRO" ;
-    dct:title "The Prescription of Drugs Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pdro.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/pdro" .
 
 <http://rdf.ebi.ac.uk/dataset/pdumdv/2016-12-15> a dcmi:Dataset ;
     dct:creator "https://github.com/obophenotype/developmental-stage-ontologies/wiki/PdumDv" ;
@@ -3104,23 +3056,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/reto" .
 
 <http://rdf.ebi.ac.uk/dataset/rex/2017-02-09> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2017-02-09.rdf> ;
     dct:isVersionOf ols:rex ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical process"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-02-09" .
 
 <http://rdf.ebi.ac.uk/dataset/rex/2017-02-09.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "rex" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical process"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-02-09" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rex.tar.gz" ;
@@ -3173,23 +3125,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rnao" .
 
 <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> a dcmi:Dataset ;
-    dct:creator " https://github.com/oborel/obo-relations/" ;
+    dct:creator "https://github.com/oborel/obo-relations/" ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28.rdf> ;
     dct:isVersionOf ols:ro ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ro/2016-10-28" .
 
 <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ro" ;
-    dct:creator " https://github.com/oborel/obo-relations/" ;
+    dct:creator "https://github.com/oborel/obo-relations/" ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/ro/2016-10-28" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ro.tar.gz" ;
@@ -3472,23 +3424,23 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/taxrank" .
 
 <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "TEDDY is an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems and Synthetic Biology."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24.rdf> ;
     dct:isVersionOf ols:teddy ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Terminology for Description of Dynamics"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24" .
 
 <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "teddy" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "TEDDY is an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems and Synthetic Biology."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Terminology for Description of Dynamics"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/teddy.tar.gz" ;
@@ -3633,69 +3585,69 @@ ols:ols a dcmi:Dataset ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vario" .
 
 <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> a dcmi:Dataset ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> ;
     dct:isVersionOf ols:vo ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774" .
 
 <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "vo" ;
-    dct:creator "bfo" ;
+    dct:creator "http://bfo.com" ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vo" .
 
 <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of traits covering vertebrates"^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016.rdf> ;
     dct:isVersionOf ols:vt ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate trait"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vt/02-12-2016" .
 
 <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "vt" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "An ontology of traits covering vertebrates"^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate trait"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vt/02-12-2016" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vt.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/vt" .
 
 <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> a dcmi:Dataset ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa."^^xsd:string ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17.rdf> ;
     dct:isVersionOf ols:vto ;
     dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate Taxonomy Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vto/2016-10-17" .
 
 <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "vto" ;
-    dct:creator "http://www.obofoundry.org/" ;
+    dct:creator "http://none.com" ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate Taxonomy Ontology"^^xsd:string ;
     pav:version "http://rdf.ebi.ac.uk/dataset/vto/2016-10-17" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/vto.tar.gz" ;
@@ -3941,7 +3893,7 @@ ols:bco a dcmi:Dataset ;
 
 ols:bfo a dcmi:Dataset ;
     dct:description "The upper level ontology upon which OBO Foundry ontologies are built."^^xsd:string ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://bfo.com" ;
     dct:title "Basic Formal Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/bfo/23-03-2016> .
 
@@ -4007,7 +3959,7 @@ ols:cio a dcmi:Dataset ;
 
 ols:cl a dcmi:Dataset ;
     dct:description "The Cell Ontology is a structured controlled vocabulary for cell types in animals."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Cell Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/cl/2016-11-23> .
 
@@ -4063,7 +4015,7 @@ ols:doid a dcmi:Dataset ;
     dct:description "An ontology for describing the classification of human diseases organized by etiology."^^xsd:string ;
     dct:publisher "http://www.disease-ontology.org" ;
     dct:title "Human Disease Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/doid/2017-02-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/doid/2017-01-27> .
 
 ols:dpo a dcmi:Dataset ;
     dct:description "An ontology of commonly encountered and/or high level Drosophila phenotypes."^^xsd:string ;
@@ -4081,7 +4033,7 @@ ols:duo a dcmi:Dataset ;
     dct:description "DUO is an ontology which represent data use conditions."^^xsd:string ;
     dct:publisher "https://github.com/EBISPOT/DUO" ;
     dct:title "The Data Use Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/duo/2017-02-17> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/duo/2017-01-31> .
 
 ols:eco a dcmi:Dataset ;
     dct:description "An ontology for experimental and other evidence statements."^^xsd:string ;
@@ -4193,7 +4145,7 @@ ols:fbdv a dcmi:Dataset ;
 
 ols:fix a dcmi:Dataset ;
     dct:description "An ontology of physico-chemical methods and properties."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical methods and properties"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fix/14-11-2016> .
 
@@ -4225,7 +4177,7 @@ ols:fypo a dcmi:Dataset ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-20> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-02-08> .
 
 ols:gaz a dcmi:Dataset ;
     dct:description "A gazetteer constructed on ontological principles"^^xsd:string ;
@@ -4259,9 +4211,9 @@ ols:gexo a dcmi:Dataset ;
 
 ols:go a dcmi:Dataset ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-02-20> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-02-16> .
 
 ols:hao a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the Hymenoptera (bees, wasps, and ants)"^^xsd:string ;
@@ -4289,15 +4241,9 @@ ols:hsapdv a dcmi:Dataset ;
 
 ols:iao a dcmi:Dataset ;
     dct:description "An ontology of information entities."^^xsd:string ;
-    dct:publisher "" ;
+    dct:publisher "http://iao.com" ;
     dct:title "Information Artifact Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/iao/2017-01-06> .
-
-ols:ico a dcmi:Dataset ;
-    dct:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field."^^xsd:string ;
-    dct:publisher "https://github.com/ICO-ontology/ICO" ;
-    dct:title "Informed Consent Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ico/Arbor_version;_1.0.70> .
 
 ols:ido a dcmi:Dataset ;
     dct:description "None"^^xsd:string ;
@@ -4449,7 +4395,7 @@ ols:oae a dcmi:Dataset ;
     dct:description "The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc."^^xsd:string ;
     dct:publisher "http://www.oae-ontology.org" ;
     dct:title "OAE: Ontology of Adverse Events"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.346> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/oae/Vision_Release;_1.1.340> .
 
 ols:oba a dcmi:Dataset ;
     dct:description "A collection of biological attributes (traits) covering all kingdoms of life."^^xsd:string ;
@@ -4484,7 +4430,7 @@ ols:ogg a dcmi:Dataset ;
 ols:ogi a dcmi:Dataset ;
     dct:description """OGI formalized the genomic element by defining an upper class 'genetic interval'.
 
-The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture." 
+The definition of 'genetic interval' is "the spatial continuous physical entity which contains ordered genomic sets(DNA, RNA, Allele, Marker,etc.) between and including two points (Nucleic Acid Base Residue) on a chromosome or RNA molecule which must have a liner primary sequence sturcture."
 
 Related paper:
 
@@ -4542,7 +4488,7 @@ ols:omp a dcmi:Dataset ;
 
 ols:omrse a dcmi:Dataset ;
     dct:description "This ontology covers the domain of social entities that are related to health care, such as demographic information and the roles of various individuals and organizations."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Ontology of Medically Related Social Entities"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omrse/2015-09-28> .
 
@@ -4566,7 +4512,7 @@ ols:opl a dcmi:Dataset ;
 
 ols:ordo a dcmi:Dataset ;
     dct:description "The Orphanet Rare Disease ontology (ORDO) is jointly developed by Orphanet and the EBI to provide a structured vocabulary for rare diseases capturing relationships between diseases, genes and other relevant features which will form a useful resource for the computational analysis of rare diseases. It derived from the Orphanet database (www.orpha.net ) , a multilingual database dedicated to rare diseases populated from literature and validated by international experts. It integrates a nosology (classification of rare diseases), relationships (gene-disease relations, epiemological data) and connections with other terminologies (MeSH, UMLS, MedDRA),databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas) or classifications (ICD10)."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Orphanet Rare Disease Ontolog"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ordo/2.3> .
 
@@ -4587,12 +4533,6 @@ ols:pco a dcmi:Dataset ;
     dct:publisher "https://github.com/PopulationAndCommunityOntology/pco" ;
     dct:title "Population and Community Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pco/2016-12-14> .
-
-ols:pdro a dcmi:Dataset ;
-    dct:description "An ontology to describe entities related to prescription of drugs"^^xsd:string ;
-    dct:publisher "https://github.com/OpenLHS/PDRO" ;
-    dct:title "The Prescription of Drugs Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pdro/20-02-2017> .
 
 ols:pdumdv a dcmi:Dataset ;
     dct:description "Life cycle stages for Platynereis dumerilii"^^xsd:string ;
@@ -4650,7 +4590,7 @@ ols:reto a dcmi:Dataset ;
 
 ols:rex a dcmi:Dataset ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Physico-chemical process"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-02-09> .
 
@@ -4668,7 +4608,7 @@ ols:rnao a dcmi:Dataset ;
 
 ols:ro a dcmi:Dataset ;
     dct:description "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."^^xsd:string ;
-    dct:publisher " https://github.com/oborel/obo-relations/" ;
+    dct:publisher "https://github.com/oborel/obo-relations/" ;
     dct:title "OBO Relations Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ro/2016-10-28> .
 
@@ -4746,7 +4686,7 @@ ols:taxrank a dcmi:Dataset ;
 
 ols:teddy a dcmi:Dataset ;
     dct:description "TEDDY is an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems and Synthetic Biology."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Terminology for Description of Dynamics"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/teddy/rel-2014-04-24> .
 
@@ -4788,19 +4728,19 @@ ols:vario a dcmi:Dataset ;
 
 ols:vo a dcmi:Dataset ;
     dct:description "The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&D and clincal vaccine usage. VO is initiated and primarily developed by Dr. Yongqun \"Oliver\" He at the University of Michigan Medical School. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities."^^xsd:string ;
-    dct:publisher "bfo" ;
+    dct:publisher "http://vo.com" ;
     dct:title "Vaccine Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vo/Vision_Release;_1.0.774> .
 
 ols:vt a dcmi:Dataset ;
     dct:description "An ontology of traits covering vertebrates"^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate trait"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vt/02-12-2016> .
 
 ols:vto a dcmi:Dataset ;
     dct:description "Comprehensive hierarchy of extinct and extant vertebrate taxa."^^xsd:string ;
-    dct:publisher "http://www.obofoundry.org/" ;
+    dct:publisher "http://none.com" ;
     dct:title "Vertebrate Taxonomy Ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vto/2016-10-17> .
 
@@ -4851,4 +4791,3 @@ ols:zfs a dcmi:Dataset ;
     dct:publisher "http://zfin.org/zf_info/anatomy/dict/sum.html" ;
     dct:title "Zebrafish developmental stages"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/zfs/2016-12-15> .
-
