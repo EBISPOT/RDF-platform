@@ -66,8 +66,11 @@ def check_void(rdf_graph):
             query='Select ?b ?c {'+entity+'?b ?c}'
             qres=rdf_graph.query(query)
             for row in qres:
-                listOfPredicats.append(str(row.b))
-                listOfObjects.append(str(row.c))
+                #listOfPredicats.append(str(row.b))
+                #listOfObjects.append(str(row.c))
+                listOfPredicats.append(row.b.encode("utf-8"))
+                listOfObjects.append(row.c.encode("utf-8"))
+
 
             if "http://purl.org/dc/terms/title" not in listOfPredicats:
                 raise AttributeError('Title of type http://purl.org/dc/terms/title is missing in '+entity)
@@ -129,8 +132,8 @@ def check_void(rdf_graph):
             query='Select ?b ?c {'+entity+'?b ?c}'
             qres=rdf_graph.query(query)
             for row in qres:
-                listOfPredicats.append(str(row.b))
-                listOfObjects.append(str(row.c))
+                listOfPredicats.append(row.b.encode("utf-8"))
+                listOfObjects.append(row.c.encode("utf-8"))
 
             if "http://purl.org/dc/terms/title" not in listOfPredicats:
                 raise AttributeError('Title of type http://purl.org/dc/terms/title is missing in '+entity)
@@ -168,9 +171,9 @@ def check_void(rdf_graph):
 ###List of ALL Distribution levels
     ListOfallDistributionLevels=[]
     #qres=rdf_graph.query('''SELECT ?a WHERE {?a ?b <http://rdfs.org/ns/void#Dataset>}''')
-    qres=rdf_graph.query('''SELECT ?a WHERE {  ?a ?b <http://rdfs.org/ns/void#Dataset> FILTER(      NOT EXISTS{  ?x <http://rdfs.org/ns/void#subset> ?a}      )   }''')
+    qres=rdf_graph.query('''SELECT ?a WHERE {  ?a ?b <http://rdfs.org/ns/void#Dataset>. ?a ?b <http://www.w3.org/ns/dcat#Distribution> FILTER(      NOT EXISTS{  ?x <http://rdfs.org/ns/void#subset> ?a}      )   }''')
     if len(qres)==0:
-        raise AttributeError("No distribution level found! It is defined through the attribute <http://rdfs.org/ns/void#Dataset>")
+        raise AttributeError("No distribution level found! It is defined through the attribute <http://rdfs.org/ns/void#Dataset> and <http://www.w3.org/ns/dcat#Distribution>")
 
     for row in qres:
         ListOfallDistributionLevels.append("<"+str(row.a)+">")
@@ -182,8 +185,10 @@ def check_void(rdf_graph):
         query='Select ?b ?c {'+entity+'?b ?c}'
         qres=rdf_graph.query(query)
         for row in qres:
-            listOfPredicats.append(str(row.b))
-            listOfObjects.append(str(row.c))
+            listOfPredicats.append(row.b.encode("utf-8"))
+            listOfObjects.append(row.c.encode("utf-8"))
+#            listOfPredicats.append(str(row.b))
+#            listOfObjects.append(str(row.c))
 
         #Subset/DataDump Test I handle in an own function because it needs more logic!
         recursive_subset_check(entity, rdf_graph)
@@ -198,6 +203,8 @@ def check_void(rdf_graph):
             raise AttributeError('Publisher of type http://purl.org/dc/terms/publisher is missing in '+entity)
         if "http://purl.org/dc/terms/license" not in listOfPredicats:
             raise AttributeError('Licence of type http://purl.org/dc/terms/license is missing in '+entity)
+        if "http://purl.org/dc/terms/format" not in listOfPredicats:
+            raise AttributeError('Format of type http://purl.org/dc/terms/format is missing in '+entity)
 
 ##Negative test
         if "http://purl.org/dc/terms/isVersionOf" in listOfPredicats:
@@ -235,5 +242,6 @@ def check_void(rdf_graph):
             raise AttributeError("dataDump of type http://rdfs.org/ns/void#dataDump is missing in "+entity)
 
 
-#Uncomment the last line to start the script with the file 'chembl_void.ttl'          
-#startUp('chembl_void.ttl')
+
+#Uncomment the last line to start the script with the file 'chembl_void.ttl'
+#startUp('gwas_void.ttl')
