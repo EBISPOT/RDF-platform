@@ -26,7 +26,7 @@
 
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20160707.tar.bz2" ;
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2" ;
    dct:creator <http://wwww.ebi.ac.uk/XXX>;
 	dcterms:description "The Distribution Level of biosamples"^^rdf:langString;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
