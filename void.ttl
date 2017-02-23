@@ -71,7 +71,7 @@
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:created "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
 	dcterms:modified "2016-11-08T00:00:00.000Z"^^xsd:dateTime ;
-	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :ops_rdf_recepclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
+	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
 	void:vocabulary <http://purl.org/ontology/bibo> , <http://www.bioassayontology.org/bao> , <http://semanticscience.org/ontology/cheminf.owl> , <http://purl.org/spar/cito> , <http://purl.org/dc/terms> , <http://www.w3.org/2002/07/owl> , <http://www.w3.org/1999/02/22-rdf-syntax-ns> , <http://www.w3.org/2000/01/rdf-schema> , <http://semanticscience.org/ontology/sio.owl> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2001/XMLSchema> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:sparqlEndpoint <http://www.ebi.ac.uk/rdf/services/chembl/sparql> ;
@@ -185,13 +185,6 @@
 	void:exampleResource chembl_protclass:CHEMBL_PC_148 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_protclass.ttl.gz> .
 
-:ops_rdf_recepclass_dataset a void:Dataset ;
-	dcterms:title "The Open PHACTS Receptor Classification Dataset" ;
-	dcterms:description "The Open PHACTS Receptor Classification Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/recepclass/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/recepclass/OPS_PC_148> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_recepclass.ttl.gz> .
-
 :chembl_rdf_source_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Source Dataset" ;
 	dcterms:description "The ChEMBL Source Dataset" ;
@@ -233,77 +226,77 @@
 	dcterms:description "The ChEMBL Molecule to ChEBI Molecule Linkset maps molecules in ChEMBL to their equivalent structures in the ChEBI database, based on having identical Standard InChI Keys." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	dcterms:issued "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_molecule_chebi_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_molecule_dataset ;
 	void:objectsTarget :chebi_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:CHEMINF_000059 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime .
+	pav:createdOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime .
 
 :chembl_singletarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Single Protein Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Single Protein Target to Target Component Linkset maps ChEMBL targets that are single proteins to their equivalent target component (a simple 1:1 mapping)." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	dcterms:issued "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_singletarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:SIO_010043 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime .
+	pav:createdOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime .
 
 :chembl_complextarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Protein Complex Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Protein Complex Target to Target Component Linkset maps ChEMBL targets that represent precise molecular entities of more than one component (e.g., protein complexes, protein-protein interactions, protein-nucleic acid complexes) to the individual components (parts) of those molecular entities (e.g., subunits). Protein complex targets are used when the entity responsible for the activity observed in an assay is known to consist of more than one component and these are required for the activity, therefore each of the individual components of the complex are known to be present, but are not necessarily the component being modulated (i.e., the binding site)." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	dcterms:issued "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_complextarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:relatedMatch ;
 	dul:expresses <http://www.obofoundry.org/ro/ro.owl#has_part> ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime .
+	pav:createdOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime .
 
 :chembl_grouptarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Target to Target Component Linkset maps ChEMBL targets that represent protein groups (e.g., protein families or poorly defined protein complexes) to the individual components (members) of those groups (e.g., protein family members or subunits). Protein group targets are used when one or more of a group of proteins may be responsible for the activity observed in an assay, therefore for each individual component of the group it is not certain that particular component is being modulated." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	dcterms:issued "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_grouptarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:relatedMatch ;
 	dul:expresses sio:SIO_000059 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime .
+	pav:createdOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime .
 
 :chembl_targetcmpt_uniprot_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Target Component to UniProt Linkset" ;
 	dcterms:description "The ChEMBL Target Component to UniProt Linkset maps individual protein components of targets in ChEMBL to their corresponding UniProt accession." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	dcterms:issued "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_targetcmpt_uniprot_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:objectsTarget :uniprot_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:SIO_010043 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2017-02-23T15:31:15.000Z"^^xsd:dateTime .
+	pav:createdOn "2017-02-23T17:06:24.000Z"^^xsd:dateTime .
