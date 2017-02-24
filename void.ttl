@@ -29,7 +29,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/resource/chembl/> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chembl/> a dctypes:Dataset ;
 	dcterms:title "ChEMBL-RDF VoID Description" ;
 	pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chembl/22.1> ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
