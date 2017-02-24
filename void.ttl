@@ -36,7 +36,7 @@
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." .
 
 <http://rdf.ebi.ac.uk/dataset/chembl/22.1> a dctypes:Dataset ;
-	dcterms:isVersionOf <http://rdf.ebi.ac.uk/resource/chembl/> ;
+	dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/chembl/> ;
 	dcterms:description "The Description of the Version level of ChEMBL" ;
 	dcterms:title "ChEMBL-RDF VoID Description" ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
@@ -80,49 +80,49 @@
 :chembl_rdf_target_relation_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Target Relation Dataset" ;
 	dcterms:description "The ChEMBL Target Relation Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/target/> ;
 	void:exampleResource chembl_target:CHEMBL301 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_targetrel.ttl.gz> .
 
 :chembl_rdf_cell_line_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Cell Line Dataset" ;
 	dcterms:description "The ChEMBL Cell Line Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/cell_line/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/cell_line/CHEMBL_CL_1> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/cell_line/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/dataset/chembl/cell_line/CHEMBL_CL_1> ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_cellline.ttl.gz> .
 
 :chembl_rdf_molhierarchy_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Molecule Hierarchy Dataset" ;
 	dcterms:description "The ChEMBL Molecules Hierarchy Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/molecule/> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_molhierarchy.ttl.gz> .
 
 :chembl_rdf_bindingsite_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Binding Site Dataset" ;
 	dcterms:description "The ChEMBL Binding Site Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/binding_site/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/binding_site/CHEMBL_BS_1> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/binding_site/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/dataset/chembl/binding_site/CHEMBL_BS_1> ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_bindingsite.ttl.gz> .
 
 :chembl_rdf_moa_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Mechanism of Action Dataset" ;
 	dcterms:description "The ChEMBL Mechanism of Action Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/CHEMBL_MEC_166> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/drug_mechanism/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/dataset/chembl/drug_mechanism/CHEMBL_MEC_166> ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_moa.ttl.gz> .
 
 :chembl_rdf_indication_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Drug Indication Dataset" ;
 	dcterms:description "The ChEMBL Drug Indication Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/CHEMBL_IND_24137> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/drug_indication/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/dataset/chembl/drug_indication/CHEMBL_IND_24137> ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_indication.ttl.gz> .
 
 :chembl_rdf_molecule_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Molecules Dataset" ;
 	dcterms:description "The ChEMBL Molecules Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/molecule/> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_molecule.ttl.gz> ;
 	void:subsets <http://rdf.ebi.ac.uk/dataset/chembl/22.1/void.ttl#/molecule_chebi_linkset> .
@@ -130,7 +130,7 @@
 :chembl_rdf_biocmpt_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Biotherapeutic Component Dataset" ;
 	dcterms:description "The ChEMBL Biotherapeutic Component Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/biocomponent/> ;
 	void:exampleResource chembl_bio_cmpt:CHEMBL_BC_6717 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_biocmpt.ttl.gz> .
 
@@ -153,49 +153,49 @@
 :chembl_rdf_assay_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Assay Dataset" ;
 	dcterms:description "The ChEMBL Assay Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/assay/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/assay/> ;
 	void:exampleResource chembl_assay:CHEMBL615155 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_assay.ttl.gz> .
 
 :chembl_rdf_activity_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Activity Dataset" ;
 	dcterms:description "The ChEMBL Activity Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/activity/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/activity/> ;
 	void:exampleResource chembl_activity:CHEMBL_ACT_99399 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_activity.ttl.gz> .
 
 :chembl_rdf_document_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Document Dataset" ;
 	dcterms:description "The ChEMBL Document Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/document/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/document/> ;
 	void:exampleResource chembl_document:CHEMBL1123868 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_document.ttl.gz> .
 
 :chembl_rdf_journal_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Journal Dataset" ;
 	dcterms:description "The ChEMBL Journal Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/journal/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/journal/> ;
 	void:exampleResource chembl_journal:CHEMBL_JRN_631 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_journal.ttl.gz> .
 
 :chembl_rdf_protclass_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Protein Classification Dataset" ;
 	dcterms:description "The ChEMBL Protein Classification Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/protclass/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/protclass/> ;
 	void:exampleResource chembl_protclass:CHEMBL_PC_148 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_protclass.ttl.gz> .
 
 :chembl_rdf_source_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Source Dataset" ;
 	dcterms:description "The ChEMBL Source Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/source/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/source/> ;
 	void:exampleResource chembl_source:CHEMBL_SRC_4 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_source.ttl.gz> .
 
 :chembl_rdf_unichem_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL UniChem Dataset" ;
 	dcterms:description "The ChEMBL UniChem Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:uriSpace <http://rdf.ebi.ac.uk/dataset/chembl/molecule/> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/chembl_22.1_unichem.ttl.gz> .
 
