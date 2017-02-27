@@ -29,14 +29,14 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chembl> a dctypes:Dataset ;
 	dcterms:title "ChEMBL-RDF VoID Description" ;
 	pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chembl/22.1> ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." .
 
 <http://rdf.ebi.ac.uk/dataset/chembl/22.1> a dctypes:Dataset ;
-	dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/chembl/> ;
+	dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/chembl> ;
 	dcterms:description "The Description of the Version level of ChEMBL" ;
 	dcterms:title "ChEMBL-RDF VoID Description" ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
