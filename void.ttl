@@ -21,7 +21,7 @@
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     pav:version "49" ;
     dct:creator <http://wwww.ebi.ac.uk/> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01.rdf>.
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reactome/Version49.rdf>.
 
 
 <http://rdf.ebi.ac.uk/dataset/reactome/Version49.rdf> a void:Dataset ,
