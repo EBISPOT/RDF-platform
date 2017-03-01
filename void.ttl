@@ -9,27 +9,27 @@
 
 <http://rdf.ebi.ac.uk/dataset/biosamples> a  dctypes:Dataset;
   dcterms:title "Biosamples"^^rdf:langString ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/Version01>;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "The Description of this dataSet"^^rdf:langString .
+	dcterms:description "BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry"^^rdf:langString .
 
 
 <http://rdf.ebi.ac.uk/dataset/biosamples/Version01> a dctypes:Dataset ;
-  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test>;
+  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/biosamples>;
   	dcterms:description "The Description of the Version level of Biosamples"^^rdf:langString;
-    dcterms:title "Reactome Version"^^rdf:langString;
+    dcterms:title "Biosamples 2017"^^rdf:langString;
      dct:publisher <http://wwww.ebi.ac.uk/> ;
   pav:version "0.1.0" ;
-     dct:creator <http://wwww.ebi.ac.uk/XXX>;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf>.
+     dct:creator <http://wwww.ebi.ac.uk/spot>;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/Version01.rdf>.
 
 
 <http://rdf.ebi.ac.uk/dataset/biosamples/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
   void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2" ;
-   dct:creator <http://wwww.ebi.ac.uk/XXX>;
+   dct:creator <http://wwww.ebi.ac.uk/spot>;
 	dcterms:description "The Distribution Level of biosamples"^^rdf:langString;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
   dct:format "text/turtle" ;
-  dcterms:title "Test Distribution level of biosamples"^^rdf:langString.
+  dcterms:title "Distribution level of biosamples database"^^rdf:langString.
