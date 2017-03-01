@@ -2,32 +2,35 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 @prefix idot: <http://identifiers.org/idot/> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://rdf.ebi.ac.uk/dataset/rdf_reactome> a  dct:Dataset;
-  dcterms:title "Reactome" ;
+<http://rdf.ebi.ac.uk/dataset/reactome> a  dctypes:Dataset;
+  dcterms:title "Reactome"^^rdf:langString  ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01>;
-  dct:publisher "EBI" ;
-	dcterms:description "The Description of this dataSet" .
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
+	dcterms:description "The Description of this dataSet"^^rdf:langString  .
 
 
-<http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01> a dct:Dataset ;
-  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_atlas_test>;
-  	dcterms:description "The Description of the Version level of Reactome";
-    dcterms:title "Reactome Version" ;
-    dct:publisher "EBI" ;
+<http://rdf.ebi.ac.uk/dataset/reactome/Version01> a  dctypes:Dataset ;
+  <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_reactome_test>;
+  	dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
+    dcterms:title "Reactome Version"^^rdf:langString  ;
+    dct:publisher <http://wwww.ebi.ac.uk/> ;
     pav:version "0.1.0" ;
-    dct:creator "TestCreator in that case" ;
+    dct:creator <http://wwww.ebi.ac.uk/> ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/rdf_reactome_test/Version01.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/reactome/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
   void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_reactome.tar.bz2> ;
-  dct:creator "TestCreator in that case" ;
-	dcterms:description "The Description of the Version level of Reactome";
-  dct:publisher "EBI" ;
-  dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+  dct:creator <http://wwww.ebi.ac.uk/> ;
+  dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
+  dct:license <http://www.ebi.ac.uk/about/terms-of-use>;
   idot:preferredPrefix "reactome" ;
-  dcterms:title "Test Distribution level of reactome" .
+  dct:format "text/turtle" ;
+  dcterms:title "Test Distribution level of reactome"^^rdf:langString  .
