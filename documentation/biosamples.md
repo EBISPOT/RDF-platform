@@ -1,3 +1,8 @@
+---
+layout: default
+title: Biosamples
+permalink: RDF-platform/documentation/biosamples.html
+---
 ## Documentation Biosamples
 
 The schema for the Biosamples dataset, shown below mostly reflects the SampleTab format and the entities that can be seen from the Biosamples web site. We have achieved such result by trying to reuse existing ontologies as much as possible. However, we have defined a small application ontology for covering those concepts and relationships specific to the Biosamples dataset.
@@ -16,7 +21,7 @@ Beyond ontologies used for the core entities, there is a number of biomedical on
 
 * Definitions specific to Biosamples RDF dataset
 * Experimental Factor Ontology (EFO)
-* Biomedical Investigation Ontology (OBI) 
+* Biomedical Investigation Ontology (OBI)
 * Information Artifact Ontology (IAO)
 * Semantic Science Ontology (SIO)
 * NCBI Taxonomy
@@ -51,5 +56,3 @@ Please note that the Biosamples RDF dataset is experimental and it has currently
     Slides from the SWAT4LS 2014 tutorial
     Webminar given on 23/6/2015
     BioSD Linked Data, lessons learned (BiomedBridges Symposium, 17/11/2015)
-
-

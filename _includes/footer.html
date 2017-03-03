@@ -39,10 +39,6 @@
 <script type="text/JavaScript">$(document).foundation();</script>
 <script type="text/JavaScript">$(document).foundationExtendEBI();</script>
 <!-- <script type="text/javascript" src="//wwwdev.ebi.ac.uk/rdf/services/scripts/lode.js"></script> -->
-<script type="text/JavaScript">console.log("Does it work?")
-//var element=document.getElementById("table");
-//# _buildVoid(element)
-</script>
 
 {% comment %} Custom global JS could go here: {% endcomment %}
 {% for js in site.custom_js %}
@@ -50,8 +46,8 @@
 {% endfor %}
 
 
-{% for js in page.title.javascript %}		
-<script src="{{js}}"></script>		
+{% for js in page.title.javascript %}
+<script src="{{js}}"></script>
 {% endfor %}
 
 {% comment %} Custom Component Scripts (from individual .md files) go here: {% endcomment %}

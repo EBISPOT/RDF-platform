@@ -1,42 +1,51 @@
+---
+layout: default
+title: Using Sparql
+permalink: RDF-platform/documentation/usingSparql.html
+---
 ## Using the SPARQL Endpoints
 
 We provide a SPARQL endpoint with free public access for users to explore our data using SPARQL queries.
 
 #### Graphs
+<strong>Data</strong>: All data is stored in one database, therefore all entries can be access through the endpoint. However, the database contains many different named graphs to organize the data. Named Graphs can be used to speed up your search by excluding the data that you do not care about - this can be done by using the **from <namedGraph>** statement in your SPARQL query. Some resources like Reactome, ChEMBL or Biosamples store their data in one named graph, while larger datasets are split up into multiple graphs. For example the store every ontology from the Ontology Lookup Service in an own named Graph, or data from Ensemble is split up on species level. The naming schema follow a certain structure:
+> http://ebi.rdf.ac.uk/dataset/<Name>
 
-Each endpoint contains two named graphs.
+Some examples for named Graphs are:
+> &#60;http://ebi.rdf.ac.uk/dataset/chembl> <br>
+> &#60;http://ebi.rdf.ac.uk/dataset/reactome> <br>
+> &#60;http://rdf.ebi.ac.uk/dataset/homo_sapiens>
 
-<strong>Data</strong>: The latest version of the dataset, along with any vocabulary terms that are specific to that dataset, is contained within a single graph. The name used for this graph looks like this:
-
-> http://rdf.ebi.ac.uk/dataset/< dataset >/< version >
+A list of all named graphs in the database can be viewed at our SPARQL endpoint. Please note that named graphs for void files are not included in that list.
 
 
-<strong>Provenance</strong>: We also provide provenance metadata about the dataset in a separate graph. This includes information about versioning, dataset descriptions and example resources. The name used for this graph looks like this:
+<strong>Provenance</strong>: We also provide provenance metadata about the dataset in a separate graph. The dataset description, also called VoID files, includes information about for example versioning, dataset descriptions or publisher. The structure of the VoID files are defined by the w3c standard for dataset descriptions in Health Care and Life Science which can be found [here](https://www.w3.org/TR/hcls-dataset/). The naming schema for named graphs for Void files is to add *_void.ttl* after the resource name:
 
-```
-http://rdf.ebi.ac.uk/dataset/<dataset>/description
-```
+> http://rdf.ebi.ac.uk/dataset/dataset_void.ttl
 
-You can find out more about the metadata contained in this graph on our provenance page.
+So for example the void file information for &#60;http://rdf.ebi.ac.uk/dataset/homo_sapiens> can be found
+> &#60;http://rdf.ebi.ac.uk/dataset/homo_sapiens_void.ttl>
+
+You can find out more about the metadata stored in these VoID files and how we use it on our [provenance page](/RDF-platform/documentation/provenance).
+
 
 #### Basic Queries
-
 By default, queries are not restricted to any graph. If you want to run a basic query for a single dataset, you do not need to do anything special. For example:
 
 > DESCRIBE <http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-20266>
 
 
-You can also choose to limit a SPARQL query to a specific graph using the FROM keyword:
+You can also choose to limit a SPARQL query to a specific graph using the FROM keyword. This can speed up your query and is therefore recommended:
 
 > SELECT * <br>
-> FROM <http://rdf.ebi.ac.uk/dataset/atlas/description> <br>
+> FROM <http://rdf.ebi.ac.uk/dataset/reactome> <br>
 > WHERE { <br>
 > &nbsp;&nbsp; ?subject ?predicate ?object <br>
-> } 
+> }
 
 #### Prefixes
 
-For convenience, our endpoints are configured with some namespace prefixes by default: 
+For convenience, our endpoints are configured with some namespace prefixes by default:
 
 * rdf -	http://www.w3.org/1999/02/22-rdf-syntax-ns#
 * rdfs - http://www.w3.org/2000/01/rdf-schema#
@@ -68,4 +77,3 @@ You can execute queries that use data from multiple datasets by federating the q
 >  &nbsp;&nbsp;      } <br>
 >    } <br>
 > } <br>
-

@@ -1,3 +1,8 @@
+---
+layout: default
+title: contentNegation
+permalink: RDF-platform/documentation/contentNegation.html
+---
 ## Content Negotiation
 #### Persistent URIs
 We provide persistent URIs for the resources described within our RDF datasets. This means that the URIs within our RDF downloads and SPARQL endpoints are intended to be stable, and guaranteed to resolve to a document describing the entity in question.
@@ -16,29 +21,28 @@ To explain by example, you can do any of the following using the Linux curl comm
 > http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
 
 The above example redirects to the Linked Data browser, which returns an HTML document describing an experiment in the Gene Expression Atlas.
-```
-curl -L -H "Accept: application/rdf+xml" \
-http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
-```
+>curl -L -H "Accept: application/rdf+xml" \
+>http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
+
 The above example redirects to an RDF document describing the experiment.
-```
-curl -L -H "Accept: application/rdf+xml" \
-http://rdf.ebi.ac.uk/dataset/atlas/13.07
-```
+
+>curl -L -H "Accept: application/rdf+xml" \
+>http://rdf.ebi.ac.uk/dataset/atlas/13.07
+
 The above example redirects to an RDF document containing dataset provenance and statistics.
 
 #### Content Negotiation on purl.uniprot.org
 You can do content negotiation in the same way:
-```
-curl -L -H "Accept: text/html" \
-http://purl.uniprot.org/uniprot/P15056
-```
+
+>curl -L -H "Accept: text/html" \
+>http://purl.uniprot.org/uniprot/P15056
+
 The above example redirects to an HTML document.
-```
-curl -L -H "Accept: application/rdf+xml" \
-http://purl.uniprot.org/uniprot/P15056
-```
+
+>curl -L -H "Accept: application/rdf+xml" \
+>http://purl.uniprot.org/uniprot/P15056
+
 The above example redirects to an RDF/XML document.
 
 #### Content Negotiation on identifiers.org
-Whilst it is possible to obtain RDF data from identifiers.org URIs via content negotiation, at present this will return RDF as published by identifiers.org, rather than the database content. A solution is under development.
+While it is possible to obtain RDF data from identifiers.org URIs via content negotiation, at present this will return RDF as published by identifiers.org, rather than the database content. A solution is under development.

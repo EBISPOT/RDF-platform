@@ -1,0 +1,60 @@
+#This R scripts shows how you can use the SPARQL package from R to query the Gene Expression Atlas SPARQL endpoint. The following script gets differentially expressed genes fro a single experiment across all conditions and generates a simple heatmap view of the results. 
+
+# Example of querying SPARQL endpoint in R
+
+# Using SPARQL package from http://cran.r-project.org/web/packages/SPARQL/
+
+# Author: Simon Jupp
+# Copyright (c) 2013 EMBL - European Bioinformatics Institute
+
+# create your query
+# This query gets all genes expressed in experiment E-GEOD-8572 along with the t statistic to indicate over or under expression and the experimental conditions
+q <- "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/>
+SELECT DISTINCT ?genename ?factorLabel ?tStat WHERE {
+atlas:E-GEOD-8527 atlasterms:hasAnalysis ?analysis .
+?analysis atlasterms:hasExpressionValue ?value .
+?value atlasterms:pValue ?pvalue .
+?value atlasterms:tStatistic ?tStat .
+?value atlasterms:hasFactorValue ?factor .
+?factor atlasterms:propertyValue ?factorLabel .
+?value atlasterms:isMeasurementOf ?probe .
+?probe atlasterms:dbXref ?dbXref .
+ ?dbXref rdfs:label ?genename .
+} ORDER BY ?genename limit 10000"
+
+# execute your query
+d <- SPARQL(url="http://www.ebi.ac.uk/rdf/services/atlas/sparql",
+ query=q)
+
+# attach results to a data frame
+df <- data.frame(Genename=d$results$genename, Factor=factor(d$results$factorLabel), TStat=d$results$tStat, stringsAsFactors=FALSE)
+attach(df)
+genes <- unique(Genename)
+
+# create the matrix for the results and set the row and col names
+values <- matrix(0, nrow=length(genes), ncol=length(unique(Factor)))
+rownames(values) <- genes
+colnames(values) <- unique(Factor)
+
+i<-1
+while (i <= length(Genename)) {
+ gn <-df$Genename[i]
+ var <-df$Factor[i]
+ tstat <-df$TStat[i]
+
+ rowindex <- match(gn, rownames(values))
+ colindex <- match(var, unique(Factor))
+ values[rowindex,colindex] <- tstat
+ i<-i+1
+}
+
+# filter the matrix to only show genes expressed in at least 5 experimental conditions
+values<-values[-which(rowSums(values==0)>5),]
+
+# generate a heatmap if the results
+jpeg(file="E-GEOD-8527-Clusters.jpg", width=1600, height=800, res=150)
+par(oma=c(4,2,2,2))
+stats::heatmap(values, scale="none", col = cm.colors(256))
+dev.off()

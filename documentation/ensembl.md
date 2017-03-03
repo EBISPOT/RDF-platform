@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ensembl
+permalink: RDF-platform/documentation/ensembl.html
+---
 ## Documentation Ensembl
 
 The data described by RDF is broadly similar to the concepts found in Ensembl APIs and services. In case of confusion, it can be helpful to look up a feature on www.ensembl.org

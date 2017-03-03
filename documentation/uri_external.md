@@ -1,3 +1,8 @@
+---
+layout: default
+title: URI for external data
+permalink: RDF-platform/documentation/uri_external.html
+---
 ## URIs for external data
 #### Introduction
 One of the strengths of Semantic Web technologies is the implicit linkability of separate datasets. However, the utility of this link depends on the use of appropriate URIs - both for the subject/object and the predicate. It is important for two datasets to use the same URI when referring to the same concept, to use different URIs for concepts that are not the same, and to represent links between concepts in a semantically correct way.

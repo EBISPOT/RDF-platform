@@ -1,9 +1,9 @@
 # Site settings
-name: RDF platform 
-group: EMBL-EBI SPOT 
+name: RDF platform
+group: EMBL-EBI SPOT
 email: noreply@ebi.ac.uk
-domain: //ebispot.github.io
-baseurl: /RDF-platform 
+domain: /
+baseurl: ../
 permalink: pretty
 
 # Add custom CSS / JS here
@@ -18,3 +18,6 @@ ga_code: 'UA-XXXXX-X'
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  parse_block_html: true

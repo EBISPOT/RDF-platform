@@ -1,3 +1,8 @@
+---
+layout: default
+title: Introduction
+permalink: RDF-platform/documentation/introduction.html
+---
 ## Introduction  
 
 #### What are RDF, Linked Data and the Semantic Web?
@@ -40,25 +45,25 @@ In order for RDF data to link together properly, it is necessary for every conce
 
 When it comes to communicating and storing (serialising) RDF data, there are several standard formats. Despite there being more than one format, they are inherently interchangeable because all of the differences between datasets are in the data themselves, and not the file format. One example of a format is N-Triples, which uses a simple 3-column representation:
 
-```
-<http://creatures.com/animals/1234> <http://xmlns.com/foaf/0.1/name> "Rex"
-```
- 
+
+> &#60;http://creatures.com/animals/1234> &#60;http://xmlns.com/foaf/0.1/name> "Rex"
+
+
 
 The RDF-XML format is very commonly used, and provides some additional features. Note the use of XML namespaces to make long URIs more readable:
 
-```
-<rdf:RDF
- xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
- xmlns:animals="http://creatures.com/animals/"
- xmlns:terms="http://creatures.com/terms/"
- xmlns:foaf="http://xmlns.com/foaf/0.1/">
-    <rdf:Description rdf:about="animals:1234">
-        <foaf:name>Rex</foaf:name>
-        <rdf:type rdf:resource="terms:dog" />
-    </rdf:Description>
-</rdf:RDF>
-```
+
+>&#60;rdf:RDF <br>
+> xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" <br>
+> xmlns:animals="http://creatures.com/animals/" <br>
+> xmlns:terms="http://creatures.com/terms/" <br>
+> xmlns:foaf="http://xmlns.com/foaf/0.1/"> <br>
+> &nbsp;&nbsp;   &#60;rdf:Description rdf:about="animals:1234"> <br>
+> &nbsp;&nbsp;       &#60;foaf:name>Rex</foaf:name> <br>
+> &nbsp;&nbsp;       &#60;rdf:type rdf:resource="terms:dog" /> <br>
+> &nbsp;&nbsp;   &#60;/rdf:Description> <br>
+>&#60;/rdf:RDF>
+
 
 #### Querying the data
 
@@ -68,15 +73,12 @@ HTTP is the transport layer of the Web, and SPARQL endpoints are able to communi
 
 This is an example of a SPARQL query:
 
-```
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-SELECT ?name
- WHERE {
-     ?animal foaf:name ?name .
- }
-```
+>PREFIX foaf: <http://xmlns.com/foaf/0.1/> <br>
+>SELECT ?name <br>
+>&nbsp;&nbsp; WHERE { <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;     ?animal foaf:name ?name . <br>
+>}
 
-#### Further Reading 
+
+#### Further Reading
 There are many resources on the web where you can learn more about the philosophy and structure of RDF data. One example is the  [Semantic University](http://www.cambridgesemantics.com/semantic-university/getting-started-semantics), from Cambridge Semantics.
-
-
