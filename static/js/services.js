@@ -54,7 +54,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><img src='"+content[name]["logo"]+"'/></td>"
+      tablecontent="<tr><td style='width: 150px;'><img src='{{site.domain}}{{site.baseurl}}/"+content[name]["logo"]+"'/></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
