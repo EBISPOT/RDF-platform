@@ -2,7 +2,7 @@ console.log("services js called from the website")
 //Edit this file to add more sources to the website e.g. the table
 var content={
     "biomodels": {
-      "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/biomodels_service_logo.gif",
+      "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/biomodels_service_logo.gif?raw=true",
       "exampleText" : "All model elements with annotations to acetylcholine-gated channel complex (GO:0005892)",
       "exampleQuery" : "http://www.ebi.ac.uk/rdf/services/biomodels/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0D%0APREFIX%20xsd%3A%20%3Chttp%3A//www.w3.org/2001/XMLSchema%23%3E%0D%0APREFIX%20dc%3A%20%3Chttp%3A//purl.org/dc/elements/1.1/%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20foaf%3A%20%3Chttp%3A//xmlns.com/foaf/0.1/%3E%0D%0APREFIX%20skos%3A%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23%3E%0D%0APREFIX%20sbmlrdf%3A%20%3Chttp%3A//identifiers.org/biomodels.vocabulary%23%3E%0D%0A%0D%0ASELECT%20%3FmodelElement%20%3FelementType%20%3Fqualifier%20WHERE%20%7B%20%0D%0A%3FmodelElement%20%3Fqualifier%20%3Chttp%3A//identifiers.org/go/GO%3A0005892%3E%20.%20%20%0D%0A%3Fqualifier%20rdfs%3AsubPropertyOf%20sbmlrdf%3AsbmlAnnotation%20.%20%0D%0A%3FmodelElement%20rdf%3Atype%20%3FelementType%20%0D%0A%7D&amp;render=HTML&amp;limit=25&amp;offset=0"
   },
