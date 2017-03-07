@@ -61,6 +61,7 @@
     dct:description "Description of ...";
      dct:publisher <http://www.ebi.com>;
     dct:title "Distribution title" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset>,
      	<http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_xrefs_subset> .  
