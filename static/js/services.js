@@ -23,8 +23,8 @@ var content={
     },
     "reactome" : {
       "logo": "/static/logos/reactome_service.gif",
-      "exampleText" : "-",
-      "exampleQuery": "-"
+      "exampleText" : "Pathways that references Insulin (P01308)",
+      "exampleQuery": "http://www.ebi.ac.uk/rdf/services/reactome/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0D%0APREFIX%20xsd%3A%20%3Chttp%3A//www.w3.org/2001/XMLSchema%23%3E%0D%0APREFIX%20dc%3A%20%3Chttp%3A//purl.org/dc/elements/1.1/%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20foaf%3A%20%3Chttp%3A//xmlns.com/foaf/0.1/%3E%0D%0APREFIX%20skos%3A%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23%3E%0D%0APREFIX%20biopax3%3A%20%3Chttp%3A//www.biopax.org/release/biopax-level3.owl%23%3E%0D%0A%0D%0ASELECT%20DISTINCT%20%3Fpathway%20%3Fpathwayname%20%0D%0AWHERE%20%0D%0A%7B%3Fpathway%20rdf%3Atype%20biopax3%3APathway%20.%20%20%0D%0A%3Fpathway%20biopax3%3AdisplayName%20%3Fpathwayname%20.%0D%0A%3Fpathway%20biopax3%3ApathwayComponent%20%3Freaction%20.%20%0D%0A%3Freaction%20rdf%3Atype%20biopax3%3ABiochemicalReaction%20.%20%0D%0A%7B%20%20%20%20%20%20%20%20%20%20%0D%0A%7B%3Freaction%20%3Frel%20%3Fprotein%20.%7D%20%20%20%0D%0AUNION%20%20%0D%0A%7B%20%20%0D%0A%3Freaction%20%20%3Frel%20%20%3Fcomplex%20.%20%0D%0A%3Fcomplex%20rdf%3Atype%20biopax3%3AComplex%20.%20%20%0D%0A%3Fcomplex%20%3Fcomp%20%3Fprotein%20.%20%0D%0A%7D%7D%20%0D%0A%3Fprotein%20rdf%3Atype%20biopax3%3AProtein%20.%20%0D%0A%3Fprotein%20biopax3%3AentityReference%20%3Chttp%3A//purl.uniprot.org/uniprot/P01308%3E%20%0D%0A%7D%20%20%20%20%0D%0ALIMIT%20100%20%20%0D%0A&render=HTML&limit=25&offset=0#lodestart-sparql-results"
     },
     "ensembl":{
       "logo": "/static/logos/ensembl_full.png",
@@ -54,7 +54,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><img src='{{site.domain}}{{site.baseurl}}/"+content[name]["logo"]+"'/></td>"
+      tablecontent="<tr><td style='width: 150px;'><img src='"+content[name]["logo"]+"'/></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
