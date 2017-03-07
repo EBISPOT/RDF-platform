@@ -13,7 +13,7 @@
 <http://rdf.ebi.ac.uk/dataset/ensembl> a <http://purl.org/dc/dcmitype/Dataset> ;
   dcterms:title "VoID Description"@en ;
   dcterms:description "The VoID description for the RDF representation of this dataset."@en ;
-  dct:publisher "EBI" ;
+  dct:publisher <http://www.ebi.com> ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86> ;
   dct:hasPart <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>,
 	<http://rdf.ebi.ac.uk/dataset/ensembl/7719> .
@@ -39,7 +39,7 @@
 #Summary home sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens> a <http://purl.org/dc/dcmitype/Dataset> ;
     dct:description " ……. " ;
-    dct:publisher "Publisher" ;
+    dct:publisher <http://www.ebi.com> ;
     dct:title "Ensembl - Homo sapiens" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens> .
 
@@ -51,15 +51,15 @@
     dct:isVersionOf  <http://rdf.ebi.ac.uk/dataset/ensembl/homo_sapiens>;
     dct:issued "2016-10-31"^^xsd:date ;
     pav:version "86" ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:publisher <http://www.ebi.com> ;
     dct:title "What is the Version title?" .
 
 #Distribution Level of Homo sapiens
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens.void> a void:Dataset,
     dcat:Distribution ;
-    dct:creator "Who is the creator/DistLevel" ;
+    dct:creator <http://www.ebi.com> ;
     dct:description "Description of ...";
-     dct:publisher "Who is the publisher/DistLevel" ;
+     dct:publisher <http://www.ebi.com>;
     dct:title "Distribution title" ;
     pav:version "86" ;
     void:subset <http://rdf.ebi.ac.uk/dataset/ensembl/86/homo_sapiens_subset>,
@@ -82,30 +82,30 @@
 #Summary Level of 7719
 <http://rdf.ebi.ac.uk/dataset/ensembl/7719> a <http://purl.org/dc/dcmitype/Dataset> ;
  dct:description "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
-    dct:publisher "Who do we put in here" ;
+    dct:publisher <http://www.ebi.com>;
     dct:title "Adverse Event Reporting Ontology" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> .
 
 
 #Version Level of 7719
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719> a <http://purl.org/dc/dcmitype/Dataset> ;
-    dct:creator "Who is the creator/Versionlevel" ;
+    dct:creator <http://www.ebi.com> ;
     dct:description "Description of ..." ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> ;
     dct:isVersionOf <http://rdf.ebi.ac.uk/dataset/ensembl/7719>  ;
     pav:version "86" ;
     dct:issued "2016-10-31"^^xsd:date ;
-    dct:publisher "Who is the publisher/Versionlevel" ;
+    dct:publisher <http://www.ebi.com> ;
     dct:title "What is the Version title?" .
 
 #Distribution level of 7719
 <http://rdf.ebi.ac.uk/dataset/ensembl/86/7719.void> a void:Dataset,
     dcat:Distribution ;
-    dct:creator "Who is the creator/DistLevel" ;
+    dct:creator <http://www.ebi.com> ;
     dct:description "Description of ...",
         "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "Who is the publisher/DistLevel" ;
+    dct:publisher <http://www.ebi.com> ;
     dct:title "Distribution title" ;
     pav:version "17-05-2016" ;
     void:subset  <http://rdf.ebi.ac.uk/dataset/ensembl/83/7719_subset>,
