@@ -24,7 +24,7 @@
   dcterms:description "Ensembl is a joint project between EMBL - EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes."@en ;
   dcterms:title "Ensembl RDF"@en ;
   dcterms:publisher <http://www.ebi.ac.uk> ;
-  dct:creator "<http://www.ebi.ac.uk>" ;
+  dct:creator <http://www.ebi.ac.uk> ;
   pav:version "86" ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/86.void> .
 
