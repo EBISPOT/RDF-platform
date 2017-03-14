@@ -1,5 +1,5 @@
-console.log("services js called from the website")
 //Edit this file to add more sources to the website e.g. the table
+//Add a specific sparql Query to 'ftplink' if the standard query is not good enough (e.g. for ensembl)
 var content={
     "biomodels": {
       "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/biomodels_service_logo.gif?raw=true",
@@ -29,7 +29,8 @@ var content={
     "ensembl":{
       "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/ensembl_full.png?raw=true",
       "exampleText": "Get all the genes, transcripts and exons on a chromosome",
-      "exampleQuery": "http://www.ebi.ac.uk/rdf/services/ensembl/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20obo%3A%20%3Chttp%3A//purl.obolibrary.org/obo/%3E%0D%0APREFIX%20sio%3A%20%3Chttp%3A//semanticscience.org/resource/%3E%0D%0APREFIX%20faldo%3A%20%3Chttp%3A//biohackathon.org/resource/faldo%23%3E%0D%0APREFIX%20ensembl%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/%3E%0D%0APREFIX%20ensembltranscript%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.transcript/%3E%0D%0APREFIX%20ensemblexon%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.exon/%3E%0D%0APREFIX%20ensemblprotein%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.protein/%3E%0D%0APREFIX%20ensemblterms%3A%20%3Chttp%3A//rdf.ebi.ac.uk/terms/ensembl/%3E%0D%0A%0D%0ASELECT%20%3Ffeature%20%3Fregion%20%3Fstart%20%3Fend%20%3Fstrand%20WHERE%20%7B%0D%0A%3Ffeature%20faldo%3Alocation%20%3Fregion%20.%0D%0A%3Fregion%20faldo%3Abegin%20%3Fstart%20.%0D%0A%3Fstart%20faldo%3Aposition%20%3Fstart_value%20.%0D%0A%3Fstart%20rdf%3Atype%20%3Fstrand%20.%0D%0A%3Fregion%20faldo%3Aend%20%3Fend%20.%0D%0A%3Fend%20faldo%3Aposition%20%3Fend_value%20.%0D%0A%3Fregion%20faldo%3Areference%20%3Fseqregion%20.%0D%0AVALUES%20%3Fseqregion%20%7B%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/87/homo_sapiens/GRCh38/20%3E%20%7D%0D%0AFILTER%20%28%20%3Fstrand%20%3D%20faldo%3AForwardStrandPosition%20%7C%7C%20%3Fstrand%20%3D%20faldo%3AReverseStrandPosition%20%29%0D%0A%7D%0D%0ALIMIT%20200&render=HTML&limit=25&offset=0#lodestart-sparql-results"
+      "exampleQuery": "http://www.ebi.ac.uk/rdf/services/ensembl/sparql?query=PREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0D%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0D%0APREFIX%20dcterms%3A%20%3Chttp%3A//purl.org/dc/terms/%3E%0D%0APREFIX%20obo%3A%20%3Chttp%3A//purl.obolibrary.org/obo/%3E%0D%0APREFIX%20sio%3A%20%3Chttp%3A//semanticscience.org/resource/%3E%0D%0APREFIX%20faldo%3A%20%3Chttp%3A//biohackathon.org/resource/faldo%23%3E%0D%0APREFIX%20ensembl%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/%3E%0D%0APREFIX%20ensembltranscript%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.transcript/%3E%0D%0APREFIX%20ensemblexon%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.exon/%3E%0D%0APREFIX%20ensemblprotein%3A%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl.protein/%3E%0D%0APREFIX%20ensemblterms%3A%20%3Chttp%3A//rdf.ebi.ac.uk/terms/ensembl/%3E%0D%0A%0D%0ASELECT%20%3Ffeature%20%3Fregion%20%3Fstart%20%3Fend%20%3Fstrand%20WHERE%20%7B%0D%0A%3Ffeature%20faldo%3Alocation%20%3Fregion%20.%0D%0A%3Fregion%20faldo%3Abegin%20%3Fstart%20.%0D%0A%3Fstart%20faldo%3Aposition%20%3Fstart_value%20.%0D%0A%3Fstart%20rdf%3Atype%20%3Fstrand%20.%0D%0A%3Fregion%20faldo%3Aend%20%3Fend%20.%0D%0A%3Fend%20faldo%3Aposition%20%3Fend_value%20.%0D%0A%3Fregion%20faldo%3Areference%20%3Fseqregion%20.%0D%0AVALUES%20%3Fseqregion%20%7B%20%3Chttp%3A//rdf.ebi.ac.uk/resource/ensembl/87/homo_sapiens/GRCh38/20%3E%20%7D%0D%0AFILTER%20%28%20%3Fstrand%20%3D%20faldo%3AForwardStrandPosition%20%7C%7C%20%3Fstrand%20%3D%20faldo%3AReverseStrandPosition%20%29%0D%0A%7D%0D%0ALIMIT%20200&render=HTML&limit=25&offset=0#lodestart-sparql-results",
+      "ftplink" : "SELECT DISTINCT ?ftplink WHERE{ <http://rdf.ebi.ac.uk/dataset/ensembl> <http://purl.org/dc/terms/hasPart> ?subgraph . ?subgraph <http://purl.org/pav/hasCurrentVersion> ?subversion .  ?subversion <http://purl.org/dc/terms/hasDistribution> ?dist. 	?dist <http://rdfs.org/ns/void#subset> ?subset .  ?subset <http://rdfs.org/ns/void#dataDump> ?ftplink }"
   },
     "ols" : {
       "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/ols-logo.jpeg?raw=true",
@@ -59,7 +60,7 @@ $.ajax ( {
         tablecontent+="<td>-</td>"
       }
       else {
-        tablecontent+="<td>"+json['results']['bindings'][0]['version']['value']+"</td>"
+        tablecontent+="<td style='width: 100px;'>"+json['results']['bindings'][0]['version']['value']+"</td>"
       }
 
       tablecontent+="<td><a href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>Void File</a></td>"
@@ -73,129 +74,22 @@ $.ajax ( {
 
 //This function build dynamically a sparql query showing the datadum links for each resource in context
 function buildFTPLinks(namedGraph){
-  namedGraphURI="http://rdf.ebi.ac.uk/dataset/"+namedGraph
-  var query="SELECT ?b from <"+namedGraphURI+"> WHERE{ ?a <http://rdfs.org/ns/void#dataDump> ?b}"
+  namedGraphURI="http://rdf.ebi.ac.uk/dataset/"+namedGraph+"_void.ttl"
+  var query="SELECT ?ftplink \nfrom <"+namedGraphURI+"> \nWHERE{ ?a <http://rdfs.org/ns/void#dataDump> ?ftplink}"
+
+  if (content[namedGraph]['ftplink'] === undefined) {
   query="https://wwwdev.ebi.ac.uk/rdf/services/sparql?query="+encodeURIComponent(query)
+  }
+  else{
+  query="https://wwwdev.ebi.ac.uk/rdf/services/sparql?query="+encodeURIComponent(content[namedGraph]['ftplink'])
+  }
+
+  // Need a if here, to cover hasPart relationships and show the correct links aka query here
   $("#ListOfFTPLinks").append("<li><a href='"+query+"'>Show me ftp links for "+namedGraph+"</li>")
 }
-
 
 //This for loop start all the dynamic actions on the site per entry in content
 for (x in content){
   getVersion(x)
   buildFTPLinks(x)
 }
-
-
-//var trs=$('#summary-table tbody tr')
-//console.log(trs)
-
-//trs.each(function(e){
-//  console.log(trs[e])
-
-//  var row = $('<tr>'+"Hm?"+'<tr>')
-
-//  trs[e].append(row)
-
-//console.log(e.attr('id'))
-//console.log(trs[e][0])
-//console.log($("#"+trs[e]).attr('id'))
-//$("#"+trs[e]).append("<tr>TestRow</tr>")
-//})
-
-
-
-/*
-var voidSparql = "PREFIX dcterms: <http://purl.org/dc/terms/> " +
-        "PREFIX void: <http://rdfs.org/ns/void#> " +
-        "PREFIX pav: <http://purl.org/pav/2.0/> " +
-        "PREFIX prov: <http://www.w3.org/ns/prov#> " +
-        "SELECT ?dataset ?title ?description ?version ?triples ?created " +
-        "where { " +
-        "?dataset a void:Dataset ; " +
-        "dcterms:title ?title; " +
-        "dcterms:description ?description ;  " +
-        "pav:version ?version;      " +
-        "dcterms:issued ?created;   " +
-        "void:triples ?triples ;   " +
-        "}";
-
-    $.ajax ( {
-        type: 'GET',
-        url: "https://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(voidSparql),
-        headers: {
-            Accept: "application/sparql-results+json"
-        },
-        success: function (json) {
-            console.log("Did fetch a reply, it is: ")
-            console.log(json)
-            var _json = json;
-            var _variables = _json.head.vars;
-            var _results = _json.results.bindings;
-
-            var datasetURI = _results[0].dataset.value;
-            var title = _results[0].title.value;
-            var desc = _results[0].description.value;
-            var version = _results[0].version.value;
-            var triples = _results[0].triples.value;
-            var created = $.datepicker.formatDate('MM dd yy', new Date(_results[0].created.value.replace(/T.* /, ''))); <-- get rid of the space * / if u want to reuse this!
-
-            var div = $("<div></div>");
-            div.append($("<span style='font-weight:bold;'>Dataset description</span>"));
-            div.append($("<br/>"));
-//            div.append(datasetURI);
-            var ea = $('<a>' + datasetURI + '</a>');
-            ea.attr('href', datasetURI);
-            div.append("(");
-            div.append(ea);
-            div.append(")");
-            element.append(div);
-
-            var table = $("<table cellpadding='0' cellspacing='0' width='100%'></table>")
-            element.append(table);
-
-            var row1 =$('<tr />');
-            row1.append($('<td align="left">Title</td>'));
-            row1.append($('<td align="right">' + title + '</td>'));
-            table.append(row1);
-
-            var row2 =$('<tr />');
-            row2.append($('<td align="left">Description</td>'));
-            row2.append($('<td align="right">' + desc + '</td>'));
-            table.append(row2);
-
-            var row3 =$('<tr />');
-            row3.append($('<td align="left">Version</td>'));
-            row3.append($('<td align="right">' + version + '</td>'));
-            table.append(row3);
-
-            var row4 =$('<tr />');
-            row4.append($('<td align="left">Issued</td>'));
-            row4.append($('<td align="right">' + created + '</td>'));
-            table.append(row4);
-
-            var row5 =$('<tr />');
-            row5.append($('<td align="left">Number of triples</td>'));
-            row5.append($('<td align="right">' + triples + '</td>'));
-            table.append(row5);
-
-            if (_results.length > 1) {
-                var row6 =$('<tr />');
-                row6.append($('<td align="left">Previous versions</td>'));
-
-                var td6 = $("<td align='right'></td>");
-                var ul6 = $("<ul></ul>");
-                row6.append(td6);
-                td6.append(ul6);
-                for (var i = 1; i < _results.length; i++) {
-                    var formattedNode = _formatNode(_results[i].previous, 'previous');
-                    ul6.append($("<li></li>").append(formattedNode));
-                }
-                table.append(row6);
-            }
-        },
-        error: function (request, status, error) {
-            displayError(request.responseText);
-        }
-    })
-*/
