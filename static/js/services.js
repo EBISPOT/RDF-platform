@@ -34,8 +34,8 @@ var content={
   },
     "ols" : {
       "logo": "https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/logos/ols-logo.jpeg?raw=true",
-      "exampleText" : "-",
-      "exampleQuery": "-"
+      "exampleText" : "Show all subgraphs (ontologies) that are loaded to the platform via OLS ",
+      "exampleQuery": "http://wwwdev.ebi.ac.uk/rdf/services/sparql?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0ASELECT+%3Fontologies%0D%0Afrom+%3Chttp%3A%2F%2Frdf.ebi.ac.uk%2Fdataset%2Fols_void.ttl%3E+%0D%0AWHERE+%7B+%0D%0A+%3Fa+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FhasPart%3E+%3Fontologies%0D%0A%7D&render=HTML&limit=25&offset=0#loadstar-results-section"
     }
 }
 
@@ -55,7 +55,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><img src='"+content[name]["logo"]+"'/></td>"
+      tablecontent="<tr><td style='width: 150px;'><a class='hideLink' href='../RDF-platform/documentation/"+name+".html'><img src='"+content[name]["logo"]+"'/></a></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
@@ -63,7 +63,7 @@ $.ajax ( {
         tablecontent+="<td style='width: 100px;'>"+json['results']['bindings'][0]['version']['value']+"</td>"
       }
 
-      tablecontent+="<td><a href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>Void File</a></td>"
+      tablecontent+="<td><a href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>Void File</a><br><a href='#BulkDownloads'>Data download</a></td>"
       tablecontent+="<td><a href='"+content[name]['exampleQuery']+"'>"+content[name]['exampleText']+"</a></td>"
       tablecontent+="</tr>"
       table_rdf_view.append(tablecontent)

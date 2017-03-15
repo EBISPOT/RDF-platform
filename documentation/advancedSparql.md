@@ -7,14 +7,14 @@ permalink: RDF-platform/documentation/advancedSparql.html
 For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information. This page should demonstrate some more advanced SPARQL queries including an explanation how they work - this should demonstrate in general what kind of questions the RDF platform can help you to answer.  
 
 #### How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
->PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
->PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#> <br>
->PREFIX chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> <br>
->PREFIX biopax3:<http://www.biopax.org/release/biopax-level3.owl#> <br>
->PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/> <br>
->PREFIX sio: <http://semanticscience.org/resource/> <br>
->PREFIX dcterms: <http://purl.org/dc/terms/> <br>
->PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> <br>
+>PREFIX rdf: &#60;http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
+>PREFIX cco: &#60;http://rdf.ebi.ac.uk/terms/chembl#> <br>
+>PREFIX chembl_molecule: &#60;http://rdf.ebi.ac.uk/resource/chembl/molecule/> <br>
+>PREFIX biopax3:&#60;http://www.biopax.org/release/biopax-level3.owl#> <br>
+>PREFIX atlasterms: &#60;http://rdf.ebi.ac.uk/terms/atlas/> <br>
+>PREFIX sio: &#60;http://semanticscience.org/resource/> <br>
+>PREFIX dcterms: &#60;http://purl.org/dc/terms/> <br>
+>PREFIX rdfs: &#60;http://www.w3.org/2000/01/rdf-schema#> <br>
 >
 >SELECT distinct ?dbXref (str(?pathwayname) as ?pathname) ?factorLabel <br>
 >WHERE { <br>
@@ -30,7 +30,7 @@ For every Datasource there are example SPARQL Queries available, see our SPARQL 
 >  ?dbXref a cco:UniprotRef <br>
 >
 >  # query for pathways by those protein targets <br>
->  SERVICE <http://www.ebi.ac.uk/rdf/services/reactome/sparql> { <br>
+>  SERVICE &#60;http://www.ebi.ac.uk/rdf/services/reactome/sparql> { <br>
 >    ?protein rdf:type biopax3:Protein . <br>
 >    ?protein biopax3:memberPhysicalEntity <br>
 >      [biopax3:entityReference ?dbXref] . <br>
@@ -40,7 +40,7 @@ For every Datasource there are example SPARQL Queries available, see our SPARQL 
 >  } <br>
 >
 >  # get Atlas experiment plus experimental factor where protein is expressed <br>
->  SERVICE <http://www.ebi.ac.uk/rdf/services/atlas/sparql> { <br>
+>  SERVICE &#60;http://www.ebi.ac.uk/rdf/services/atlas/sparql> { <br>
 >    ?probe atlasterms:dbXref ?dbXref . <br>
 >    ?value atlasterms:isMeasurementOf ?probe . <br>
 >    ?value atlasterms:hasFactorValue ?factor . <br>
@@ -99,71 +99,69 @@ v  ?factor atlasterms:propertyValue ?propertyValue . <br>
 
 
 #### Which expression analysis experiments involved treatment of a cell line with a compound?
-```
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX sio: <http://semanticscience.org/resource/>
-PREFIX efo: <http://www.ebi.ac.uk/efo/>
-PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/>
-PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+>PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
+>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> <br>
+>PREFIX owl: <http://www.w3.org/2002/07/owl#> <br>
+>PREFIX dcterms: <http://purl.org/dc/terms/> <br>
+>PREFIX obo: <http://purl.obolibrary.org/obo/> <br>
+>PREFIX sio: <http://semanticscience.org/resource/> <br>
+>PREFIX efo: <http://www.ebi.ac.uk/efo/> <br>
+>PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/> <br>
+>PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/> <br>
+>PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> <br>
+>
+>SELECT distinct ?experiment ?sample ?compound ?chebi <br>
+>WHERE { <br>
+> ?value a atlasterms:IncreasedDifferentialExpressionRatio . <br>
+> ?value atlasterms:hasFactorValue ?factor . <br>
+> ?factor atlasterms:propertyType ?propertyType . <br>
+> ?factor atlasterms:propertyValue ?compound . <br>
+> ?factor a ?chebi . <br>
+> filter (str(?chebi) != "http://www.w3.org/2002/07/owl#NamedIndividual") <br>
+> filter regex (?propertyType, "compound", "i") <br>
+> filter (?compound != "none"^^xsd:string) <br>
 
-SELECT distinct ?experiment ?sample ?compound ?chebi
-WHERE {
- ?value a atlasterms:IncreasedDifferentialExpressionRatio .
- ?value atlasterms:hasFactorValue ?factor .
- ?factor atlasterms:propertyType ?propertyType .
- ?factor atlasterms:propertyValue ?compound .
- ?factor a ?chebi .
- filter (str(?chebi) != "http://www.w3.org/2002/07/owl#NamedIndividual")
- filter regex (?propertyType, "compound", "i")
- filter (?compound != "none"^^xsd:string)
+> ?analysis atlasterms:hasExpressionValue ?value . <br>
+> ?experiment atlasterms:hasAnalysis ?analysis . <br>
+> ?experiment atlasterms:hasAssay [atlasterms:hasSample ?sid] . <br>
+> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyValue ?compound] . <br>
+> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample] <br>
+> filter regex (?samplePropertyType, "cell line", "i") <br>
+>}
 
- ?analysis atlasterms:hasExpressionValue ?value .
- ?experiment atlasterms:hasAnalysis ?analysis .
- ?experiment atlasterms:hasAssay [atlasterms:hasSample ?sid] .
- ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyValue ?compound] .
- ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample]
- filter regex (?samplePropertyType, "cell line", "i")
-}
-```
 
 #### Find the proteins whose genes are very over expressed (fold change > 10) where a cell line has been treated with a compound.
-```
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX sio: <http://semanticscience.org/resource/>
-PREFIX efo: <http://www.ebi.ac.uk/efo/>
-PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/>
->PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/>
->PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+>PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
+>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> <br>
+>PREFIX owl: <http://www.w3.org/2002/07/owl#> <br>
+>PREFIX dcterms: <http://purl.org/dc/terms/> <br>
+>PREFIX obo: <http://purl.obolibrary.org/obo/> <br>
+>PREFIX sio: <http://semanticscience.org/resource/> <br>
+>PREFIX efo: <http://www.ebi.ac.uk/efo/> <br>
+>PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/> <br>
+>PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/> <br>
+>PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> <br>
 >
->SELECT distinct ?protein ?pvalue ?sample ?compound ?chebi
->WHERE {
-> ?value a atlasterms:IncreasedDifferentialExpressionRatio .
-> ?value atlasterms:pValue ?pvalue .
-> ?value atlasterms:tStatistic ?tstat .
-> ?value atlasterms:hasFactorValue ?factor .
-> ?value atlasterms:isMeasurementOf ?probe .
-> ?probe atlasterms:dbXref ?protein .
-> ?factor atlasterms:propertyType ?propertyType .
-> ?factor atlasterms:propertyValue ?compound .
-> ?factor a ?chebi .
-> filter (str(?chebi) != "http://www.w3.org/2002/07/owl#NamedIndividual")
-> filter regex (?propertyType, "compound", "i")
-> filter regex (?protein, "uniprot")
-> filter (?compound != "none"^^xsd:string)
-> filter (?tstat > 10)
-> ?analysis atlasterms:hasExpressionValue ?value .
-> ?exp atlasterms:hasAnalysis ?analysis .
-> ?exp atlasterms:hasAssay [atlasterms:hasSample ?sid] .
-> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyValue ?propertyValue] .
-> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample]
-> filter regex (?samplePropertyType, "cell line", "i")
+>SELECT distinct ?protein ?pvalue ?sample ?compound ?chebi <br>
+>WHERE { <br>
+> ?value a atlasterms:IncreasedDifferentialExpressionRatio . <br>
+> ?value atlasterms:pValue ?pvalue . <br>
+> ?value atlasterms:tStatistic ?tstat . <br>
+> ?value atlasterms:hasFactorValue ?factor . <br>
+> ?value atlasterms:isMeasurementOf ?probe . <br>
+> ?probe atlasterms:dbXref ?protein . <br>
+> ?factor atlasterms:propertyType ?propertyType . <br>
+> ?factor atlasterms:propertyValue ?compound . <br>
+> ?factor a ?chebi . <br>
+> filter (str(?chebi) != "http://www.w3.org/2002/07/owl#NamedIndividual") <br>
+> filter regex (?propertyType, "compound", "i") <br>
+> filter regex (?protein, "uniprot") <br>
+> filter (?compound != "none"^^xsd:string) <br>
+> filter (?tstat > 10) <br>
+> ?analysis atlasterms:hasExpressionValue ?value . <br>
+> ?exp atlasterms:hasAnalysis ?analysis . <br>
+> ?exp atlasterms:hasAssay [atlasterms:hasSample ?sid] . <br>
+> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyValue ?propertyValue] . <br>
+> ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample] <br>
+> filter regex (?samplePropertyType, "cell line", "i") <br>
 >}

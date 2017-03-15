@@ -23,7 +23,7 @@ Luckily you don't have to worry about the low level details of connecting and pa
 [R SPARQL package](https://cran.r-project.org/web/packages/SPARQL/) (see example [here](/static/r_example.txt))
 
 #### Generic HTTP requests
-Via HTTP requests it is relativly easy to access the SPARQL endpoint in many other programming languages (e.g. javascript). Below we describe such HTTP requests, more information is available on the documentation page about [content negation](http://127.0.0.1:4000/RDF-platform/documentation/contentNegation).
+Via HTTP requests it is relativly easy to access the SPARQL endpoint in many other programming languages (e.g. javascript). Below we describe such HTTP requests, more information is available on the documentation page about [content negation](/RDF-platform/documentation/contentNegation).
 
 ##### Select Query
 >www.ebi.ac.uk/rdf/services/sparql?query=**queryString**&render=**renderOption**&limit=**limit**&offset=**offset**
