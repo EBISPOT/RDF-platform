@@ -12,16 +12,17 @@ Often it may make sense to link to an important concept outside your own dataset
 #### Ask the Authority
 It is important to give thought to the URIs you use both for a piece of data or class that belongs to someone else, and the predicate used to link to it. If there is already a good URI for a concept, you should endeavour to use it, thus benefiting from the inherent linkability of RDF. However, if the URI is provided by one or more third parties or there is no such URI, here at EBI our policy is:
 
-Ask the authority for a suitable URI scheme (see "Good URIs" below), either provided by themselves or a third party.
+> Ask the authority for a suitable URI scheme (see "Good URIs" below), either provided by themselves or a third party.
 If they are unable to provide one, use identifiers.org.
 
 #### Good URIs
 When we approach data providers for guidance on their preferred URI schemes, we ask that the URIs be:
 
-Globally unique. One URI should never refer to two different concepts at the same time, even ones that may seem equivalent.
-Persistent. A URI should continue to resolve for the forseeable future. The URI should survive between website re-engineering exercises, for example.
-Stable. A URI should never be re-used for different things between data releases, even if the original is deleted.
-Resolvable (dereferenceable). Simply, when a user clicks on a URI in their browser, we want them to be redirected to a suitable document. That doesn't necessarily mean it should be capable of returning RDF content.
+* *Globally unique:* One URI should never refer to two different concepts at the same time, even ones that may seem equivalent.
+* *Persistent:* A URI should continue to resolve for the forseeable future. The URI should survive between website re-engineering exercises, for example.
+* *Stable:* A URI should never be re-used for different things between data releases, even if the original is deleted.
+* *Resolvable (dereferenceable):* Simply, when a user clicks on a URI in their browser, we want them to be redirected to a suitable document. That doesn't necessarily mean it should be capable of returning RDF content.
+
 There are other aspect that third parties may be encouraged to consider around the selection and use of URIs, including various best practices.
 
 #### Using Third Party URIs

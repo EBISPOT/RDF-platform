@@ -5,7 +5,7 @@ permalink: RDF-platform/documentation/contentNegation.html
 ---
 ## Content Negotiation
 #### Persistent URIs
-We provide persistent URIs for the resources described within our RDF datasets. This means that the URIs within our RDF downloads and SPARQL endpoints are intended to be stable, and guaranteed to resolve to a document describing the entity in question.
+We provide persistent URIs for the resources described within our RDF datasets. This means that the URIs within our RDF downloads and SPARQL endpoint are intended to be stable, and guaranteed to resolve to a document describing the entity in question.
 
 Each dataset has its own namespace for its resource URIs, and the domain name that is used depends on the database:
 

@@ -5,7 +5,7 @@ permalink: RDF-platform/documentation/infrastructure.html
 ---
 ## Infrastructure
 
-Most of the services on the RDF platform are hosted by EMBL-EBI (with the exception of the UniProt SPARQL endpoint, which is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF services.
+The RDF platform is hosted by EMBL-EBI (UniProt SPARQL endpoint is hosted by SIB). This page gives an overview of the major components of the EMBL-EBI RDF infrastructure.
 
 We serve all requests through a load-balanced redundant stack of software and hardware components. Thus, should a fault occur in one of the hardware or software components, service can be maintained. We use a virtualised infrastructure.
 
@@ -16,7 +16,7 @@ Each SPARQL endpoint comprises two separate software components - the LodeStar w
 
 This diagram illustrates the architecture of our SPARQL infrastructure.
 
-? MISSING DIAGRAM ? MISSING ? 
+? MISSING DIAGRAM ? MISSING ?
 
 The LodeStar application is a Java and Javascript web application designed to serve two functions:
 

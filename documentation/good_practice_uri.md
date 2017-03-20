@@ -9,10 +9,10 @@ We want the RDF that we make available to be as useful as possible. That means t
 
 When we approach data providers for guidance on their preferred URI schemes, we ask that the URIs be:
 
-* Globally unique. One URI should never refer to two different concepts at the same time, even ones that may seem equivalent.
-* Persistent. A URI should continue to resolve for the forseeable future. The URI should survive between website re-engineering exercises, for example.
-* Stable. A URI should never be re-used for different things between data releases, even if the original is deleted.
-* Resolvable (dereferenceable). Simply, when a user clicks on a URI in their browser, we want them to be redirected to a suitable document. That doesn't necessarily mean it should be capable of returning RDF content.
+* *Globally unique:* One URI should never refer to two different concepts at the same time, even ones that may seem equivalent.
+* *Persistent:* A URI should continue to resolve for the forseeable future. The URI should survive between website re-engineering exercises, for example.
+* *Stable:* A URI should never be re-used for different things between data releases, even if the original is deleted.
+* *Resolvable (dereferenceable):* Simply, when a user clicks on a URI in their browser, we want them to be redirected to a suitable document. That doesn't necessarily mean it should be capable of returning RDF content.
 
 In practice, there are various principles that help in satisfying these conditions. For example, you can use purpose-made URIs that are served by simple PURL (persistent URL) software, or use third party services like identifiers.org. These methods will abstract out the identifier from a webpage describing it, and will let you change the URLs for your website later without affecting the RDF. PURL resolvers can also use HTTP redirects to automatically send browsers to a HTML page (or serve RDF to machines), making this a seamless user experience.
 

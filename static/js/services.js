@@ -44,7 +44,7 @@ var table_rdf_view=$("#summary-table") //Select only once, use it more often. Th
 
 function getVersion(name){
   var uri="http://rdf.ebi.ac.uk/dataset/"+name
-  var versionQuery="select ?version where{<"+uri+"> <http://purl.org/pav/hasCurrentVersion> ?a.?a <http://purl.org/pav/version> ?version}"
+  var versionQuery="SELECT ?version where{<"+uri+"> <http://purl.org/pav/hasCurrentVersion> ?a.?a <http://purl.org/pav/version> ?version}\n#noLog"
   var query="https://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(versionQuery)
 
 $.ajax ( {
@@ -55,7 +55,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><a class='hideLink' href='../RDF-platform/documentation/"+name+".html'><img src='"+content[name]["logo"]+"'/></a></td>"
+      tablecontent="<tr><td style='width: 150px;'><a title='Jump to the RDF documentation of "+name+"' class='hideLink' href='../RDF-platform/documentation/"+name+".html'><img src='"+content[name]["logo"]+"'/></a></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
@@ -63,7 +63,7 @@ $.ajax ( {
         tablecontent+="<td style='width: 100px;'>"+json['results']['bindings'][0]['version']['value']+"</td>"
       }
 
-      tablecontent+="<td><a href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>Void File</a><br><a href='#BulkDownloads'>Data download</a></td>"
+      tablecontent+="<td><a title='Dataset description of "+name+"' href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>VoID file</a></td><td><a title='Download "+name+" data via bulk download' href='#BulkDownloads'>Download</a></td>"
       tablecontent+="<td><a href='"+content[name]['exampleQuery']+"'>"+content[name]['exampleText']+"</a></td>"
       tablecontent+="</tr>"
       table_rdf_view.append(tablecontent)
