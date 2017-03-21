@@ -24,7 +24,7 @@
   dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
 
-<http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset;
+<http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset, dcat:Distribution ;
   dcterms:title "Test Distribution level of reactome" ;
   dct:creator  <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "The Description of distribution level of biomodels";
