@@ -17,14 +17,14 @@
   dcterms:title "Biomodels Version Level" ;
   dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/biomodels> ;
 	dcterms:description "Version level description" ;
-  dct:creator "TestCreator in that case" ;
+  dct:creator  <http://wwww.ebi.ac.uk/> ;
   pav:version "0.1.0" ;
   dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
 
 <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset;
   dcterms:title "Test Distribution level of reactome" ;
-  dct:creator "TestCreator in that case" ;
+  dct:creator  <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "The Description of distribution level of biomodels";
   dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
