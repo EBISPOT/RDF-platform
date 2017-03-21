@@ -31,4 +31,5 @@
   dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
   idot:preferredPrefix "reactome" ;
+dct:format "text/turtle" ;
  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biomodels.tar.bz2> .
