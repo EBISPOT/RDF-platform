@@ -6,27 +6,27 @@
 @prefix pav: <http://purl.org/pav/> .
 
 
-<http://rdf.ebi.ac.uk/dataset/biomodels> a dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/biomodels> a dctypes:Dataset;
  dcterms:title "Biomodels";
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biomodels/Version01>;
-  dct:publisher "EBI" ;
+  dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "The Description of this dataSet" .
 
 
-<http://rdf.ebi.ac.uk/dataset/biomodels/Version01> a dct:Dataset;
+<http://rdf.ebi.ac.uk/dataset/biomodels/Version01> a dctypes:Dataset;
   dcterms:title "Biomodels Version Level" ;
   dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/biomodels> ;
 	dcterms:description "Version level description" ;
   dct:creator "TestCreator in that case" ;
   pav:version "0.1.0" ;
-  dct:publisher "EBI" ;
+  dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> .
 
 <http://rdf.ebi.ac.uk/dataset/biomodels/Version01.rdf> a void:Dataset;
   dcterms:title "Test Distribution level of reactome" ;
   dct:creator "TestCreator in that case" ;
 	dcterms:description "The Description of distribution level of biomodels";
-  dct:publisher "EBI" ;
+  dct:publisher  <http://wwww.ebi.ac.uk/> ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
   idot:preferredPrefix "reactome" ;
  	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biomodels.tar.bz2> .
