@@ -6,7 +6,7 @@ permalink: RDF-platform/documentation/expressionatlas.html
 
 # Expression Atlas RDF
 
-The [https://www.ebi.ac.uk/gxa/home](Gene Expression Atlas) provides information on gene expression patterns under different biological conditions. Gene expression data is re-analysed in-house to detect genes showing interesting baseline and differential expression patterns. You can read more about the expression atlas data (here)[https://www.ebi.ac.uk/gxa/about.html]. 
+The (https://www.ebi.ac.uk/gxa/home)[Gene Expression Atlas] provides information on gene expression patterns under different biological conditions. Gene expression data is re-analysed in-house to detect genes showing interesting baseline and differential expression patterns. You can read more about the expression atlas data (here)[https://www.ebi.ac.uk/gxa/about.html]. 
 
 This RDF version is generated from the Expression Atlas database with the (following scripts)[https://github.com/simonjupp/atlas-rdf]. The RDF version is still experimental and may not always reflect the latest data in the live expression atlas. We welcome feedback on the utility of this dataset so please (get in touch)[https://www.ebi.ac.uk/gxa/feedback-form]
 
