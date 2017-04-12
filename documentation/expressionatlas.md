@@ -18,7 +18,14 @@ Contact us via the feedback button on the [GXA homepage](https://www.ebi.ac.uk/g
 
 # Schema 
 
-The schema for the atlas datasets is depicted below. It shows how resources are connected in the RDF graph. Each resource is types accoring to the atlas terms ontology. The stable URI for the latest version of this ontology is http://rdf.ebi.ac.uk/terms/atlas.
+The schema for the atlas datasets is depicted below. It shows how resources are connected in the RDF graph. Each resource is types accoring to the atlas terms ontology. The stable URI for the latest version of this ontology is http://rdf.ebi.ac.uk/terms/expressionatlas.
 
-This ontology acts as our internal schema and provides a basic description of the resources in the Atlas RDF dataset. In order to facilitate integration of the Atlas RDF data with other datasets, we provide an additional ontology that maps the atlas terms ontology to several external ontology development projects. We currently map to the Semantic Science Integration Ontology (SIO), the Ontology for Biomedical Investigations (OBI), the Experimental Factor Ontology (EFO) and the ontology of bioinformatics operations, topics, types of data including identifiers, and formats (EDAM). A table of the mappings can be seen here. The full atlas terms mapping ontology can be found at http://rdf.ebi.ac.uk/terms/atlas-mapping. We are happy to extend our mapping to other relevant ontologies and are keen to discuss the integration of this dataset with other similar resources.
+This ontology acts as our internal schema and provides a basic description of the resources in the Atlas RDF dataset. In order to facilitate integration of the Atlas RDF data with other datasets, we provide an additional ontology that maps the atlas terms ontology to several external ontology development projects. We currently map to the Semantic Science Integration Ontology (SIO), the Ontology for Biomedical Investigations (OBI), the Experimental Factor Ontology (EFO) and the ontology of bioinformatics operations, topics, types of data including identifiers, and formats (EDAM). A table of the mappings can be seen here. The full atlas terms mapping ontology can be found at http://rdf.ebi.ac.uk/terms/expressionatlas-mapping. We are happy to extend our mapping to other relevant ontologies and are keen to discuss the integration of this dataset with other similar resources.
+
+The source for the schema ontologies are in GitHub https://github.com/simonjupp/atlas-rdf/ontology
+
+The atlas RDF contains both baseline expression and differential gene expression data. The assay and analysis type are different in the schema and the way expression values are reported is also different. For more information on the different types of data in atlas see https://www.ebi.ac.uk/gxa/about.html
+
+# Baseline schema
+
 
