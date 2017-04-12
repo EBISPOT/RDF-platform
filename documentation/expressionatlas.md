@@ -28,4 +28,5 @@ The atlas RDF contains both baseline expression and differential gene expression
 
 # Baseline schema
 
+![](../static/atlas/Baseline Atlas RDF Schema.png?raw=true)
 
