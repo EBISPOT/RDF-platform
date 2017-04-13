@@ -36,4 +36,126 @@ The atlas RDF contains both baseline expression and differential gene expression
 
 # Example queries
 
+# Show expression for the CYP51 gene
 
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/expressionatlas/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/expressionatlas/>
+
+SELECT distinct ?diffValue ?expUri ?propertyType ?propertyValue ?pvalue 
+FROM <http://rdf.ebi.ac.uk/dataset/expressionatlas>
+WHERE {             
+?expUri atlasterms:hasPart ?analysis .       
+?analysis atlasterms:hasOutput ?value .   
+?analysis atlasterms:hasFactorValue ?factor .   
+?factor atlasterms:propertyType ?propertyType .    
+?factor atlasterms:propertyValue ?propertyValue .  
+?value rdfs:label ?diffValue .       
+?value atlasterms:pValue ?pvalue .      
+?value atlasterms:refersTo ?gene .    
+?gene rdfs:label ?genesymbol .
+filter regex (?genesymbol, "cyp51", "i")
+}           
+```
+
+# What human protein coding genes are expressed where the experimental factor is asthma (EFO_0000270)?
+
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/expressionatlas/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/expressionatlas/>
+
+
+SELECT distinct ?expUri ?diffValue ?gene ?pvalue
+FROM <http://rdf.ebi.ac.uk/dataset/expressionatlas>
+FROM <http://rdf.ebi.ac.uk/dataset/homo_sapiens>
+WHERE {            
+?expUri atlasterms:hasPart ?analysis .     
+?analysis atlasterms:hasOutput ?value .   
+?analysis atlasterms:hasFactorValue ?factor .   
+?value rdfs:label ?diffValue .
+?value atlasterms:pValue ?pvalue .      
+?value atlasterms:refersTo ?gene . 
+?gene a ensembl:protein_coding .
+?factor a efo:EFO_0000270 .       
+    
+} 
+```
+
+# What reactome pathways are associated to human protein coding genes expressed where the experimental factor is asthma (EFO_0000270)?
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX efo: <http://www.ebi.ac.uk/efo/>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/expressionatlas/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/expressionatlas/>
+PREFIX ensembl:<http://rdf.ebi.ac.uk/terms/ensembl/>
+PREFIX biopax3:<http://www.biopax.org/release/biopax-level3.owl#>
+
+
+SELECT distinct ?expUri ?diffValue ?gene ?pvalue ?pathwayname
+FROM <http://rdf.ebi.ac.uk/dataset/expressionatlas>
+FROM <http://rdf.ebi.ac.uk/dataset/homo_sapiens>
+FROM <http://rdf.ebi.ac.uk/dataset/reactome>
+WHERE {            
+?expUri atlasterms:hasPart ?analysis .     
+?analysis atlasterms:hasOutput ?value .   
+?analysis atlasterms:hasFactorValue ?factor .   
+?value rdfs:label ?diffValue .
+?value atlasterms:pValue ?pvalue .      
+?value atlasterms:refersTo ?gene . 
+?gene a ensembl:protein_coding .
+?factor a efo:EFO_0000270 .       
+    
+# get gene to protein from ensembl
+?gene ensembl:DEPENDENT ?dbXref .
+  
+# query reactome for protein 
+?protein rdf:type biopax3:Protein .
+    ?protein biopax3:memberPhysicalEntity 
+             [biopax3:entityReference ?dbXref] .
+    ?pathway rdf:type biopax3:Pathway .
+    ?pathway biopax3:displayName ?pathwayname .
+    ?pathway biopax3:pathwayComponent ?reaction .
+    ?reaction rdf:type biopax3:BiochemicalReaction .
+    {
+      {?reaction biopax3:left ?protein .}
+      UNION 
+      {?reaction biopax3:right ?protein .}
+      UNION 
+      {?reaction biopax3:left
+                  [a biopax3:Complex ; biopax3:component ?protein ].}
+      UNION 
+      {?reaction biopax3:right
+                 [a biopax3:Complex ; biopax3:component ?protein ].} 
+    }   
+  
+}  
+```
+
+# Show baseline expression in liver for Illumina body map data 
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/expressionatlas/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/expressionatlas/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?desc ?diffValue ?gene ?fpkm
+FROM <http://rdf.ebi.ac.uk/dataset/expressionatlas>
+WHERE {            
+atlas:E-MTAB-513 atlasterms:hasPart ?analysis .     
+atlas:E-MTAB-513 dcterms:description ?desc .
+?analysis atlasterms:hasOutput ?value .   
+?analysis atlasterms:hasFactorValue ?factor .   
+?value rdfs:label ?diffValue .
+?value atlasterms:fpkm ?fpkm . 
+?value atlasterms:refersTo ?gene . 
+?factor rdf:type obo:UBERON_0002107 .       
+    
+}  
+```
