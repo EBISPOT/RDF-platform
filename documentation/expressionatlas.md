@@ -65,7 +65,8 @@ filter regex (?genesymbol, "cyp51", "i")
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/expressionatlas/>
 PREFIX atlas: <http://rdf.ebi.ac.uk/resource/expressionatlas/>
-
+PREFIX ensembl: <http://rdf.ebi.ac.uk/terms/ensembl/>
+PREFIX efo: <http://www.ebi.ac.uk/efo/>
 
 SELECT distinct ?expUri ?diffValue ?gene ?pvalue
 FROM <http://rdf.ebi.ac.uk/dataset/expressionatlas>
