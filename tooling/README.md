@@ -21,7 +21,7 @@ To start the script with a certain file, just uncommand the very last line and r
 ```python qc_void.py```
 should be everything you need!
 
-**NOTE:**Since the platform is work in progress, this quality control check might change in the future a bit. So if -at a certain point in the future - your VoID file is rejected by the platform even though it passes your local test, think about checking here, you might have to update this script!  
+**NOTE:** Since the platform is work in progress, this quality control check might change in the future a bit. So if -at a certain point in the future - your VoID file is rejected by the platform even though it passes your local test, think about checking here, you might have to update this script!  
 
 #### Dependencies
 * The script uses rdflib which is a rdf libary for python. You need to install it before you can run the script. This can be done with 
