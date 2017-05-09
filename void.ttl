@@ -9,24 +9,24 @@
 
 <http://rdf.ebi.ac.uk/dataset/reactome> a  dctypes:Dataset;
   dcterms:title "Reactome"^^rdf:langString  ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reactome/Version49>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reactome/Version60>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "The Description of this dataSet"^^rdf:langString  .
 
 
-<http://rdf.ebi.ac.uk/dataset/reactome/Version49> a  dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/reactome/Version60> a  dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/reactome>;
   	dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
     dcterms:title "Reactome Version"^^rdf:langString  ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
-    pav:version "49" ;
+    pav:version "60" ;
     dct:creator <http://wwww.ebi.ac.uk/> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reactome/Version49.rdf>.
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reactome/Version60.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/reactome/Version49.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/reactome/Version60.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r49/reactome-biopax.tar.bz2> ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r60/reactome-biopax.tar.bz2> ;
   dct:creator <http://wwww.ebi.ac.uk/> ;
   dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
