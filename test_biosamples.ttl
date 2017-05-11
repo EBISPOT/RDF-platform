@@ -9,7 +9,7 @@
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test> a  dctypes:Dataset;;
   dcterms:title "Biosamples" ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01>;
-  dct:publisher "EBI" ;
+  dct:publisher  <http://wwww.ebi.ac.uk/>  ;
 	dcterms:description "The Description of this dataSet" .
 
 
@@ -17,7 +17,7 @@
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test>;
   	dcterms:description "The Description of the Version level of Biosamples";
     dcterms:title "Reactome Version" ;
-    dct:publisher "EBI" ;
+    dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   pav:version "0.1.0" ;
     dct:creator "TestCreator in that case" ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf>.
@@ -28,7 +28,7 @@
  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2" ;
 	dct:creator "TestCreator in that case" ;
 	dcterms:description "The Distribution Level of biosamples";
-  dct:publisher "EBI" ;
+  dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
   idot:preferredPrefix "biosamples" ;
   dcterms:title "Test Distribution level of biosamples" .
