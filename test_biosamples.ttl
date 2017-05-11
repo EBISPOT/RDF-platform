@@ -19,14 +19,14 @@
     dcterms:title "Reactome Version" ;
     dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   pav:version "0.1.0" ;
-    dct:creator "TestCreator in that case" ;
+    dct:creator "<http://wwww.ebi.ac.uk/spot>" ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf>.
 
 
 <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf> a void:Dataset ,
   dcat:Distribution ;
  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/rdf/glue/test_biosamples.tar.bz2" ;
-	dct:creator "TestCreator in that case" ;
+	dct:creator <http://wwww.ebi.ac.uk/spot> ;
 	dcterms:description "The Distribution Level of biosamples";
   dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
