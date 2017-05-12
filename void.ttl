@@ -18,7 +18,7 @@
 <http://rdf.ebi.ac.uk/dataset/expressionatlas/13-02-2017> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/expressionatlas>;
   	dcterms:description "The Description of the Version level of Atlas"^^rdf:langString;
-    dcterms:title "Reactome Version"^^rdf:langString ;
+    dcterms:title "Atlas Version XX"^^rdf:langString ;
     dct:created "13-02-2017"^^xsd:dateTime ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     pav:version "0.1.0" ;
