@@ -610,17 +610,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/cvdo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/cvdo" .
 
-<http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://dictybase.org/" ;
     dct:description "A structured controlled vocabulary of the anatomy of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10.rdf> ;
     dct:isVersionOf ols:ddanat ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum anatomy"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ddanat" ;
     dct:creator "http://dictybase.org/" ;
@@ -629,21 +629,21 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum anatomy"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddanat.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddanat" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://dictybase.org/" ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10.rdf> ;
     dct:isVersionOf ols:ddpheno ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ddpheno" ;
     dct:creator "http://dictybase.org/" ;
@@ -652,7 +652,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddpheno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddpheno" .
 
@@ -863,17 +863,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ehdaa2.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ehdaa2" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/emap/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://emouseatlas.org" ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus)."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/emap/2017-05-10.rdf> ;
     dct:isVersionOf ols:emap ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://emouseatlas.org" ;
     dct:title "Mouse gross anatomy and development, timed"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/emap/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/emap/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "emap" ;
     dct:creator "http://emouseatlas.org" ;
@@ -882,7 +882,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://emouseatlas.org" ;
     dct:title "Mouse gross anatomy and development, timed"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/emap/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/emap.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/emap" .
 
@@ -932,17 +932,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/enm.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/enm" .
 
-<http://rdf.ebi.ac.uk/dataset/envo/2017-04-15> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/envo/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://environmentontology.org/" ;
     dct:description "Ontology of environmental features and habitats"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/envo/2017-04-15.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/envo/2017-05-10.rdf> ;
     dct:isVersionOf ols:envo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://environmentontology.org/" ;
     dct:title "Environment Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/envo/2017-04-15" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/envo/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/envo/2017-04-15.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/envo/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "envo" ;
     dct:creator "http://environmentontology.org/" ;
@@ -951,7 +951,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://environmentontology.org/" ;
     dct:title "Environment Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/envo/2017-04-15" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/envo/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/envo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/envo" .
 
@@ -1254,17 +1254,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flu.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flu" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fma/2017-05-09> a dcmi:Dataset ;
     dct:creator "http://si.washington.edu/projects/fma" ;
     dct:description "This is currently a slimmed down version of FMA"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-05-09.rdf> ;
     dct:isVersionOf ols:fma ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-05-09" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fma/2017-05-09.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fma" ;
     dct:creator "http://si.washington.edu/projects/fma" ;
@@ -1273,7 +1273,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-05-09" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fma" .
 
@@ -1300,17 +1300,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/foodon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/foodon" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08> a dcmi:Dataset ;
     dct:creator "https://github.com/pombase/fypo" ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08.rdf> ;
     dct:isVersionOf ols:fypo ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08" .
 
-<http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fypo" ;
     dct:creator "https://github.com/pombase/fypo" ;
@@ -1319,7 +1319,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fypo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fypo" .
 
@@ -1438,17 +1438,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/gexo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/gexo" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-05-04> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/go/2017-05-09> a dcmi:Dataset ;
     dct:creator "http://www.obofoundry.org/" ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-05-04.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/go/2017-05-09.rdf> ;
     dct:isVersionOf ols:go ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-05-04" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-05-09" .
 
-<http://rdf.ebi.ac.uk/dataset/go/2017-05-04.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/go/2017-05-09.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "go" ;
     dct:creator "http://www.obofoundry.org/" ;
@@ -1457,7 +1457,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-05-04" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/go/2017-05-09" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/go.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/go" .
 
@@ -1806,17 +1806,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfoem.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfoem" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mi/2017-05-09> a dcmi:Dataset ;
     dct:creator "http://psidev.sf.net" ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/2017-05-09.rdf> ;
     dct:isVersionOf ols:mi ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://psidev.sf.net" ;
     dct:title "Molecular Interactions"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-05-09" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mi/2017-05-09.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mi" ;
     dct:creator "http://psidev.sf.net" ;
@@ -1825,23 +1825,23 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://psidev.sf.net" ;
     dct:title "Molecular Interactions"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/2017-05-09" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mi" .
 
-<http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017> a dcmi:Dataset ;
     dct:creator "http://www.evoio.org/wiki/MIAPA" ;
     dct:description """The MIAPA ontology is intended to be an application ontology for the purpose of semantic annotation of phylogenetic data according to the requirements and recommendations of the Minimum Information for A Phylogenetic Analysis (MIAPA) metadata reporting standard. The ontology leverages (imports) primarily from the CDAO (Comparative Data Analysis Ontology), PROV (W3C Provenance Ontology), and SWO (Software Ontology, which includes the EDAM ontologies) ontologies. It adds some assertions of its own, as well as some classes and individuals that may eventually get pushed down into one of the respective source ontologies.
 
 This ontology is maintained at http://github.com/miapa/miapa, and requests for changes or additions should be filed at the issue tracker there. The discussion list is at miapa-discuss@googlegroups.com. Further resources about MIAPA can be found at the project's main page at http://evoio.org/wiki/MIAPA."""^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017.rdf> ;
     dct:isVersionOf ols:miapa ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.evoio.org/wiki/MIAPA" ;
     dct:title "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "miapa" ;
     dct:creator "http://www.evoio.org/wiki/MIAPA" ;
@@ -1852,7 +1852,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.evoio.org/wiki/MIAPA" ;
     dct:title "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/miapa.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/miapa" .
 
@@ -1948,17 +1948,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mmusdv.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mmusdv" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2017-05-07> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mod/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://www.psidev.info/MOD" ;
     dct:description "PSI-MOD is an ontology consisting of terms that describe protein chemical modifications"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2017-05-07.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mod/2017-05-10.rdf> ;
     dct:isVersionOf ols:mod ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.psidev.info/MOD" ;
     dct:title "Protein modification"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-05-07" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/mod/2017-05-07.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mod/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mod" ;
     dct:creator "http://www.psidev.info/MOD" ;
@@ -1967,7 +1967,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.psidev.info/MOD" ;
     dct:title "Protein modification"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-05-07" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mod/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mod.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mod" .
 
@@ -2040,17 +2040,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mp.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mp" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10> a dcmi:Dataset ;
     dct:creator "http://www.pathbase.net" ;
     dct:description "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10.rdf> ;
     dct:isVersionOf ols:mpath ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.pathbase.net" ;
     dct:title "Mouse pathology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10" .
 
-<http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mpath" ;
     dct:creator "http://www.pathbase.net" ;
@@ -2059,7 +2059,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.pathbase.net" ;
     dct:title "Mouse pathology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mpath.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mpath" .
 
@@ -2637,6 +2637,7 @@ ols:ols a dcmi:Dataset ;
         ols:rs,
         ols:rxno,
         ols:sbo,
+        ols:scdo,
         ols:sep,
         ols:sibo,
         ols:sio,
@@ -2653,6 +2654,7 @@ ols:ols a dcmi:Dataset ;
         ols:trans,
         ols:tto,
         ols:uberon,
+        ols:unimod,
         ols:uo,
         ols:vario,
         ols:vo,
@@ -2668,22 +2670,22 @@ ols:ols a dcmi:Dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-5-8> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-5-16> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-5-8> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-5-16> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-5-8.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-5-16.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2017-5-8"^^xsd:string ;
-    pav:version "2017-5-8" .
+    dct:title "Ontology Lookup Service - 2017-5-16"^^xsd:string ;
+    pav:version "2017-5-16" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-5-8.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-5-16.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
@@ -2718,17 +2720,17 @@ ols:ols a dcmi:Dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omiabis.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omiabis" .
 
-<http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/omit/08-05-2017> a dcmi:Dataset ;
     dct:creator "http://omit.cis.usouthal.edu/" ;
     dct:description "None"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/omit/08-05-2017.rdf> ;
     dct:isVersionOf ols:omit ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://omit.cis.usouthal.edu/" ;
     dct:title "Ontology for MIRNA Target"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/omit/11-05-2016" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/omit/08-05-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/omit/11-05-2016.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/omit/08-05-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "omit" ;
     dct:creator "http://omit.cis.usouthal.edu/" ;
@@ -2737,7 +2739,7 @@ ols:ols a dcmi:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://omit.cis.usouthal.edu/" ;
     dct:title "Ontology for MIRNA Target"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/omit/11-05-2016" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/omit/08-05-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/omit.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/omit" .
 
@@ -3201,17 +3203,17 @@ ols:ols a dcmi:Dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/reto.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/reto" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2017-05-06> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/rex/2017-05-09> a dcmi:Dataset ;
     dct:creator "http://www.obofoundry.org/" ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2017-05-06.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rex/2017-05-09.rdf> ;
     dct:isVersionOf ols:rex ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Physico-chemical process"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-05-06" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-05-09" .
 
-<http://rdf.ebi.ac.uk/dataset/rex/2017-05-06.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/rex/2017-05-09.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "rex" ;
     dct:creator "http://www.obofoundry.org/" ;
@@ -3220,7 +3222,7 @@ ols:ols a dcmi:Dataset ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Physico-chemical process"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-05-06" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/rex/2017-05-09" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/rex.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/rex" .
 
@@ -3361,6 +3363,29 @@ ols:ols a dcmi:Dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/sbo/18:04:2017_16:07" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/sbo.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/sbo" .
+
+<http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017> a dcmi:Dataset ;
+    dct:creator "http://scdontology.h3abionet.org/" ;
+    dct:description "The Sickle Cell Disease Ontology (SCDO) project is a collaboration between H3ABioNet (Pan African Bioinformatics Network) and SPAN (Sickle Cell Disease Pan African Network). The SCDO is currently under development and its purpose is to 1) establish community standardized SCD terms and descriptions, 2) establish canonical and hierarchical representation of knowledge on SCD and 3) link to other ontologies and bodies of work such as DO, PhenX MeSH, ICD, NCI’s thesaurus, SNOMED and OMIM."^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017.rdf> ;
+    dct:isVersionOf ols:scdo ;
+    dct:issued "2017-01-01"^^xsd:date ;
+    dct:publisher "http://scdontology.h3abionet.org/" ;
+    dct:title "Sickle Cell Disease Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017" .
+
+<http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017.rdf> a void:Dataset,
+        dcat:Distribution ;
+    idot:preferredPrefix "scdo" ;
+    dct:creator "http://scdontology.h3abionet.org/" ;
+    dct:description "The Sickle Cell Disease Ontology (SCDO) project is a collaboration between H3ABioNet (Pan African Bioinformatics Network) and SPAN (Sickle Cell Disease Pan African Network). The SCDO is currently under development and its purpose is to 1) establish community standardized SCD terms and descriptions, 2) establish canonical and hierarchical representation of knowledge on SCD and 3) link to other ontologies and bodies of work such as DO, PhenX MeSH, ICD, NCI’s thesaurus, SNOMED and OMIM."^^xsd:string ;
+    dct:format "owl" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://scdontology.h3abionet.org/" ;
+    dct:title "Sickle Cell Disease Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/scdo.tar.gz" ;
+    foaf:page "http://ebi.ac.uk/ols/ontologies/scdo" .
 
 <http://rdf.ebi.ac.uk/dataset/sep/2013-12-12> a dcmi:Dataset ;
     dct:creator "http://psidev.info/index.php?q=node/312" ;
@@ -3729,6 +3754,29 @@ ols:ols a dcmi:Dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/uberon/2017-04-15" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uberon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uberon" .
+
+<http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017> a dcmi:Dataset ;
+    dct:creator "http://www.unimod.org/" ;
+    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017.rdf> ;
+    dct:isVersionOf ols:unimod ;
+    dct:issued "2017-01-01"^^xsd:date ;
+    dct:publisher "http://www.unimod.org/" ;
+    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017" .
+
+<http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017.rdf> a void:Dataset,
+        dcat:Distribution ;
+    idot:preferredPrefix "unimod" ;
+    dct:creator "http://www.unimod.org/" ;
+    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
+    dct:format "owl" ;
+    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
+    dct:publisher "http://www.unimod.org/" ;
+    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017" ;
+    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/unimod.tar.gz" ;
+    foaf:page "http://ebi.ac.uk/ols/ontologies/unimod" .
 
 <http://rdf.ebi.ac.uk/dataset/uo/2017-04-24> a dcmi:Dataset ;
     dct:creator "https://github.com/bio-ontology-research-group/unit-ontology" ;
@@ -4189,13 +4237,13 @@ ols:ddanat a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum anatomy"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddanat/2017-05-10> .
 
 ols:ddpheno a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-07> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-05-10> .
 
 ols:dideo a dcmi:Dataset ;
     dct:description "The Potential Drug-drug Interaction and Potential Drug-drug Interaction Evidence Ontology"^^xsd:string ;
@@ -4255,7 +4303,7 @@ ols:emap a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus)."^^xsd:string ;
     dct:publisher "http://emouseatlas.org" ;
     dct:title "Mouse gross anatomy and development, timed"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/emap/2017-05-10> .
 
 ols:emapa a dcmi:Dataset ;
     dct:description "Abstract (i.e. non-stage specific) stage-specific anatomical structures of the mouse."^^xsd:string ;
@@ -4273,7 +4321,7 @@ ols:envo a dcmi:Dataset ;
     dct:description "Ontology of environmental features and habitats"^^xsd:string ;
     dct:publisher "http://environmentontology.org/" ;
     dct:title "Environment Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/envo/2017-04-15> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/envo/2017-05-10> .
 
 ols:eo a dcmi:Dataset ;
     dct:description "A structured, controlled vocabulary which describes the treatments, growing conditions, and/or study types used in plant biology experiments."^^xsd:string ;
@@ -4357,7 +4405,7 @@ ols:fma a dcmi:Dataset ;
     dct:description "This is currently a slimmed down version of FMA"^^xsd:string ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-05-09> .
 
 ols:foodon a dcmi:Dataset ;
     dct:description "A broadly scoped ontology representing entities which bear a “food role”.  It encompasses materials in natural ecosystems and food webs as well as human-centric categorization and handling of food."^^xsd:string ;
@@ -4369,7 +4417,7 @@ ols:fypo a dcmi:Dataset ;
     dct:description "FYPO is a formal ontology of phenotypes observed in fission yeast."^^xsd:string ;
     dct:publisher "https://github.com/pombase/fypo" ;
     dct:title "Fission Yeast Phenotype Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-05-05> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fypo/2017-05-08> .
 
 ols:gaz a dcmi:Dataset ;
     dct:description "A gazetteer constructed on ontological principles"^^xsd:string ;
@@ -4405,7 +4453,7 @@ ols:go a dcmi:Dataset ;
     dct:description "An ontology for describing the function of genes and gene products"^^xsd:string ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Gene Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-05-04> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/go/2017-05-09> .
 
 ols:hao a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of the anatomy of the Hymenoptera (bees, wasps, and ants)"^^xsd:string ;
@@ -4501,7 +4549,7 @@ ols:mi a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."^^xsd:string ;
     dct:publisher "http://psidev.sf.net" ;
     dct:title "Molecular Interactions"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/2017-05-09> .
 
 ols:miapa a dcmi:Dataset ;
     dct:description """The MIAPA ontology is intended to be an application ontology for the purpose of semantic annotation of phylogenetic data according to the requirements and recommendations of the Minimum Information for A Phylogenetic Analysis (MIAPA) metadata reporting standard. The ontology leverages (imports) primarily from the CDAO (Comparative Data Analysis Ontology), PROV (W3C Provenance Ontology), and SWO (Software Ontology, which includes the EDAM ontologies) ontologies. It adds some assertions of its own, as well as some classes and individuals that may eventually get pushed down into one of the respective source ontologies.
@@ -4509,7 +4557,7 @@ ols:miapa a dcmi:Dataset ;
 This ontology is maintained at http://github.com/miapa/miapa, and requests for changes or additions should be filed at the issue tracker there. The discussion list is at miapa-discuss@googlegroups.com. Further resources about MIAPA can be found at the project's main page at http://evoio.org/wiki/MIAPA."""^^xsd:string ;
     dct:publisher "http://www.evoio.org/wiki/MIAPA" ;
     dct:title "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/miapa/2013-02-01> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/miapa/09-05-2017> .
 
 ols:mirnao a dcmi:Dataset ;
     dct:description "An application ontology for use with miRNA databases."^^xsd:string ;
@@ -4539,7 +4587,7 @@ ols:mod a dcmi:Dataset ;
     dct:description "PSI-MOD is an ontology consisting of terms that describe protein chemical modifications"^^xsd:string ;
     dct:publisher "http://www.psidev.info/MOD" ;
     dct:title "Protein modification"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2017-05-07> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mod/2017-05-10> .
 
 ols:mondo a dcmi:Dataset ;
     dct:description "a semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology"^^xsd:string ;
@@ -4563,7 +4611,7 @@ ols:mpath a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes"^^xsd:string ;
     dct:publisher "http://www.pathbase.net" ;
     dct:title "Mouse pathology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mpath/2017-05-10> .
 
 ols:mro a dcmi:Dataset ;
     dct:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions."^^xsd:string ;
@@ -4694,7 +4742,7 @@ ols:omit a dcmi:Dataset ;
     dct:description "None"^^xsd:string ;
     dct:publisher "http://omit.cis.usouthal.edu/" ;
     dct:title "Ontology for MIRNA Target"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omit/11-05-2016> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/omit/08-05-2017> .
 
 ols:omp a dcmi:Dataset ;
     dct:description "An ontology of phenotypes covering microbes"^^xsd:string ;
@@ -4820,7 +4868,7 @@ ols:rex a dcmi:Dataset ;
     dct:description "An ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time."^^xsd:string ;
     dct:publisher "http://www.obofoundry.org/" ;
     dct:title "Physico-chemical process"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-05-06> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/rex/2017-05-09> .
 
 ols:rexo a dcmi:Dataset ;
     dct:description "Regulation of Gene Expression"^^xsd:string ;
@@ -4857,6 +4905,12 @@ ols:sbo a dcmi:Dataset ;
     dct:publisher "http://www.ebi.ac.uk/sbo/" ;
     dct:title "Systems Biology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/sbo/18:04:2017_16:07> .
+
+ols:scdo a dcmi:Dataset ;
+    dct:description "The Sickle Cell Disease Ontology (SCDO) project is a collaboration between H3ABioNet (Pan African Bioinformatics Network) and SPAN (Sickle Cell Disease Pan African Network). The SCDO is currently under development and its purpose is to 1) establish community standardized SCD terms and descriptions, 2) establish canonical and hierarchical representation of knowledge on SCD and 3) link to other ontologies and bodies of work such as DO, PhenX MeSH, ICD, NCI’s thesaurus, SNOMED and OMIM."^^xsd:string ;
+    dct:publisher "http://scdontology.h3abionet.org/" ;
+    dct:title "Sickle Cell Disease Ontology"^^xsd:string ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/scdo/11-05-2017> .
 
 ols:sep a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of sample processing and separation techniques in scientific experiments."^^xsd:string ;
@@ -4953,6 +5007,12 @@ ols:uberon a dcmi:Dataset ;
     dct:publisher "http://uberon.org" ;
     dct:title "Uber-anatomy ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/uberon/2017-04-15> .
+
+ols:unimod a dcmi:Dataset ;
+    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
+    dct:publisher "http://www.unimod.org/" ;
+    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017> .
 
 ols:uo a dcmi:Dataset ;
     dct:description "Metrical units for use in conjunction with PATO"^^xsd:string ;
