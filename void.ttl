@@ -11,28 +11,28 @@
 
 <http://rdf.ebi.ac.uk/dataset/expressionatlas> a  dctypes:Dataset;
   dcterms:title "Atlas"^^rdf:langString  ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/expressionatlas/17-05-2017>;
-  dct:publisher <http://wwww.ebi.ac.uk/> ;
-        dcterms:description "The Description of this dataSet"^^rdf:langString .
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/expressionatlas/18-05-2017>;
+  dct:publisher <https://wwww.ebi.ac.uk/> ;
+        dcterms:description "Expression Atlas is an open science resource that gives users a powerful way to find information about gene and protein expression."^^rdf:langString .
 
-<http://rdf.ebi.ac.uk/dataset/expressionatlas/17-05-2017> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/expressionatlas/18-05-2017> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/expressionatlas>;
-        dcterms:description "The Description of the Version level of Atlas"^^rdf:langString;
-    dcterms:title "Atlas Version XX"^^rdf:langString ;
+        dcterms:description "Expression Atlas - 18 May 2017"^^rdf:langString;
+    dcterms:title "Atlas Version 2017-05-18"^^rdf:langString ;
     dct:created "13-02-2017"^^xsd:dateTime ;
-    dct:publisher <http://wwww.ebi.ac.uk/> ;
-    pav:version "0.1.0" ;
-    dct:creator <http://wwww.ebi.ac.uk/gxa> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/expressionatlas/17-05-2017.rdf> .
+    dct:publisher <https://wwww.ebi.ac.uk/> ;
+    pav:version "2017-05-18" ;
+    dct:creator <https://wwww.ebi.ac.uk/gxa> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/expressionatlas/18-05-2017.rdf> .
 
 
-<http://rdf.ebi.ac.uk/dataset/expressionatlas/17-05-2017.rdf> a void:Dataset, dcat:Distribution ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-17-05-2017.tar.gz> ;
+<http://rdf.ebi.ac.uk/dataset/expressionatlas/18-05-2017.rdf> a void:Dataset, dcat:Distribution ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/atlas/expressionatlas-rdf-18-05-2017.tar.gz> ;
   dct:creator <https://www.ebi.ac.uk/gxa/home> ;
-  dcterms:description "The Distribution Level of Atlas"^^rdf:langString;
-  dct:creator <http://wwww.ebi.ac.uk/gxa> ;
-  dct:publisher <http://wwww.ebi.ac.uk/> ;
-  dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
+  dcterms:description "Expression Atlas - Gene expression across species and biological conditions"^^rdf:langString;
+  dct:creator <https://wwww.ebi.ac.uk/gxa> ;
+  dct:publisher <https://wwww.ebi.ac.uk/> ;
+  dct:license <https://www.ebi.ac.uk/about/terms-of-use> ;
   idot:preferredPrefix "atlas" ;
   dct:format "text/turtle" ;
-  dcterms:title "Test Distribution level of Atlas"^^rdf:langString .
+  dcterms:title "Expression Atlas - Gene expression across species and biological conditions"^^rdf:langString .
