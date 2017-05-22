@@ -1,7 +1,7 @@
 ---
 layout: default
-title: contentNegation
-permalink: RDF-platform/documentation/contentNegation.html
+title: contentNegotiation
+permalink: RDF-platform/documentation/contentNegotiation.html
 ---
 ## Content Negotiation
 #### Persistent URIs

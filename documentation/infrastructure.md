@@ -16,8 +16,6 @@ Each SPARQL endpoint comprises two separate software components - the LodeStar w
 
 This diagram illustrates the architecture of our SPARQL infrastructure.
 
-? MISSING DIAGRAM ? MISSING ?
-
 The LodeStar application is a Java and Javascript web application designed to serve two functions:
 
 * A SPARQL endpoint proxy for the backend triple store. This abstraction layer provides some control over the executed SPARQL queries, allong with a graphical frontend.
