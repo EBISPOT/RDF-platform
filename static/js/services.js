@@ -48,7 +48,7 @@ var pathArray = location.href.split( '/' ); // contains baseurl
 function getVersion(name){
   var uri="http://rdf.ebi.ac.uk/dataset/"+name
   var versionQuery="SELECT ?version where{<"+uri+"> <http://purl.org/pav/hasCurrentVersion> ?a.?a <http://purl.org/pav/version> ?version}\n#noLog"
-  var query="https://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(versionQuery)
+  var query="http://wwwdev.ebi.ac.uk/rdf/services/sparql?query=" + encodeURIComponent(versionQuery)
 
 $.ajax ( {
     type: 'GET',
