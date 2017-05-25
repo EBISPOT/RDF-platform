@@ -4,9 +4,12 @@ title: advancedSparql
 permalink: RDF-platform/documentation/advancedSparql.html
 ---
 ## Example SPARQL queries
-For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information. This page should demonstrate some more advanced SPARQL queries including an explanation how they work - this should demonstrate in general what kind of questions the RDF platform can help you to answer.  
+For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information.
 
-#### How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
+<!---
+This page should demonstrate some more advanced SPARQL queries including an explanation how they work - this should demonstrate in general what kind of questions the RDF platform can help you to answer.  
+
+##### How are the protein targets of the gleevec drug differentially expressed, which pathways are they involved in?
 >PREFIX rdf: &#60;http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
 >PREFIX cco: &#60;http://rdf.ebi.ac.uk/terms/chembl#> <br>
 >PREFIX chembl_molecule: &#60;http://rdf.ebi.ac.uk/resource/chembl/molecule/> <br>
@@ -165,3 +168,4 @@ v  ?factor atlasterms:propertyValue ?propertyValue . <br>
 > ?sid atlasterms:hasSampleCharacteristic [atlasterms:propertyType ?samplePropertyType ; atlasterms:propertyValue ?sample] <br>
 > filter regex (?samplePropertyType, "cell line", "i") <br>
 >}
+-->
