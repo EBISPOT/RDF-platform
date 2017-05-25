@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Infrastructure
-permalink: RDF-platform/documentation/infrastructure.html
+permalink: documentation/infrastructure.html
 ---
 ## Infrastructure
 

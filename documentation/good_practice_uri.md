@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Good practice for URIs
-permalink: RDF-platform/documentation/good_practice_uri.html
+permalink: documentation/good_practice_uri.html
 ---
 ## Good Practice for URIs
 #### Good URIs

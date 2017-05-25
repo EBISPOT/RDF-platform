@@ -1,7 +1,7 @@
 ---
 layout: default
 title: URI for external data
-permalink: RDF-platform/documentation/uri_external.html
+permalink: documentation/uri_external.html
 ---
 ## URIs for external data
 #### Introduction

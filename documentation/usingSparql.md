@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Using Sparql
-permalink: RDF-platform/documentation/usingSparql.html
+permalink: documentation/usingSparql.html
 ---
 ## Using the SPARQL Endpoint
 

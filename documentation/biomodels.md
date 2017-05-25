@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Biomodels
-permalink: RDF-platform/documentation/biomodels.html
+permalink: documentation/biomodels.html
 ---
 
 ## BioModels documentation

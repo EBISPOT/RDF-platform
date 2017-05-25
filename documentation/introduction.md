@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-permalink: RDF-platform/documentation/introduction.html
+permalink: documentation/introduction.html
 ---
 ## Introduction  
 

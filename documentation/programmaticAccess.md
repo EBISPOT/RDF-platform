@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Programmatic access
-permalink: RDF-platform/documentation/programmaticAccess.html
+permalink: documentation/programmaticAccess.html
 ---
 ## Programmatic access
 

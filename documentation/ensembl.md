@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ensembl
-permalink: RDF-platform/documentation/ensembl.html
+permalink: documentation/ensembl.html
 ---
 ## Documentation Ensembl
 

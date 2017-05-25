@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Provenance
-permalink: RDF-platform/documentation/provenance.html
+permalink: documentation/provenance.html
 ---
 ## Provenance
 It is good practice to not only make RDF data available but also include a dataset description that provides metadata about the dataset itself, so called VoID files. For datasets in Health Care and Life Science a [w3c standard](https://www.w3.org/TR/hcls-dataset/) proposes the structure of these meta data files. We try to satisfy this standard with our dataset descriptions by enforcing the *MUST* and *MUST NOT* criteria while encouraging our data providers to provide even more information about the datasets in their dataset descriptions.  

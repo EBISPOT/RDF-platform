@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reactome
-permalink: RDF-platform/documentation/reactome.html
+permalink: documentation/reactome.html
 ---
 ## Reactome documentation
 

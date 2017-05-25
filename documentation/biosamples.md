@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Biosamples
-permalink: RDF-platform/documentation/biosamples.html
+permalink: documentation/biosamples.html
 ---
 ## Documentation Biosamples
 

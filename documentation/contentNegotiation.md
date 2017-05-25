@@ -1,7 +1,7 @@
 ---
 layout: default
 title: contentNegotiation
-permalink: RDF-platform/documentation/contentNegotiation.html
+permalink: documentation/contentNegotiation.html
 ---
 ## Content Negotiation
 #### Persistent URIs

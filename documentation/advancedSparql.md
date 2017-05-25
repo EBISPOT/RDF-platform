@@ -1,7 +1,7 @@
 ---
 layout: default
 title: advancedSparql
-permalink: RDF-platform/documentation/advancedSparql.html
+permalink: documentation/advancedSparql.html
 ---
 ## Example SPARQL queries
 For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information.

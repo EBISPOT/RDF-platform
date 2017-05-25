@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ChEMBL
-permalink: RDF-platform/documentation/chembl.html
+permalink: documentation/chembl.html
 ---
 ## ChEMBL documentation
 
