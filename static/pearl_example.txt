@@ -1,0 +1,41 @@
+
+
+## Querying SPARQL from Perl
+
+#!/usr/bin/perl
+#Example of querying SPARQL endpoint in Perl using
+#sparql.pm module from https://github.com/swh/Perl-SPARQL-client-library
+#Author: Simon Jupp
+#Copyright (c) 2013 EMBL - European Bioinformatics Institute
+
+use strict;
+use sparql;
+
+# store some useful prefixes
+my $prefix =
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/>";
+
+# The SPARQL endpoint to query (Using the Gene Expression Atlas SPARQL endpoint)
+my $endpoint = "http://www.ebi.ac.uk/rdf/services/atlas/sparql";
+
+# SPARQL query
+my $query =
+"SELECT distinct ?expressionValue ?pvalue
+WHERE {
+  ?value rdfs:label ?expressionValue .
+  ?value atlasterms:pValue ?pvalue .
+  ?value atlasterms:isMeasurementOf ?probe .
+  ?probe atlasterms:dbXref <http://purl.uniprot.org/uniprot/Q16850> .
+}
+ORDER BY ASC(?pvalue)";
+
+my $sparql = sparql->new();
+my $result = $sparql->query($endpoint, $prefix . $query);
+
+for my $row (@{$result}) {
+  my $expressionValue = $row->{'expressionValue'};
+  my $pvalue = $row->{'pvalue'};
+  print $expressionValue . "\t" . $pvalue . "\n";
+}
+</blockquote>

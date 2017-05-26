@@ -1,0 +1,49 @@
+---
+layout: default
+title: Datasets
+group: "in_local_navigation"
+order: 2
+javascript: "../static/js/services.js"
+---
+<div class="blurb">
+<h2>RDF Services</h2>
+<p>With our RDF platform, our main goal is to provide programmatic access to Linked Data versions of a select number of datasets. Explore the data via our <strong><a href="{{site.domain}}{{site.baseurl}}/services/sparql">SPARQL Endpoint</a></strong>.</p>
+
+<div>
+<h4>Summary of Services</h4>
+<table id="summary-table">
+  <thead><th>Dataset</th><th>Version</th><th>Dataset Description</th><th>Data Link</th><th>Example Query</th></thead>
+</table>
+<ul>
+  <li>Please note that <strong>Uniprot</strong> runs its own SPARQL endpoint, see the documentation for more information</li>
+  <li>We hope to include more EBI Resources in the future. Let us know which ones you'd like to see!</li>
+</ul>
+</div>
+
+
+<h4>How can the data be accessed?</h4>
+<p>There are four main ways to access the RDF data:</p>
+
+<h5>SPARQL Access</h5>
+<p>
+We provide programmatic access to the data via our <a href="{{site.domain}}{{site.baseurl}}/services/sparql">SPARQL endpoints</a>, which are open to the public. You can run queries directly against the datasets remotely using http requests, including federated queries that span more than one endpoint. For more information go to our documentation about <a href="{{site.domain}}{{site.baseurl}}/documentation/programmaticAccess.html">programmatic Access</a>.
+</p>
+<h5>Linked Data Browser</h5>
+<p>
+You can browse across the RDF data through your web browser using our Linked Data browser software. This allows you to get an idea of the data contained within the various datasets, and navigate the links between them. By using the <a href="{{site.domain}}{{site.baseurl}}/services/sparql">SPARQL endpoint</a> within your browser and clicking on results in the result table, you are using the linked data browser called 'Lodestar'.
+</p>
+
+<h5 id="BulkDownloads">Bulk Download</h5>
+<p>Our RDF datasets can be downloaded via ftp. The exact paths can be obtained with SPARQL queries over the dataset descriptions (VoID files).</p>
+<ul id="ListOfFTPLinks">
+</ul>
+
+</p>
+
+<h5>On-Demand Download</h5>
+<p>Much of our RDF data can also be downloaded on a per-resource basis (e.g. an individual ChEMBL target) using <a href="{{site.domain}}{{site.baseurl}}/documentation/contentNegotiation.html">content negotiation</a>.</p>
+
+<br>
+<h4>Still lost?</h4>
+If you are new to RDF or want to know more about our platform, please look at the <a href="../FAQ">FAQ</a> and the <a href="../documentation">documentation</a>!
+ </div><!-- /.blurb -->
