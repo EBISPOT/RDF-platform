@@ -48,9 +48,9 @@ Distribution Level is defined through
 > &#60;http://purl.org/dc/terms/publisher> <br>
 
 ### Example VoID Files
-The VoID files that drive the RDF-platform can be accessed through our [github repository](https://github.com/EBISPOT/RDF-platform) or through the SPARQL endpoint (see [Datasets page](../datasets)). Each named graph in the database has a corresponding named graph with the \_void.ttl ending. For more information on the naming schema for named graphs read our page on [using Sparql](/rdf/documentation/usingSparql.html).
+The VoID files that drive the RDF-platform can be accessed through our [github repository](https://github.com/EBISPOT/RDF-platform) or through the SPARQL endpoint (see [Datasets page](../Datasets)). Each named graph in the database has a corresponding named graph with the \_void.ttl ending. For more information on the naming schema for named graphs read our page on [using Sparql](/rdf/documentation/usingSparql.html).
 
 ### Additional information
 This structure represents the *MUST* and *MUST NOT* fields described in the standard. We enforce these fields to be present in the descriptions of datasets that are part of the RDF platform. We encourage people to also implement the *SHOULD* and *MAY* requirements, even though we do not enforce this at the moment.
 
-For more information on dataset descriptions, once more, we refer to the [w3c standard](https://www.w3.org/TR/hcls-dataset/) about HCLS dataset descriptions. An online validator of the standard can be found at [here](http://www.w3.org/2015/03/ShExValidata).
+For more information on dataset descriptions, once more, we refer to the [w3c standard](https://www.w3.org/TR/hcls-dataset/) about HCLS dataset descriptions. An online validator of the standard using Shape Expressions (ShEx) can be found at [here](http://www.w3.org/2015/03/ShExValidata).
