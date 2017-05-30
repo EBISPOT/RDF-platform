@@ -10,5 +10,5 @@ However, keep in mind that it's possible to combine RDF resources via [federated
 
 <br>
 <div style="text-align: center">
-<img class="hideLink" src="/static/logos/uniprot_logo.svg" alt="uniprot_logo" height="90" width="90">
+<img class="hideLink" src="/rdf/static/logos/uniprot_logo.svg" alt="uniprot_logo" height="90" width="90">
 </div>
