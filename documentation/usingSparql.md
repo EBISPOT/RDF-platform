@@ -64,4 +64,4 @@ You can use these prefixes in SPARQL queries without needing to specify them.
 
 SPARQL allows to execute queries that span over multiple endpoints - so called federated queries. Such queries can be accomplished by using the SERVICE keyword.
 
-> Example missing <br>
+> Coming soon<br>

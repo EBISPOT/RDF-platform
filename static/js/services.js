@@ -82,10 +82,10 @@ function buildFTPLinks(namedGraph){
   var query="SELECT ?ftplink \nfrom <"+namedGraphURI+"> \nWHERE{ ?a <http://rdfs.org/ns/void#dataDump> ?ftplink}"
 
   if (content[namedGraph]['ftplink'] === undefined) {
-  query="https://"+pathArray[2]+"rdf/services/sparql?query="+encodeURIComponent(query)
+  query="https://"+pathArray[2]+"/rdf/services/sparql?query="+encodeURIComponent(query)
   }
   else{
-  query="https://"+pathArray[2]+"rdf/services/sparql?query="+encodeURIComponent(content[namedGraph]['ftplink'])
+  query="https://"+pathArray[2]+"/rdf/services/sparql?query="+encodeURIComponent(content[namedGraph]['ftplink'])
   }
 
   // Need a if here, to cover hasPart relationships and show the correct links aka query here

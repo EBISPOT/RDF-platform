@@ -48,7 +48,7 @@ Distribution Level is defined through
 > &#60;http://purl.org/dc/terms/publisher> <br>
 
 ### Example VoID Files
-The VoID files that drive the RDF-platform can be accessed through our [github repository](https://github.com/EBISPOT/RDF-platform) or through the SPARQL endpoint (Links are part of the table on the [service page](services/)). Each named graph in the database has a corresponding named graph with the \_void.ttl ending. For more information on the naming schema for named graphs read our page on [using Sparql](usingSparql).
+The VoID files that drive the RDF-platform can be accessed through our [github repository](https://github.com/EBISPOT/RDF-platform) or through the SPARQL endpoint (see [Datasets page](../datasets)). Each named graph in the database has a corresponding named graph with the \_void.ttl ending. For more information on the naming schema for named graphs read our page on [using Sparql](usingSparql).
 
 ### Additional information
 This structure represents the *MUST* and *MUST NOT* fields described in the standard. We enforce these fields to be present in the descriptions of datasets that are part of the RDF platform. We encourage people to also implement the *SHOULD* and *MAY* requirements, even though we do not enforce this at the moment.
