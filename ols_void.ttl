@@ -2654,7 +2654,6 @@ ols:ols a dcmi:Dataset ;
         ols:trans,
         ols:tto,
         ols:uberon,
-        ols:unimod,
         ols:uo,
         ols:vario,
         ols:vo,
@@ -3754,29 +3753,6 @@ ols:ols a dcmi:Dataset ;
     pav:version "http://rdf.ebi.ac.uk/dataset/uberon/2017-04-15" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/uberon.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/uberon" .
-
-<http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017> a dcmi:Dataset ;
-    dct:creator "http://www.unimod.org/" ;
-    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017.rdf> ;
-    dct:isVersionOf ols:unimod ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher "http://www.unimod.org/" ;
-    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017" .
-
-<http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017.rdf> a void:Dataset,
-        dcat:Distribution ;
-    idot:preferredPrefix "unimod" ;
-    dct:creator "http://www.unimod.org/" ;
-    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
-    dct:format "owl" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher "http://www.unimod.org/" ;
-    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017" ;
-    void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/unimod.tar.gz" ;
-    foaf:page "http://ebi.ac.uk/ols/ontologies/unimod" .
 
 <http://rdf.ebi.ac.uk/dataset/uo/2017-04-24> a dcmi:Dataset ;
     dct:creator "https://github.com/bio-ontology-research-group/unit-ontology" ;
@@ -5007,12 +4983,6 @@ ols:uberon a dcmi:Dataset ;
     dct:publisher "http://uberon.org" ;
     dct:title "Uber-anatomy ontology"^^xsd:string ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/uberon/2017-04-15> .
-
-ols:unimod a dcmi:Dataset ;
-    dct:description "Unimod is a community supported, comprehensive database of protein modifications for mass spectrometry applications. That is, accurate and verifiable values, derived from elemental compositions, for the mass differences introduced by all types of natural and artificial modifications. Other important information includes any mass change, (neutral loss), that occurs during MS/MS analysis, an d site specificity, (which residues are susceptible to modification and any constraints on the position of the modification within the protein or peptide)."^^xsd:string ;
-    dct:publisher "http://www.unimod.org/" ;
-    dct:title "Unimod protein modification database for mass spectrometry"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/unimod/08-05-2017> .
 
 ols:uo a dcmi:Dataset ;
     dct:description "Metrical units for use in conjunction with PATO"^^xsd:string ;
