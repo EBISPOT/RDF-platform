@@ -62,6 +62,18 @@ You can use these prefixes in SPARQL queries without needing to specify them.
 
 #### Federated Queries
 
-SPARQL allows to execute queries that span over multiple endpoints - so called federated queries. Such queries can be accomplished by using the SERVICE keyword.
+SPARQL allows to execute queries that span over multiple endpoints - so called federated queries. Such queries can be accomplished by using the SERVICE keyword. The example below combines results from the EBI RDF platform and the Uniprot sparql endpoint and asks the question: *"Get protein information from Uniprot that Ensembl has associated with ENSG00000139618 via a federated query"*
 
-> Coming soon<br>
+>PREFIX rdf: &#60;http://www.w3.org/1999/02/22-rdf-syntax-ns#> <br>
+>PREFIX dc: &#60;http://purl.org/dc/elements/1.1/> <br>
+>PREFIX ensembl: &#60;http://rdf.ebi.ac.uk/resource/ensembl/> <br>
+>PREFIX ensemblterms: &#60;http://rdf.ebi.ac.uk/terms/ensembl/> <br>
+>PREFIX core: &#60;http://purl.uniprot.org/core/> <br><br>
+>SELECT ?uniprot_id ?uniprot_uri ?isoform ?seq { <br>
+>&nbsp;&nbsp;&nbsp;ensembl:ENSG00000128573 ensemblterms:DEPENDENT ?uniprot_uri . <br>
+>&nbsp;&nbsp;&nbsp;?uniprot_uri dc:identifier ?uniprot_id . <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;SERVICE &#60;http://sparql.uniprot.org/sparql> { <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?uniprot_uri core:sequence ?isoform . <br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?isoform rdf:value ?seq . <br>
+>&nbsp;&nbsp;&nbsp;   } <br>
+> }

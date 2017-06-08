@@ -17,4 +17,4 @@ EBI's RDF platform gets a major update! This is the beta release, which will soo
 
 * **Updates to Lodestar:** We added new functionality to our Linked Data Browser, we offer a *query history* that should help you while playing around with queries.  We also provide a tab that conveniently lists all the named graphs.
 
-* **New data export:** Be aware that the existing data exports for some datasources (ExpressionAtlas) were re-written and therefore also the RDF Model changed slightly! We hope to improve the models in the future and if there are bigger changes, we will let you know.
+* **New data export:** Be aware that the data exports for some datasources changed! **ExpressionAtlas** data export was re-written and therefore also the RDF Model changed slightly! **Biomodels** decided to export only curated models! We hope to improve the models in the future and if there are bigger changes, we will let you know.
