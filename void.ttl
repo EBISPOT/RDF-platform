@@ -71,11 +71,17 @@
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:created "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
 	dcterms:modified "2017-09-05T00:00:00.000+01:00"^^xsd:dateTime ;
-	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
+	void:subset :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset , :chembl_ontology;
 	void:vocabulary <http://purl.org/ontology/bibo> , <http://www.bioassayontology.org/bao> , <http://semanticscience.org/ontology/cheminf.owl> , <http://purl.org/spar/cito> , <http://purl.org/dc/terms> , <http://www.w3.org/2002/07/owl> , <http://www.w3.org/1999/02/22-rdf-syntax-ns> , <http://www.w3.org/2000/01/rdf-schema> , <http://semanticscience.org/ontology/sio.owl> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2001/XMLSchema> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
 	void:sparqlEndpoint <http://www.ebi.ac.uk/rdf/services/chembl/sparql> ;
 	voag:frequencyOfChange freq:quarterly .
+
+:chembl_ontology a void:Dataset;
+	dcterms:title "The ChEMBL Ontology" ;
+	dcterms:description "The ChEMBL vocabulary used to describe ChEMBL semantic types and relationships" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/23.0/cco.ttl.gz> .
 
 :chembl_rdf_target_relation_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Target Relation Dataset" ;
