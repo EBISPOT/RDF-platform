@@ -3,7 +3,7 @@
  group: EMBL-EBI SPOT
  email: noreply@ebi.ac.uk
  domain: /
- baseurl: ../
+ baseurl: 
  permalink: pretty
 
  # Add custom CSS / JS here
