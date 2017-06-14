@@ -4,7 +4,7 @@ title: Provenance
 permalink: documentation/provenance.html
 ---
 ## Provenance
-It is good practice to not only make RDF data available but also include a dataset description that provides metadata about the dataset itself, so called VoID files. For datasets in Health Care and Life Science a [w3c standard](https://www.w3.org/TR/hcls-dataset/) proposes the structure of these meta data files. We try to satisfy this standard with our dataset descriptions by enforcing the *MUST* and *MUST NOT* criteria while encouraging our data providers to provide even more information about the datasets in their dataset descriptions.  
+It is good practice to not only make RDF data available but also include a dataset description that provides metadata about the dataset itself, so called VoID files. For datasets in Health Care and Life Science a <a href="https://www.w3.org/TR/hcls-dataset/" target="_blank">w3c standard</a> proposes the structure of these meta data files. We try to satisfy this standard with our dataset descriptions by enforcing the *MUST* and *MUST NOT* criteria while encouraging our data providers to provide even more information about the datasets in their dataset descriptions.  
 
 ### Structure of HCLS VoID files
 Every dataset description consists of at least three levels: Summary, version and distribution level. The summary level provides a description of a dataset that is independent of a specific version or format. The version level captures version-specific characteristics of a dataset and the distribution level captures metadata about a specific form and version of a dataset.
@@ -53,4 +53,4 @@ The VoID files that drive the RDF-platform can be accessed through our [github r
 ### Additional information
 This structure represents the *MUST* and *MUST NOT* fields described in the standard. We enforce these fields to be present in the descriptions of datasets that are part of the RDF platform. We encourage people to also implement the *SHOULD* and *MAY* requirements, even though we do not enforce this at the moment.
 
-For more information on dataset descriptions, once more, we refer to the [w3c standard](https://www.w3.org/TR/hcls-dataset/) about HCLS dataset descriptions. An online validator of the standard using Shape Expressions (ShEx) can be found at [here](http://www.w3.org/2015/03/ShExValidata).
+For more information on dataset descriptions, once more, we refer to the <a href="https://www.w3.org/TR/hcls-dataset/" target="_blank">w3c standard</a> about HCLS dataset descriptions. An online validator of the standard using Shape Expressions (ShEx) can be found at <a href="http://www.w3.org/2015/03/ShExValidata" target="_blank">here</a>.
