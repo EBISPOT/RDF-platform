@@ -41,10 +41,10 @@
   <!--
     <link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
   -->
-  <!--{% comment %} Custom global CSS could go here: {% endcomment %}
+  {% comment %} Custom global CSS could go here: {% endcomment %}
   {% for css in site.custom_css %}
-  <link rel="stylesheet" href="{{css}}">
-  {% endfor %}-->
+  <link rel="stylesheet" href="{{site.baseurl}}/{{css}}">
+  {% endfor %}
 
   <!-- If you have a custom header image or colour -->
   <!--
@@ -52,7 +52,7 @@
   <!--<meta name="ebi:localmasthead-color" content="#091314">-->
 
   <meta name="ebi:localmasthead-color" content="#000000">
-  <meta name="ebi:localmasthead-image" content="{{ site.domain }}{{ site.baseurl }}/static/background.jpg">
+  <meta name="ebi:localmasthead-image" content="{{ site.baseurl }}/static/background.jpg">
 
   <!-- you can replace this with theme-[projectname].css. See http://www.ebi.ac.uk/web/style/colour for details of how to do this -->
   <!-- also inform ES so we can host your colour palette file -->
@@ -60,7 +60,6 @@
 
   <!--<link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/css/theme-embl-petrol.css" type="text/css" media="all">-->
   <!-- The stylesheet below is the same as the ebio stylesheet above, the only difference is the colour behind the banner, which I changed to black-->
-  <link rel="stylesheet" href="/rdf/static/css/theme-rdf-platform.css" type="text/css" media="all">
 
 
   <!-- for production the above can be replaced with -->
