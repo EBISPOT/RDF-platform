@@ -3125,22 +3125,22 @@ ols:ols a dcmi:Dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-6-23> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-6-24> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-6-23> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-6-24> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-6-23.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-6-24.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2017-6-23"^^xsd:string ;
-    pav:version "2017-6-23" .
+    dct:title "Ontology Lookup Service - 2017-6-24"^^xsd:string ;
+    pav:version "2017-6-24" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-6-23.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-6-24.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
