@@ -9,9 +9,8 @@ The schema for the Biosamples dataset, shown below mostly reflects the [SampleTa
 Beyond ontologies used for the core entities, there is a number of biomedical ontologies which are automatically assigned to textual elements by [Zooma](http://www.ebi.ac.uk/spot/zooma/). For instance, if a sample record in the Biosamples Database is annotated with a 'Characteristic[Organism]' having the value of mus-musculus, Zooma creates a property value that is an OWL individual and is instance of the term 10090 from the NCBI Taxon ontology.
 
 ## Schema, Core elements
-* Follow this link for the Biosamples sample schema: [biosamples_schema](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biosamples/biosd_samples.png?raw=true)
-* Follow this link for the Biosamples attributes schema:
-[biosamples_schema](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biosamples/biosd_attributes.png?raw=true)
+* Follow this link for the Biosamples sample schema: [biosamples_schema](../static/biosd_samples.png)
+* Follow this link for the Biosamples attributes schema: [biosamples_schema](../static/biosd_attributes.png)
 
 #### Relevant Ontologies
 
