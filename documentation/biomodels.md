@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Biomodels
-permalink: documentation/biomodels.html
+
 ---
 
 ## BioModels documentation
