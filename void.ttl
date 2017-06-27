@@ -24,7 +24,7 @@
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/v20170621.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/biosamples/Version2016.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/biosamples/v20170621.rdf> a void:Dataset ,
   dcat:Distribution ;
   void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20170621.tar.bz2" ;
    dct:creator <http://wwww.ebi.ac.uk/spot>;
