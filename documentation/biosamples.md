@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Biosamples
-permalink: documentation/biosamples.html
+permalink: documentation/biosamples
 ---
 ## Documentation Biosamples
 
