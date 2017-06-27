@@ -1,7 +1,6 @@
 ---
 layout: default
 title: OLS
-permalink: documentation/ols.html
 ---
 ## Ontology Lookups Service Documentation
 

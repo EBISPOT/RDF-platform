@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Using Sparql
-permalink: documentation/usingSparql.html
 ---
 ## Using the SPARQL Endpoint
 

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The role of identifiers.org
-permalink: documentation/identifiers_org.html
 ---
 ## The role of identifiers.org <a name="The-role-of-identifiers.org"></a>
 #### About Identifiers.org

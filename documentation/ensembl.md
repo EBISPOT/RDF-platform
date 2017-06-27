@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Ensembl
-permalink: documentation/ensembl.html
 ---
 ## Documentation Ensembl
 

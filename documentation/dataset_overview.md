@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Datasets Overview
-permalink: documentation/datasets_overview.html
 ---
 
 ## Datasets Overview

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Infrastructure
-permalink: documentation/infrastructure.html
 ---
 ## Infrastructure
 

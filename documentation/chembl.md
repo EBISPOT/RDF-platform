@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ChEMBL
-permalink: documentation/chembl.html
 ---
 ## ChEMBL documentation
 

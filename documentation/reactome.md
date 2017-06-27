@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Reactome
-permalink: documentation/reactome.html
 ---
 ## Reactome documentation
 

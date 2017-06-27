@@ -1,7 +1,6 @@
 ---
 layout: default
 title: URI for external data
-permalink: documentation/uri_external.html
 ---
 ## URIs for external data
 #### Introduction

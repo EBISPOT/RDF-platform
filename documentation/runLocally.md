@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Running locally
-permalink: documentation/runLocally.html
 ---
 ## Running our SPARQL endpoints locally <a name="Running-our-SPARQL-endpoints-locally"></a>
 

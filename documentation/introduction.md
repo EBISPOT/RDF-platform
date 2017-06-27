@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Introduction
-permalink: documentation/introduction.html
 ---
 ## Introduction  
 

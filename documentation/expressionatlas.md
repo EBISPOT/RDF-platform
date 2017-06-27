@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Atlas
-permalink: documentation/expressionatlas.html
 ---
 
 ## Expression Atlas RDF

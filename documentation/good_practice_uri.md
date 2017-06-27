@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Good practice for URIs
-permalink: documentation/good_practice_uri.html
 ---
 ## Good Practice for URIs
 #### Good URIs

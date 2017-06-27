@@ -1,7 +1,6 @@
 ---
 layout: default
 title: contentNegotiation
-permalink: documentation/contentNegotiation.html
 ---
 ## Content Negotiation
 #### Persistent URIs

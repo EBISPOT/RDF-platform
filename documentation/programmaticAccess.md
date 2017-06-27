@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Programmatic access
-permalink: documentation/programmaticAccess.html
 ---
 ## Programmatic access
 
