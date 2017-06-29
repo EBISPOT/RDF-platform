@@ -17,43 +17,43 @@ Namespace prefixes:
 
 
 ### Top level class structure
-![toplevelclassstructure](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelClassStructure-424x557.jpeg?raw=true)
+![toplevelclassstructure](../static/biomodels/topLevelClassStructure-424x557.jpeg)
 
 ### Top level property structure
-![toplevelproperty](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/topLevelPropertyStructure-851x648.jpeg?raw=true)
+![toplevelproperty](../static/biomodels/topLevelPropertyStructure-851x648.jpeg)
 
 ### Common properties
-![commonProperties](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/commonProperties.jpeg?raw=true)
+![commonProperties](../static/biomodels/commonProperties.jpeg)
 
 ### SBMLModel
-![SBMLmodel](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/sbmlModelProperties.jpeg?raw=true)
+![SBMLmodel](../static/biomodels/sbmlModelProperties.jpeg)
 
 ### FunctionDef
-![FunctionDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/functionDefProperties.jpeg?raw=true)
+![FunctionDef](../static/biomodels/functionDefProperties.jpeg)
 
 ### UnitsDef
-![UnitDef](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/unitsDefProperties.jpeg?raw=true)
+![UnitDef](../static/biomodels/unitsDefProperties.jpeg)
 
 ### Compartment
-![Compartment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/compartmentProperties.jpeg?raw=true)
+![Compartment](../static/biomodels/compartmentProperties.jpeg)
 
 ### Species
-![Species](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/speciesProperties.jpeg?raw=true)
+![Species](../static/biomodels/speciesProperties.jpeg)
 
 ### Parameter
-![Parameter](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/parameterProperties.jpeg?raw=true)
+![Parameter](../static/biomodels/parameterProperties.jpeg)
 
 ### Initial Assignment
-![initialAssignment](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/initAssignProperties.jpeg?raw=true)
+![initialAssignment](../static/biomodels/initAssignProperties.jpeg)
 
 ### Rule
-![Rule](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/ruleProperties.jpeg?raw=true)
+![Rule](../static/biomodels/ruleProperties.jpeg)
 
 ### Constraint
-![Constraint](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/constraintProperties.jpeg?raw=true)
+![Constraint](../static/biomodels/constraintProperties.jpeg)
 
 ### Reaction
-![Reaction](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/reaction.jpeg?raw=true)
+![Reaction](../static/biomodels/reaction.jpeg)
 
 ### Event
 ![Event](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/eventProperties.jpeg?raw=true)
