@@ -652,17 +652,17 @@
     dct:title "xrefs for burkholderia_pseudomallei_1710b" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/burkholderia_pseudomallei_1710b/burkholderia_pseudomallei_1710b_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88.rdf> ;
-    dct:isVersionOf ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819 ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88.rdf> ;
+    dct:isVersionOf ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70 ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
     dct:title "What is the Version title?"^^xsd:string ;
     pav:version "88" .
 
-<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "description for this thing"^^xsd:string ;
@@ -671,18 +671,18 @@
     dct:publisher ebi: ;
     dct:title "Distribution title"^^xsd:string ;
     pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819_core>,
-        <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819_xref> ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70_core>,
+        <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819_core> a dct:Dataset ;
-    dct:description "Description about the subset campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819" ;
-    dct:title "campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70_core> a dct:Dataset ;
+    dct:description "Description about the subset campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70" ;
+    dct:title "campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819_xref> dct:description "Description about the xrefs for campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819" ;
-    dct:title "xrefs for campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70_xref> dct:description "Description about the xrefs for campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70" ;
+    dct:title "xrefs for campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/candidatus_korarchaeum_cryptofilum_opf8/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
@@ -1186,7 +1186,7 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:brucella_abortus_bv_1_str_9_941,
         ensembl:buchnera_aphidicola_str_aps_acyrthosiphon_pisum_,
         ensembl:burkholderia_pseudomallei_1710b,
-        ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819,
+        ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70,
         ensembl:candidatus_korarchaeum_cryptofilum_opf8,
         ensembl:candidatus_koribacter_versatilis_ellin345,
         ensembl:caulobacter_crescentus_cb15,
@@ -1205,9 +1205,9 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:enterobacter_cloacae_subsp_cloacae_atcc_13047,
         ensembl:enterococcus_faecalis_v583,
         ensembl:escherichia_coli_str_k_12_substr_mg1655,
-        ensembl:flavobacterium_psychrophilum_jip02_88,
+        ensembl:flavobacterium_psychrophilum_jip02_86,
         ensembl:francisella_tularensis_subsp_tularensis_schu_s4,
-        ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25588,
+        ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25586,
         ensembl:gardnerella_vaginalis_0288e,
         ensembl:geobacter_sulfurreducens_pca,
         ensembl:gloeobacter_violaceus_pcc_7421,
@@ -1222,7 +1222,7 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:lactococcus_lactis_subsp_lactis_il1403,
         ensembl:legionella_pneumophila_str_paris,
         ensembl:leptospira_interrogans_serovar_lai_str_56601,
-        ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293,
+        ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961,
         ensembl:listeria_monocytogenes_egd_e,
         ensembl:lysinibacillus_sphaericus_c3_41,
         ensembl:mannheimia_haemolytica_serotype_a2_str_ovine,
@@ -1248,7 +1248,6 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:nitrosopumilus_maritimus_scm1,
         ensembl:nostoc_punctiforme_pcc_73102,
         ensembl:paracoccus_denitrificans_pd1222,
-        ensembl:pasteurella_multocida_subsp_multocida_str_pm70,
         ensembl:porphyromonas_gingivalis_w83,
         ensembl:prevotella_intermedia_17,
         ensembl:prochlorococcus_marinus_subsp_marinus_str_ccmp1375,
@@ -1284,7 +1283,6 @@ ensembl:ensembl a dcmi:Dataset ;
         ensembl:thermus_thermophilus_hb8,
         ensembl:treponema_pallidum_subsp_pallidum_str_nichols,
         ensembl:ureaplasma_parvum_serovar_3_str_atcc_700970,
-        ensembl:vibrio_cholerae_o1_biovar_el_tor_str_n16961,
         ensembl:vibrio_fischeri_es114,
         ensembl:wolbachia_endosymbiont_of_drosophila_melanogaster,
         ensembl:xanthomonas_campestris_pv_campestris_str_atcc_33913,
@@ -1292,13 +1290,13 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:publisher ebi:,
         "http://www.ebi.ac.uk/" ;
     dct:title "Ensembl RDF"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-14> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-29> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-14> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-29> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Ensembl description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-14.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-29.rdf> ;
     dct:isVersionOf ensembl:ensembl ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
@@ -1307,7 +1305,7 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:title "Title on Version level? "^^xsd:string ;
     pav:version "88" .
 
-<http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-14.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ensembl/2017-6-29.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
@@ -1415,17 +1413,17 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:title "xrefs for escherichia_coli_str_k_12_substr_mg1655" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/escherichia_coli_str_k_12_substr_mg1655_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88.rdf> ;
-    dct:isVersionOf ensembl:flavobacterium_psychrophilum_jip02_88 ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88.rdf> ;
+    dct:isVersionOf ensembl:flavobacterium_psychrophilum_jip02_86 ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
     dct:title "What is the Version title?"^^xsd:string ;
     pav:version "88" .
 
-<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "description for this thing"^^xsd:string ;
@@ -1434,18 +1432,18 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:publisher ebi: ;
     dct:title "Distribution title"^^xsd:string ;
     pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88/flavobacterium_psychrophilum_jip02_88_core>,
-        <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88/flavobacterium_psychrophilum_jip02_88_xref> ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88/flavobacterium_psychrophilum_jip02_86_core>,
+        <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88/flavobacterium_psychrophilum_jip02_86_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88/flavobacterium_psychrophilum_jip02_88_core> a dct:Dataset ;
-    dct:description "Description about the subset flavobacterium_psychrophilum_jip02_88" ;
-    dct:title "flavobacterium_psychrophilum_jip02_88" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/flavobacterium_psychrophilum_jip02_88/flavobacterium_psychrophilum_jip02_88.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88/flavobacterium_psychrophilum_jip02_86_core> a dct:Dataset ;
+    dct:description "Description about the subset flavobacterium_psychrophilum_jip02_86" ;
+    dct:title "flavobacterium_psychrophilum_jip02_86" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/flavobacterium_psychrophilum_jip02_86/flavobacterium_psychrophilum_jip02_86.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88/flavobacterium_psychrophilum_jip02_88_xref> dct:description "Description about the xrefs for flavobacterium_psychrophilum_jip02_88" ;
-    dct:title "xrefs for flavobacterium_psychrophilum_jip02_88" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/flavobacterium_psychrophilum_jip02_88/flavobacterium_psychrophilum_jip02_88_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88/flavobacterium_psychrophilum_jip02_86_xref> dct:description "Description about the xrefs for flavobacterium_psychrophilum_jip02_86" ;
+    dct:title "xrefs for flavobacterium_psychrophilum_jip02_86" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/flavobacterium_psychrophilum_jip02_86/flavobacterium_psychrophilum_jip02_86_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/francisella_tularensis_subsp_tularensis_schu_s4/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
@@ -1479,17 +1477,17 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:title "xrefs for francisella_tularensis_subsp_tularensis_schu_s4" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/francisella_tularensis_subsp_tularensis_schu_s4/francisella_tularensis_subsp_tularensis_schu_s4_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88.rdf> ;
-    dct:isVersionOf ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25588 ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88.rdf> ;
+    dct:isVersionOf ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25586 ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
     dct:title "What is the Version title?"^^xsd:string ;
     pav:version "88" .
 
-<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "description for this thing"^^xsd:string ;
@@ -1498,18 +1496,18 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:publisher ebi: ;
     dct:title "Distribution title"^^xsd:string ;
     pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588_core>,
-        <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588_xref> ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586_core>,
+        <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588_core> a dct:Dataset ;
-    dct:description "Description about the subset fusobacterium_nucleatum_subsp_nucleatum_atcc_25588" ;
-    dct:title "fusobacterium_nucleatum_subsp_nucleatum_atcc_25588" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586_core> a dct:Dataset ;
+    dct:description "Description about the subset fusobacterium_nucleatum_subsp_nucleatum_atcc_25586" ;
+    dct:title "fusobacterium_nucleatum_subsp_nucleatum_atcc_25586" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588_xref> dct:description "Description about the xrefs for fusobacterium_nucleatum_subsp_nucleatum_atcc_25588" ;
-    dct:title "xrefs for fusobacterium_nucleatum_subsp_nucleatum_atcc_25588" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586_xref> dct:description "Description about the xrefs for fusobacterium_nucleatum_subsp_nucleatum_atcc_25586" ;
+    dct:title "xrefs for fusobacterium_nucleatum_subsp_nucleatum_atcc_25586" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/gardnerella_vaginalis_0288e/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
@@ -1959,17 +1957,17 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:title "xrefs for leptospira_interrogans_serovar_lai_str_56601" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/leptospira_interrogans_serovar_lai_str_56601/leptospira_interrogans_serovar_lai_str_56601_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88.rdf> ;
-    dct:isVersionOf ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293 ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88.rdf> ;
+    dct:isVersionOf ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961 ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher ebi: ;
     dct:title "What is the Version title?"^^xsd:string ;
     pav:version "88" .
 
-<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "description for this thing"^^xsd:string ;
@@ -1978,18 +1976,18 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:publisher ebi: ;
     dct:title "Distribution title"^^xsd:string ;
     pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293_core>,
-        <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293_xref> ;
+    void:subset <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961_core>,
+        <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961_xref> ;
     foaf:page "unknown" .
 
-<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293_core> a dct:Dataset ;
-    dct:description "Description about the subset leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293" ;
-    dct:title "leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961_core> a dct:Dataset ;
+    dct:description "Description about the subset leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
+    dct:title "leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293_xref> dct:description "Description about the xrefs for leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293" ;
-    dct:title "xrefs for leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293_xrefs.ttl.gz" .
+<http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961_xref> dct:description "Description about the xrefs for leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
+    dct:title "xrefs for leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
+    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/listeria_monocytogenes_egd_e/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
@@ -2790,38 +2788,6 @@ ensembl:ensembl a dcmi:Dataset ;
 <http://rdf.ebi.ac.uk/dataset/paracoccus_denitrificans_pd1222/88/paracoccus_denitrificans_pd1222_xref> dct:description "Description about the xrefs for paracoccus_denitrificans_pd1222" ;
     dct:title "xrefs for paracoccus_denitrificans_pd1222" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/paracoccus_denitrificans_pd1222/paracoccus_denitrificans_pd1222_xrefs.ttl.gz" .
-
-<http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88> a dcmi:Dataset ;
-    dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88.rdf> ;
-    dct:isVersionOf ensembl:pasteurella_multocida_subsp_multocida_str_pm70 ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher ebi: ;
-    dct:title "What is the Version title?"^^xsd:string ;
-    pav:version "88" .
-
-<http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88.rdf> a void:Dataset,
-        dcat:Distribution ;
-    dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing"^^xsd:string ;
-    dct:format "text/turtle" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher ebi: ;
-    dct:title "Distribution title"^^xsd:string ;
-    pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88/pasteurella_multocida_subsp_multocida_str_pm70_core>,
-        <http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88/pasteurella_multocida_subsp_multocida_str_pm70_xref> ;
-    foaf:page "unknown" .
-
-<http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88/pasteurella_multocida_subsp_multocida_str_pm70_core> a dct:Dataset ;
-    dct:description "Description about the subset pasteurella_multocida_subsp_multocida_str_pm70" ;
-    dct:title "pasteurella_multocida_subsp_multocida_str_pm70" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/pasteurella_multocida_subsp_multocida_str_pm70/pasteurella_multocida_subsp_multocida_str_pm70.ttl.gz" .
-
-<http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88/pasteurella_multocida_subsp_multocida_str_pm70_xref> dct:description "Description about the xrefs for pasteurella_multocida_subsp_multocida_str_pm70" ;
-    dct:title "xrefs for pasteurella_multocida_subsp_multocida_str_pm70" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/pasteurella_multocida_subsp_multocida_str_pm70/pasteurella_multocida_subsp_multocida_str_pm70_xrefs.ttl.gz" .
 
 <http://rdf.ebi.ac.uk/dataset/porphyromonas_gingivalis_w83/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
@@ -3943,38 +3909,6 @@ ensembl:ensembl a dcmi:Dataset ;
     dct:title "xrefs for ureaplasma_parvum_serovar_3_str_atcc_700970" ;
     void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/ureaplasma_parvum_serovar_3_str_atcc_700970/ureaplasma_parvum_serovar_3_str_atcc_700970_xrefs.ttl.gz" .
 
-<http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88> a dcmi:Dataset ;
-    dct:creator <http://www.ensembl.org> ;
-    dct:description "Description of ..."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88.rdf> ;
-    dct:isVersionOf ensembl:vibrio_cholerae_o1_biovar_el_tor_str_n16961 ;
-    dct:issued "2017-01-01"^^xsd:date ;
-    dct:publisher ebi: ;
-    dct:title "What is the Version title?"^^xsd:string ;
-    pav:version "88" .
-
-<http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88.rdf> a void:Dataset,
-        dcat:Distribution ;
-    dct:creator <http://www.ensembl.org> ;
-    dct:description "description for this thing"^^xsd:string ;
-    dct:format "text/turtle" ;
-    dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
-    dct:publisher ebi: ;
-    dct:title "Distribution title"^^xsd:string ;
-    pav:version "88" ;
-    void:subset <http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/vibrio_cholerae_o1_biovar_el_tor_str_n16961_core>,
-        <http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/vibrio_cholerae_o1_biovar_el_tor_str_n16961_xref> ;
-    foaf:page "unknown" .
-
-<http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/vibrio_cholerae_o1_biovar_el_tor_str_n16961_core> a dct:Dataset ;
-    dct:description "Description about the subset vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
-    dct:title "vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/vibrio_cholerae_o1_biovar_el_tor_str_n16961/vibrio_cholerae_o1_biovar_el_tor_str_n16961.ttl.gz" .
-
-<http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88/vibrio_cholerae_o1_biovar_el_tor_str_n16961_xref> dct:description "Description about the xrefs for vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
-    dct:title "xrefs for vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
-    void:dataDump "ftp://ftp.ensemblgenomes.org/pub/current/bacteria/rdf/bacteria_0_collection/vibrio_cholerae_o1_biovar_el_tor_str_n16961/vibrio_cholerae_o1_biovar_el_tor_str_n16961_xrefs.ttl.gz" .
-
 <http://rdf.ebi.ac.uk/dataset/vibrio_fischeri_es114/88> a dcmi:Dataset ;
     dct:creator <http://www.ensembl.org> ;
     dct:description "Description of ..."^^xsd:string ;
@@ -4223,11 +4157,11 @@ ensembl:burkholderia_pseudomallei_1710b a dcmi:Dataset ;
     dct:title "burkholderia_pseudomallei_1710b" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/burkholderia_pseudomallei_1710b/88> .
 
-ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819 a dcmi:Dataset ;
+ensembl:campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70 a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher ebi: ;
-    dct:title "campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819/88> .
+    dct:title "campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/campylobacter_jejuni_subsp_jejuni_nctc_11168_atcc_700819pasteurella_multocida_subsp_multocida_str_pm70/88> .
 
 ensembl:candidatus_korarchaeum_cryptofilum_opf8 a dcmi:Dataset ;
     dct:description "Empty for this" ;
@@ -4337,11 +4271,11 @@ ensembl:escherichia_coli_str_k_12_substr_mg1655 a dcmi:Dataset ;
     dct:title "escherichia_coli_str_k_12_substr_mg1655" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/escherichia_coli_str_k_12_substr_mg1655/88> .
 
-ensembl:flavobacterium_psychrophilum_jip02_88 a dcmi:Dataset ;
+ensembl:flavobacterium_psychrophilum_jip02_86 a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher ebi: ;
-    dct:title "flavobacterium_psychrophilum_jip02_88" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_88/88> .
+    dct:title "flavobacterium_psychrophilum_jip02_86" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/flavobacterium_psychrophilum_jip02_86/88> .
 
 ensembl:francisella_tularensis_subsp_tularensis_schu_s4 a dcmi:Dataset ;
     dct:description "Empty for this" ;
@@ -4349,11 +4283,11 @@ ensembl:francisella_tularensis_subsp_tularensis_schu_s4 a dcmi:Dataset ;
     dct:title "francisella_tularensis_subsp_tularensis_schu_s4" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/francisella_tularensis_subsp_tularensis_schu_s4/88> .
 
-ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25588 a dcmi:Dataset ;
+ensembl:fusobacterium_nucleatum_subsp_nucleatum_atcc_25586 a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher ebi: ;
-    dct:title "fusobacterium_nucleatum_subsp_nucleatum_atcc_25588" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25588/88> .
+    dct:title "fusobacterium_nucleatum_subsp_nucleatum_atcc_25586" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fusobacterium_nucleatum_subsp_nucleatum_atcc_25586/88> .
 
 ensembl:gardnerella_vaginalis_0288e a dcmi:Dataset ;
     dct:description "Empty for this" ;
@@ -4439,11 +4373,11 @@ ensembl:leptospira_interrogans_serovar_lai_str_56601 a dcmi:Dataset ;
     dct:title "leptospira_interrogans_serovar_lai_str_56601" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/leptospira_interrogans_serovar_lai_str_56601/88> .
 
-ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293 a dcmi:Dataset ;
+ensembl:leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961 a dcmi:Dataset ;
     dct:description "Empty for this" ;
     dct:publisher ebi: ;
-    dct:title "leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293/88> .
+    dct:title "leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/leuconostoc_mesenteroides_subsp_mesenteroides_atcc_8293vibrio_cholerae_o1_biovar_el_tor_str_n16961/88> .
 
 ensembl:listeria_monocytogenes_egd_e a dcmi:Dataset ;
     dct:description "Empty for this" ;
@@ -4594,12 +4528,6 @@ ensembl:paracoccus_denitrificans_pd1222 a dcmi:Dataset ;
     dct:publisher ebi: ;
     dct:title "paracoccus_denitrificans_pd1222" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/paracoccus_denitrificans_pd1222/88> .
-
-ensembl:pasteurella_multocida_subsp_multocida_str_pm70 a dcmi:Dataset ;
-    dct:description "Empty for this" ;
-    dct:publisher ebi: ;
-    dct:title "pasteurella_multocida_subsp_multocida_str_pm70" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pasteurella_multocida_subsp_multocida_str_pm70/88> .
 
 ensembl:porphyromonas_gingivalis_w83 a dcmi:Dataset ;
     dct:description "Empty for this" ;
@@ -4810,12 +4738,6 @@ ensembl:ureaplasma_parvum_serovar_3_str_atcc_700970 a dcmi:Dataset ;
     dct:publisher ebi: ;
     dct:title "ureaplasma_parvum_serovar_3_str_atcc_700970" ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ureaplasma_parvum_serovar_3_str_atcc_700970/88> .
-
-ensembl:vibrio_cholerae_o1_biovar_el_tor_str_n16961 a dcmi:Dataset ;
-    dct:description "Empty for this" ;
-    dct:publisher ebi: ;
-    dct:title "vibrio_cholerae_o1_biovar_el_tor_str_n16961" ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/vibrio_cholerae_o1_biovar_el_tor_str_n16961/88> .
 
 ensembl:vibrio_fischeri_es114 a dcmi:Dataset ;
     dct:description "Empty for this" ;
