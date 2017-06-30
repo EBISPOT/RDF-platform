@@ -587,17 +587,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/co_320.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/co_320" .
 
-<http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017> a dcmi:Dataset ;
     dct:creator "http://www.cropontology.org/ontology/CO_321/Wheat" ;
     dct:description "Wheat Trait Dictionary in template v5 - CIMMYT - Nov 2016"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017.rdf> ;
     dct:isVersionOf ols:co_321 ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://www.cropontology.org/ontology/CO_321/Wheat" ;
     dct:title "Wheat ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017" .
 
-<http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "co_321" ;
     dct:creator "http://www.cropontology.org/ontology/CO_321/Wheat" ;
@@ -606,7 +606,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.cropontology.org/ontology/CO_321/Wheat" ;
     dct:title "Wheat ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/co_321.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/co_321" .
 
@@ -1070,17 +1070,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddanat.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddanat" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29> a dcmi:Dataset ;
     dct:creator "http://dictybase.org/" ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29.rdf> ;
     dct:isVersionOf ols:ddpheno ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29" .
 
-<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "ddpheno" ;
     dct:creator "http://dictybase.org/" ;
@@ -1089,7 +1089,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ddpheno.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ddpheno" .
 
@@ -1691,17 +1691,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/flu.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/flu" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-06-28> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/fma/2017-06-29> a dcmi:Dataset ;
     dct:creator "http://si.washington.edu/projects/fma" ;
     dct:description "This is currently a slimmed down version of FMA"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-06-28.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/fma/2017-06-29.rdf> ;
     dct:isVersionOf ols:fma ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-06-28" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-06-29" .
 
-<http://rdf.ebi.ac.uk/dataset/fma/2017-06-28.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/fma/2017-06-29.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "fma" ;
     dct:creator "http://si.washington.edu/projects/fma" ;
@@ -1710,7 +1710,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-06-28" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/fma/2017-06-29" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/fma.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/fma" .
 
@@ -3125,22 +3125,22 @@ ols:ols a dcmi:Dataset ;
         ols:zfs ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-6-29> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2017-6-30> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-6-29> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2017-6-30> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
     dct:description "OLS description on version level"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-6-29.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2017-6-30.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2017-01-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2017-6-29"^^xsd:string ;
-    pav:version "2017-6-29" .
+    dct:title "Ontology Lookup Service - 2017-6-30"^^xsd:string ;
+    pav:version "2017-6-30" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2017-6-29.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2017-6-30.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "This is just a test to create a OLS VoID File"^^xsd:string ;
@@ -4663,7 +4663,7 @@ ols:co_321 a dcmi:Dataset ;
     dct:description "Wheat Trait Dictionary in template v5 - CIMMYT - Nov 2016"^^xsd:string ;
     dct:publisher "http://www.cropontology.org/ontology/CO_321/Wheat" ;
     dct:title "Wheat ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/co_321/22-06-2017> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/co_321/30-06-2017> .
 
 ols:co_322 a dcmi:Dataset ;
     dct:description "Maize Trait Dictionary in template 5 - CIMMYT- September 2016"^^xsd:string ;
@@ -4789,7 +4789,7 @@ ols:ddpheno a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>."^^xsd:string ;
     dct:publisher "http://dictybase.org/" ;
     dct:title "Dictyostelium discoideum phenotype"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-28> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ddpheno/2017-06-29> .
 
 ols:dideo a dcmi:Dataset ;
     dct:description "The Potential Drug-drug Interaction and Potential Drug-drug Interaction Evidence Ontology"^^xsd:string ;
@@ -4951,7 +4951,7 @@ ols:fma a dcmi:Dataset ;
     dct:description "This is currently a slimmed down version of FMA"^^xsd:string ;
     dct:publisher "http://si.washington.edu/projects/fma" ;
     dct:title "Foundational Model of Anatomy (subset)"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-06-28> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/fma/2017-06-29> .
 
 ols:foodon a dcmi:Dataset ;
     dct:description "A broadly scoped ontology representing entities which bear a “food role”.  It encompasses materials in natural ecosystems and food webs as well as human-centric categorization and handling of food."^^xsd:string ;
