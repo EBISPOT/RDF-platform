@@ -58,7 +58,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><a title='Jump to the RDF documentation of "+name+"' class='hideLink' href='../RDF-platform/documentation/"+name"'"><img src='https://"+pathArray[2]+"/rdf/static/logos/"+content[name]["logo"]+"'/></a></td>"
+      tablecontent="<tr><td style='width: 150px;'><a title='Jump to the RDF documentation of "+name+"' class='hideLink' href='../RDF-platform/documentation/"+name+"'><img src='https://"+pathArray[2]+"/rdf/static/logos/"+content[name]["logo"]+"'/></a></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
