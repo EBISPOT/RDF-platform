@@ -58,7 +58,7 @@ $.ajax ( {
     },
     success: function (json) {
 
-      tablecontent="<tr><td style='width: 150px;'><a title='Jump to the RDF documentation of "+name+"' class='hideLink' href='../RDF-platform/documentation/"+name+".html'><img src='https://"+pathArray[2]+"/rdf/static/logos/"+content[name]["logo"]+"'/></a></td>"
+      tablecontent="<tr><td style='width: 150px;'><a title='Jump to the RDF documentation of "+name+"' class='hideLink' href='../RDF-platform/documentation/"+name"'"><img src='https://"+pathArray[2]+"/rdf/static/logos/"+content[name]["logo"]+"'/></a></td>"
       if (json['results']['bindings'][0] === undefined) {
         tablecontent+="<td>-</td>"
       }
@@ -66,7 +66,7 @@ $.ajax ( {
         tablecontent+="<td style='width: 100px;'>"+json['results']['bindings'][0]['version']['value']+"</td>"
       }
 
-      tablecontent+="<td><a title='Dataset description of "+name+"' href='http://wwwdev.ebi.ac.uk/rdf/services/describe?uri="+uri+"'>VoID file</a></td><td><a title='Download "+name+" data via bulk download' href='#BulkDownloads'>Download</a></td>"
+      tablecontent+="<td><a title='Dataset description of "+name+"' href='https://"+pathArray[2]+"/rdf/services/describe?uri="+uri+"'>VoID file</a></td><td><a title='Download "+name+" data via bulk download' href='#BulkDownloads'>Download</a></td>"
       //tablecontent+="<td><a href='"+content[name]['exampleQuery']+"'>"+content[name]['exampleText']+"</a></td>"
       tablecontent+="<td><a href='https://"+pathArray[2]+"/rdf/services/sparql?"+content[name]['exampleQuery']+"'>"+content[name]['exampleText']+"</a></td>"
 
