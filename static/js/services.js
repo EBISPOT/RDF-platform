@@ -79,7 +79,7 @@ $.ajax ( {
 //This function build dynamically a sparql query showing the datadum links for each resource in context
 function buildFTPLinks(namedGraph){
   namedGraphURI="http://rdf.ebi.ac.uk/dataset/"+namedGraph+"_void.ttl"
-  var query="SELECT ?ftplink \nfrom <"+namedGraphURI+"> \nWHERE{ ?a <http://rdfs.org/ns/void#dataDump> ?ftplink}"
+  var query="SELECT ?ftplink \nfrom <"+namedGraphURI+"> \nWHERE{ ?a <http://rdfs.org/ns/void#dataDump> ?ftplink #noLog}"
 
   if (content[namedGraph]['ftplink'] === undefined) {
   query="https://"+pathArray[2]+"/rdf/services/sparql?query="+encodeURIComponent(query)
