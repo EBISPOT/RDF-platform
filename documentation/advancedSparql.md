@@ -3,7 +3,8 @@ layout: default
 title: advancedSparql
 ---
 ## Example SPARQL queries
-For every Datasource there are example SPARQL Queries available, see our SPARQL Endpoint for more information.
+For every datasource, there are multiple example SPARQL Queries available at our [SPARQL Endpoint](/rdf/services/sparql). Find the 'Example Queries' box on the right and expand the datasource you are interested in.
+
 
 <!---
 This page should demonstrate some more advanced SPARQL queries including an explanation how they work - this should demonstrate in general what kind of questions the RDF platform can help you to answer.  

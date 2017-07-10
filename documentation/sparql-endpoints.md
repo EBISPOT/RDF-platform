@@ -25,7 +25,7 @@ A list of all named graphs in the database can be viewed at our SPARQL endpoint.
 So for example the void file information for &#60;http://rdf.ebi.ac.uk/dataset/homo_sapiens> can be found
 > &#60;http://rdf.ebi.ac.uk/dataset/homo_sapiens_void.ttl>
 
-You can find out more about the metadata stored in these VoID files and how we use it on our [provenance page](/RDF-platform/documentation/provenance).
+You can find out more about the metadata stored in these VoID files and how we use it on our [provenance page](/rdf/documentation/provenance).
 
 
 #### Basic Queries
