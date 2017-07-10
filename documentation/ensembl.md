@@ -13,7 +13,7 @@ If you wish to download the RDF and use it directly, you will need to also downl
 Without the supporting ontologies, certain types of query will not work, such as generalised external reference queries in our set of examples.
 
 
-![ensembl_schema](../static/ensembl/ensembl_schema-1180x980.png)
+![ensembl_schema](../../static/ensembl/ensembl_schema-1180x980.png)
 
 ### Section by section
 
@@ -21,13 +21,13 @@ All features possess a *dc:identifer* link to the Ensembl stable identifier. *rd
 
 Homology is described via orthology and paralogy.
 
-![ensembl_gene_model](../static/ensembl/ensembl_gene_model-760x539.png)
+![ensembl_gene_model](../../static/ensembl/ensembl_gene_model-760x539.png)
 
 #### External References
 Ensembl regularly recomputes the equivalence of entities described by many bioinformatics resources. Different measures of identity are used, including positional similarity, alignment scores, band-wagon identifiers known as dependent references from a trusted source, as well as manual assertions of identity. As a result there are many kinds of identity expressed in these references, so all predicates are subproperties of *skos:related*.
 
 
-![ensembl_xref](../static/ensembl/ensembl_xref_section-396x467.png)
+![ensembl_xref](../../static/ensembl/ensembl_xref_section-396x467.png)
 
 #### Genomic Locations
 All features have a position specified by the FALDO vocabulary via the *faldo:location* predicate. Start positions respect the strand upon which a feature is found, differing from the Ensembl APIs. The FALDO positions reference a region which in almost all cases will be a chromosome given a URI of the form
@@ -36,4 +36,4 @@ All features have a position specified by the FALDO vocabulary via the *faldo:lo
 The position string is a familiar combination of region name (e.g. chromsome), start, end and strand. The species name is what we call a production name and is unique for each species, but typically looks like a binomial latin name, e.g.
 > &#60;http://rdf.ebi.ac.uk/resource/ensembl/homo_sapiens/GRCh38/10>
 
-![ensembl_xref](../static/ensembl/ensembl_faldo_section-628x442.png)
+![ensembl_xref](../../static/ensembl/ensembl_faldo_section-628x442.png)

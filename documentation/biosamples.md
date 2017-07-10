@@ -10,7 +10,7 @@ Beyond ontologies used for the core entities, there is a number of biomedical on
 
 ## Schema, Core elements
 * Follow this link for the Biosamples sample schema: [biosamples_schema](../../static/biosamples/biosd_samples.png)
-* Follow this link for the Biosamples attributes schema: [biosamples_schema](../../biosamples/biosd_attributes.png)
+* Follow this link for the Biosamples attributes schema: [biosamples_schema](../../static/biosamples/biosd_attributes.png)
 
 #### Relevant Ontologies
 
