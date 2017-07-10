@@ -10,16 +10,18 @@ order: 1
 <!--	<p>Explore the data via our <strong><a href="{{site.domain}}{{site.baseurl}}/services/sparql">SPARQL Endpoint</a></strong>.</p> -->
 <p>Explore the data via our new <strong><a href="{{site.baseurl}}/services/sparql">SPARQL Endpoint</a></strong>.</p>
 	<br>
-	Note: We encourage users to try the new, unified SPARQL endpoint. The 'old' SPARQL endpoints are going to be available for two more weeks! 
-	List of old endpoints: 
+	<div style='background-color: lightgrey;'>
+	Note: The 'old' SPARQL endpoints are going to be available for two more weeks! 
+	<br>List of old endpoints: 
 	<ul>
 	<li>http://www.ebi.ac.uk/rdf/services/reactome/sparql</li> 
 	<li>http://www.ebi.ac.uk/rdf/services/ensembl/sparql</li> 
 	<li>http://www.ebi.ac.uk/rdf/services/chembl/sparql</li>
 	<li>http://www.ebi.ac.uk/rdf/services/biosamples/sparql</li> 
 	<li>http://www.ebi.ac.uk/rdf/services/biomodels/sparql</li>
+	<li>http://www.ebi.ac.uk/rdf/services/atlas/sparql</li>
 	</ul>
-	<br>
+	</div>
 	<h4>EBI-RDF News</h4>
 	<ul>
 	  {% for post in site.posts %}
