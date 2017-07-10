@@ -14,15 +14,15 @@ order: 1
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
-	      <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a>
+	      <strong><a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></strong>
 	      {{ post.excerpt }}
 	    </li>
 	  {% endfor %}
 	</ul>
 	<br>
 	<div style='background-color: #f1ebe6; border: 2px solid red;margin-left: 20px;margin-bottom: 20px;margin-right: 20px;padding-left: 20px;'>
-	<strong>Note:</strong> We encourage users to test the new unified SPARQL endpoint. The <strong>'old'</strong> SPARQL endpoints listed below are going to be available for <strong>two more weeks</strong>! 
-	<ul>
+	<strong>Note:</strong> We encourage users to test the <a href="{{site.baseurl}}/services/sparql">new unified SPARQL endpoint</a>. The <strong>previous</strong> SPARQL endpoints listed below are going to be available until <strong>24th July 2017</strong>! 
+	<ul style="margin-top:5px;">
 	<li><a href="http://www.ebi.ac.uk/rdf/services/reactome/sparql">http://www.ebi.ac.uk/rdf/services/reactome/sparql</a></li> 
 	<li><a href="http://www.ebi.ac.uk/rdf/services/ensembl/sparql">http://www.ebi.ac.uk/rdf/services/ensembl/sparql</a></li> 
 	<li><a href="http://www.ebi.ac.uk/rdf/services/chembl/sparql">http://www.ebi.ac.uk/rdf/services/chembl/sparql</a></li>
