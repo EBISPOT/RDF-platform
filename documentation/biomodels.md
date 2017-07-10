@@ -17,43 +17,43 @@ Namespace prefixes:
 
 
 ### Top level class structure
-![toplevelclassstructure](../static/biomodels/topLevelClassStructure-424x557.jpeg)
+![toplevelclassstructure](../../static/biomodels/topLevelClassStructure-424x557.jpeg)
 
 ### Top level property structure
-![toplevelproperty](../static/biomodels/topLevelPropertyStructure-851x648.jpeg)
+![toplevelproperty](../../static/biomodels/topLevelPropertyStructure-851x648.jpeg)
 
 ### Common properties
-![commonProperties](../static/biomodels/commonProperties.jpeg)
+![commonProperties](../../static/biomodels/commonProperties.jpeg)
 
 ### SBMLModel
-![SBMLmodel](../static/biomodels/sbmlModelProperties.jpeg)
+![SBMLmodel](../../static/biomodels/sbmlModelProperties.jpeg)
 
 ### FunctionDef
-![FunctionDef](../static/biomodels/functionDefProperties.jpeg)
+![FunctionDef](../../static/biomodels/functionDefProperties.jpeg)
 
 ### UnitsDef
-![UnitDef](../static/biomodels/unitsDefProperties.jpeg)
+![UnitDef](../../static/biomodels/unitsDefProperties.jpeg)
 
 ### Compartment
-![Compartment](../static/biomodels/compartmentProperties.jpeg)
+![Compartment](../../static/biomodels/compartmentProperties.jpeg)
 
 ### Species
-![Species](../static/biomodels/speciesProperties.jpeg)
+![Species](../../static/biomodels/speciesProperties.jpeg)
 
 ### Parameter
-![Parameter](../static/biomodels/parameterProperties.jpeg)
+![Parameter](../../static/biomodels/parameterProperties.jpeg)
 
 ### Initial Assignment
-![initialAssignment](../static/biomodels/initAssignProperties.jpeg)
+![initialAssignment](../../static/biomodels/initAssignProperties.jpeg)
 
 ### Rule
-![Rule](../static/biomodels/ruleProperties.jpeg)
+![Rule](../../static/biomodels/ruleProperties.jpeg)
 
 ### Constraint
-![Constraint](../static/biomodels/constraintProperties.jpeg)
+![Constraint](../../static/biomodels/constraintProperties.jpeg)
 
 ### Reaction
-![Reaction](../static/biomodels/reaction.jpeg)
+![Reaction](../../static/biomodels/reaction.jpeg)
 
 ### Event
-![Event](../static/biomodels/eventProperties.jpeg)
+![Event](../../static/biomodels/eventProperties.jpeg)
