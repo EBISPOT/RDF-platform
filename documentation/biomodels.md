@@ -56,4 +56,4 @@ Namespace prefixes:
 ![Reaction](../static/biomodels/reaction.jpeg)
 
 ### Event
-![Event](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/biomodels/eventProperties.jpeg?raw=true)
+![Event](../static/biomodels/eventProperties.jpeg)

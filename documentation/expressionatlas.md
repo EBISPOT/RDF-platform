@@ -27,11 +27,11 @@ The atlas RDF contains both baseline expression and differential gene expression
 
 ### Baseline schema
 
-![](https://github.com/EBISPOT/RDF-platform/raw/gh-pages/static/atlas/Baseline%20Atlas%20RDF%20Schema.png)
+![](../static/atlas/Baseline_Atlas_RDF_Schema.png)
 
 ### Differential schema
 
-![](https://github.com/EBISPOT/RDF-platform/raw/gh-pages/static/atlas/Microarray%20Atlas%20RDF%20Schema.png)
+![](../static/atlas/Microarray_Atlas_RDF_Schema.png)
 
 ### Example queries
 

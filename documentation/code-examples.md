@@ -12,17 +12,17 @@ Luckily you don't have to worry about the low level details of connecting and pa
 
 #### Perl APIs
 
-[Perl SPARQL client](https://github.com/swh/Perl-SPARQL-client-library) (see example [here](/static/pearl_example.txt))
+[Perl SPARQL client](https://github.com/swh/Perl-SPARQL-client-library) (see example [here](../static/pearl_example.txt))
 
 #### Java APIs
 
-[Jena](http://jena.apache.org/) (see example [here](/static/jena_example.txt))
+[Jena](http://jena.apache.org/) (see example [here](../static/jena_example.txt))
 
 #### R packages
-[R SPARQL package](https://cran.r-project.org/web/packages/SPARQL/) (see example [here](/static/r_example.txt))
+[R SPARQL package](https://cran.r-project.org/web/packages/SPARQL/) (see example [here](../static/r_example.txt))
 
 #### Generic HTTP requests
-Via HTTP requests it is relativly easy to access the SPARQL endpoint in many other programming languages (e.g. javascript). Below we describe such HTTP requests, more information is available on the documentation page about [content negation](/RDF-platform/documentation/contentNegation).
+Via HTTP requests it is relativly easy to access the SPARQL endpoint in many other programming languages (e.g. javascript). Below we describe such HTTP requests, more information is available on the documentation page about [content negation](../documentation/contentNegation).
 
 ##### Example: Select Query
 >www.ebi.ac.uk/rdf/services/sparql?query=**queryString**&render=**renderOption**&limit=**limit**&offset=**offset**

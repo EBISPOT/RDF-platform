@@ -10,4 +10,4 @@ Reactome Linked Dataset is a modified version of the Reactome/BioPAX available v
 
 BioPAX specification details the underlying schema. The diagram below shows a very simple schematic to get you started with your queries.
 
-![reactome_overview](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/reactome/reactome_simplified.png?raw=true)
+![reactome_overview](../static/reactome/reactome_simplified.png)

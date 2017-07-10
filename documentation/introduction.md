@@ -23,16 +23,16 @@ In bioinformatics, the process of data integration is a large component of resea
 
 The RDF data model is based around the central idea of representing all information as a collection of statements, each of which has three components: a subject, a predicate (relationship), and an object. These statements are called triples.
 
-![Diagram of an RDF statement](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/introduction/example1.png?raw=true)
+![Diagram of an RDF statement](../static/introduction/example1.png)
 
 
 The subject can be any concept to which some sort of property or annotation can be attached. They do not have to be real-world things. For example, "London" is a concept representing a real-world place, and "summer" is an abstract concept. The object in a triple can also be a concept, or alternatively it may be a simple data type such as a number or piece of text. The predicate is the relationship between the subject and the object, for example "colour". A common predicate is "type", which provides a useful way to classify concepts so that they can be referred to as a group.
 
-![Diagram of an RDF statement example2](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/introduction/example2.png?raw=true)
+![Diagram of an RDF statement example2](../static/introduction/example2.png)
 
 Each of the three components of a triple can itself be used in other triples. When a collection of triples are linked together in this way they form a directed graph.
 
-![Diagram showing a more complex example of an RDF graph](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/introduction/example3.png?raw=true)
+![Diagram showing a more complex example of an RDF graph](../static/introduction/example3.png)
 
 By representing data as RDF, the relationships between components and properties are made explicit. The schema or data model does not need to be defined separately - it is inherent in the data themselves. This makes it possible for a computer to "understand" the data without needing to be taught the meanings of every field. A benefit of organising the data in a semantic manner such as this is that it becomes possible to answer a wide variety of questions about the data without needing to format the data to match beforehand. For example, from the above diagram you may be able to see that, by following the links within the data, it should be possible to answer questions like "what are the names of all animals with four legs?" and more besides.
 
@@ -40,7 +40,7 @@ By representing data as RDF, the relationships between components and properties
 
 In order for RDF data to link together properly, it is necessary for every concept - everything that can be referred to in some way - to use a unique identifier. It is also important to use the same identifiers to refer to the same concepts. In RDF, this is accomplished by using Uniform Resource Identifiers (URIs).
 
-![Diagram showing the use of URIs in RDF data](https://github.com/EBISPOT/RDF-platform/blob/gh-pages/static/introduction/example4.png?raw=true)
+![Diagram showing the use of URIs in RDF data](../static/introduction/example4.png)
 
 When it comes to communicating and storing (serialising) RDF data, there are several standard formats. Despite there being more than one format, they are inherently interchangeable because all of the differences between datasets are in the data themselves, and not the file format. One example of a format is N-Triples, which uses a simple 3-column representation:
 

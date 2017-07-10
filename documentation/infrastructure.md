@@ -15,7 +15,7 @@ The SPARQL endpoint comprises two separate software components - the LodeStar we
 
 The LodeStar application is a Java and Javascript web application designed to serve two functions:
 
-* A SPARQL endpoint proxy for the backend triple store. This abstraction layer provides some control over the executed SPARQL queries, allong with a graphical frontend.
+* A SPARQL endpoint proxy for the backend triple store. This abstraction layer provides some control over the executed SPARQL queries, along with a graphical frontend.
 * A graphical user interface on top of generic RDF data, providing a human-readable HTML-based representation of an RDF resource. The data presented for a resource are essentially the product of a SPARQL DESCRIBE query.
 
 The triple store is currently using an in-memory Virtuoso implementation, backed by a hybrid flash-disk storage array.
