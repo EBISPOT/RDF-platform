@@ -3,7 +3,7 @@ layout: post
 title: "New RDF platform released!"
 date: 2017-07-10
 ---
-EBI's RDF platform gets a major update! This is the beta release, which will soon replace the old platform. Read on for more information!
+EBI's RDF platform gets a major update! Read on for more information on the new infrastructure, update process and future plans!
 
 * **New infrastructure:** The new platform has one SPARQL Endpoint that unifies all the data (except for UniProt, which remains in the SPARQL endpoint maintained by SIB). All SPARQL requests must now go to ***/services/sparql***, and queries to the previous *services/&#60;datasource>/sparql* will get redirected in the future, after a transition phase. Having all the data together will make exploring connections between resources possible without query federation. Each dataset is loaded into a [separate named graph](/rdf/documentation/sparql-endpoints), so be sure to only query the subset you need to get the best performance.  
 
