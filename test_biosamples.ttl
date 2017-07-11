@@ -31,6 +31,7 @@
   dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
   idot:preferredPrefix "biosamples" ;
+<http://purl.org/dc/terms/format> "ttl/rdf";
   dcterms:title "Test Distribution level of biosamples" .
 
 
