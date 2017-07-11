@@ -19,7 +19,7 @@
     dcterms:title "Reactome Version" ;
     dct:publisher  <http://wwww.ebi.ac.uk/>  ;
   pav:version "0.1.0" ;
-    dct:creator "<http://wwww.ebi.ac.uk/spot>" ;
+    dct:creator <http://wwww.ebi.ac.uk/spot> ;
     dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/rdf_biosamples_test/Version01.rdf>.
 
 
