@@ -9,26 +9,26 @@
 
 <http://rdf.ebi.ac.uk/dataset/biosamples> a  dctypes:Dataset;
   dcterms:title "Biosamples"^^rdf:langString ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/v20170621>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016>;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry"^^rdf:langString .
 
 
-<http://rdf.ebi.ac.uk/dataset/biosamples/v20170621> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/biosamples/Version2016> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/biosamples>;
-  	dcterms:description "The Description of the Version level of Biosamples"^^rdf:langString;
-    dcterms:title "Biosamples v20170621"^^rdf:langString;
+  	dcterms:description "The version level of Biosamples"^^rdf:langString;
+    dcterms:title "Biosamples 2016"^^rdf:langString;
      dct:publisher <http://wwww.ebi.ac.uk/> ;
-  pav:version "v20170621" ;
-     dct:creator <http://wwww.ebi.ac.uk/spot>;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/v20170621.rdf>.
+  pav:version "2016" ;
+     dct:creator <http://wwww.ebi.ac.uk/about/spot>;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/biosamples/v20170621.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/biosamples/Version2016.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20170621_v2.tar.bz2> ;
-   dct:creator <http://wwww.ebi.ac.uk/spot>;
-	dcterms:description "The Distribution Level of biosamples"^^rdf:langString;
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20160912.tar.bz2" ;
+   dct:creator <http://wwww.ebi.ac.uk/about/spot>;
+	dcterms:description "The distribution level of biosamples"^^rdf:langString;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
   dct:format "text/turtle" ;
