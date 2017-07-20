@@ -11,13 +11,13 @@
   dcterms:title "Reactome"^^rdf:langString  ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reactome/Version61>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "The Description of this dataSet"^^rdf:langString  .
+	dcterms:description "Reactome is an open-source, open-access, manually curated and peer-reviewed pathway database."^^rdf:langString  .
 
 
 <http://rdf.ebi.ac.uk/dataset/reactome/Version61> a  dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/reactome>;
-  	dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
-    dcterms:title "Reactome Version"^^rdf:langString  ;
+  	dcterms:description "Version 61 of Reactome"^^rdf:langString ;
+    dcterms:title "Reactome Version 61"^^rdf:langString  ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     pav:version "61" ;
     dct:creator <http://wwww.ebi.ac.uk/> ;
@@ -28,9 +28,9 @@
   dcat:Distribution ;
   void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r61/reactome-biopax.tar.bz2> ;
   dct:creator <http://wwww.ebi.ac.uk/> ;
-  dcterms:description "The Description of the Version level of Reactome"^^rdf:langString ;
+  dcterms:description "The Description of the Version level of Reactome Version 61"^^rdf:langString ;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use>;
   idot:preferredPrefix "reactome" ;
   dct:format "text/turtle" ;
-  dcterms:title "Test Distribution level of reactome"^^rdf:langString  .
+  dcterms:title "Distribution level Reactome 61"^^rdf:langString  .
