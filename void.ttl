@@ -8,7 +8,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://rdf.ebi.ac.uk/dataset/biosamples> a  dctypes:Dataset;
-  dcterms:title "RDF for EBI Biosamples database"^^rdf:langString ;
+  dcterms:title "Biosamples RDF"^^rdf:langString ;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016>;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry"^^rdf:langString .
@@ -17,7 +17,7 @@
 <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/biosamples>;
   	dcterms:description "Biosamples Version September, 2016"^^rdf:langString;
-    dcterms:title "Biosamples 2016"^^rdf:langString;
+    dcterms:title "Biosamples RDF Version 2016"^^rdf:langString;
      dct:publisher <http://wwww.ebi.ac.uk/> ;
   pav:version "2016" ;
      dct:creator <http://wwww.ebi.ac.uk/about/spot>;
@@ -32,4 +32,4 @@
    dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
   dct:format "text/turtle" ;
-  dcterms:title "Distribution level of biosamples database"^^rdf:langString.
+  dcterms:title "Distribution level of EBI Biosamples Database"^^rdf:langString.
