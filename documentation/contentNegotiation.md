@@ -19,26 +19,22 @@ To explain by example, you can do any of the following using the Linux curl comm
 > curl -L -H "Accept: text/html" http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
 
 The above example redirects to the Linked Data browser, which returns an HTML document describing an experiment in the Gene Expression Atlas.
->curl -L -H "Accept: application/rdf+xml" \
->http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
+>curl -L -H "Accept: application/rdf+xml" http://rdf.ebi.ac.uk/resource/atlas/E-GEOD-14539
 
 The above example redirects to an RDF document describing the experiment.
 
->curl -L -H "Accept: application/rdf+xml" \
->http://rdf.ebi.ac.uk/dataset/atlas/13.07
+>curl -L -H "Accept: application/rdf+xml" http://rdf.ebi.ac.uk/dataset/atlas/13.07
 
 The above example redirects to an RDF document containing dataset provenance and statistics.
 
 #### Content Negotiation on purl.uniprot.org
 You can do content negotiation in the same way:
 
->curl -L -H "Accept: text/html" \
->http://purl.uniprot.org/uniprot/P15056
+>curl -L -H "Accept: text/html" http://purl.uniprot.org/uniprot/P15056
 
 The above example redirects to an HTML document.
 
->curl -L -H "Accept: application/rdf+xml" \
->http://purl.uniprot.org/uniprot/P15056
+>curl -L -H "Accept: application/rdf+xml" http://purl.uniprot.org/uniprot/P15056
 
 The above example redirects to an RDF/XML document.
 
