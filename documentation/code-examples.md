@@ -25,14 +25,14 @@ Luckily you don't have to worry about the low level details of connecting and pa
 Via HTTP requests it is relativly easy to access the SPARQL endpoint in many other programming languages (e.g. javascript). Below we describe such HTTP requests, more information is available on the documentation page about [content negotiation](/rdf/documentation/contentNegotiation).
 
 ##### Example: Select Query
->www.ebi.ac.uk/rdf/services/sparql?query=**queryString**&render=**renderOption**&limit=**limit**&offset=**offset**
+>www.ebi.ac.uk/rdf/services/sparql?query=**queryString**&format=**renderOption**&limit=**limit**&offset=**offset**
 
 * queryString: Your SPARQL query. Please note that the query string has to be encoded!
 * renderOption: Specifies the format of the reply. The Options are: HTML, JSON, CSV, XML, TSV, RDF/JSON, RDF/N3, RDF/XML
-* limit: Number of returned results.
+* limit: Number of returned results
 * offset: Via the offset you can page through SPARQL results. It is defined as number that 'control where the solutions start from in the overall sequence of solutions'
 
 ##### Example: Describe Query
 >http://wwwdev.ebi.ac.uk/rdf/services/describe?uri=**uri**
 
-* uri: encoded uri of the entitiy you want to inspect
+* uri: encoded uri of the entity you want to inspect
