@@ -33,6 +33,6 @@ Via HTTP requests it is relativly easy to access the SPARQL endpoint in many oth
 * offset: Via the offset you can page through SPARQL results. It is defined as number that 'control where the solutions start from in the overall sequence of solutions'
 
 ##### Example: Describe Query
->http://wwwdev.ebi.ac.uk/rdf/services/describe?uri=**uri**
+>http://www.ebi.ac.uk/rdf/services/describe?uri=**uri**
 
 * uri: encoded uri of the entity you want to inspect
