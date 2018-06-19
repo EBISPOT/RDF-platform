@@ -12,7 +12,7 @@
  dcterms:title "Biomodels"^^rdf:langString;
   pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biomodels/Version31>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "BioModels Database is a repository of computational models of biological processes. Models described from literature are manually curated and enriched with cross-references"^^rdf:langString .
+	dcterms:description "BioModels Database is a repository of computational models of biological processes. Models described from literature are manually curated and enriched with cross-references."^^rdf:langString .
 
 
 <http://rdf.ebi.ac.uk/dataset/biomodels/Version31> a dctypes:Dataset;
