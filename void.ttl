@@ -10,37 +10,37 @@
 
 
 <http://rdf.ebi.ac.uk/dataset/gwas> a  dctypes:Dataset;
-  dcterms:title "GWAS"^^rdf:langString;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gwas/Version01>;
+  dcterms:title "GWAS Catalog"^^rdf:langString;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
-	dcterms:description "The Description of this dataSet"^^rdf:langString .
+  dcterms:description "The NHGRI-EBI Catalog of published genome-wide association studies"^^rdf:langString .
 
 
-<http://rdf.ebi.ac.uk/dataset/gwas/Version01> a dctypes:Dataset;
+<http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24> a dctypes:Dataset;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/gwas>;
-  dcterms:description "The Description of the Version level of GWAS"^^rdf:langString;
-    dcterms:title "GWAS Version"^^rdf:langString ;
+  dcterms:description "The NHGRI-EBI Catalog of published genome-wide association studies version 2019-08-24"^^rdf:langString;
+    dcterms:title "GWAS Catalog"^^rdf:langString ;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
-  pav:version "0.1.0" ;
-    dct:creator <http://wwww.ebi.ac.uk/XXX> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gwas/Version01.rdf>.
+  pav:version " (2019-08-24)" ;
+    dct:creator <http://wwww.ebi.ac.uk/gwas> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/gwas/Version01.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24.rdf> a void:Dataset ,
   dcat:Distribution ;
-  dct:creator <http://wwww.ebi.ac.uk/XXX> ;
-  dcterms:description "The Distribution Level of GWAS void"^^rdf:langString;
+  dct:creator <http://wwww.ebi.ac.uk/gwas> ;
+  dcterms:description "The NHGRI-EBI Catalog of published genome-wide association studies version in RDF"^^rdf:langString;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
    dct:format "text/turtle" ;
-  dcterms:title "Test - Distribution of GWAS"^^rdf:langString;
- void:subset <http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data>,
-	<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema>.
+  dcterms:title "GWAS catalog RDF"^^rdf:langString;
+ void:subset <http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24/gwas_data>,
+	<http://rdf.ebi.ac.uk/dataset/gwas/v1/gwas_schema>.
 
 
-<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_data> a void:DataSet;
-    dcterms:title "Empty"^^rdf:langString ;
-    dcterms:description "The Description of the Version level of GWAS"^^rdf:langString;
+<http://rdf.ebi.ac.uk/dataset/gwas/2019-08-24/gwas_data> a void:DataSet;
+    dcterms:title "NHGRI-EBI GWAS catalog"^^rdf:langString ;
+    dcterms:description "The NHGRI-EBI Catalog of published genome-wide association studies version in RDF"^^rdf:langString;
     dct:creator <http://wwww.ebi.ac.uk/XXX> ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
@@ -48,10 +48,10 @@
 
 
 
-<http://rdf.ebi.ac.uk/dataset/gwas/Version01/gwas_schema> a void:Dataset;
-    dcterms:title "Schema"^^rdf:langString ;
-    dcterms:description "Empty"^^rdf:langString;
-    dct:creator <http://wwww.ebi.ac.uk/XXX> ;
+<http://rdf.ebi.ac.uk/dataset/gwas/v1/gwas_schema> a void:Dataset;
+    dcterms:title "GWAS RDF Schema"^^rdf:langString ;
+    dcterms:description "The RDF schema for the NHGRI-EBI Catalog of published genome-wide association studies"^^rdf:langString;
+    dct:creator <http://wwww.ebi.ac.uk/gwas> ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
     dct:license <http://www.ebi.ac.uk/about/terms-of-use> ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-diagram.owl" .
