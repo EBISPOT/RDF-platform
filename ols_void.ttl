@@ -403,17 +403,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ceph.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ceph" .
 
-<http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019> a dcmi:Dataset ;
     dct:creator "http://www.ebi.ac.uk/chebi" ;
     dct:description "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019.rdf> ;
     dct:isVersionOf ols:chebi ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019" .
 
-<http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "chebi" ;
     dct:creator "http://www.ebi.ac.uk/chebi" ;
@@ -422,7 +422,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chebi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chebi" .
 
@@ -1185,17 +1185,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/co_357.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/co_357" .
 
-<http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019> a dcmi:Dataset ;
     dct:creator "http://www.cropontology.org/ontology/CO_358/Cotton" ;
     dct:description "Cotton ontology from CottonGen database - June 2019"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019.rdf> ;
     dct:isVersionOf ols:co_358 ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "http://www.cropontology.org/ontology/CO_358/Cotton" ;
     dct:title "Cotton ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019" .
 
-<http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "co_358" ;
     dct:creator "http://www.cropontology.org/ontology/CO_358/Cotton" ;
@@ -1204,7 +1204,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.cropontology.org/ontology/CO_358/Cotton" ;
     dct:title "Cotton ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/co_358.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/co_358" .
 
@@ -3856,22 +3856,22 @@ ols:ols a dcmi:Dataset ;
         ols:zp ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2019-12-1> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2019-12-4> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2019-12-1> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2019-12-4> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
-    dct:description "The Ontology Lookup Service (OLS) - Version 2019-12-1"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2019-12-1.rdf> ;
+    dct:description "The Ontology Lookup Service (OLS) - Version 2019-12-4"^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2019-12-4.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2019-12-1"^^xsd:string ;
-    pav:version "2019-12-1" .
+    dct:title "Ontology Lookup Service - 2019-12-4"^^xsd:string ;
+    pav:version "2019-12-4" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2019-12-1.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2019-12-4.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "OLS RDF includes all ontologies that are present in OLS. If you are interested in only one specific ontology, you don't have to download all of OLS but can look for that specific ontology. See 'hasPart' relationship of the OLS void file."^^xsd:string ;
@@ -4136,26 +4136,26 @@ ols:ols a dcmi:Dataset ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ovae.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ovae" .
 
-<http://rdf.ebi.ac.uk/dataset/pato/2019-11-05> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/pato/2019-12-03> a dcmi:Dataset ;
     dct:creator "https://github.com/pato-ontology/pato/" ;
-    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pato/2019-11-05.rdf> ;
+    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)."^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/pato/2019-12-03.rdf> ;
     dct:isVersionOf ols:pato ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "https://github.com/pato-ontology/pato/" ;
-    dct:title "Phenotype And Trait Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pato/2019-11-05" .
+    dct:title "PATO - the Phenotype And Trait Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/pato/2019-12-03" .
 
-<http://rdf.ebi.ac.uk/dataset/pato/2019-11-05.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/pato/2019-12-03.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "pato" ;
     dct:creator "https://github.com/pato-ontology/pato/" ;
-    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)"^^xsd:string ;
+    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)."^^xsd:string ;
     dct:format "owl" ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/pato-ontology/pato/" ;
-    dct:title "Phenotype And Trait Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/pato/2019-11-05" ;
+    dct:title "PATO - the Phenotype And Trait Ontology"^^xsd:string ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/pato/2019-12-03" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/pato.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/pato" .
 
@@ -5599,7 +5599,7 @@ ols:chebi a dcmi:Dataset ;
     dct:description "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds."^^xsd:string ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chebi/01-11-2019> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019> .
 
 ols:cheminf a dcmi:Dataset ;
     dct:description "Includes terms for the descriptors commonly used in cheminformatics software applications and the algorithms which generate them."^^xsd:string ;
@@ -5803,7 +5803,7 @@ ols:co_358 a dcmi:Dataset ;
     dct:description "Cotton ontology from CottonGen database - June 2019"^^xsd:string ;
     dct:publisher "http://www.cropontology.org/ontology/CO_358/Cotton" ;
     dct:title "Cotton ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/co_358/25-11-2019> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/co_358/02-12-2019> .
 
 ols:co_360 a dcmi:Dataset ;
     dct:description "Sugar Kelp trait ontology"^^xsd:string ;
@@ -6509,10 +6509,10 @@ ols:ovae a dcmi:Dataset ;
     pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ovae/Vision_Release:_1.0.34> .
 
 ols:pato a dcmi:Dataset ;
-    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)"^^xsd:string ;
+    dct:description "An ontology of phenotypic qualities (properties, attributes or characteristics)."^^xsd:string ;
     dct:publisher "https://github.com/pato-ontology/pato/" ;
-    dct:title "Phenotype And Trait Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pato/2019-11-05> .
+    dct:title "PATO - the Phenotype And Trait Ontology"^^xsd:string ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/pato/2019-12-03> .
 
 ols:pco a dcmi:Dataset ;
     dct:description "An ontology about groups of interacting organisms such as populations and communities"^^xsd:string ;
