@@ -403,17 +403,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/ceph.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/ceph" .
 
-<http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019> a dcmi:Dataset ;
     dct:creator "http://www.ebi.ac.uk/chebi" ;
     dct:description "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019.rdf> ;
     dct:isVersionOf ols:chebi ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019" .
 
-<http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "chebi" ;
     dct:creator "http://www.ebi.ac.uk/chebi" ;
@@ -422,7 +422,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/chebi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/chebi" .
 
@@ -2795,17 +2795,17 @@
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mfomd.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mfomd" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/20-11-2019> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mi/06-12-2019> a dcmi:Dataset ;
     dct:creator "https://github.com/HUPO-PSI/psi-mi-CV" ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/20-11-2019.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mi/06-12-2019.rdf> ;
     dct:isVersionOf ols:mi ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "https://github.com/HUPO-PSI/psi-mi-CV" ;
     dct:title "Molecular Interactions Controlled Vocabulary"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/20-11-2019" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/06-12-2019" .
 
-<http://rdf.ebi.ac.uk/dataset/mi/20-11-2019.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mi/06-12-2019.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mi" ;
     dct:creator "https://github.com/HUPO-PSI/psi-mi-CV" ;
@@ -2814,7 +2814,7 @@
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/HUPO-PSI/psi-mi-CV" ;
     dct:title "Molecular Interactions Controlled Vocabulary"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mi/20-11-2019" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mi/06-12-2019" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mi.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mi" .
 
@@ -3075,17 +3075,17 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mpio.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mpio" .
 
-<http://rdf.ebi.ac.uk/dataset/mro/2019-11-11> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/mro/2019-12-04> a dcmi:Dataset ;
     dct:creator "https://github.com/IEDB/MRO" ;
     dct:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions."^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mro/2019-11-11.rdf> ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/mro/2019-12-04.rdf> ;
     dct:isVersionOf ols:mro ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:publisher "https://github.com/IEDB/MRO" ;
     dct:title "MHC Restriction Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mro/2019-11-11" .
+    pav:version "http://rdf.ebi.ac.uk/dataset/mro/2019-12-04" .
 
-<http://rdf.ebi.ac.uk/dataset/mro/2019-11-11.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/mro/2019-12-04.rdf> a void:Dataset,
         dcat:Distribution ;
     idot:preferredPrefix "mro" ;
     dct:creator "https://github.com/IEDB/MRO" ;
@@ -3094,7 +3094,7 @@ This ontology is maintained at http://github.com/miapa/miapa, and requests for c
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "https://github.com/IEDB/MRO" ;
     dct:title "MHC Restriction Ontology"^^xsd:string ;
-    pav:version "http://rdf.ebi.ac.uk/dataset/mro/2019-11-11" ;
+    pav:version "http://rdf.ebi.ac.uk/dataset/mro/2019-12-04" ;
     void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/spot/ols/ols_rdf/mro.tar.gz" ;
     foaf:page "http://ebi.ac.uk/ols/ontologies/mro" .
 
@@ -3856,22 +3856,22 @@ ols:ols a dcmi:Dataset ;
         ols:zp ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:title "Ontology Lookup Service"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2019-12-4> ;
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/ols/2019-12-8> ;
     foaf:page "http://www.ebi.ac.uk/rdf/services/" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2019-12-4> a dcmi:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/ols/2019-12-8> a dcmi:Dataset ;
     dct:creator ebi:SPOT ;
-    dct:description "The Ontology Lookup Service (OLS) - Version 2019-12-4"^^xsd:string ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2019-12-4.rdf> ;
+    dct:description "The Ontology Lookup Service (OLS) - Version 2019-12-8"^^xsd:string ;
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/ols/2019-12-8.rdf> ;
     dct:isVersionOf ols:ols ;
     dct:issued "2019-12-01"^^xsd:date ;
     dct:license "http://www.ebi.ac.uk/about/terms-of-use" ;
     dct:publisher "http://www.ebi.ac.uk/" ;
     dct:rights "Apache version 2.0" ;
-    dct:title "Ontology Lookup Service - 2019-12-4"^^xsd:string ;
-    pav:version "2019-12-4" .
+    dct:title "Ontology Lookup Service - 2019-12-8"^^xsd:string ;
+    pav:version "2019-12-8" .
 
-<http://rdf.ebi.ac.uk/dataset/ols/2019-12-4.rdf> a void:Dataset,
+<http://rdf.ebi.ac.uk/dataset/ols/2019-12-8.rdf> a void:Dataset,
         dcat:Distribution ;
     dct:creator ebi:SPOT ;
     dct:description "OLS RDF includes all ontologies that are present in OLS. If you are interested in only one specific ontology, you don't have to download all of OLS but can look for that specific ontology. See 'hasPart' relationship of the OLS void file."^^xsd:string ;
@@ -5599,7 +5599,7 @@ ols:chebi a dcmi:Dataset ;
     dct:description "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds."^^xsd:string ;
     dct:publisher "http://www.ebi.ac.uk/chebi" ;
     dct:title "Chemical Entities of Biological Interest"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chebi/02-12-2019> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chebi/05-12-2019> .
 
 ols:cheminf a dcmi:Dataset ;
     dct:description "Includes terms for the descriptors commonly used in cheminformatics software applications and the algorithms which generate them."^^xsd:string ;
@@ -6223,7 +6223,7 @@ ols:mi a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."^^xsd:string ;
     dct:publisher "https://github.com/HUPO-PSI/psi-mi-CV" ;
     dct:title "Molecular Interactions Controlled Vocabulary"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/20-11-2019> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mi/06-12-2019> .
 
 ols:miapa a dcmi:Dataset ;
     dct:description """The MIAPA ontology is intended to be an application ontology for the purpose of semantic annotation of phylogenetic data according to the requirements and recommendations of the Minimum Information for A Phylogenetic Analysis (MIAPA) metadata reporting standard. The ontology leverages (imports) primarily from the CDAO (Comparative Data Analysis Ontology), PROV (W3C Provenance Ontology), and SWO (Software Ontology, which includes the EDAM ontologies) ontologies. It adds some assertions of its own, as well as some classes and individuals that may eventually get pushed down into one of the respective source ontologies.
@@ -6297,7 +6297,7 @@ ols:mro a dcmi:Dataset ;
     dct:description "The MHC Restriction Ontology is an application ontology capturing how Major Histocompatibility Complex (MHC) restriction is defined in experiments, spanning exact protein complexes, individual protein chains, serotypes, haplotypes and mutant molecules, as well as evidence for MHC restrictions."^^xsd:string ;
     dct:publisher "https://github.com/IEDB/MRO" ;
     dct:title "MHC Restriction Ontology"^^xsd:string ;
-    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mro/2019-11-11> .
+    pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/mro/2019-12-04> .
 
 ols:ms a dcmi:Dataset ;
     dct:description "A structured controlled vocabulary for the annotation of experiments concerned with proteomics mass spectrometry."^^xsd:string ;
