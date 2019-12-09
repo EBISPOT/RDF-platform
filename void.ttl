@@ -9,24 +9,24 @@
 
 <http://rdf.ebi.ac.uk/dataset/biosamples> a  dctypes:Dataset;
   dcterms:title "Biosamples RDF"^^rdf:langString ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/biosamples/Version2019>;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry"^^rdf:langString .
 
 
-<http://rdf.ebi.ac.uk/dataset/biosamples/Version2016> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/biosamples/Version2019> a dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/biosamples>;
-  	dcterms:description "Biosamples Version September, 2016"^^rdf:langString;
-    dcterms:title "Biosamples RDF Version 2016"^^rdf:langString;
+  	dcterms:description "Biosamples Version December, 2019"^^rdf:langString;
+    dcterms:title "Biosamples RDF Version 2019"^^rdf:langString;
      dct:publisher <http://wwww.ebi.ac.uk/> ;
-  pav:version "2016" ;
+  pav:version "2019" ;
      dct:creator <http://wwww.ebi.ac.uk/about/spot>;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/Version2016.rdf>.
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/biosamples/Version2019.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/biosamples/Version2016.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/biosamples/Version2019.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20160912.tar.bz2" ;
+  void:dataDump "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/biosd_rdf_v20191125.tar.bz2" ;
    dct:creator <http://wwww.ebi.ac.uk/about/spot>;
 	dcterms:description "Biosamples data available as rdf"^^rdf:langString;
    dct:publisher <http://wwww.ebi.ac.uk/> ;
