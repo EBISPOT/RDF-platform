@@ -9,28 +9,28 @@
 
 <http://rdf.ebi.ac.uk/dataset/reactome> a  dctypes:Dataset;
   dcterms:title "Reactome"^^rdf:langString  ;
-  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reactome/Version61>;
+  pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/reactome/Version71>;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
 	dcterms:description "Reactome is an open-source, open-access, manually curated and peer-reviewed pathway database."^^rdf:langString  .
 
 
-<http://rdf.ebi.ac.uk/dataset/reactome/Version61> a  dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/reactome/Version71> a  dctypes:Dataset ;
   <http://purl.org/dc/terms/isVersionOf> <http://rdf.ebi.ac.uk/dataset/reactome>;
-  	dcterms:description "Version 61 of Reactome"^^rdf:langString ;
-    dcterms:title "Reactome Version 61"^^rdf:langString  ;
+  	dcterms:description "Version 71 of Reactome"^^rdf:langString ;
+    dcterms:title "Reactome Version 71"^^rdf:langString  ;
     dct:publisher <http://wwww.ebi.ac.uk/> ;
-    pav:version "61" ;
+    pav:version "71" ;
     dct:creator <http://wwww.ebi.ac.uk/> ;
-    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reactome/Version61.rdf>.
+    dct:hasDistribution <http://rdf.ebi.ac.uk/dataset/reactome/Version71.rdf>.
 
 
-<http://rdf.ebi.ac.uk/dataset/reactome/Version61.rdf> a void:Dataset ,
+<http://rdf.ebi.ac.uk/dataset/reactome/Version71.rdf> a void:Dataset ,
   dcat:Distribution ;
-  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r61/reactome-biopax.tar.bz2> ;
+  void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/r71/reactome-biopax.tar.bz2> ;
   dct:creator <http://wwww.ebi.ac.uk/> ;
-  dcterms:description "The Description of the Version level of Reactome Version 61"^^rdf:langString ;
+  dcterms:description "The Description of the Version level of Reactome Version 71"^^rdf:langString ;
   dct:publisher <http://wwww.ebi.ac.uk/> ;
   dct:license <http://www.ebi.ac.uk/about/terms-of-use>;
   idot:preferredPrefix "reactome" ;
   dct:format "text/turtle" ;
-  dcterms:title "Distribution level Reactome 61"^^rdf:langString  .
+  dcterms:title "Distribution level Reactome 71"^^rdf:langString  .
