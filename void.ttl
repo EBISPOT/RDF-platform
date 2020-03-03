@@ -1,4 +1,4 @@
-@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#> .
+@prefix : <http://rdf.ebi.ac.uk/dataset/chembl/26.0/void.ttl#> .
 @prefix cco: <http://rdf.ebi.ac.uk/terms/chembl#> .
 @prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
 @prefix chembl_activity: <http://rdf.ebi.ac.uk/resource/chembl/activity/> .
@@ -31,46 +31,46 @@
 
 <http://rdf.ebi.ac.uk/dataset/chembl> a dctypes:Dataset ;
 	dcterms:title "ChEMBL RDF" ;
-	pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chembl/25.0> ;
+	pav:hasCurrentVersion <http://rdf.ebi.ac.uk/dataset/chembl/26.0> ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/25.0> a dctypes:Dataset ;
+<http://rdf.ebi.ac.uk/dataset/chembl/26.0> a dctypes:Dataset ;
 	dcterms:isVersionOf <http://rdf.ebi.ac.uk/dataset/chembl> ;
 	dcterms:description "The Description of the Version level of ChEMBL" ;
 	dcterms:title "ChEMBL RDF" ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
-	pav:version "25.0" ;
+	pav:version "26.0" ;
 	dcterms:creator <https://www.ebi.ac.uk/chembl/> ;
-	dcterms:hasDistribution <http://rdf.ebi.ac.uk/dataset/chembl/25.0.rdf> .
+	dcterms:hasDistribution <http://rdf.ebi.ac.uk/dataset/chembl/26.0.rdf> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#> a void:DatasetDescription ;
+<http://rdf.ebi.ac.uk/dataset/chembl/26.0/void.ttl#> a void:DatasetDescription ;
 	dcterms:title "ChEMBL RDF" ;
 	dcterms:description "This is the VoID description for a ChEMBL-RDF dataset" ;
-	dcterms:issued "2019-02-01T00:00:00.000Z"^^xsd:dateTime ;
+	dcterms:issued "2020-02-14T00:00:00.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
 	pav:createdOn "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
-	pav:lastUpdateOn "2019-02-01T00:00:00.000Z"^^xsd:dateTime ;
+	pav:lastUpdateOn "2020-02-14T00:00:00.000Z"^^xsd:dateTime ;
 	foaf:primaryTopic :chembl_rdf_dataset ;
-	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/24.1/void.ttl#> .
+	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/25.0.rdf> a void:Dataset , dcat:Distribution ;
+<http://rdf.ebi.ac.uk/dataset/chembl/26.0.rdf> a void:Dataset , dcat:Distribution ;
 	dcterms:title "The ChEMBL Database" ;
 	dcterms:description "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs." ;
 	dcterms:creator <https://www.ebi.ac.uk/chembl/> ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
 	pav:createdOn "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
-	pav:lastUpdateOn "2019-02-01T00:00:00.000Z"^^xsd:dateTime ;
+	pav:lastUpdateOn "2020-02-14T00:00:00.000Z"^^xsd:dateTime ;
 	dcterms:format "text/turtle" ;
 	dcat:landingPage <https://www.ebi.ac.uk/chembl> ;
 	foaf:page <ftp://ftp.ebi.ac.uk/pub/databases/chembl/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
 	void:uriSpace "http://rdf.ebi.ac.uk/resource/chembl/" ;
-	pav:version "25.0" ;
-	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/24.1/void.ttl#chembl_rdf_dataset> ;
+	pav:version "26.0" ;
+	pav:previousVersion <http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#chembl_rdf_dataset> ;
 	dcterms:publisher <https://www.ebi.ac.uk/> ;
 	dcterms:created "2009-10-28T00:00:00.000Z"^^xsd:dateTime ;
-	dcterms:modified "2019-02-01T00:00:00.000Z"^^xsd:dateTime ;
+	dcterms:modified "2020-02-14T00:00:00.000Z"^^xsd:dateTime ;
 	void:subset :chembl_ontology , :chembl_rdf_target_relation_dataset , :chembl_rdf_cell_line_dataset , :chembl_rdf_molhierarchy_dataset , :chembl_rdf_bindingsite_dataset , :chembl_rdf_moa_dataset , :chembl_rdf_indication_dataset , :chembl_rdf_molecule_dataset , :chembl_rdf_biocmpt_dataset , :chembl_rdf_target_dataset , :chembl_rdf_targetcmpt_dataset , :chembl_rdf_assay_dataset , :chembl_rdf_activity_dataset , :chembl_rdf_document_dataset , :chembl_rdf_journal_dataset , :chembl_rdf_protclass_dataset , :chembl_rdf_source_dataset , :chembl_rdf_unichem_dataset ;
 	void:vocabulary <http://purl.org/ontology/bibo> , <http://www.bioassayontology.org/bao> , <http://semanticscience.org/ontology/cheminf.owl> , <http://purl.org/spar/cito> , <http://purl.org/dc/terms> , <http://www.w3.org/2002/07/owl> , <http://www.w3.org/1999/02/22-rdf-syntax-ns> , <http://www.w3.org/2000/01/rdf-schema> , <http://semanticscience.org/ontology/sio.owl> , <http://www.w3.org/2004/02/skos/core> , <http://www.w3.org/2001/XMLSchema> ;
 	void:exampleResource chembl_molecule:CHEMBL941 ;
@@ -81,129 +81,129 @@
 	dcterms:title "The ChEMBL Ontology" ;
 	dcterms:description "The ChEMBL vocabulary used to describe ChEMBL semantic types and relationships" ;
 	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/cco.ttl.gz> .
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/cco.ttl.gz> .
 
 :chembl_rdf_source_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Source Dataset" ;
 	dcterms:description "The ChEMBL Source Dataset" ;
 	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/source/> ;
 	void:exampleResource chembl_source:CHEMBL_SRC_4 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_source.ttl.gz> .
-
-:chembl_rdf_journal_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Journal Dataset" ;
-	dcterms:description "The ChEMBL Journal Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/journal/> ;
-	void:exampleResource chembl_journal:CHEMBL_JRN_631 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_journal.ttl.gz> .
-
-:chembl_rdf_cell_line_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Cell Line Dataset" ;
-	dcterms:description "The ChEMBL Cell Line Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/cell_line/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/cell_line/CHEMBL_CL_1> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_cellline.ttl.gz> .
-
-:chembl_rdf_target_relation_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Target Relation Dataset" ;
-	dcterms:description "The ChEMBL Target Relation Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
-	void:exampleResource chembl_target:CHEMBL301 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_targetrel.ttl.gz> .
-
-:chembl_rdf_bindingsite_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Binding Site Dataset" ;
-	dcterms:description "The ChEMBL Binding Site Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/binding_site/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/binding_site/CHEMBL_BS_1> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_bindingsite.ttl.gz> .
-
-:chembl_rdf_moa_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Mechanism of Action Dataset" ;
-	dcterms:description "The ChEMBL Mechanism of Action Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/CHEMBL_MEC_166> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_moa.ttl.gz> .
-
-:chembl_rdf_indication_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Drug Indication Dataset" ;
-	dcterms:description "The ChEMBL Drug Indication Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/> ;
-	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/CHEMBL_IND_24137> ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_indication.ttl.gz> .
-
-:chembl_rdf_protclass_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Protein Classification Dataset" ;
-	dcterms:description "The ChEMBL Protein Classification Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/protclass/> ;
-	void:exampleResource chembl_protclass:CHEMBL_PC_148 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_protclass.ttl.gz> .
-
-:chembl_rdf_target_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Target Dataset" ;
-	dcterms:description "The ChEMBL Target Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
-	void:exampleResource chembl_target:CHEMBL2242 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_target.ttl.gz> ;
-	void:subsets :chembl_singletarget_targetcmpt_linkset , :chembl_complextarget_targetcmpt_linkset , :chembl_grouptarget_targetcmpt_linkset .
-
-:chembl_rdf_document_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Document Dataset" ;
-	dcterms:description "The ChEMBL Document Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/document/> ;
-	void:exampleResource chembl_document:CHEMBL1123868 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_document.ttl.gz> .
-
-:chembl_rdf_targetcmpt_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Target Component Dataset" ;
-	dcterms:description "The ChEMBL Target Component Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/targetcomponent/> ;
-	void:exampleResource chembl_target_cmpt:CHEMBL_TC_583 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_targetcmpt.ttl.gz> ;
-	void:subsets :chembl_targetcmpt_uniprot_linkset .
-
-:chembl_rdf_molhierarchy_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Molecule Hierarchy Dataset" ;
-	dcterms:description "The ChEMBL Molecules Hierarchy Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
-	void:exampleResource chembl_molecule:CHEMBL941 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_molhierarchy.ttl.gz> .
-
-:chembl_rdf_unichem_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL UniChem Dataset" ;
-	dcterms:description "The ChEMBL UniChem Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
-	void:exampleResource chembl_molecule:CHEMBL941 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_unichem.ttl.gz> .
-
-:chembl_rdf_activity_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Activity Dataset" ;
-	dcterms:description "The ChEMBL Activity Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/activity/> ;
-	void:exampleResource chembl_activity:CHEMBL_ACT_99399 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_activity.ttl.gz> .
-
-:chembl_rdf_assay_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Assay Dataset" ;
-	dcterms:description "The ChEMBL Assay Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/assay/> ;
-	void:exampleResource chembl_assay:CHEMBL615155 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_assay.ttl.gz> .
-
-:chembl_rdf_molecule_dataset a void:Dataset ;
-	dcterms:title "The ChEMBL Molecules Dataset" ;
-	dcterms:description "The ChEMBL Molecules Dataset" ;
-	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
-	void:exampleResource chembl_molecule:CHEMBL941 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_molecule.ttl.gz> ;
-	void:subsets <http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#/molecule_chebi_linkset> .
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_source.ttl.gz> .
 
 :chembl_rdf_biocmpt_dataset a void:Dataset ;
 	dcterms:title "The ChEMBL Biotherapeutic Component Dataset" ;
 	dcterms:description "The ChEMBL Biotherapeutic Component Dataset" ;
 	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> ;
 	void:exampleResource chembl_bio_cmpt:CHEMBL_BC_6717 ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_biocmpt.ttl.gz> .
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_biocmpt.ttl.gz> .
+
+:chembl_rdf_cell_line_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Cell Line Dataset" ;
+	dcterms:description "The ChEMBL Cell Line Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/cell_line/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/cell_line/CHEMBL_CL_1> ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_cellline.ttl.gz> .
+
+:chembl_rdf_moa_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Mechanism of Action Dataset" ;
+	dcterms:description "The ChEMBL Mechanism of Action Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/CHEMBL_MEC_166> ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_moa.ttl.gz> .
+
+:chembl_rdf_target_relation_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Target Relation Dataset" ;
+	dcterms:description "The ChEMBL Target Relation Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
+	void:exampleResource chembl_target:CHEMBL301 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_targetrel.ttl.gz> .
+
+:chembl_rdf_bindingsite_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Binding Site Dataset" ;
+	dcterms:description "The ChEMBL Binding Site Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/binding_site/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/binding_site/CHEMBL_BS_1> ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_bindingsite.ttl.gz> .
+
+:chembl_rdf_indication_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Drug Indication Dataset" ;
+	dcterms:description "The ChEMBL Drug Indication Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/> ;
+	void:exampleResource <http://rdf.ebi.ac.uk/resource/chembl/drug_indication/CHEMBL_IND_24137> ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_indication.ttl.gz> .
+
+:chembl_rdf_protclass_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Protein Classification Dataset" ;
+	dcterms:description "The ChEMBL Protein Classification Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/protclass/> ;
+	void:exampleResource chembl_protclass:CHEMBL_PC_148 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_protclass.ttl.gz> .
+
+:chembl_rdf_target_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Target Dataset" ;
+	dcterms:description "The ChEMBL Target Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/target/> ;
+	void:exampleResource chembl_target:CHEMBL2242 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_target.ttl.gz> ;
+	void:subsets :chembl_singletarget_targetcmpt_linkset , :chembl_complextarget_targetcmpt_linkset , :chembl_grouptarget_targetcmpt_linkset .
+
+:chembl_rdf_targetcmpt_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Target Component Dataset" ;
+	dcterms:description "The ChEMBL Target Component Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/targetcomponent/> ;
+	void:exampleResource chembl_target_cmpt:CHEMBL_TC_583 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_targetcmpt.ttl.gz> ;
+	void:subsets :chembl_targetcmpt_uniprot_linkset .
+
+:chembl_rdf_journal_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Journal Dataset" ;
+	dcterms:description "The ChEMBL Journal Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/journal/> ;
+	void:exampleResource chembl_journal:CHEMBL_JRN_631 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_journal.ttl.gz> .
+
+:chembl_rdf_document_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Document Dataset" ;
+	dcterms:description "The ChEMBL Document Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/document/> ;
+	void:exampleResource chembl_document:CHEMBL1123868 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_document.ttl.gz> .
+
+:chembl_rdf_molhierarchy_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Molecule Hierarchy Dataset" ;
+	dcterms:description "The ChEMBL Molecules Hierarchy Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:exampleResource chembl_molecule:CHEMBL941 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_molhierarchy.ttl.gz> .
+
+:chembl_rdf_unichem_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL UniChem Dataset" ;
+	dcterms:description "The ChEMBL UniChem Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:exampleResource chembl_molecule:CHEMBL941 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_unichem.ttl.gz> .
+
+:chembl_rdf_assay_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Assay Dataset" ;
+	dcterms:description "The ChEMBL Assay Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/assay/> ;
+	void:exampleResource chembl_assay:CHEMBL615155 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_assay.ttl.gz> .
+
+:chembl_rdf_activity_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Activity Dataset" ;
+	dcterms:description "The ChEMBL Activity Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/activity/> ;
+	void:exampleResource chembl_activity:CHEMBL_ACT_99399 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_activity.ttl.gz> .
+
+:chembl_rdf_molecule_dataset a void:Dataset ;
+	dcterms:title "The ChEMBL Molecules Dataset" ;
+	dcterms:description "The ChEMBL Molecules Dataset" ;
+	void:uriSpace <http://rdf.ebi.ac.uk/resource/chembl/molecule/> ;
+	void:exampleResource chembl_molecule:CHEMBL941 ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_molecule.ttl.gz> ;
+	void:subsets <http://rdf.ebi.ac.uk/dataset/chembl/26.0/void.ttl#/molecule_chebi_linkset> .
 
 :uniprot_dataset a dctypes:Dataset ;
 	dcterms:title "UniProt" ;
@@ -227,82 +227,82 @@
 	dcat:mediaType "chemical/x-mdl-sdfile" ;
 	dcat:downloadURL <ftp://ftp.ebi.ac.uk/pub/databases/chebi/SDF/ChEBI_complete.sdf.gz> .
 
-<http://rdf.ebi.ac.uk/dataset/chembl/25.0/void.ttl#/molecule_chebi_linkset> a void:Linkset ;
+<http://rdf.ebi.ac.uk/dataset/chembl/26.0/void.ttl#/molecule_chebi_linkset> a void:Linkset ;
 	dcterms:title "The ChEMBL Molecule to ChEBI Molecule Linkset" ;
 	dcterms:description "The ChEMBL Molecule to ChEBI Molecule Linkset maps molecules in ChEMBL to their equivalent structures in the ChEBI database, based on having identical Standard InChI Keys." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_molecule_chebi_ls.ttl.gz> ;
+	dcterms:issued "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_molecule_chebi_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_molecule_dataset ;
 	void:objectsTarget :chebi_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:CHEMINF_000059 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime .
+	pav:createdOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime .
 
 :chembl_singletarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Single Protein Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Single Protein Target to Target Component Linkset maps ChEMBL targets that are single proteins to their equivalent target component (a simple 1:1 mapping)." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_singletarget_targetcmpt_ls.ttl.gz> ;
+	dcterms:issued "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_singletarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:SIO_010043 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime .
+	pav:createdOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime .
 
 :chembl_complextarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Protein Complex Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Protein Complex Target to Target Component Linkset maps ChEMBL targets that represent precise molecular entities of more than one component (e.g., protein complexes, protein-protein interactions, protein-nucleic acid complexes) to the individual components (parts) of those molecular entities (e.g., subunits). Protein complex targets are used when the entity responsible for the activity observed in an assay is known to consist of more than one component and these are required for the activity, therefore each of the individual components of the complex are known to be present, but are not necessarily the component being modulated (i.e., the binding site)." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_complextarget_targetcmpt_ls.ttl.gz> ;
+	dcterms:issued "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_complextarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:relatedMatch ;
 	dul:expresses <http://www.obofoundry.org/ro/ro.owl#has_part> ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime .
+	pav:createdOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime .
 
 :chembl_grouptarget_targetcmpt_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Target to Target Component Linkset" ;
 	dcterms:description "The ChEMBL Target to Target Component Linkset maps ChEMBL targets that represent protein groups (e.g., protein families or poorly defined protein complexes) to the individual components (members) of those groups (e.g., protein family members or subunits). Protein group targets are used when one or more of a group of proteins may be responsible for the activity observed in an assay, therefore for each individual component of the group it is not certain that particular component is being modulated." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_grouptarget_targetcmpt_ls.ttl.gz> ;
+	dcterms:issued "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_grouptarget_targetcmpt_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_target_dataset ;
 	void:objectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:linkPredicate skos:relatedMatch ;
 	dul:expresses sio:SIO_000059 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime .
+	pav:createdOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime .
 
 :chembl_targetcmpt_uniprot_linkset a void:Linkset ;
 	dcterms:title "The ChEMBL Target Component to UniProt Linkset" ;
 	dcterms:description "The ChEMBL Target Component to UniProt Linkset maps individual protein components of targets in ChEMBL to their corresponding UniProt accession." ;
 	dcterms:publisher <http://www.ebi.ac.uk/> ;
 	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
-	dcterms:issued "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
-	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/25.0/chembl_25.0_targetcmpt_uniprot_ls.ttl.gz> ;
+	dcterms:issued "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
+	void:dataDump <ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/26.0/chembl_26.0_targetcmpt_uniprot_ls.ttl.gz> ;
 	void:subjectsTarget :chembl_rdf_targetcmpt_dataset ;
 	void:objectsTarget :uniprot_dataset ;
 	void:linkPredicate skos:exactMatch ;
 	dul:expresses sio:SIO_010043 ;
 	pav:authoredBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:authoredOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime ;
+	pav:authoredOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime ;
 	pav:createdBy <http://orcid.org/0000-0003-2634-7400> ;
-	pav:createdOn "2019-03-01T10:46:55.000Z"^^xsd:dateTime .
+	pav:createdOn "2020-02-25T16:02:32.000Z"^^xsd:dateTime .
